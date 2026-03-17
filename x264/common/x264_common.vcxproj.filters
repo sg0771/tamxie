@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="bitstream.c" />
+    <ClCompile Include="cabac.c" />
+    <ClCompile Include="common.c" />
+    <ClCompile Include="cpu.c" />
+    <ClCompile Include="dct.c" />
+    <ClCompile Include="deblock.c" />
+    <ClCompile Include="frame.c" />
+    <ClCompile Include="macroblock.c" />
+    <ClCompile Include="mc.c" />
+    <ClCompile Include="mvpred.c" />
+    <ClCompile Include="osdep.c" />
+    <ClCompile Include="pixel.c" />
+    <ClCompile Include="predict.c" />
+    <ClCompile Include="quant.c" />
+    <ClCompile Include="rectangle.c" />
+    <ClCompile Include="set.c" />
+    <ClCompile Include="threadpool.c" />
+    <ClCompile Include="vlc.c" />
+    <ClCompile Include="win32thread.c" />
+    <ClCompile Include="x86\mc-c.c" />
+    <ClCompile Include="x86\predict-c.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="bitstream.h" />
+    <ClInclude Include="cabac.h" />
+    <ClInclude Include="common.h" />
+    <ClInclude Include="cpu.h" />
+    <ClInclude Include="dct.h" />
+    <ClInclude Include="frame.h" />
+    <ClInclude Include="macroblock.h" />
+    <ClInclude Include="mc.h" />
+    <ClInclude Include="opencl.h" />
+    <ClInclude Include="osdep.h" />
+    <ClInclude Include="pixel.h" />
+    <ClInclude Include="predict.h" />
+    <ClInclude Include="quant.h" />
+    <ClInclude Include="rectangle.h" />
+    <ClInclude Include="set.h" />
+    <ClInclude Include="threadpool.h" />
+    <ClInclude Include="win32thread.h" />
+    <ClInclude Include="x86\dct.h" />
+    <ClInclude Include="x86\mc.h" />
+    <ClInclude Include="x86\pixel.h" />
+    <ClInclude Include="x86\predict.h" />
+    <ClInclude Include="x86\quant.h" />
+    <ClInclude Include="x86\util.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="x86\bitstream-a.asm">
+      <Filter>asm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="x86\cabac-a.asm">
+      <Filter>asm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="x86\const-a.asm">
+      <Filter>asm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="x86\cpu-a.asm">
+      <Filter>asm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="x86\dct-32.asm">
+      <Filter>asm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="x86\dct-a.asm">
+      <Filter>asm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="x86\deblock-a.asm">
+      <Filter>asm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="x86\mc-a2.asm">
+      <Filter>asm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="x86\mc-a.asm">
+      <Filter>asm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="x86\pixel-32.asm">
+      <Filter>asm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="x86\pixel-a.asm">
+      <Filter>asm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="x86\predict-a.asm">
+      <Filter>asm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="x86\sad-a.asm">
+      <Filter>asm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="x86\quant-a.asm">
+      <Filter>asm</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="asm">
+      <UniqueIdentifier>{8bb7a9e3-028a-43d0-8f9f-11f8634047eb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
