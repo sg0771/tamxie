@@ -1,0 +1,32 @@
+必选参数
+-i 输入文件名
+-o 输出文件名
+
+可选参数
+-log  1/0  是否在界面上显示日志
+-type  jpeg/png/webp  指定输出类型
+-dw  设置输出图像的指定分辨率宽度
+-dh 设置输出图像的指定分辨率高度(必须同时设置dw和dh值)
+
+二选一参数
+-level [0到100的数值] 指定压缩系数，支持jpeg/png/webp编码
+-dsize 数值， 单位为kb， 指定压缩后的图像大小(支持jpeg/webp编码)
+
+例子
+
+编译可执行程序
+gcc -o wxtest wxtest.cpp -ldl -lstdc++ -Wl,-rpath=.
+
+测试
+将1.jpg 压缩成 out_800x500.jpg， 编码类型jpeg，编码系数80， 输出分辨率800x500
+./wxtest -i 1.jpg -o out_800x500.jpg  -type jpeg -level 80 -log 1 -dw 800 -dh 500
+
+./wxtest -i 1.jpg -o out_800x500.webp -type webp -level 80 -log 1 -dw 800 -dh 500
+
+./wxtest -i 1.jpg -o out_800x500.png  -type png  -level 80 -log 1 -dw 800 -dh 500
+
+指定压缩到100k
+./wxtest -i 1.jpg -o out_800x500_100k.jpg  -type jpeg -dsize 100 -log 1 -dw 800 -dh 500
+
+./wxtest -i 1.jpg -o out_800x500_100k.webp -type webp -dsize 100 -log 1 -dw 800 -dh 500
+

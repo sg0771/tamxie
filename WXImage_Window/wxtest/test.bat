@@ -1,0 +1,1 @@
+﻿watest -i 1.jpg -o out_800x500.jpg -type jpeg -level 80 -log 1 - dw 800 -dh 500

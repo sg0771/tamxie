@@ -1,0 +1,218 @@
+PREFIX ?=/usr/local
+SYSTEM ?= LINUX
+
+AS=yasm
+CC=gcc
+AR=ar rcs
+RANLIB=ranlib
+STRIP=strip
+RM=rm -rf
+
+OBJS += CompressPNG8.o CompressSize.o CompressQuality.o  WXJPG.o 
+
+OBJS += pngquant/libimagequant.o 
+
+OBJS += FreeImage/Background.o FreeImage/BitmapAccess.o FreeImage/BSplineRotate.o FreeImage/CacheFile.o FreeImage/Channels.o FreeImage/ClassicRotate.o FreeImage/ColorLookup.o FreeImage/Colors.o FreeImage/Conversion.o FreeImage/Conversion16_555.o FreeImage/Conversion16_565.o FreeImage/Conversion24.o FreeImage/Conversion32.o FreeImage/Conversion4.o FreeImage/Conversion8.o FreeImage/ConversionFloat.o FreeImage/ConversionRGB16.o FreeImage/ConversionRGBA16.o FreeImage/ConversionRGBAF.o FreeImage/ConversionRGBF.o FreeImage/ConversionType.o FreeImage/ConversionUINT16.o FreeImage/CopyPaste.o FreeImage/Display.o FreeImage/Exif.o FreeImage/FIRational.o FreeImage/Flip.o FreeImage/FreeImage.o FreeImage/FreeImageIO.o FreeImage/FreeImageTag.o FreeImage/GetType.o FreeImage/Halftoning.o FreeImage/IPTC.o FreeImage/J2KHelper.o FreeImage/JPEGTransform.o FreeImage/LFPQuantizer.o FreeImage/MemoryIO.o FreeImage/MNGHelper.o FreeImage/MultigridPoissonSolver.o FreeImage/MultiPage.o FreeImage/NNQuantizer.o FreeImage/PixelAccess.o FreeImage/Plugin.o FreeImage/PluginBMP.o FreeImage/PluginCUT.o FreeImage/PluginDDS.o FreeImage/PluginEXR.o FreeImage/PluginG3.o FreeImage/PluginGIF.o FreeImage/PluginHDR.o FreeImage/PluginICO.o FreeImage/PluginIFF.o FreeImage/PluginJ2K.o FreeImage/PluginJNG.o FreeImage/PluginJP2.o FreeImage/PluginJPEG.o FreeImage/PluginKOALA.o FreeImage/PluginMNG.o FreeImage/PluginPCD.o FreeImage/PluginPCX.o FreeImage/PluginPFM.o FreeImage/PluginPICT.o FreeImage/PluginPNG.o FreeImage/PluginPNM.o FreeImage/PluginPSD.o FreeImage/PluginRAS.o FreeImage/PluginRAW.o FreeImage/PluginSGI.o FreeImage/PluginTARGA.o FreeImage/PluginTIFF.o FreeImage/PluginWBMP.o FreeImage/PluginWebP.o FreeImage/PluginXBM.o FreeImage/PluginXPM.o FreeImage/PSDParser.o FreeImage/Rescale.o FreeImage/Resize.o FreeImage/TagConversion.o FreeImage/TagLib.o FreeImage/TIFFLogLuv.o FreeImage/tmoColorConvert.o FreeImage/tmoDrago03.o FreeImage/tmoFattal02.o FreeImage/tmoReinhard05.o FreeImage/ToneMapping.o FreeImage/WuQuantizer.o FreeImage/XTIFF.o FreeImage/ZLibInterface.o FreeImage/FreeImageC.o
+
+OBJS += libyuv/compare.o libyuv/compare_common.o libyuv/compare_gcc.o libyuv/compare_neon.o libyuv/compare_neon64.o libyuv/compare_win.o libyuv/convert.o libyuv/convert_argb.o libyuv/convert_from.o libyuv/convert_from_argb.o libyuv/convert_to_argb.o libyuv/convert_to_i420.o libyuv/cpu_id.o libyuv/planar_functions.o libyuv/rotate.o libyuv/rotate_argb.o libyuv/rotate_neon.o libyuv/rotate_neon64.o libyuv/row_any.o libyuv/row_common.o libyuv/row_gcc.o libyuv/row_neon.o libyuv/row_neon64.o libyuv/row_win.o libyuv/scale.o libyuv/scale_any.o libyuv/scale_argb.o libyuv/scale_common.o libyuv/scale_gcc.o libyuv/scale_neon.o libyuv/scale_neon64.o libyuv/scale_win.o libyuv/video_common.o 
+
+
+OBJS += LibRawLite/dcraw_common.o LibRawLite/dcraw_fileio.o LibRawLite/demosaic_packs.o LibRawLite/libraw_c_api.o LibRawLite/libraw_cxx.o LibRawLite/libraw_datastream.o 
+ 
+OBJS += OpenEXR/half.o OpenEXR/IexBaseExc.o OpenEXR/IexMathFloatExc.o OpenEXR/IexMathFpu.o OpenEXR/IexThrowErrnoExc.o OpenEXR/IlmThreadMutexPosix.o OpenEXR/IlmThreadMutexWin32.o OpenEXR/IlmThreadPool.o OpenEXR/IlmThreadPosix.o OpenEXR/IlmThreadSemaphorePosix.o OpenEXR/IlmThreadSemaphorePosixCompat.o OpenEXR/IlmThreadSemaphoreWin32.o OpenEXR/IlmThreadWin32.o OpenEXR/ImathBox.o OpenEXR/ImathColorAlgo.o OpenEXR/ImathFun.o OpenEXR/ImathMatrixAlgo.o OpenEXR/ImathRandom.o OpenEXR/ImathShear.o OpenEXR/ImathVec.o OpenEXR/ImfAcesFile.o OpenEXR/ImfAttribute.o OpenEXR/ImfB44Compressor.o OpenEXR/ImfBoxAttribute.o OpenEXR/ImfChannelList.o OpenEXR/ImfChannelListAttribute.o OpenEXR/ImfChromaticities.o OpenEXR/ImfChromaticitiesAttribute.o OpenEXR/ImfCompositeDeepScanLine.o OpenEXR/ImfCompressionAttribute.o OpenEXR/ImfCompressor.o OpenEXR/ImfConvert.o OpenEXR/ImfCRgbaFile.o OpenEXR/ImfDeepCompositing.o OpenEXR/ImfDeepFrameBuffer.o OpenEXR/ImfDeepImageStateAttribute.o OpenEXR/ImfDeepScanLineInputFile.o OpenEXR/ImfDeepScanLineInputPart.o OpenEXR/ImfDeepScanLineOutputFile.o OpenEXR/ImfDeepScanLineOutputPart.o OpenEXR/ImfDeepTiledInputFile.o OpenEXR/ImfDeepTiledInputPart.o OpenEXR/ImfDeepTiledOutputFile.o OpenEXR/ImfDeepTiledOutputPart.o OpenEXR/ImfDoubleAttribute.o OpenEXR/ImfDwaCompressor.o OpenEXR/ImfEnvmap.o OpenEXR/ImfEnvmapAttribute.o OpenEXR/ImfFastHuf.o OpenEXR/ImfFloatAttribute.o OpenEXR/ImfFloatVectorAttribute.o OpenEXR/ImfFrameBuffer.o OpenEXR/ImfFramesPerSecond.o OpenEXR/ImfGenericInputFile.o OpenEXR/ImfGenericOutputFile.o OpenEXR/ImfHeader.o OpenEXR/ImfHuf.o OpenEXR/ImfInputFile.o OpenEXR/ImfInputPart.o OpenEXR/ImfInputPartData.o OpenEXR/ImfIntAttribute.o OpenEXR/ImfIO.o OpenEXR/ImfKeyCode.o OpenEXR/ImfKeyCodeAttribute.o OpenEXR/ImfLineOrderAttribute.o OpenEXR/ImfLut.o OpenEXR/ImfMatrixAttribute.o OpenEXR/ImfMisc.o OpenEXR/ImfMultiPartInputFile.o OpenEXR/ImfMultiPartOutputFile.o OpenEXR/ImfMultiView.o OpenEXR/ImfOpaqueAttribute.o OpenEXR/ImfOutputFile.o OpenEXR/ImfOutputPart.o OpenEXR/ImfOutputPartData.o OpenEXR/ImfPartType.o OpenEXR/ImfPizCompressor.o OpenEXR/ImfPreviewImage.o OpenEXR/ImfPreviewImageAttribute.o OpenEXR/ImfPxr24Compressor.o OpenEXR/ImfRational.o OpenEXR/ImfRationalAttribute.o OpenEXR/ImfRgbaFile.o OpenEXR/ImfRgbaYca.o OpenEXR/ImfRle.o OpenEXR/ImfRleCompressor.o OpenEXR/ImfScanLineInputFile.o OpenEXR/ImfStandardAttributes.o OpenEXR/ImfStdIO.o OpenEXR/ImfStringAttribute.o OpenEXR/ImfStringVectorAttribute.o OpenEXR/ImfSystemSpecific.o OpenEXR/ImfTestFile.o OpenEXR/ImfThreading.o OpenEXR/ImfTileDescriptionAttribute.o OpenEXR/ImfTiledInputFile.o OpenEXR/ImfTiledInputPart.o OpenEXR/ImfTiledMisc.o OpenEXR/ImfTiledOutputFile.o OpenEXR/ImfTiledOutputPart.o OpenEXR/ImfTiledRgbaFile.o OpenEXR/ImfTileOffsets.o OpenEXR/ImfTimeCode.o OpenEXR/ImfTimeCodeAttribute.o OpenEXR/ImfVecAttribute.o OpenEXR/ImfVersion.o OpenEXR/ImfWav.o OpenEXR/ImfZip.o OpenEXR/ImfZipCompressor.o 
+ 
+OBJS += libjpeg/jaricom.o libjpeg/jcapimin.o libjpeg/jcapistd.o libjpeg/jcarith.o libjpeg/jccoefct.o libjpeg/jccolor.o libjpeg/jcdctmgr.o libjpeg/jchuff.o libjpeg/jcicc.o libjpeg/jcinit.o libjpeg/jcmainct.o libjpeg/jcmarker.o libjpeg/jcmaster.o libjpeg/jcomapi.o libjpeg/jcparam.o libjpeg/jcphuff.o libjpeg/jcprepct.o libjpeg/jcsample.o libjpeg/jctrans.o libjpeg/jdapimin.o libjpeg/jdapistd.o libjpeg/jdarith.o libjpeg/jdatadst.o libjpeg/jdatasrc.o libjpeg/jdcoefct.o libjpeg/jdcolor.o libjpeg/jddctmgr.o libjpeg/jdhuff.o libjpeg/jdicc.o libjpeg/jdinput.o libjpeg/jdmainct.o libjpeg/jdmarker.o libjpeg/jdmaster.o libjpeg/jdmerge.o libjpeg/jdphuff.o libjpeg/jdpostct.o libjpeg/jdsample.o libjpeg/jdtrans.o libjpeg/jerror.o libjpeg/jfdctflt.o libjpeg/jfdctfst.o libjpeg/jfdctint.o libjpeg/jidctflt.o libjpeg/jidctfst.o libjpeg/jidctint.o libjpeg/jidctred.o libjpeg/jmemmgr.o libjpeg/jmemnobs.o libjpeg/jquant1.o libjpeg/jquant2.o libjpeg/jutils.o libjpeg/rdcolmap.o libjpeg/rdswitch.o libjpeg/transupp.o 
+
+
+OBJS += LibOpenJPEG/bio.o LibOpenJPEG/cidx_manager.o LibOpenJPEG/cio.o LibOpenJPEG/dwt.o LibOpenJPEG/event.o LibOpenJPEG/function_list.o LibOpenJPEG/image.o LibOpenJPEG/invert.o LibOpenJPEG/j2k.o LibOpenJPEG/jp2.o LibOpenJPEG/mct.o LibOpenJPEG/mqc.o LibOpenJPEG/openjpeg.o LibOpenJPEG/opj_clock.o LibOpenJPEG/phix_manager.o LibOpenJPEG/pi.o LibOpenJPEG/ppix_manager.o LibOpenJPEG/raw.o LibOpenJPEG/t1.o LibOpenJPEG/t2.o LibOpenJPEG/tcd.o LibOpenJPEG/tgt.o LibOpenJPEG/thix_manager.o LibOpenJPEG/tpix_manager.o 
+ 
+OBJS += LibTIFF4/tif_aux.o LibTIFF4/tif_close.o LibTIFF4/tif_codec.o LibTIFF4/tif_color.o LibTIFF4/tif_compress.o LibTIFF4/tif_dir.o LibTIFF4/tif_dirinfo.o LibTIFF4/tif_dirread.o LibTIFF4/tif_dirwrite.o LibTIFF4/tif_dumpmode.o LibTIFF4/tif_error.o LibTIFF4/tif_extension.o LibTIFF4/tif_fax3.o LibTIFF4/tif_fax3sm.o LibTIFF4/tif_flush.o LibTIFF4/tif_getimage.o LibTIFF4/tif_jbig.o LibTIFF4/tif_jpeg.o LibTIFF4/tif_jpeg_12.o LibTIFF4/tif_luv.o LibTIFF4/tif_lzma.o LibTIFF4/tif_lzw.o LibTIFF4/tif_next.o LibTIFF4/tif_ojpeg.o LibTIFF4/tif_open.o LibTIFF4/tif_packbits.o LibTIFF4/tif_pixarlog.o LibTIFF4/tif_predict.o LibTIFF4/tif_print.o LibTIFF4/tif_read.o LibTIFF4/tif_strip.o LibTIFF4/tif_swab.o LibTIFF4/tif_thunder.o LibTIFF4/tif_tile.o LibTIFF4/tif_unix.o LibTIFF4/tif_version.o LibTIFF4/tif_warning.o LibTIFF4/tif_write.o LibTIFF4/tif_zip.o LibTIFF4/tif_zstd.o 
+ 
+OBJS += libwebp/alpha_dec.o libwebp/alpha_enc.o libwebp/alpha_processing.o libwebp/alpha_processing_mips_dsp_r2.o libwebp/alpha_processing_neon.o libwebp/alpha_processing_sse2.o libwebp/alpha_processing_sse41.o libwebp/analysis_enc.o libwebp/anim_decode.o libwebp/anim_encode.o libwebp/backward_references_cost_enc.o libwebp/backward_references_enc.o libwebp/bit_reader_utils.o libwebp/bit_writer_utils.o libwebp/buffer_dec.o libwebp/color_cache_utils.o libwebp/config_enc.o libwebp/cost.o libwebp/cost_enc.o libwebp/cost_mips_dsp_r2.o libwebp/cost_mips32.o libwebp/cost_neon.o libwebp/cost_sse2.o libwebp/cpu.o libwebp/dec.o libwebp/dec_clip_tables.o libwebp/dec_mips_dsp_r2.o libwebp/dec_mips32.o libwebp/dec_msa.o libwebp/dec_neon.o libwebp/dec_sse2.o libwebp/dec_sse41.o libwebp/demux.o libwebp/enc.o libwebp/enc_mips_dsp_r2.o libwebp/enc_mips32.o libwebp/enc_msa.o libwebp/enc_neon.o libwebp/enc_sse2.o libwebp/enc_sse41.o libwebp/filter_enc.o libwebp/filters.o libwebp/filters_mips_dsp_r2.o libwebp/filters_msa.o libwebp/filters_neon.o libwebp/filters_sse2.o libwebp/filters_utils.o libwebp/frame_dec.o libwebp/frame_enc.o libwebp/histogram_enc.o libwebp/huffman_encode_utils.o libwebp/huffman_utils.o libwebp/idec_dec.o libwebp/io_dec.o libwebp/iterator_enc.o libwebp/lossless.o libwebp/lossless_enc.o libwebp/lossless_enc_mips_dsp_r2.o libwebp/lossless_enc_mips32.o libwebp/lossless_enc_msa.o libwebp/lossless_enc_neon.o libwebp/lossless_enc_sse2.o libwebp/lossless_enc_sse41.o libwebp/lossless_mips_dsp_r2.o libwebp/lossless_msa.o libwebp/lossless_neon.o libwebp/lossless_sse2.o libwebp/lossless_sse41.o libwebp/muxedit.o libwebp/muxinternal.o libwebp/muxread.o libwebp/near_lossless_enc.o libwebp/picture_csp_enc.o libwebp/picture_enc.o libwebp/picture_psnr_enc.o libwebp/picture_rescale_enc.o libwebp/picture_tools_enc.o libwebp/predictor_enc.o libwebp/quant_dec.o libwebp/quant_enc.o libwebp/quant_levels_dec_utils.o libwebp/quant_levels_utils.o libwebp/random_utils.o libwebp/rescaler.o libwebp/rescaler_mips_dsp_r2.o libwebp/rescaler_mips32.o libwebp/rescaler_msa.o libwebp/rescaler_neon.o libwebp/rescaler_sse2.o libwebp/rescaler_utils.o libwebp/ssim.o libwebp/ssim_sse2.o libwebp/syntax_enc.o libwebp/thread_utils.o libwebp/token_enc.o libwebp/tree_dec.o libwebp/tree_enc.o libwebp/upsampling.o libwebp/upsampling_mips_dsp_r2.o libwebp/upsampling_msa.o libwebp/upsampling_neon.o libwebp/upsampling_sse2.o libwebp/upsampling_sse41.o libwebp/utils.o libwebp/vp8_dec.o libwebp/vp8l_dec.o libwebp/vp8l_enc.o libwebp/webp_dec.o libwebp/webp_enc.o libwebp/yuv.o libwebp/yuv_mips_dsp_r2.o libwebp/yuv_mips32.o libwebp/yuv_neon.o libwebp/yuv_sse2.o libwebp/yuv_sse41.o 
+
+OBJS += aom/aom_codec.o \
+aom/aom_debug_util.o \
+aom/aom_decoder.o \
+aom/aom_dsp_binary_codes_reader.o \
+aom/aom_dsp_bitreader.o \
+aom/aom_dsp_bitreader_buffer.o \
+aom/aom_dsp_bitwriter_buffer.o \
+aom/aom_dsp_blend_a64_hmask.o \
+aom/aom_dsp_blend_a64_mask.o \
+aom/aom_dsp_blend_a64_vmask.o \
+aom/aom_dsp_convolve.o \
+aom/aom_dsp_entcode.o \
+aom/aom_dsp_entdec.o \
+aom/aom_dsp_fft.o \
+aom/aom_dsp_intrapred.o \
+aom/aom_dsp_loopfilter.o \
+aom/aom_dsp_odintrin.o \
+aom/aom_dsp_rtcd.o \
+aom/aom_dsp_subtract.o \
+aom/aom_gen_scalers.o \
+aom/aom_image.o \
+aom/aom_integer.o \
+aom/aom_mem.o \
+aom/aom_scale.o \
+aom/aom_scale_rtcd.o \
+aom/aom_thread.o \
+aom/aom_yv12config.o \
+aom/aom_yv12extend.o \
+aom/av1_accounting.o \
+aom/av1_alloccommon.o \
+aom/av1_aom_resize.o \
+aom/av1_arg_defs.o \
+aom/av1_blockd.o \
+aom/av1_cdef.o \
+aom/av1_cdef_block.o \
+aom/av1_cfl.o \
+aom/av1_common_data.o \
+aom/av1_convolve.o \
+aom/av1_debugmodes.o \
+aom/av1_decodeframe.o \
+aom/av1_decodemv.o \
+aom/av1_decoder.o \
+aom/av1_decodetxb.o \
+aom/av1_detokenize.o \
+aom/av1_dx_iface.o \
+aom/av1_entropy.o \
+aom/av1_entropymode.o \
+aom/av1_entropymv.o \
+aom/av1_frame_buffers.o \
+aom/av1_grain_synthesis.o \
+aom/av1_idct.o \
+aom/av1_inv_txfm1d.o \
+aom/av1_inv_txfm2d.o \
+aom/av1_loopfilter.o \
+aom/av1_mvref_common.o \
+aom/av1_obu.o \
+aom/av1_obu_util.o \
+aom/av1_pred_common.o \
+aom/av1_quant_common.o \
+aom/av1_reconinter.o \
+aom/av1_reconintra.o \
+aom/av1_restoration.o \
+aom/av1_rtcd.o \
+aom/av1_scale.o \
+aom/av1_scan.o \
+aom/av1_seg_common.o \
+aom/av1_thread_common.o \
+aom/av1_tile_common.o \
+aom/av1_timing.o \
+aom/av1_txb_common.o \
+aom/av1_txfm.o \
+aom/av1_warped_motion.o \
+lcsm2/lcms2_cmsalpha.o \
+lcsm2/lcms2_cmscam02.o \
+lcsm2/lcms2_cmscgats.o \
+lcsm2/lcms2_cmscnvrt.o \
+lcsm2/lcms2_cmserr.o \
+lcsm2/lcms2_cmsgamma.o \
+lcsm2/lcms2_cmsgmt.o \
+lcsm2/lcms2_cmshalf.o \
+lcsm2/lcms2_cmsintrp.o \
+lcsm2/lcms2_cmsio0.o \
+lcsm2/lcms2_cmsio1.o \
+lcsm2/lcms2_cmslut.o \
+lcsm2/lcms2_cmsmd5.o \
+lcsm2/lcms2_cmsmtrx.o \
+lcsm2/lcms2_cmsnamed.o \
+lcsm2/lcms2_cmsopt.o \
+lcsm2/lcms2_cmspack.o \
+lcsm2/lcms2_cmspcs.o \
+lcsm2/lcms2_cmsplugin.o \
+lcsm2/lcms2_cmsps2.o \
+lcsm2/lcms2_cmssamp.o \
+lcsm2/lcms2_cmssm.o \
+lcsm2/lcms2_cmstypes.o \
+lcsm2/lcms2_cmsvirt.o \
+lcsm2/lcms2_cmswtpnt.o \
+lcsm2/lcms2_cmsxform.o 
+
+OBJS += libheif/heif.o libheif/heif_file.o libheif/heif_avif.o libheif/heif_hevc.o libheif/heif_bitstream.o libheif/heif_image.o libheif/heif_box.o libheif/heif_init.o libheif/heif_colorconversion.o libheif/heif_metadata_compression.o libheif/heif_common_utils.o libheif/heif_nclx.o libheif/heif_context.o libheif/heif_decoder_aom.o libheif/heif_plugin_registry.o \
+libheif/heif_decoder_libde265.o libheif/heif_error.o libheif/heif_exif.o
+
+OBJS += libde265/de265.o libde265/de265-nal-parser.o \
+libde265/de265-alloc_pool.o libde265/de265-pps.o \
+libde265/de265-bitstream.o libde265/de265-quality.o \
+libde265/de265-cabac.o libde265/de265-refpic.o \
+libde265/de265-configparam.o libde265/de265-sao.o \
+libde265/de265-contextmodel.o libde265/de265-scan.o \
+libde265/de265-deblock.o libde265/de265-sei.o \
+libde265/de265-decctx.o libde265/de265-slice.o \
+libde265/de265-dpb.o libde265/de265-sps.o \
+libde265/de265-fallback.o libde265/de265-threads.o \
+libde265/de265-fallback-dct.o libde265/de265-transform.o \
+libde265/de265-fallback-motion.o libde265/de265-util.o \
+libde265/de265-image.o libde265/de265-visualize.o \
+libde265/de265-image-io.o libde265/de265-vps.o \
+libde265/de265-intrapred.o libde265/de265-vui.o \
+libde265/de265-md5.o libde265/de265-motion.o libde265/de265-nal.o 
+
+
+OBJS += FreeImage/mozjpeg_save.o FreeImage/PluginHEIC.o mozjpeg/moz_jaricom.o mozjpeg/moz_jcsample.o mozjpeg/moz_jdpostct.o \
+mozjpeg/moz_jcapimin.o mozjpeg/moz_jctrans.o mozjpeg/moz_jdsample.o \
+mozjpeg/moz_jcapistd.o mozjpeg/moz_jdapimin.o mozjpeg/moz_jdtrans.o \
+mozjpeg/moz_jcarith.o mozjpeg/moz_jdapistd.o mozjpeg/moz_jerror.o \
+mozjpeg/moz_jccoefct.o mozjpeg/moz_jdarith.o mozjpeg/moz_jfdctflt.o \
+mozjpeg/moz_jccolor.o mozjpeg/moz_jdatadst.o mozjpeg/moz_jfdctfst.o \
+mozjpeg/moz_jcdctmgr.o mozjpeg/moz_jdatasrc.o mozjpeg/moz_jfdctint.o \
+mozjpeg/moz_jcext.o mozjpeg/moz_jdcoefct.o mozjpeg/moz_jidctflt.o \
+mozjpeg/moz_jchuff.o mozjpeg/moz_jdcolor.o mozjpeg/moz_jidctfst.o \
+mozjpeg/moz_jcicc.o mozjpeg/moz_jddctmgr.o mozjpeg/moz_jidctint.o \
+mozjpeg/moz_jcinit.o mozjpeg/moz_jdhuff.o mozjpeg/moz_jidctred.o \
+mozjpeg/moz_jcmainct.o mozjpeg/moz_jdicc.o mozjpeg/moz_jmemmgr.o \
+mozjpeg/moz_jcmarker.o mozjpeg/moz_jdinput.o mozjpeg/moz_jmemnobs.o \
+mozjpeg/moz_jcmaster.o mozjpeg/moz_jdmainct.o mozjpeg/moz_jquant1.o \
+mozjpeg/moz_jcomapi.o mozjpeg/moz_jdmarker.o mozjpeg/moz_jquant2.o \
+mozjpeg/moz_jcparam.o mozjpeg/moz_jdmaster.o mozjpeg/moz_jutils.o \
+mozjpeg/moz_jcphuff.o mozjpeg/moz_jdmerge.o \
+mozjpeg/moz_jcprepct.o mozjpeg/moz_jdphuff.o 
+
+
+OBJS += libpng/libpng.o 
+OBJS += zlib/zlib.o 
+
+OBJS += libjpeg/simd/x86_64/jsimd_x86_64.o libjpeg/simd/x86_64/jccolor-avx2.o libjpeg/simd/x86_64/jccolor-sse2.o libjpeg/simd/x86_64/jcgray-avx2.o libjpeg/simd/x86_64/jcgray-sse2.o libjpeg/simd/x86_64/jchuff-sse2.o libjpeg/simd/x86_64/jcphuff-sse2.o libjpeg/simd/x86_64/jcsample-avx2.o libjpeg/simd/x86_64/jcsample-sse2.o libjpeg/simd/x86_64/jdcolor-avx2.o libjpeg/simd/x86_64/jdcolor-sse2.o libjpeg/simd/x86_64/jdmerge-avx2.o libjpeg/simd/x86_64/jdmerge-sse2.o libjpeg/simd/x86_64/jdsample-avx2.o libjpeg/simd/x86_64/jdsample-sse2.o libjpeg/simd/x86_64/jfdctflt-sse.o libjpeg/simd/x86_64/jfdctfst-sse2.o libjpeg/simd/x86_64/jfdctint-avx2.o libjpeg/simd/x86_64/jfdctint-sse2.o libjpeg/simd/x86_64/jidctflt-sse2.o libjpeg/simd/x86_64/jidctfst-sse2.o libjpeg/simd/x86_64/jidctint-avx2.o libjpeg/simd/x86_64/jidctint-sse2.o libjpeg/simd/x86_64/jidctred-sse2.o libjpeg/simd/x86_64/jquantf-sse2.o libjpeg/simd/x86_64/jquanti-avx2.o libjpeg/simd/x86_64/jquanti-sse2.o libjpeg/simd/x86_64/jsimdcpu.o 
+
+CFLAGS += -DLINUX -I. -I./libjpeg -I./zlib -c -Wall -std=c99 -fPIC -Winline -O2 -D_FILE_OFFSET_BITS=64 -DWXPNG_EXPORTS -mavx -msse2 -msse4.1 -mpclmul -fvisibility=hidden
+CPPFLAGS += -DLINUX -I. -I./libjpeg -I./zlib -c -Wall -std=c++14 -fPIC -Winline -O2 -D_FILE_OFFSET_BITS=64 -DWXPNG_EXPORTS -mavx -msse2 -msse4.1 -mpclmul -fvisibility=hidden
+CXXFLAGS += -DLINUX -I. -I./libjpeg -I./zlib -c -Wall -std=c++14 -fPIC -Winline -O2 -D_FILE_OFFSET_BITS=64 -DWXPNG_EXPORTS -mavx -msse2 -msse4.1 -mpclmul -fvisibility=hidden
+
+ASFLAGS := -f elf64 -D__x86_64__ -DELF -DPIC -I./libjpeg/simd/nasm/ -I./libjpeg/simd/x86_64/ 
+DYLIB_LIB := WX_Image.so
+DEPEND_LIB := -pthread -lm -ldl -lstdc++
+
+AS=yasm
+CC=gcc
+AR=ar rcs
+RANLIB=ranlib
+STRIP=strip
+RM=rm -rf
+
+%.o: %.asm
+	$(AS) $(ASFLAGS) -o $@ $< 
+
+%.o: %.c
+	$(CC) $(CFLAGS) -o $@ $< 
+
+%.o: %.cc
+	$(CC) $(CPPFLAGS) -o $@ $< 
+
+%.o: %.cpp WXImageBase.h WXImage.h
+	$(CC) $(CPPFLAGS) -o $@ $< 
+
+all:$(OBJS) 
+	$(CC) -fvisibility=hidden -shared -o $(DYLIB_LIB) $(OBJS) $(DEPEND_LIB) 
+	$(STRIP) $(DYLIB_LIB) 
+	$(CC) -o test.out test.cpp $(OBJS) $(OBJSASM) $(DEPEND_LIB) 
+	#$(RM) $(OBJS) 	$(DYLIB_LIB) 
+	 	
+install: all
+	mkdir -p $(PREFIX)/lib
+	mkdir -p $(PREFIX)/include
+	cp -f $(DYLIB_LIB) $(PREFIX)/lib
+		
+clean: 
+	$(RM) $(OBJS) 	$(DYLIB_LIB) 	
+

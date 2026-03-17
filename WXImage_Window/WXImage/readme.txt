@@ -1,0 +1,3 @@
+支持HEIC解码
+支持AVIF解码
+支持对带有IccProfile数据的JPEG图像直接转换（使用颜色空间转换而不是包含原来的IccProfile）

@@ -1,0 +1,2715 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="aom\aom.h" />
+    <ClInclude Include="aom\aom_cx.h" />
+    <ClInclude Include="aom\aom_dx.h" />
+    <ClInclude Include="aom\aom_codec.h" />
+    <ClInclude Include="aom\aom_decoder.h" />
+    <ClInclude Include="aom\aom_encoder.h" />
+    <ClInclude Include="aom\aom_external_partition.h" />
+    <ClInclude Include="aom\aom_frame_buffer.h" />
+    <ClInclude Include="aom\aom_image.h" />
+    <ClInclude Include="aom\aom_integer.h" />
+    <ClInclude Include="aom\aom_codec_internal.h" />
+    <ClInclude Include="aom\aom_image_internal.h" />
+    <ClInclude Include="aom\aom_dsp_common.h" />
+    <ClInclude Include="aom\aom_dsp_filter.h" />
+    <ClInclude Include="aom\aom_dsp_simd.h" />
+    <ClInclude Include="aom\aom_dsp_simd_inline.h" />
+    <ClInclude Include="aom\aom_dsp_binary_codes_reader.h" />
+    <ClInclude Include="aom\aom_dsp_binary_codes_writer.h" />
+    <ClInclude Include="aom\aom_dsp_bitreader.h" />
+    <ClInclude Include="aom\aom_dsp_bitreader_buffer.h" />
+    <ClInclude Include="aom\aom_dsp_bitwriter.h" />
+    <ClInclude Include="aom\aom_dsp_bitwriter_buffer.h" />
+    <ClInclude Include="aom\aom_dsp_blend.h" />
+    <ClInclude Include="aom\aom_dsp_butteraugli.h" />
+    <ClInclude Include="aom\aom_dsp_entcode.h" />
+    <ClInclude Include="aom\aom_dsp_entdec.h" />
+    <ClInclude Include="aom\aom_dsp_entenc.h" />
+    <ClInclude Include="aom\aom_dsp_fft_common.h" />
+    <ClInclude Include="aom\aom_dsp_flow_estimation.h" />
+    <ClInclude Include="aom\aom_dsp_grain_params.h" />
+    <ClInclude Include="aom\aom_dsp_grain_table.h" />
+    <ClInclude Include="aom\aom_dsp_intrapred_common.h" />
+    <ClInclude Include="aom\aom_dsp_mathutils.h" />
+    <ClInclude Include="aom\aom_dsp_noise_model.h" />
+    <ClInclude Include="aom\aom_dsp_noise_util.h" />
+    <ClInclude Include="aom\aom_dsp_odintrin.h" />
+    <ClInclude Include="aom\aom_dsp_prob.h" />
+    <ClInclude Include="aom\aom_dsp_psnr.h" />
+    <ClInclude Include="aom\aom_dsp_quantize.h" />
+    <ClInclude Include="aom\aom_dsp_recenter.h" />
+    <ClInclude Include="aom\aom_dsp_rect.h" />
+    <ClInclude Include="aom\aom_dsp_ssim.h" />
+    <ClInclude Include="aom\aom_dsp_txfm_common.h" />
+    <ClInclude Include="aom\aom_dsp_variance.h" />
+    <ClInclude Include="aom\aom_dsp_vmaf.h" />
+    <ClInclude Include="aom\aom_mem.h" />
+    <ClInclude Include="aom\aom_mem_intrnl.h" />
+    <ClInclude Include="aom\aom_once.h" />
+    <ClInclude Include="aom\aom_timer.h" />
+    <ClInclude Include="aom\aom_arm.h" />
+    <ClInclude Include="aom\aom_bitops.h" />
+    <ClInclude Include="aom\aom_emmintrin_compataom_.h" />
+    <ClInclude Include="aom\mem.h" />
+    <ClInclude Include="aom\aom_mem_ops.h" />
+    <ClInclude Include="aom\aom_mem_ops_aligned.h" />
+    <ClInclude Include="aom\aom_msvc.h" />
+    <ClInclude Include="aom\aom_ppc.h" />
+    <ClInclude Include="aom\aom_sanitizer.h" />
+    <ClInclude Include="aom\aom_x86.h" />
+    <ClInclude Include="aom\aom_scale.h" />
+    <ClInclude Include="aom\aom_yv12config.h" />
+    <ClInclude Include="aom\aom_thread.h" />
+    <ClInclude Include="aom\aom_debug_util.h" />
+    <ClInclude Include="aom\aom_endian_inl.h" />
+    <ClInclude Include="aom\av1_arg_defs.h" />
+    <ClInclude Include="aom\av1_cx_iface.h" />
+    <ClInclude Include="aom\av1_iface_common.h" />
+    <ClInclude Include="aom\av1_alloccommon.h" />
+    <ClInclude Include="aom\av1_common_int.h" />
+    <ClInclude Include="aom\av1_inv_txfm1d.h" />
+    <ClInclude Include="aom\av1_inv_txfm1d_cfg.h" />
+    <ClInclude Include="aom\av1_loopfilter.h" />
+    <ClInclude Include="aom\av1_txfm.h" />
+    <ClInclude Include="aom\av1_blockd.h" />
+    <ClInclude Include="aom\av1_cdef.h" />
+    <ClInclude Include="aom\av1_cdef_block.h" />
+    <ClInclude Include="aom\av1_cdef_block_simd.h" />
+    <ClInclude Include="aom\av1_cfl.h" />
+    <ClInclude Include="aom\av1_common.h" />
+    <ClInclude Include="aom\av1_common_data.h" />
+    <ClInclude Include="aom\av1_convolve.h" />
+    <ClInclude Include="aom\av1_entropy.h" />
+    <ClInclude Include="aom\av1_entropymode.h" />
+    <ClInclude Include="aom\av1_entropymv.h" />
+    <ClInclude Include="aom\av1_enums.h" />
+    <ClInclude Include="aom\av1_filter.h" />
+    <ClInclude Include="aom\av1_frame_buffers.h" />
+    <ClInclude Include="aom\av1_idct.h" />
+    <ClInclude Include="aom\av1_mv.h" />
+    <ClInclude Include="aom\av1_mvref_common.h" />
+    <ClInclude Include="aom\av1_obmc.h" />
+    <ClInclude Include="aom\av1_obu_util.h" />
+    <ClInclude Include="aom\av1_pred_common.h" />
+    <ClInclude Include="aom\av1_quant_common.h" />
+    <ClInclude Include="aom\av1_reconinter.h" />
+    <ClInclude Include="aom\av1_reconintra.h" />
+    <ClInclude Include="aom\av1_resize.h" />
+    <ClInclude Include="aom\av1_restoration.h" />
+    <ClInclude Include="aom\av1_scale.h" />
+    <ClInclude Include="aom\av1_scan.h" />
+    <ClInclude Include="aom\av1_seg_common.h" />
+    <ClInclude Include="aom\av1_thread_common.h" />
+    <ClInclude Include="aom\av1_tile_common.h" />
+    <ClInclude Include="aom\av1_timing.h" />
+    <ClInclude Include="aom\av1_token_cdfs.h" />
+    <ClInclude Include="aom\av1_txb_common.h" />
+    <ClInclude Include="aom\av1_warped_motion.h" />
+    <ClInclude Include="aom\av1_accounting.h" />
+    <ClInclude Include="aom\av1_decodeframe.h" />
+    <ClInclude Include="aom\av1_decodemv.h" />
+    <ClInclude Include="aom\av1_decoder.h" />
+    <ClInclude Include="aom\av1_decodetxb.h" />
+    <ClInclude Include="aom\av1_detokenize.h" />
+    <ClInclude Include="aom\av1_dthread.h" />
+    <ClInclude Include="aom\av1_grain_synthesis.h" />
+    <ClInclude Include="aom\av1_inspection.h" />
+    <ClInclude Include="aom\av1_obu.h" />
+    <ClInclude Include="aom\aom_args_helper.h" />
+    <ClInclude Include="aom\aom_config.h" />
+    <ClInclude Include="aom\aom_dsp_rtcd.h" />
+    <ClInclude Include="aom\aom_scale_rtcd.h" />
+    <ClInclude Include="aom\aom_version.h" />
+    <ClInclude Include="aom\aom_av1_rtcd.h" />
+    <ClInclude Include="FreeImage\CacheFile.h" />
+    <ClInclude Include="FreeImage\Filters.h" />
+    <ClInclude Include="FreeImage\FIRational.h" />
+    <ClInclude Include="FreeImage\FreeImage.h" />
+    <ClInclude Include="FreeImage\FreeImageIO.h" />
+    <ClInclude Include="FreeImage\FreeImageTag.h" />
+    <ClInclude Include="FreeImage\J2KHelper.h" />
+    <ClInclude Include="FreeImage\MapIntrospector.h" />
+    <ClInclude Include="FreeImage\Plugin.h" />
+    <ClInclude Include="FreeImage\PSDParser.h" />
+    <ClInclude Include="FreeImage\Quantizers.h" />
+    <ClInclude Include="FreeImage\Resize.h" />
+    <ClInclude Include="FreeImage\ToneMapping.h" />
+    <ClInclude Include="FreeImage\Utilities.h" />
+    <ClInclude Include="lcsm2\lcms2.h" />
+    <ClInclude Include="lcsm2\lcms2_internal.h" />
+    <ClInclude Include="lcsm2\lcms2_plugin.h" />
+    <ClInclude Include="libde265\acceleration.h" />
+    <ClInclude Include="libde265\alloc_pool.h" />
+    <ClInclude Include="libde265\bitstream.h" />
+    <ClInclude Include="libde265\cabac.h" />
+    <ClInclude Include="libde265\configparam.h" />
+    <ClInclude Include="libde265\contextmodel.h" />
+    <ClInclude Include="libde265\de265-config.h" />
+    <ClInclude Include="libde265\de265-version.h" />
+    <ClInclude Include="libde265\de265.h" />
+    <ClInclude Include="libde265\deblock.h" />
+    <ClInclude Include="libde265\decctx.h" />
+    <ClInclude Include="libde265\dpb.h" />
+    <ClInclude Include="libde265\en265.h" />
+    <ClInclude Include="libde265\fallback-dct.h" />
+    <ClInclude Include="libde265\fallback-motion.h" />
+    <ClInclude Include="libde265\fallback.h" />
+    <ClInclude Include="libde265\image-io.h" />
+    <ClInclude Include="libde265\image.h" />
+    <ClInclude Include="libde265\intrapred.h" />
+    <ClInclude Include="libde265\md5.h" />
+    <ClInclude Include="libde265\motion.h" />
+    <ClInclude Include="libde265\nal-parser.h" />
+    <ClInclude Include="libde265\nal.h" />
+    <ClInclude Include="libde265\pps.h" />
+    <ClInclude Include="libde265\quality.h" />
+    <ClInclude Include="libde265\refpic.h" />
+    <ClInclude Include="libde265\sao.h" />
+    <ClInclude Include="libde265\scan.h" />
+    <ClInclude Include="libde265\sei.h" />
+    <ClInclude Include="libde265\slice.h" />
+    <ClInclude Include="libde265\sps.h" />
+    <ClInclude Include="libde265\threads.h" />
+    <ClInclude Include="libde265\transform.h" />
+    <ClInclude Include="libde265\util.h" />
+    <ClInclude Include="libde265\visualize.h" />
+    <ClInclude Include="libde265\vps.h" />
+    <ClInclude Include="libde265\vui.h" />
+    <ClInclude Include="libde265\win32cond.h" />
+    <ClInclude Include="libheif\heif_bitstream.h" />
+    <ClInclude Include="libheif\heif_box.h" />
+    <ClInclude Include="libheif\heif_common_utils.h" />
+    <ClInclude Include="libheif\heif_error.h" />
+    <ClInclude Include="libheif\exif.h" />
+    <ClInclude Include="libheif\heif.h" />
+    <ClInclude Include="libheif\heif_api_structs.h" />
+    <ClInclude Include="libheif\heif_avif.h" />
+    <ClInclude Include="libheif\heif_colorconversion.h" />
+    <ClInclude Include="libheif\heif_context.h" />
+    <ClInclude Include="libheif\heif_cxx.h" />
+    <ClInclude Include="libheif\heif_decoder_aom.h" />
+    <ClInclude Include="libheif\heif_decoder_libde265.h" />
+    <ClInclude Include="libheif\heif_emscripten.h" />
+    <ClInclude Include="libheif\heif_file.h" />
+    <ClInclude Include="libheif\heif_hevc.h" />
+    <ClInclude Include="libheif\heif_image.h" />
+    <ClInclude Include="libheif\heif_init.h" />
+    <ClInclude Include="libheif\heif_limits.h" />
+    <ClInclude Include="libheif\heif_plugin.h" />
+    <ClInclude Include="libheif\heif_plugin_registry.h" />
+    <ClInclude Include="libheif\heif_version.h" />
+    <ClInclude Include="libheif\heif_logging.h" />
+    <ClInclude Include="libheif\heif_metadata_compression.h" />
+    <ClInclude Include="libheif\heif_nclx.h" />
+    <ClInclude Include="libheif\heif_plugins_unix.h" />
+    <ClInclude Include="libheif\heif_plugins_windows.h" />
+    <ClInclude Include="libjpeg\cderror.h" />
+    <ClInclude Include="libjpeg\cdjpeg.h" />
+    <ClInclude Include="libjpeg\cmyk.h" />
+    <ClInclude Include="libjpeg\jccolext.c.h" />
+    <ClInclude Include="libjpeg\jchuff.h" />
+    <ClInclude Include="libjpeg\jconfig.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="libjpeg\jconfigint.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="libjpeg\jdcoefct.h" />
+    <ClInclude Include="libjpeg\jdcol565.c.h" />
+    <ClInclude Include="libjpeg\jdcolext.c.h" />
+    <ClInclude Include="libjpeg\jdct.h" />
+    <ClInclude Include="libjpeg\jdhuff.h" />
+    <ClInclude Include="libjpeg\jdmainct.h" />
+    <ClInclude Include="libjpeg\jdmaster.h" />
+    <ClInclude Include="libjpeg\jdmerge.h" />
+    <ClInclude Include="libjpeg\jdmrg565.c.h" />
+    <ClInclude Include="libjpeg\jdmrgext.c.h" />
+    <ClInclude Include="libjpeg\jdsample.h" />
+    <ClInclude Include="libjpeg\jerror.h" />
+    <ClInclude Include="libjpeg\jinclude.h" />
+    <ClInclude Include="libjpeg\jmemsys.h" />
+    <ClInclude Include="libjpeg\jmorecfg.h" />
+    <ClInclude Include="libjpeg\jpegcomp.h" />
+    <ClInclude Include="libjpeg\jpegint.h" />
+    <ClInclude Include="libjpeg\jpeglib.h" />
+    <ClInclude Include="libjpeg\jpeg_nbits_table.h" />
+    <ClInclude Include="libjpeg\jsimd.h" />
+    <ClInclude Include="libjpeg\jsimddct.h" />
+    <ClInclude Include="libjpeg\jstdhuff.c.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="libjpeg\jversion.h" />
+    <ClInclude Include="libjpeg\simd\arm\aarch32\jccolext-neon.c.h" />
+    <ClInclude Include="libjpeg\simd\arm\aarch64\jccolext-neon.c.h" />
+    <ClInclude Include="libjpeg\simd\arm\align.h" />
+    <ClInclude Include="libjpeg\simd\arm\jcgryext-neon.c.h" />
+    <ClInclude Include="libjpeg\simd\arm\jchuff.h" />
+    <ClInclude Include="libjpeg\simd\arm\jdcolext-neon.c.h" />
+    <ClInclude Include="libjpeg\simd\arm\jdmrgext-neon.c.h" />
+    <ClInclude Include="libjpeg\simd\jsimd.h" />
+    <ClInclude Include="libjpeg\transupp.h" />
+    <ClInclude Include="LibJXR\ansi.h" />
+    <ClInclude Include="LibJXR\common.h" />
+    <ClInclude Include="LibJXR\decode.h" />
+    <ClInclude Include="LibJXR\encode.h" />
+    <ClInclude Include="LibJXR\guiddef.h" />
+    <ClInclude Include="LibJXR\JXRGlue.h" />
+    <ClInclude Include="LibJXR\JXRMeta.h" />
+    <ClInclude Include="LibJXR\perfTimer.h" />
+    <ClInclude Include="LibJXR\strcodec.h" />
+    <ClInclude Include="LibJXR\strTransform.h" />
+    <ClInclude Include="LibJXR\windowsmediaphoto.h" />
+    <ClInclude Include="LibJXR\wmsal.h" />
+    <ClInclude Include="LibJXR\wmspecstring.h" />
+    <ClInclude Include="LibJXR\wmspecstrings_adt.h" />
+    <ClInclude Include="LibJXR\wmspecstrings_strict.h" />
+    <ClInclude Include="LibJXR\wmspecstrings_undef.h" />
+    <ClInclude Include="LibJXR\x86.h" />
+    <ClInclude Include="LibJXR\xplatform_image.h" />
+    <ClInclude Include="LibOpenJPEG\bio.h" />
+    <ClInclude Include="LibOpenJPEG\cidx_manager.h" />
+    <ClInclude Include="LibOpenJPEG\cio.h" />
+    <ClInclude Include="LibOpenJPEG\dwt.h" />
+    <ClInclude Include="LibOpenJPEG\event.h" />
+    <ClInclude Include="LibOpenJPEG\function_list.h" />
+    <ClInclude Include="LibOpenJPEG\image.h" />
+    <ClInclude Include="LibOpenJPEG\indexbox_manager.h" />
+    <ClInclude Include="LibOpenJPEG\invert.h" />
+    <ClInclude Include="LibOpenJPEG\j2k.h" />
+    <ClInclude Include="LibOpenJPEG\jp2.h" />
+    <ClInclude Include="LibOpenJPEG\mct.h" />
+    <ClInclude Include="LibOpenJPEG\mqc.h" />
+    <ClInclude Include="LibOpenJPEG\openjpeg.h" />
+    <ClInclude Include="LibOpenJPEG\opj_clock.h" />
+    <ClInclude Include="LibOpenJPEG\opj_codec.h" />
+    <ClInclude Include="LibOpenJPEG\opj_config.h" />
+    <ClInclude Include="LibOpenJPEG\opj_config_private.h" />
+    <ClInclude Include="LibOpenJPEG\opj_includes.h" />
+    <ClInclude Include="LibOpenJPEG\opj_intmath.h" />
+    <ClInclude Include="LibOpenJPEG\opj_inttypes.h" />
+    <ClInclude Include="LibOpenJPEG\opj_malloc.h" />
+    <ClInclude Include="LibOpenJPEG\opj_stdint.h" />
+    <ClInclude Include="LibOpenJPEG\pi.h" />
+    <ClInclude Include="LibOpenJPEG\raw.h" />
+    <ClInclude Include="LibOpenJPEG\t1.h" />
+    <ClInclude Include="LibOpenJPEG\t1_luts.h" />
+    <ClInclude Include="LibOpenJPEG\t2.h" />
+    <ClInclude Include="LibOpenJPEG\tcd.h" />
+    <ClInclude Include="LibOpenJPEG\tgt.h" />
+    <ClInclude Include="libpng\libpng.h" />
+    <ClInclude Include="LibRawLite\aahd_demosaic.h" />
+    <ClInclude Include="LibRawLite\dcb_demosaicing.h" />
+    <ClInclude Include="LibRawLite\defines.h" />
+    <ClInclude Include="LibRawLite\dht_demosaic.h" />
+    <ClInclude Include="LibRawLite\libraw.h" />
+    <ClInclude Include="LibRawLite\libraw_alloc.h" />
+    <ClInclude Include="LibRawLite\libraw_const.h" />
+    <ClInclude Include="LibRawLite\libraw_datastream.h" />
+    <ClInclude Include="LibRawLite\libraw_fuji_compressed.h" />
+    <ClInclude Include="LibRawLite\libraw_internal.h" />
+    <ClInclude Include="LibRawLite\libraw_internal_funcs.h" />
+    <ClInclude Include="LibRawLite\libraw_types.h" />
+    <ClInclude Include="LibRawLite\libraw_version.h" />
+    <ClInclude Include="LibRawLite\libraw_x3f.h" />
+    <ClInclude Include="LibRawLite\var_defines.h" />
+    <ClInclude Include="LibTIFF4\t4.h" />
+    <ClInclude Include="LibTIFF4\tiff.h" />
+    <ClInclude Include="LibTIFF4\tiffconf.h" />
+    <ClInclude Include="LibTIFF4\tiffconf.vc.h" />
+    <ClInclude Include="LibTIFF4\tiffconf.wince.h" />
+    <ClInclude Include="LibTIFF4\tiffio.h" />
+    <ClInclude Include="LibTIFF4\tiffio.hxx" />
+    <ClInclude Include="LibTIFF4\tiffiop.h" />
+    <ClInclude Include="LibTIFF4\tiffvers.h" />
+    <ClInclude Include="LibTIFF4\tif_config.h" />
+    <ClInclude Include="LibTIFF4\tif_config.vc.h" />
+    <ClInclude Include="LibTIFF4\tif_config.wince.h" />
+    <ClInclude Include="LibTIFF4\tif_dir.h" />
+    <ClInclude Include="LibTIFF4\tif_fax3.h" />
+    <ClInclude Include="LibTIFF4\tif_predict.h" />
+    <ClInclude Include="LibTIFF4\uvcode.h" />
+    <ClInclude Include="libwebp\alphai_dec.h" />
+    <ClInclude Include="libwebp\animi.h" />
+    <ClInclude Include="libwebp\backward_references_enc.h" />
+    <ClInclude Include="libwebp\bit_reader_inl_utils.h" />
+    <ClInclude Include="libwebp\bit_reader_utils.h" />
+    <ClInclude Include="libwebp\bit_writer_utils.h" />
+    <ClInclude Include="libwebp\color_cache_utils.h" />
+    <ClInclude Include="libwebp\common_dec.h" />
+    <ClInclude Include="libwebp\common_sse2.h" />
+    <ClInclude Include="libwebp\common_sse41.h" />
+    <ClInclude Include="libwebp\cost_enc.h" />
+    <ClInclude Include="libwebp\decode.h" />
+    <ClInclude Include="libwebp\demux.h" />
+    <ClInclude Include="libwebp\dsp.h" />
+    <ClInclude Include="libwebp\encode.h" />
+    <ClInclude Include="libwebp\endian_inl_utils.h" />
+    <ClInclude Include="libwebp\filters_utils.h" />
+    <ClInclude Include="libwebp\format_constants.h" />
+    <ClInclude Include="libwebp\histogram_enc.h" />
+    <ClInclude Include="libwebp\huffman_encode_utils.h" />
+    <ClInclude Include="libwebp\huffman_utils.h" />
+    <ClInclude Include="libwebp\lossless.h" />
+    <ClInclude Include="libwebp\lossless_common.h" />
+    <ClInclude Include="libwebp\mips_macro.h" />
+    <ClInclude Include="libwebp\msa_macro.h" />
+    <ClInclude Include="libwebp\mux.h" />
+    <ClInclude Include="libwebp\muxi.h" />
+    <ClInclude Include="libwebp\mux_types.h" />
+    <ClInclude Include="libwebp\neon.h" />
+    <ClInclude Include="libwebp\quant.h" />
+    <ClInclude Include="libwebp\quant_levels_dec_utils.h" />
+    <ClInclude Include="libwebp\quant_levels_utils.h" />
+    <ClInclude Include="libwebp\random_utils.h" />
+    <ClInclude Include="libwebp\rescaler_utils.h" />
+    <ClInclude Include="libwebp\thread_utils.h" />
+    <ClInclude Include="libwebp\types.h" />
+    <ClInclude Include="libwebp\utils.h" />
+    <ClInclude Include="libwebp\vp8i_dec.h" />
+    <ClInclude Include="libwebp\vp8i_enc.h" />
+    <ClInclude Include="libwebp\vp8li_dec.h" />
+    <ClInclude Include="libwebp\vp8li_enc.h" />
+    <ClInclude Include="libwebp\vp8_dec.h" />
+    <ClInclude Include="libwebp\webpi_dec.h" />
+    <ClInclude Include="libwebp\yuv.h" />
+    <ClInclude Include="libyuv.h" />
+    <ClInclude Include="libyuv\basic_types.h" />
+    <ClInclude Include="libyuv\compare.h" />
+    <ClInclude Include="libyuv\convert.h" />
+    <ClInclude Include="libyuv\convert_argb.h" />
+    <ClInclude Include="libyuv\convert_from.h" />
+    <ClInclude Include="libyuv\convert_from_argb.h" />
+    <ClInclude Include="libyuv\cpu_id.h" />
+    <ClInclude Include="libyuv\planar_functions.h" />
+    <ClInclude Include="libyuv\rotate.h" />
+    <ClInclude Include="libyuv\rotate_argb.h" />
+    <ClInclude Include="libyuv\row.h" />
+    <ClInclude Include="libyuv\scale.h" />
+    <ClInclude Include="libyuv\scale_argb.h" />
+    <ClInclude Include="libyuv\scale_row.h" />
+    <ClInclude Include="libyuv\version.h" />
+    <ClInclude Include="libyuv\video_common.h" />
+    <ClInclude Include="mozjpeg\moz_cderror.h" />
+    <ClInclude Include="mozjpeg\moz_cdjpeg.h" />
+    <ClInclude Include="mozjpeg\moz_cmyk.h" />
+    <ClInclude Include="mozjpeg\moz_jccolext.c.h" />
+    <ClInclude Include="mozjpeg\moz_jchuff.h" />
+    <ClInclude Include="mozjpeg\moz_jcmaster.h" />
+    <ClInclude Include="mozjpeg\moz_jconfig.h" />
+    <ClInclude Include="mozjpeg\moz_jconfigint.h" />
+    <ClInclude Include="mozjpeg\moz_jdcoefct.h" />
+    <ClInclude Include="mozjpeg\moz_jdcol565.c.h" />
+    <ClInclude Include="mozjpeg\moz_jdcolext.c.h" />
+    <ClInclude Include="mozjpeg\moz_jdct.h" />
+    <ClInclude Include="mozjpeg\moz_jdhuff.h" />
+    <ClInclude Include="mozjpeg\moz_jdmainct.h" />
+    <ClInclude Include="mozjpeg\moz_jdmaster.h" />
+    <ClInclude Include="mozjpeg\moz_jdmerge.h" />
+    <ClInclude Include="mozjpeg\moz_jdmrg565.c.h" />
+    <ClInclude Include="mozjpeg\moz_jdmrgext.c.h" />
+    <ClInclude Include="mozjpeg\moz_jdsample.h" />
+    <ClInclude Include="mozjpeg\moz_jerror.h" />
+    <ClInclude Include="mozjpeg\moz_jinclude.h" />
+    <ClInclude Include="mozjpeg\moz_jmemsys.h" />
+    <ClInclude Include="mozjpeg\moz_jmorecfg.h" />
+    <ClInclude Include="mozjpeg\moz_jpegcomp.h" />
+    <ClInclude Include="mozjpeg\moz_jpegint.h" />
+    <ClInclude Include="mozjpeg\moz_jpeglib.h" />
+    <ClInclude Include="mozjpeg\moz_jpeg_nbits_table.h" />
+    <ClInclude Include="mozjpeg\moz_jsimd.h" />
+    <ClInclude Include="mozjpeg\moz_jsimddct.h" />
+    <ClInclude Include="mozjpeg\moz_jstdhuff.c.h" />
+    <ClInclude Include="mozjpeg\moz_jversion.h" />
+    <ClInclude Include="mozjpeg\moz_transupp.h" />
+    <ClInclude Include="OpenEXR\b44ExpLogTable.h" />
+    <ClInclude Include="OpenEXR\dwaLookups.h" />
+    <ClInclude Include="OpenEXR\eLut.h" />
+    <ClInclude Include="OpenEXR\half.h" />
+    <ClInclude Include="OpenEXR\halfExport.h" />
+    <ClInclude Include="OpenEXR\halfFunction.h" />
+    <ClInclude Include="OpenEXR\halfLimits.h" />
+    <ClInclude Include="OpenEXR\Iex.h" />
+    <ClInclude Include="OpenEXR\IexBaseExc.h" />
+    <ClInclude Include="OpenEXR\IexErrnoExc.h" />
+    <ClInclude Include="OpenEXR\IexExport.h" />
+    <ClInclude Include="OpenEXR\IexForward.h" />
+    <ClInclude Include="OpenEXR\IexMacros.h" />
+    <ClInclude Include="OpenEXR\IexMathExc.h" />
+    <ClInclude Include="OpenEXR\IexMathFloatExc.h" />
+    <ClInclude Include="OpenEXR\IexMathFpu.h" />
+    <ClInclude Include="OpenEXR\IexMathIeeeExc.h" />
+    <ClInclude Include="OpenEXR\IexNamespace.h" />
+    <ClInclude Include="OpenEXR\IexThrowErrnoExc.h" />
+    <ClInclude Include="OpenEXR\IlmBaseConfig.h" />
+    <ClInclude Include="OpenEXR\IlmThread.h" />
+    <ClInclude Include="OpenEXR\IlmThreadExport.h" />
+    <ClInclude Include="OpenEXR\IlmThreadForward.h" />
+    <ClInclude Include="OpenEXR\IlmThreadMutex.h" />
+    <ClInclude Include="OpenEXR\IlmThreadNamespace.h" />
+    <ClInclude Include="OpenEXR\IlmThreadPool.h" />
+    <ClInclude Include="OpenEXR\IlmThreadSemaphore.h" />
+    <ClInclude Include="OpenEXR\ImathBox.h" />
+    <ClInclude Include="OpenEXR\ImathBoxAlgo.h" />
+    <ClInclude Include="OpenEXR\ImathColor.h" />
+    <ClInclude Include="OpenEXR\ImathColorAlgo.h" />
+    <ClInclude Include="OpenEXR\ImathEuler.h" />
+    <ClInclude Include="OpenEXR\ImathExc.h" />
+    <ClInclude Include="OpenEXR\ImathExport.h" />
+    <ClInclude Include="OpenEXR\ImathForward.h" />
+    <ClInclude Include="OpenEXR\ImathFrame.h" />
+    <ClInclude Include="OpenEXR\ImathFrustum.h" />
+    <ClInclude Include="OpenEXR\ImathFrustumTest.h" />
+    <ClInclude Include="OpenEXR\ImathFun.h" />
+    <ClInclude Include="OpenEXR\ImathGL.h" />
+    <ClInclude Include="OpenEXR\ImathGLU.h" />
+    <ClInclude Include="OpenEXR\ImathHalfLimits.h" />
+    <ClInclude Include="OpenEXR\ImathInt64.h" />
+    <ClInclude Include="OpenEXR\ImathInterval.h" />
+    <ClInclude Include="OpenEXR\ImathLimits.h" />
+    <ClInclude Include="OpenEXR\ImathLine.h" />
+    <ClInclude Include="OpenEXR\ImathLineAlgo.h" />
+    <ClInclude Include="OpenEXR\ImathMath.h" />
+    <ClInclude Include="OpenEXR\ImathMatrix.h" />
+    <ClInclude Include="OpenEXR\ImathMatrixAlgo.h" />
+    <ClInclude Include="OpenEXR\ImathNamespace.h" />
+    <ClInclude Include="OpenEXR\ImathPlane.h" />
+    <ClInclude Include="OpenEXR\ImathPlatform.h" />
+    <ClInclude Include="OpenEXR\ImathQuat.h" />
+    <ClInclude Include="OpenEXR\ImathRandom.h" />
+    <ClInclude Include="OpenEXR\ImathRoots.h" />
+    <ClInclude Include="OpenEXR\ImathShear.h" />
+    <ClInclude Include="OpenEXR\ImathSphere.h" />
+    <ClInclude Include="OpenEXR\ImathVec.h" />
+    <ClInclude Include="OpenEXR\ImathVecAlgo.h" />
+    <ClInclude Include="OpenEXR\ImfAcesFile.h" />
+    <ClInclude Include="OpenEXR\ImfArray.h" />
+    <ClInclude Include="OpenEXR\ImfAttribute.h" />
+    <ClInclude Include="OpenEXR\ImfAutoArray.h" />
+    <ClInclude Include="OpenEXR\ImfB44Compressor.h" />
+    <ClInclude Include="OpenEXR\ImfBoxAttribute.h" />
+    <ClInclude Include="OpenEXR\ImfChannelList.h" />
+    <ClInclude Include="OpenEXR\ImfChannelListAttribute.h" />
+    <ClInclude Include="OpenEXR\ImfCheckedArithmetic.h" />
+    <ClInclude Include="OpenEXR\ImfChromaticities.h" />
+    <ClInclude Include="OpenEXR\ImfChromaticitiesAttribute.h" />
+    <ClInclude Include="OpenEXR\ImfCompositeDeepScanLine.h" />
+    <ClInclude Include="OpenEXR\ImfCompression.h" />
+    <ClInclude Include="OpenEXR\ImfCompressionAttribute.h" />
+    <ClInclude Include="OpenEXR\ImfCompressor.h" />
+    <ClInclude Include="OpenEXR\ImfConvert.h" />
+    <ClInclude Include="OpenEXR\ImfCRgbaFile.h" />
+    <ClInclude Include="OpenEXR\ImfDeepCompositing.h" />
+    <ClInclude Include="OpenEXR\ImfDeepFrameBuffer.h" />
+    <ClInclude Include="OpenEXR\ImfDeepImageState.h" />
+    <ClInclude Include="OpenEXR\ImfDeepImageStateAttribute.h" />
+    <ClInclude Include="OpenEXR\ImfDeepScanLineInputFile.h" />
+    <ClInclude Include="OpenEXR\ImfDeepScanLineInputPart.h" />
+    <ClInclude Include="OpenEXR\ImfDeepScanLineOutputFile.h" />
+    <ClInclude Include="OpenEXR\ImfDeepScanLineOutputPart.h" />
+    <ClInclude Include="OpenEXR\ImfDeepTiledInputFile.h" />
+    <ClInclude Include="OpenEXR\ImfDeepTiledInputPart.h" />
+    <ClInclude Include="OpenEXR\ImfDeepTiledOutputFile.h" />
+    <ClInclude Include="OpenEXR\ImfDeepTiledOutputPart.h" />
+    <ClInclude Include="OpenEXR\ImfDoubleAttribute.h" />
+    <ClInclude Include="OpenEXR\ImfDwaCompressor.h" />
+    <ClInclude Include="OpenEXR\ImfDwaCompressorSimd.h" />
+    <ClInclude Include="OpenEXR\ImfEnvmap.h" />
+    <ClInclude Include="OpenEXR\ImfEnvmapAttribute.h" />
+    <ClInclude Include="OpenEXR\ImfExport.h" />
+    <ClInclude Include="OpenEXR\ImfFastHuf.h" />
+    <ClInclude Include="OpenEXR\ImfFloatAttribute.h" />
+    <ClInclude Include="OpenEXR\ImfFloatVectorAttribute.h" />
+    <ClInclude Include="OpenEXR\ImfForward.h" />
+    <ClInclude Include="OpenEXR\ImfFrameBuffer.h" />
+    <ClInclude Include="OpenEXR\ImfFramesPerSecond.h" />
+    <ClInclude Include="OpenEXR\ImfGenericInputFile.h" />
+    <ClInclude Include="OpenEXR\ImfGenericOutputFile.h" />
+    <ClInclude Include="OpenEXR\ImfHeader.h" />
+    <ClInclude Include="OpenEXR\ImfHuf.h" />
+    <ClInclude Include="OpenEXR\ImfInputFile.h" />
+    <ClInclude Include="OpenEXR\ImfInputPart.h" />
+    <ClInclude Include="OpenEXR\ImfInputPartData.h" />
+    <ClInclude Include="OpenEXR\ImfInputStreamMutex.h" />
+    <ClInclude Include="OpenEXR\ImfInt64.h" />
+    <ClInclude Include="OpenEXR\ImfIntAttribute.h" />
+    <ClInclude Include="OpenEXR\ImfIO.h" />
+    <ClInclude Include="OpenEXR\ImfKeyCode.h" />
+    <ClInclude Include="OpenEXR\ImfKeyCodeAttribute.h" />
+    <ClInclude Include="OpenEXR\ImfLineOrder.h" />
+    <ClInclude Include="OpenEXR\ImfLineOrderAttribute.h" />
+    <ClInclude Include="OpenEXR\ImfLut.h" />
+    <ClInclude Include="OpenEXR\ImfMatrixAttribute.h" />
+    <ClInclude Include="OpenEXR\ImfMisc.h" />
+    <ClInclude Include="OpenEXR\ImfMultiPartInputFile.h" />
+    <ClInclude Include="OpenEXR\ImfMultiPartOutputFile.h" />
+    <ClInclude Include="OpenEXR\ImfMultiView.h" />
+    <ClInclude Include="OpenEXR\ImfName.h" />
+    <ClInclude Include="OpenEXR\ImfNamespace.h" />
+    <ClInclude Include="OpenEXR\ImfOpaqueAttribute.h" />
+    <ClInclude Include="OpenEXR\ImfOptimizedPixelReading.h" />
+    <ClInclude Include="OpenEXR\ImfOutputFile.h" />
+    <ClInclude Include="OpenEXR\ImfOutputPart.h" />
+    <ClInclude Include="OpenEXR\ImfOutputPartData.h" />
+    <ClInclude Include="OpenEXR\ImfOutputStreamMutex.h" />
+    <ClInclude Include="OpenEXR\ImfPartHelper.h" />
+    <ClInclude Include="OpenEXR\ImfPartType.h" />
+    <ClInclude Include="OpenEXR\ImfPixelType.h" />
+    <ClInclude Include="OpenEXR\ImfPizCompressor.h" />
+    <ClInclude Include="OpenEXR\ImfPreviewImage.h" />
+    <ClInclude Include="OpenEXR\ImfPreviewImageAttribute.h" />
+    <ClInclude Include="OpenEXR\ImfPxr24Compressor.h" />
+    <ClInclude Include="OpenEXR\ImfRational.h" />
+    <ClInclude Include="OpenEXR\ImfRationalAttribute.h" />
+    <ClInclude Include="OpenEXR\ImfRgba.h" />
+    <ClInclude Include="OpenEXR\ImfRgbaFile.h" />
+    <ClInclude Include="OpenEXR\ImfRgbaYca.h" />
+    <ClInclude Include="OpenEXR\ImfRle.h" />
+    <ClInclude Include="OpenEXR\ImfRleCompressor.h" />
+    <ClInclude Include="OpenEXR\ImfScanLineInputFile.h" />
+    <ClInclude Include="OpenEXR\ImfSimd.h" />
+    <ClInclude Include="OpenEXR\ImfStandardAttributes.h" />
+    <ClInclude Include="OpenEXR\ImfStdIO.h" />
+    <ClInclude Include="OpenEXR\ImfStringAttribute.h" />
+    <ClInclude Include="OpenEXR\ImfStringVectorAttribute.h" />
+    <ClInclude Include="OpenEXR\ImfSystemSpecific.h" />
+    <ClInclude Include="OpenEXR\ImfTestFile.h" />
+    <ClInclude Include="OpenEXR\ImfThreading.h" />
+    <ClInclude Include="OpenEXR\ImfTileDescription.h" />
+    <ClInclude Include="OpenEXR\ImfTileDescriptionAttribute.h" />
+    <ClInclude Include="OpenEXR\ImfTiledInputFile.h" />
+    <ClInclude Include="OpenEXR\ImfTiledInputPart.h" />
+    <ClInclude Include="OpenEXR\ImfTiledMisc.h" />
+    <ClInclude Include="OpenEXR\ImfTiledOutputFile.h" />
+    <ClInclude Include="OpenEXR\ImfTiledOutputPart.h" />
+    <ClInclude Include="OpenEXR\ImfTiledRgbaFile.h" />
+    <ClInclude Include="OpenEXR\ImfTileOffsets.h" />
+    <ClInclude Include="OpenEXR\ImfTimeCode.h" />
+    <ClInclude Include="OpenEXR\ImfTimeCodeAttribute.h" />
+    <ClInclude Include="OpenEXR\ImfVecAttribute.h" />
+    <ClInclude Include="OpenEXR\ImfVersion.h" />
+    <ClInclude Include="OpenEXR\ImfWav.h" />
+    <ClInclude Include="OpenEXR\ImfXdr.h" />
+    <ClInclude Include="OpenEXR\ImfZip.h" />
+    <ClInclude Include="OpenEXR\ImfZipCompressor.h" />
+    <ClInclude Include="OpenEXR\OpenEXRConfig.h" />
+    <ClInclude Include="OpenEXR\toFloat.h" />
+    <ClInclude Include="pngquant\libimagequant.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="WXImage.h" />
+    <ClInclude Include="WXImageBase.h" />
+    <ClInclude Include="zlib\zlib.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="aom\aom_codec.c" />
+    <ClCompile Include="aom\aom_decoder.c" />
+    <ClCompile Include="aom\aom_image.c" />
+    <ClCompile Include="aom\aom_integer.c" />
+    <ClCompile Include="aom\aom_dsp_convolve.c" />
+    <ClCompile Include="aom\aom_dsp_rtcd.c" />
+    <ClCompile Include="aom\aom_dsp_binary_codes_reader.c" />
+    <ClCompile Include="aom\aom_dsp_bitreader.c" />
+    <ClCompile Include="aom\aom_dsp_bitreader_buffer.c" />
+    <ClCompile Include="aom\aom_dsp_bitwriter_buffer.c" />
+    <ClCompile Include="aom\aom_dsp_blend_a64_hmask.c" />
+    <ClCompile Include="aom\aom_dsp_blend_a64_mask.c" />
+    <ClCompile Include="aom\aom_dsp_blend_a64_vmask.c" />
+    <ClCompile Include="aom\aom_dsp_entcode.c" />
+    <ClCompile Include="aom\aom_dsp_entdec.c" />
+    <ClCompile Include="aom\aom_dsp_fft.c" />
+    <ClCompile Include="aom\aom_dsp_intrapred.c" />
+    <ClCompile Include="aom\aom_dsp_loopfilter.c" />
+    <ClCompile Include="aom\aom_dsp_odintrin.c" />
+    <ClCompile Include="aom\aom_dsp_subtract.c" />
+    <ClCompile Include="aom\aom_mem.c" />
+    <ClCompile Include="aom\aom_scale.c" />
+    <ClCompile Include="aom\aom_scale_rtcd.c" />
+    <ClCompile Include="aom\aom_gen_scalers.c" />
+    <ClCompile Include="aom\aom_yv12config.c" />
+    <ClCompile Include="aom\aom_yv12extend.c" />
+    <ClCompile Include="aom\aom_thread.c" />
+    <ClCompile Include="aom\aom_debug_util.c" />
+    <ClCompile Include="aom\av1_arg_defs.c" />
+    <ClCompile Include="aom\av1_dx_iface.c" />
+    <ClCompile Include="aom\av1_alloccommon.c" />
+    <ClCompile Include="aom\av1_inv_txfm1d.c" />
+    <ClCompile Include="aom\av1_inv_txfm2d.c" />
+    <ClCompile Include="aom\av1_loopfilter.c" />
+    <ClCompile Include="aom\av1_rtcd.c" />
+    <ClCompile Include="aom\av1_txfm.c" />
+    <ClCompile Include="aom\av1_blockd.c" />
+    <ClCompile Include="aom\av1_cdef.c" />
+    <ClCompile Include="aom\av1_cdef_block.c" />
+    <ClCompile Include="aom\av1_cfl.c" />
+    <ClCompile Include="aom\av1_common_data.c" />
+    <ClCompile Include="aom\av1_convolve.c" />
+    <ClCompile Include="aom\av1_debugmodes.c" />
+    <ClCompile Include="aom\av1_entropy.c" />
+    <ClCompile Include="aom\av1_entropymode.c" />
+    <ClCompile Include="aom\av1_entropymv.c" />
+    <ClCompile Include="aom\av1_frame_buffers.c" />
+    <ClCompile Include="aom\av1_idct.c" />
+    <ClCompile Include="aom\av1_mvref_common.c" />
+    <ClCompile Include="aom\av1_obu_util.c" />
+    <ClCompile Include="aom\av1_pred_common.c" />
+    <ClCompile Include="aom\av1_quant_common.c" />
+    <ClCompile Include="aom\av1_reconinter.c" />
+    <ClCompile Include="aom\av1_reconintra.c" />
+    <ClCompile Include="aom\av1_aom_resize.c" />
+    <ClCompile Include="aom\av1_restoration.c" />
+    <ClCompile Include="aom\av1_scale.c" />
+    <ClCompile Include="aom\av1_scan.c" />
+    <ClCompile Include="aom\av1_seg_common.c" />
+    <ClCompile Include="aom\av1_thread_common.c" />
+    <ClCompile Include="aom\av1_tile_common.c" />
+    <ClCompile Include="aom\av1_timing.c" />
+    <ClCompile Include="aom\av1_txb_common.c" />
+    <ClCompile Include="aom\av1_warped_motion.c" />
+    <ClCompile Include="aom\av1_accounting.c" />
+    <ClCompile Include="aom\av1_decodeframe.c" />
+    <ClCompile Include="aom\av1_decodemv.c" />
+    <ClCompile Include="aom\av1_decoder.c" />
+    <ClCompile Include="aom\av1_decodetxb.c" />
+    <ClCompile Include="aom\av1_detokenize.c" />
+    <ClCompile Include="aom\av1_grain_synthesis.c" />
+    <ClCompile Include="aom\av1_obu.c" />
+    <ClCompile Include="CompressPNG8.cpp" />
+    <ClCompile Include="CompressQuality.cpp" />
+    <ClCompile Include="FreeImage\Background.cpp" />
+    <ClCompile Include="FreeImage\BitmapAccess.cpp" />
+    <ClCompile Include="FreeImage\BSplineRotate.cpp" />
+    <ClCompile Include="FreeImage\CacheFile.cpp" />
+    <ClCompile Include="FreeImage\Channels.cpp" />
+    <ClCompile Include="FreeImage\ClassicRotate.cpp" />
+    <ClCompile Include="FreeImage\ColorLookup.cpp" />
+    <ClCompile Include="FreeImage\Colors.cpp" />
+    <ClCompile Include="FreeImage\Conversion.cpp" />
+    <ClCompile Include="FreeImage\Conversion16_555.cpp" />
+    <ClCompile Include="FreeImage\Conversion16_565.cpp" />
+    <ClCompile Include="FreeImage\Conversion24.cpp" />
+    <ClCompile Include="FreeImage\Conversion32.cpp" />
+    <ClCompile Include="FreeImage\Conversion4.cpp" />
+    <ClCompile Include="FreeImage\Conversion8.cpp" />
+    <ClCompile Include="FreeImage\ConversionFloat.cpp" />
+    <ClCompile Include="FreeImage\ConversionRGB16.cpp" />
+    <ClCompile Include="FreeImage\ConversionRGBA16.cpp" />
+    <ClCompile Include="FreeImage\ConversionRGBAF.cpp" />
+    <ClCompile Include="FreeImage\ConversionRGBF.cpp" />
+    <ClCompile Include="FreeImage\ConversionType.cpp" />
+    <ClCompile Include="FreeImage\ConversionUINT16.cpp" />
+    <ClCompile Include="FreeImage\CopyPaste.cpp" />
+    <ClCompile Include="FreeImage\Display.cpp" />
+    <ClCompile Include="FreeImage\Exif.cpp" />
+    <ClCompile Include="FreeImage\FIRational.cpp" />
+    <ClCompile Include="FreeImage\Flip.cpp" />
+    <ClCompile Include="FreeImage\FreeImage.cpp" />
+    <ClCompile Include="FreeImage\FreeImageC.c" />
+    <ClCompile Include="FreeImage\FreeImageIO.cpp" />
+    <ClCompile Include="FreeImage\FreeImageTag.cpp" />
+    <ClCompile Include="FreeImage\GetType.cpp" />
+    <ClCompile Include="FreeImage\Halftoning.cpp" />
+    <ClCompile Include="FreeImage\IPTC.cpp" />
+    <ClCompile Include="FreeImage\J2KHelper.cpp" />
+    <ClCompile Include="FreeImage\JPEGTransform.cpp" />
+    <ClCompile Include="FreeImage\LFPQuantizer.cpp" />
+    <ClCompile Include="FreeImage\MemoryIO.cpp" />
+    <ClCompile Include="FreeImage\MNGHelper.cpp" />
+    <ClCompile Include="FreeImage\mozjpeg_save.cpp" />
+    <ClCompile Include="FreeImage\MultigridPoissonSolver.cpp" />
+    <ClCompile Include="FreeImage\MultiPage.cpp" />
+    <ClCompile Include="FreeImage\NNQuantizer.cpp" />
+    <ClCompile Include="FreeImage\PixelAccess.cpp" />
+    <ClCompile Include="FreeImage\Plugin.cpp" />
+    <ClCompile Include="FreeImage\PluginBMP.cpp" />
+    <ClCompile Include="FreeImage\PluginCUT.cpp" />
+    <ClCompile Include="FreeImage\PluginDDS.cpp" />
+    <ClCompile Include="FreeImage\PluginEXR.cpp" />
+    <ClCompile Include="FreeImage\PluginG3.cpp" />
+    <ClCompile Include="FreeImage\PluginGIF.cpp" />
+    <ClCompile Include="FreeImage\PluginHDR.cpp" />
+    <ClCompile Include="FreeImage\PluginHEIC.cpp" />
+    <ClCompile Include="FreeImage\PluginICO.cpp" />
+    <ClCompile Include="FreeImage\PluginIFF.cpp" />
+    <ClCompile Include="FreeImage\PluginJ2K.cpp" />
+    <ClCompile Include="FreeImage\PluginJNG.cpp" />
+    <ClCompile Include="FreeImage\PluginJP2.cpp" />
+    <ClCompile Include="FreeImage\PluginJPEG.cpp" />
+    <ClCompile Include="FreeImage\PluginJXR.cpp" />
+    <ClCompile Include="FreeImage\PluginKOALA.cpp" />
+    <ClCompile Include="FreeImage\PluginMNG.cpp" />
+    <ClCompile Include="FreeImage\PluginPCD.cpp" />
+    <ClCompile Include="FreeImage\PluginPCX.cpp" />
+    <ClCompile Include="FreeImage\PluginPFM.cpp" />
+    <ClCompile Include="FreeImage\PluginPICT.cpp" />
+    <ClCompile Include="FreeImage\PluginPNG.cpp" />
+    <ClCompile Include="FreeImage\PluginPNM.cpp" />
+    <ClCompile Include="FreeImage\PluginPSD.cpp" />
+    <ClCompile Include="FreeImage\PluginRAS.cpp" />
+    <ClCompile Include="FreeImage\PluginRAW.cpp" />
+    <ClCompile Include="FreeImage\PluginSGI.cpp" />
+    <ClCompile Include="FreeImage\PluginTARGA.cpp" />
+    <ClCompile Include="FreeImage\PluginTIFF.cpp" />
+    <ClCompile Include="FreeImage\PluginWBMP.cpp" />
+    <ClCompile Include="FreeImage\PluginWebP.cpp" />
+    <ClCompile Include="FreeImage\PluginXBM.cpp" />
+    <ClCompile Include="FreeImage\PluginXPM.cpp" />
+    <ClCompile Include="FreeImage\PSDParser.cpp" />
+    <ClCompile Include="FreeImage\Rescale.cpp" />
+    <ClCompile Include="FreeImage\Resize.cpp" />
+    <ClCompile Include="FreeImage\TagConversion.cpp" />
+    <ClCompile Include="FreeImage\TagLib.cpp" />
+    <ClCompile Include="FreeImage\TIFFLogLuv.cpp" />
+    <ClCompile Include="FreeImage\tmoColorConvert.cpp" />
+    <ClCompile Include="FreeImage\tmoDrago03.cpp" />
+    <ClCompile Include="FreeImage\tmoFattal02.cpp" />
+    <ClCompile Include="FreeImage\tmoReinhard05.cpp" />
+    <ClCompile Include="FreeImage\ToneMapping.cpp" />
+    <ClCompile Include="FreeImage\WuQuantizer.cpp" />
+    <ClCompile Include="FreeImage\XTIFF.cpp" />
+    <ClCompile Include="FreeImage\ZLibInterface.cpp" />
+    <ClCompile Include="GetJpegQuality.cpp" />
+    <ClCompile Include="lcsm2\lcms2_cmsalpha.c" />
+    <ClCompile Include="lcsm2\lcms2_cmscam02.c" />
+    <ClCompile Include="lcsm2\lcms2_cmscgats.c" />
+    <ClCompile Include="lcsm2\lcms2_cmscnvrt.c" />
+    <ClCompile Include="lcsm2\lcms2_cmserr.c" />
+    <ClCompile Include="lcsm2\lcms2_cmsgamma.c" />
+    <ClCompile Include="lcsm2\lcms2_cmsgmt.c" />
+    <ClCompile Include="lcsm2\lcms2_cmshalf.c" />
+    <ClCompile Include="lcsm2\lcms2_cmsintrp.c" />
+    <ClCompile Include="lcsm2\lcms2_cmsio0.c" />
+    <ClCompile Include="lcsm2\lcms2_cmsio1.c" />
+    <ClCompile Include="lcsm2\lcms2_cmslut.c" />
+    <ClCompile Include="lcsm2\lcms2_cmsmd5.c" />
+    <ClCompile Include="lcsm2\lcms2_cmsmtrx.c" />
+    <ClCompile Include="lcsm2\lcms2_cmsnamed.c" />
+    <ClCompile Include="lcsm2\lcms2_cmsopt.c" />
+    <ClCompile Include="lcsm2\lcms2_cmspack.c" />
+    <ClCompile Include="lcsm2\lcms2_cmspcs.c" />
+    <ClCompile Include="lcsm2\lcms2_cmsplugin.c" />
+    <ClCompile Include="lcsm2\lcms2_cmsps2.c" />
+    <ClCompile Include="lcsm2\lcms2_cmssamp.c" />
+    <ClCompile Include="lcsm2\lcms2_cmssm.c" />
+    <ClCompile Include="lcsm2\lcms2_cmstypes.c" />
+    <ClCompile Include="lcsm2\lcms2_cmsvirt.c" />
+    <ClCompile Include="lcsm2\lcms2_cmswtpnt.c" />
+    <ClCompile Include="lcsm2\lcms2_cmsxform.c" />
+    <ClCompile Include="libde265\de265-alloc_pool.cc" />
+    <ClCompile Include="libde265\de265-bitstream.cc" />
+    <ClCompile Include="libde265\de265-cabac.cc" />
+    <ClCompile Include="libde265\de265-configparam.cc" />
+    <ClCompile Include="libde265\de265-contextmodel.cc" />
+    <ClCompile Include="libde265\de265-deblock.cc" />
+    <ClCompile Include="libde265\de265-decctx.cc" />
+    <ClCompile Include="libde265\de265-dpb.cc" />
+    <ClCompile Include="libde265\de265-fallback-dct.cc" />
+    <ClCompile Include="libde265\de265-fallback-motion.cc" />
+    <ClCompile Include="libde265\de265-fallback.cc" />
+    <ClCompile Include="libde265\de265-image-io.cc" />
+    <ClCompile Include="libde265\de265-image.cc" />
+    <ClCompile Include="libde265\de265-intrapred.cc" />
+    <ClCompile Include="libde265\de265-md5.cc" />
+    <ClCompile Include="libde265\de265-motion.cc" />
+    <ClCompile Include="libde265\de265-nal-parser.cc" />
+    <ClCompile Include="libde265\de265-nal.cc" />
+    <ClCompile Include="libde265\de265-pps.cc" />
+    <ClCompile Include="libde265\de265-quality.cc" />
+    <ClCompile Include="libde265\de265-refpic.cc" />
+    <ClCompile Include="libde265\de265-sao.cc" />
+    <ClCompile Include="libde265\de265-scan.cc" />
+    <ClCompile Include="libde265\de265-sei.cc" />
+    <ClCompile Include="libde265\de265-slice.cc" />
+    <ClCompile Include="libde265\de265-sps.cc" />
+    <ClCompile Include="libde265\de265-threads.cc" />
+    <ClCompile Include="libde265\de265-transform.cc" />
+    <ClCompile Include="libde265\de265-util.cc" />
+    <ClCompile Include="libde265\de265-visualize.cc" />
+    <ClCompile Include="libde265\de265-vps.cc" />
+    <ClCompile Include="libde265\de265-vui.cc" />
+    <ClCompile Include="libde265\de265-win32cond.c" />
+    <ClCompile Include="libde265\de265.cc" />
+    <ClCompile Include="libheif\heif_colorconversion.cc" />
+    <ClCompile Include="libheif\heif_context.cc" />
+    <ClCompile Include="libheif\heif_decoder_aom.cc" />
+    <ClCompile Include="libheif\heif_decoder_libde265.cc" />
+    <ClCompile Include="libheif\heif_file.cc" />
+    <ClCompile Include="libheif\heif_hevc.cc" />
+    <ClCompile Include="libheif\heif_image.cc" />
+    <ClCompile Include="libheif\heif_init.cc" />
+    <ClCompile Include="libheif\heif_plugin_registry.cc" />
+    <ClCompile Include="libheif\heif_bitstream.cc" />
+    <ClCompile Include="libheif\heif_box.cc" />
+    <ClCompile Include="libheif\heif_common_utils.cc" />
+    <ClCompile Include="libheif\heif_error.cc" />
+    <ClCompile Include="libheif\heif_exif.cc" />
+    <ClCompile Include="libheif\heif.cc" />
+    <ClCompile Include="libheif\heif_avif.cc" />
+    <ClCompile Include="libheif\heif_metadata_compression.cc" />
+    <ClCompile Include="libheif\heif_nclx.cc" />
+    <ClCompile Include="libjpeg\jaricom.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jcapimin.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jcapistd.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jcarith.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jccoefct.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jccolor.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jcdctmgr.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jchuff.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jcicc.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jcinit.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jcmainct.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jcmarker.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jcmaster.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jcomapi.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jcparam.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jcphuff.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jcprepct.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jcsample.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jctrans.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jdapimin.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jdapistd.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jdarith.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jdatadst.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jdatasrc.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jdcoefct.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jdcolor.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jddctmgr.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jdhuff.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jdicc.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jdinput.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jdmainct.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jdmarker.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jdmaster.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jdmerge.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jdphuff.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jdpostct.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jdsample.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jdtrans.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jerror.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jfdctflt.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jfdctfst.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jfdctint.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jidctflt.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jidctfst.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jidctint.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jidctred.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jmemmgr.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jmemnobs.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jquant1.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jquant2.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jutils.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="libjpeg\rdcolmap.c" />
+    <ClCompile Include="libjpeg\rdswitch.c" />
+    <ClCompile Include="libjpeg\simd\arm\aarch32\jchuff-neon.aarch32.c" />
+    <ClCompile Include="libjpeg\simd\arm\aarch32\jsimd.aarch32.c" />
+    <ClCompile Include="libjpeg\simd\arm\aarch64\jchuff-neon.aarch64.c" />
+    <ClCompile Include="libjpeg\simd\arm\aarch64\jsimd.aarch64.c" />
+    <ClCompile Include="libjpeg\simd\arm\jccolor-neon.c" />
+    <ClCompile Include="libjpeg\simd\arm\jcgray-neon.c" />
+    <ClCompile Include="libjpeg\simd\arm\jcphuff-neon.c" />
+    <ClCompile Include="libjpeg\simd\arm\jcsample-neon.c" />
+    <ClCompile Include="libjpeg\simd\arm\jdcolor-neon.c" />
+    <ClCompile Include="libjpeg\simd\arm\jdmerge-neon.c" />
+    <ClCompile Include="libjpeg\simd\arm\jdsample-neon.c" />
+    <ClCompile Include="libjpeg\simd\arm\jfdctfst-neon.c" />
+    <ClCompile Include="libjpeg\simd\arm\jfdctint-neon.c" />
+    <ClCompile Include="libjpeg\simd\arm\jidctfst-neon.c" />
+    <ClCompile Include="libjpeg\simd\arm\jidctint-neon.c" />
+    <ClCompile Include="libjpeg\simd\arm\jidctred-neon.c" />
+    <ClCompile Include="libjpeg\simd\arm\jquanti-neon.c" />
+    <ClCompile Include="libjpeg\simd\i386\jsimd_i386.c" />
+    <ClCompile Include="libjpeg\simd\x86_64\jsimd_x86_64.c" />
+    <ClCompile Include="libjpeg\transupp.c" />
+    <ClCompile Include="LibJXR\adapthuff.c" />
+    <ClCompile Include="LibJXR\JXRdecode.c" />
+    <ClCompile Include="LibJXR\JXRencode.c" />
+    <ClCompile Include="LibJXR\JXRimage.c" />
+    <ClCompile Include="LibJXR\JXRGlue.c" />
+    <ClCompile Include="LibJXR\JXRGlueJxr.c" />
+    <ClCompile Include="LibJXR\JXRGluePFC.c" />
+    <ClCompile Include="LibJXR\JXRMeta.c" />
+    <ClCompile Include="LibJXR\JXRTranscode.c" />
+    <ClCompile Include="LibJXR\perfTimerANSI.c" />
+    <ClCompile Include="LibJXR\postprocess.c" />
+    <ClCompile Include="LibJXR\segdec.c" />
+    <ClCompile Include="LibJXR\segenc.c" />
+    <ClCompile Include="LibJXR\strcodec.c" />
+    <ClCompile Include="LibJXR\strdec.c" />
+    <ClCompile Include="LibJXR\strdec_x86.c" />
+    <ClCompile Include="LibJXR\strenc.c" />
+    <ClCompile Include="LibJXR\strenc_x86.c" />
+    <ClCompile Include="LibJXR\strFwdTransform.c" />
+    <ClCompile Include="LibJXR\strInvTransform.c" />
+    <ClCompile Include="LibJXR\strPredQuant.c" />
+    <ClCompile Include="LibJXR\strPredQuantDec.c" />
+    <ClCompile Include="LibJXR\strPredQuantEnc.c" />
+    <ClCompile Include="LibJXR\strTransform.c" />
+    <ClCompile Include="LibOpenJPEG\bio.c" />
+    <ClCompile Include="LibOpenJPEG\cidx_manager.c" />
+    <ClCompile Include="LibOpenJPEG\cio.c" />
+    <ClCompile Include="LibOpenJPEG\dwt.c" />
+    <ClCompile Include="LibOpenJPEG\event.c" />
+    <ClCompile Include="LibOpenJPEG\function_list.c" />
+    <ClCompile Include="LibOpenJPEG\image.c" />
+    <ClCompile Include="LibOpenJPEG\invert.c" />
+    <ClCompile Include="LibOpenJPEG\j2k.c" />
+    <ClCompile Include="LibOpenJPEG\jp2.c" />
+    <ClCompile Include="LibOpenJPEG\mct.c" />
+    <ClCompile Include="LibOpenJPEG\mqc.c" />
+    <ClCompile Include="LibOpenJPEG\openjpeg.c" />
+    <ClCompile Include="LibOpenJPEG\opj_clock.c" />
+    <ClCompile Include="LibOpenJPEG\phix_manager.c" />
+    <ClCompile Include="LibOpenJPEG\pi.c" />
+    <ClCompile Include="LibOpenJPEG\ppix_manager.c" />
+    <ClCompile Include="LibOpenJPEG\raw.c" />
+    <ClCompile Include="LibOpenJPEG\t1.c" />
+    <ClCompile Include="LibOpenJPEG\t2.c" />
+    <ClCompile Include="LibOpenJPEG\tcd.c" />
+    <ClCompile Include="LibOpenJPEG\tgt.c" />
+    <ClCompile Include="LibOpenJPEG\thix_manager.c" />
+    <ClCompile Include="LibOpenJPEG\tpix_manager.c" />
+    <ClCompile Include="libpng\libpng.c" />
+    <ClCompile Include="LibRawLite\dcraw_common.cpp" />
+    <ClCompile Include="LibRawLite\dcraw_fileio.cpp" />
+    <ClCompile Include="LibRawLite\demosaic_packs.cpp" />
+    <ClCompile Include="LibRawLite\libraw_cxx.cpp" />
+    <ClCompile Include="LibRawLite\libraw_c_api.cpp" />
+    <ClCompile Include="LibRawLite\libraw_datastream.cpp" />
+    <ClCompile Include="LibTIFF4\tif_aux.c" />
+    <ClCompile Include="LibTIFF4\tif_close.c" />
+    <ClCompile Include="LibTIFF4\tif_codec.c" />
+    <ClCompile Include="LibTIFF4\tif_color.c" />
+    <ClCompile Include="LibTIFF4\tif_compress.c" />
+    <ClCompile Include="LibTIFF4\tif_dir.c" />
+    <ClCompile Include="LibTIFF4\tif_dirinfo.c" />
+    <ClCompile Include="LibTIFF4\tif_dirread.c" />
+    <ClCompile Include="LibTIFF4\tif_dirwrite.c" />
+    <ClCompile Include="LibTIFF4\tif_dumpmode.c" />
+    <ClCompile Include="LibTIFF4\tif_error.c" />
+    <ClCompile Include="LibTIFF4\tif_extension.c" />
+    <ClCompile Include="LibTIFF4\tif_fax3.c" />
+    <ClCompile Include="LibTIFF4\tif_fax3sm.c" />
+    <ClCompile Include="LibTIFF4\tif_flush.c" />
+    <ClCompile Include="LibTIFF4\tif_getimage.c" />
+    <ClCompile Include="LibTIFF4\tif_jbig.c" />
+    <ClCompile Include="LibTIFF4\tif_jpeg.c" />
+    <ClCompile Include="LibTIFF4\tif_jpeg_12.c" />
+    <ClCompile Include="LibTIFF4\tif_luv.c" />
+    <ClCompile Include="LibTIFF4\tif_lzma.c" />
+    <ClCompile Include="LibTIFF4\tif_lzw.c" />
+    <ClCompile Include="LibTIFF4\tif_next.c" />
+    <ClCompile Include="LibTIFF4\tif_ojpeg.c" />
+    <ClCompile Include="LibTIFF4\tif_open.c" />
+    <ClCompile Include="LibTIFF4\tif_packbits.c" />
+    <ClCompile Include="LibTIFF4\tif_pixarlog.c" />
+    <ClCompile Include="LibTIFF4\tif_predict.c" />
+    <ClCompile Include="LibTIFF4\tif_print.c" />
+    <ClCompile Include="LibTIFF4\tif_read.c" />
+    <ClCompile Include="LibTIFF4\tif_stream.cxx" />
+    <ClCompile Include="LibTIFF4\tif_strip.c" />
+    <ClCompile Include="LibTIFF4\tif_swab.c" />
+    <ClCompile Include="LibTIFF4\tif_thunder.c" />
+    <ClCompile Include="LibTIFF4\tif_tile.c" />
+    <ClCompile Include="LibTIFF4\tif_version.c" />
+    <ClCompile Include="LibTIFF4\tif_warning.c" />
+    <ClCompile Include="LibTIFF4\tif_write.c" />
+    <ClCompile Include="LibTIFF4\tif_zip.c" />
+    <ClCompile Include="LibTIFF4\tif_zstd.c" />
+    <ClCompile Include="libwebp\alpha_dec.c" />
+    <ClCompile Include="libwebp\alpha_enc.c" />
+    <ClCompile Include="libwebp\alpha_processing.c" />
+    <ClCompile Include="libwebp\alpha_processing_mips_dsp_r2.c" />
+    <ClCompile Include="libwebp\alpha_processing_neon.c" />
+    <ClCompile Include="libwebp\alpha_processing_sse2.c" />
+    <ClCompile Include="libwebp\alpha_processing_sse41.c" />
+    <ClCompile Include="libwebp\analysis_enc.c" />
+    <ClCompile Include="libwebp\anim_decode.c" />
+    <ClCompile Include="libwebp\anim_encode.c" />
+    <ClCompile Include="libwebp\backward_references_cost_enc.c" />
+    <ClCompile Include="libwebp\backward_references_enc.c" />
+    <ClCompile Include="libwebp\bit_reader_utils.c" />
+    <ClCompile Include="libwebp\bit_writer_utils.c" />
+    <ClCompile Include="libwebp\buffer_dec.c" />
+    <ClCompile Include="libwebp\color_cache_utils.c" />
+    <ClCompile Include="libwebp\config_enc.c" />
+    <ClCompile Include="libwebp\cost.c" />
+    <ClCompile Include="libwebp\cost_enc.c" />
+    <ClCompile Include="libwebp\cost_mips32.c" />
+    <ClCompile Include="libwebp\cost_mips_dsp_r2.c" />
+    <ClCompile Include="libwebp\cost_neon.c" />
+    <ClCompile Include="libwebp\cost_sse2.c" />
+    <ClCompile Include="libwebp\cpu.c" />
+    <ClCompile Include="libwebp\dec.c" />
+    <ClCompile Include="libwebp\dec_clip_tables.c" />
+    <ClCompile Include="libwebp\dec_mips32.c" />
+    <ClCompile Include="libwebp\dec_mips_dsp_r2.c" />
+    <ClCompile Include="libwebp\dec_msa.c" />
+    <ClCompile Include="libwebp\dec_neon.c" />
+    <ClCompile Include="libwebp\dec_sse2.c" />
+    <ClCompile Include="libwebp\dec_sse41.c" />
+    <ClCompile Include="libwebp\demux.c" />
+    <ClCompile Include="libwebp\enc.c" />
+    <ClCompile Include="libwebp\enc_mips32.c" />
+    <ClCompile Include="libwebp\enc_mips_dsp_r2.c" />
+    <ClCompile Include="libwebp\enc_msa.c" />
+    <ClCompile Include="libwebp\enc_neon.c" />
+    <ClCompile Include="libwebp\enc_sse2.c" />
+    <ClCompile Include="libwebp\enc_sse41.c" />
+    <ClCompile Include="libwebp\filters.c" />
+    <ClCompile Include="libwebp\filters_mips_dsp_r2.c" />
+    <ClCompile Include="libwebp\filters_msa.c" />
+    <ClCompile Include="libwebp\filters_neon.c" />
+    <ClCompile Include="libwebp\filters_sse2.c" />
+    <ClCompile Include="libwebp\filters_utils.c" />
+    <ClCompile Include="libwebp\filter_enc.c" />
+    <ClCompile Include="libwebp\frame_dec.c" />
+    <ClCompile Include="libwebp\frame_enc.c" />
+    <ClCompile Include="libwebp\histogram_enc.c" />
+    <ClCompile Include="libwebp\huffman_encode_utils.c" />
+    <ClCompile Include="libwebp\huffman_utils.c" />
+    <ClCompile Include="libwebp\idec_dec.c" />
+    <ClCompile Include="libwebp\io_dec.c" />
+    <ClCompile Include="libwebp\iterator_enc.c" />
+    <ClCompile Include="libwebp\lossless.c" />
+    <ClCompile Include="libwebp\lossless_enc.c" />
+    <ClCompile Include="libwebp\lossless_enc_mips32.c" />
+    <ClCompile Include="libwebp\lossless_enc_mips_dsp_r2.c" />
+    <ClCompile Include="libwebp\lossless_enc_msa.c" />
+    <ClCompile Include="libwebp\lossless_enc_neon.c" />
+    <ClCompile Include="libwebp\lossless_enc_sse2.c" />
+    <ClCompile Include="libwebp\lossless_enc_sse41.c" />
+    <ClCompile Include="libwebp\lossless_mips_dsp_r2.c" />
+    <ClCompile Include="libwebp\lossless_msa.c" />
+    <ClCompile Include="libwebp\lossless_neon.c" />
+    <ClCompile Include="libwebp\lossless_sse2.c" />
+    <ClCompile Include="libwebp\lossless_sse41.c" />
+    <ClCompile Include="libwebp\muxedit.c" />
+    <ClCompile Include="libwebp\muxinternal.c" />
+    <ClCompile Include="libwebp\muxread.c" />
+    <ClCompile Include="libwebp\near_lossless_enc.c" />
+    <ClCompile Include="libwebp\picture_csp_enc.c" />
+    <ClCompile Include="libwebp\picture_enc.c" />
+    <ClCompile Include="libwebp\picture_psnr_enc.c" />
+    <ClCompile Include="libwebp\picture_rescale_enc.c" />
+    <ClCompile Include="libwebp\picture_tools_enc.c" />
+    <ClCompile Include="libwebp\predictor_enc.c" />
+    <ClCompile Include="libwebp\quant_dec.c" />
+    <ClCompile Include="libwebp\quant_enc.c" />
+    <ClCompile Include="libwebp\quant_levels_dec_utils.c" />
+    <ClCompile Include="libwebp\quant_levels_utils.c" />
+    <ClCompile Include="libwebp\random_utils.c" />
+    <ClCompile Include="libwebp\rescaler.c" />
+    <ClCompile Include="libwebp\rescaler_mips32.c" />
+    <ClCompile Include="libwebp\rescaler_mips_dsp_r2.c" />
+    <ClCompile Include="libwebp\rescaler_msa.c" />
+    <ClCompile Include="libwebp\rescaler_neon.c" />
+    <ClCompile Include="libwebp\rescaler_sse2.c" />
+    <ClCompile Include="libwebp\rescaler_utils.c" />
+    <ClCompile Include="libwebp\ssim.c" />
+    <ClCompile Include="libwebp\ssim_sse2.c" />
+    <ClCompile Include="libwebp\syntax_enc.c" />
+    <ClCompile Include="libwebp\thread_utils.c" />
+    <ClCompile Include="libwebp\token_enc.c" />
+    <ClCompile Include="libwebp\tree_dec.c" />
+    <ClCompile Include="libwebp\tree_enc.c" />
+    <ClCompile Include="libwebp\upsampling.c" />
+    <ClCompile Include="libwebp\upsampling_mips_dsp_r2.c" />
+    <ClCompile Include="libwebp\upsampling_msa.c" />
+    <ClCompile Include="libwebp\upsampling_neon.c" />
+    <ClCompile Include="libwebp\upsampling_sse2.c" />
+    <ClCompile Include="libwebp\upsampling_sse41.c" />
+    <ClCompile Include="libwebp\utils.c" />
+    <ClCompile Include="libwebp\vp8l_dec.c" />
+    <ClCompile Include="libwebp\vp8l_enc.c" />
+    <ClCompile Include="libwebp\vp8_dec.c" />
+    <ClCompile Include="libwebp\webp_dec.c" />
+    <ClCompile Include="libwebp\webp_enc.c" />
+    <ClCompile Include="libwebp\yuv.c" />
+    <ClCompile Include="libwebp\yuv_mips32.c" />
+    <ClCompile Include="libwebp\yuv_mips_dsp_r2.c" />
+    <ClCompile Include="libwebp\yuv_neon.c" />
+    <ClCompile Include="libwebp\yuv_sse2.c" />
+    <ClCompile Include="libwebp\yuv_sse41.c" />
+    <ClCompile Include="libyuv\compare.cc" />
+    <ClCompile Include="libyuv\compare_common.cc" />
+    <ClCompile Include="libyuv\compare_gcc.cc" />
+    <ClCompile Include="libyuv\compare_neon.cc" />
+    <ClCompile Include="libyuv\compare_neon64.cc" />
+    <ClCompile Include="libyuv\compare_win.cc" />
+    <ClCompile Include="libyuv\convert.cc" />
+    <ClCompile Include="libyuv\convert_argb.cc" />
+    <ClCompile Include="libyuv\convert_from.cc" />
+    <ClCompile Include="libyuv\convert_from_argb.cc" />
+    <ClCompile Include="libyuv\convert_to_argb.cc" />
+    <ClCompile Include="libyuv\convert_to_i420.cc" />
+    <ClCompile Include="libyuv\cpu_id.cc" />
+    <ClCompile Include="libyuv\planar_functions.cc" />
+    <ClCompile Include="libyuv\rotate.cc" />
+    <ClCompile Include="libyuv\rotate_argb.cc" />
+    <ClCompile Include="libyuv\rotate_neon.cc" />
+    <ClCompile Include="libyuv\rotate_neon64.cc" />
+    <ClCompile Include="libyuv\row_any.cc" />
+    <ClCompile Include="libyuv\row_common.cc" />
+    <ClCompile Include="libyuv\row_gcc.cc" />
+    <ClCompile Include="libyuv\row_neon.cc" />
+    <ClCompile Include="libyuv\row_neon64.cc" />
+    <ClCompile Include="libyuv\row_win.cc" />
+    <ClCompile Include="libyuv\scale.cc" />
+    <ClCompile Include="libyuv\scale_any.cc" />
+    <ClCompile Include="libyuv\scale_argb.cc" />
+    <ClCompile Include="libyuv\scale_common.cc" />
+    <ClCompile Include="libyuv\scale_gcc.cc" />
+    <ClCompile Include="libyuv\scale_neon.cc" />
+    <ClCompile Include="libyuv\scale_neon64.cc" />
+    <ClCompile Include="libyuv\scale_win.cc" />
+    <ClCompile Include="libyuv\video_common.cc" />
+    <ClCompile Include="mozjpeg\moz_jaricom.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="mozjpeg\moz_jcapimin.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="mozjpeg\moz_jcapistd.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="mozjpeg\moz_jcarith.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="mozjpeg\moz_jccoefct.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="mozjpeg\moz_jccolor.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="mozjpeg\moz_jcdctmgr.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="mozjpeg\moz_jcext.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="mozjpeg\moz_jchuff.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="mozjpeg\moz_jcicc.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="mozjpeg\moz_jcinit.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="mozjpeg\moz_jcmainct.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="mozjpeg\moz_jcmarker.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="mozjpeg\moz_jcmaster.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="mozjpeg\moz_jcomapi.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="mozjpeg\moz_jcparam.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="mozjpeg\moz_jcphuff.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="mozjpeg\moz_jcprepct.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="mozjpeg\moz_jcsample.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="mozjpeg\moz_jctrans.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="mozjpeg\moz_jdapimin.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="mozjpeg\moz_jdapistd.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="mozjpeg\moz_jdarith.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="mozjpeg\moz_jdatadst.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="mozjpeg\moz_jdatasrc.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="mozjpeg\moz_jdcoefct.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="mozjpeg\moz_jdcolor.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="mozjpeg\moz_jddctmgr.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="mozjpeg\moz_jdhuff.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="mozjpeg\moz_jdicc.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="mozjpeg\moz_jdinput.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="mozjpeg\moz_jdmainct.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="mozjpeg\moz_jdmarker.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="mozjpeg\moz_jdmaster.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="mozjpeg\moz_jdmerge.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="mozjpeg\moz_jdphuff.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="mozjpeg\moz_jdpostct.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="mozjpeg\moz_jdsample.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="mozjpeg\moz_jdtrans.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="mozjpeg\moz_jerror.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="mozjpeg\moz_jfdctflt.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="mozjpeg\moz_jfdctfst.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="mozjpeg\moz_jfdctint.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="mozjpeg\moz_jidctflt.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="mozjpeg\moz_jidctfst.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="mozjpeg\moz_jidctint.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="mozjpeg\moz_jidctred.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="mozjpeg\moz_jmemmgr.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="mozjpeg\moz_jmemnobs.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="mozjpeg\moz_jquant1.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="mozjpeg\moz_jquant2.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="mozjpeg\moz_jutils.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="OpenEXR\half.cpp" />
+    <ClCompile Include="OpenEXR\IexBaseExc.cpp" />
+    <ClCompile Include="OpenEXR\IexMathFloatExc.cpp" />
+    <ClCompile Include="OpenEXR\IexMathFpu.cpp" />
+    <ClCompile Include="OpenEXR\IexThrowErrnoExc.cpp" />
+    <ClCompile Include="OpenEXR\IlmThreadMutexPosix.cpp" />
+    <ClCompile Include="OpenEXR\IlmThreadMutexWin32.cpp" />
+    <ClCompile Include="OpenEXR\IlmThreadPool.cpp" />
+    <ClCompile Include="OpenEXR\IlmThreadPosix.cpp" />
+    <ClCompile Include="OpenEXR\IlmThreadSemaphorePosix.cpp" />
+    <ClCompile Include="OpenEXR\IlmThreadSemaphorePosixCompat.cpp" />
+    <ClCompile Include="OpenEXR\IlmThreadSemaphoreWin32.cpp" />
+    <ClCompile Include="OpenEXR\IlmThreadWin32.cpp" />
+    <ClCompile Include="OpenEXR\ImathBox.cpp" />
+    <ClCompile Include="OpenEXR\ImathColorAlgo.cpp" />
+    <ClCompile Include="OpenEXR\ImathFun.cpp" />
+    <ClCompile Include="OpenEXR\ImathMatrixAlgo.cpp" />
+    <ClCompile Include="OpenEXR\ImathRandom.cpp" />
+    <ClCompile Include="OpenEXR\ImathShear.cpp" />
+    <ClCompile Include="OpenEXR\ImathVec.cpp" />
+    <ClCompile Include="OpenEXR\ImfAcesFile.cpp" />
+    <ClCompile Include="OpenEXR\ImfAttribute.cpp" />
+    <ClCompile Include="OpenEXR\ImfB44Compressor.cpp" />
+    <ClCompile Include="OpenEXR\ImfBoxAttribute.cpp" />
+    <ClCompile Include="OpenEXR\ImfChannelList.cpp" />
+    <ClCompile Include="OpenEXR\ImfChannelListAttribute.cpp" />
+    <ClCompile Include="OpenEXR\ImfChromaticities.cpp" />
+    <ClCompile Include="OpenEXR\ImfChromaticitiesAttribute.cpp" />
+    <ClCompile Include="OpenEXR\ImfCompositeDeepScanLine.cpp" />
+    <ClCompile Include="OpenEXR\ImfCompressionAttribute.cpp" />
+    <ClCompile Include="OpenEXR\ImfCompressor.cpp" />
+    <ClCompile Include="OpenEXR\ImfConvert.cpp" />
+    <ClCompile Include="OpenEXR\ImfCRgbaFile.cpp" />
+    <ClCompile Include="OpenEXR\ImfDeepCompositing.cpp" />
+    <ClCompile Include="OpenEXR\ImfDeepFrameBuffer.cpp" />
+    <ClCompile Include="OpenEXR\ImfDeepImageStateAttribute.cpp" />
+    <ClCompile Include="OpenEXR\ImfDeepScanLineInputFile.cpp" />
+    <ClCompile Include="OpenEXR\ImfDeepScanLineInputPart.cpp" />
+    <ClCompile Include="OpenEXR\ImfDeepScanLineOutputFile.cpp" />
+    <ClCompile Include="OpenEXR\ImfDeepScanLineOutputPart.cpp" />
+    <ClCompile Include="OpenEXR\ImfDeepTiledInputFile.cpp" />
+    <ClCompile Include="OpenEXR\ImfDeepTiledInputPart.cpp" />
+    <ClCompile Include="OpenEXR\ImfDeepTiledOutputFile.cpp" />
+    <ClCompile Include="OpenEXR\ImfDeepTiledOutputPart.cpp" />
+    <ClCompile Include="OpenEXR\ImfDoubleAttribute.cpp" />
+    <ClCompile Include="OpenEXR\ImfDwaCompressor.cpp" />
+    <ClCompile Include="OpenEXR\ImfEnvmap.cpp" />
+    <ClCompile Include="OpenEXR\ImfEnvmapAttribute.cpp" />
+    <ClCompile Include="OpenEXR\ImfFastHuf.cpp" />
+    <ClCompile Include="OpenEXR\ImfFloatAttribute.cpp" />
+    <ClCompile Include="OpenEXR\ImfFloatVectorAttribute.cpp" />
+    <ClCompile Include="OpenEXR\ImfFrameBuffer.cpp" />
+    <ClCompile Include="OpenEXR\ImfFramesPerSecond.cpp" />
+    <ClCompile Include="OpenEXR\ImfGenericInputFile.cpp" />
+    <ClCompile Include="OpenEXR\ImfGenericOutputFile.cpp" />
+    <ClCompile Include="OpenEXR\ImfHeader.cpp" />
+    <ClCompile Include="OpenEXR\ImfHuf.cpp" />
+    <ClCompile Include="OpenEXR\ImfInputFile.cpp" />
+    <ClCompile Include="OpenEXR\ImfInputPart.cpp" />
+    <ClCompile Include="OpenEXR\ImfInputPartData.cpp" />
+    <ClCompile Include="OpenEXR\ImfIntAttribute.cpp" />
+    <ClCompile Include="OpenEXR\ImfIO.cpp" />
+    <ClCompile Include="OpenEXR\ImfKeyCode.cpp" />
+    <ClCompile Include="OpenEXR\ImfKeyCodeAttribute.cpp" />
+    <ClCompile Include="OpenEXR\ImfLineOrderAttribute.cpp" />
+    <ClCompile Include="OpenEXR\ImfLut.cpp" />
+    <ClCompile Include="OpenEXR\ImfMatrixAttribute.cpp" />
+    <ClCompile Include="OpenEXR\ImfMisc.cpp" />
+    <ClCompile Include="OpenEXR\ImfMultiPartInputFile.cpp" />
+    <ClCompile Include="OpenEXR\ImfMultiPartOutputFile.cpp" />
+    <ClCompile Include="OpenEXR\ImfMultiView.cpp" />
+    <ClCompile Include="OpenEXR\ImfOpaqueAttribute.cpp" />
+    <ClCompile Include="OpenEXR\ImfOutputFile.cpp" />
+    <ClCompile Include="OpenEXR\ImfOutputPart.cpp" />
+    <ClCompile Include="OpenEXR\ImfOutputPartData.cpp" />
+    <ClCompile Include="OpenEXR\ImfPartType.cpp" />
+    <ClCompile Include="OpenEXR\ImfPizCompressor.cpp" />
+    <ClCompile Include="OpenEXR\ImfPreviewImage.cpp" />
+    <ClCompile Include="OpenEXR\ImfPreviewImageAttribute.cpp" />
+    <ClCompile Include="OpenEXR\ImfPxr24Compressor.cpp" />
+    <ClCompile Include="OpenEXR\ImfRational.cpp" />
+    <ClCompile Include="OpenEXR\ImfRationalAttribute.cpp" />
+    <ClCompile Include="OpenEXR\ImfRgbaFile.cpp" />
+    <ClCompile Include="OpenEXR\ImfRgbaYca.cpp" />
+    <ClCompile Include="OpenEXR\ImfRle.cpp" />
+    <ClCompile Include="OpenEXR\ImfRleCompressor.cpp" />
+    <ClCompile Include="OpenEXR\ImfScanLineInputFile.cpp" />
+    <ClCompile Include="OpenEXR\ImfStandardAttributes.cpp" />
+    <ClCompile Include="OpenEXR\ImfStdIO.cpp" />
+    <ClCompile Include="OpenEXR\ImfStringAttribute.cpp" />
+    <ClCompile Include="OpenEXR\ImfStringVectorAttribute.cpp" />
+    <ClCompile Include="OpenEXR\ImfSystemSpecific.cpp" />
+    <ClCompile Include="OpenEXR\ImfTestFile.cpp" />
+    <ClCompile Include="OpenEXR\ImfThreading.cpp" />
+    <ClCompile Include="OpenEXR\ImfTileDescriptionAttribute.cpp" />
+    <ClCompile Include="OpenEXR\ImfTiledInputFile.cpp" />
+    <ClCompile Include="OpenEXR\ImfTiledInputPart.cpp" />
+    <ClCompile Include="OpenEXR\ImfTiledMisc.cpp" />
+    <ClCompile Include="OpenEXR\ImfTiledOutputFile.cpp" />
+    <ClCompile Include="OpenEXR\ImfTiledOutputPart.cpp" />
+    <ClCompile Include="OpenEXR\ImfTiledRgbaFile.cpp" />
+    <ClCompile Include="OpenEXR\ImfTileOffsets.cpp" />
+    <ClCompile Include="OpenEXR\ImfTimeCode.cpp" />
+    <ClCompile Include="OpenEXR\ImfTimeCodeAttribute.cpp" />
+    <ClCompile Include="OpenEXR\ImfVecAttribute.cpp" />
+    <ClCompile Include="OpenEXR\ImfVersion.cpp" />
+    <ClCompile Include="OpenEXR\ImfWav.cpp" />
+    <ClCompile Include="OpenEXR\ImfZip.cpp" />
+    <ClCompile Include="OpenEXR\ImfZipCompressor.cpp" />
+    <ClCompile Include="pngquant\libimagequant.c" />
+    <ClCompile Include="CompressSize.cpp" />
+    <ClCompile Include="test.cpp" />
+    <ClCompile Include="WXJPG.cpp" />
+    <ClCompile Include="WXPNG.cpp" />
+    <ClCompile Include="zlib\zlib.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="aom\av1_reconinter_template.inc" />
+    <None Include="jni\Android.mk" />
+    <None Include="jni\Application.mk" />
+    <None Include="libjpeg\simd\i386\jccolext-avx2.inc" />
+    <None Include="libjpeg\simd\i386\jccolext-mmx.inc" />
+    <None Include="libjpeg\simd\i386\jccolext-sse2.inc" />
+    <None Include="libjpeg\simd\i386\jcgryext-avx2.inc" />
+    <None Include="libjpeg\simd\i386\jcgryext-mmx.inc" />
+    <None Include="libjpeg\simd\i386\jcgryext-sse2.inc" />
+    <None Include="libjpeg\simd\i386\jdcolext-avx2.inc" />
+    <None Include="libjpeg\simd\i386\jdcolext-mmx.inc" />
+    <None Include="libjpeg\simd\i386\jdcolext-sse2.inc" />
+    <None Include="libjpeg\simd\i386\jdmrgext-avx2.inc" />
+    <None Include="libjpeg\simd\i386\jdmrgext-mmx.inc" />
+    <None Include="libjpeg\simd\i386\jdmrgext-sse2.inc" />
+    <None Include="libjpeg\simd\nasm\jcolsamp.inc" />
+    <None Include="libjpeg\simd\nasm\jdct.inc" />
+    <None Include="libjpeg\simd\nasm\jsimdcfg.inc" />
+    <None Include="libjpeg\simd\nasm\jsimdext.inc" />
+    <None Include="libjpeg\simd\x86_64\jccolext-avx2.inc" />
+    <None Include="libjpeg\simd\x86_64\jccolext-sse2.inc" />
+    <None Include="libjpeg\simd\x86_64\jcgryext-avx2.inc" />
+    <None Include="libjpeg\simd\x86_64\jcgryext-sse2.inc" />
+    <None Include="libjpeg\simd\x86_64\jdcolext-avx2.inc" />
+    <None Include="libjpeg\simd\x86_64\jdcolext-sse2.inc" />
+    <None Include="libjpeg\simd\x86_64\jdmrgext-avx2.inc" />
+    <None Include="libjpeg\simd\x86_64\jdmrgext-sse2.inc" />
+    <None Include="Makefile-arm64" />
+    <None Include="Makefile-intel" />
+    <None Include="test_avif.py" />
+    <None Include="test_heic.py" />
+    <None Include="test_icc_cmyk.py" />
+    <None Include="test_icc_jpg.py" />
+    <None Include="test_quality.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <NASM Include="libjpeg\simd\i386\jccolor-avx2.asm">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <FileType>Document</FileType>
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">./;./libjpeg/simd/nasm/;./libjpeg/simd/i386/</IncludePaths>
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">./;./libjpeg/simd/nasm/;./libjpeg/simd/i386/</IncludePaths>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">WIN32</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">WIN32</PreprocessorDefinitions>
+    </NASM>
+    <NASM Include="libjpeg\simd\i386\jccolor-mmx.asm">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <FileType>Document</FileType>
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">./;./libjpeg/simd/nasm/;./libjpeg/simd/i386/</IncludePaths>
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">./;./libjpeg/simd/nasm/;./libjpeg/simd/i386/</IncludePaths>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">WIN32</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">WIN32</PreprocessorDefinitions>
+    </NASM>
+    <NASM Include="libjpeg\simd\i386\jccolor-sse2.asm">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <FileType>Document</FileType>
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">./;./libjpeg/simd/nasm/;./libjpeg/simd/i386/</IncludePaths>
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">./;./libjpeg/simd/nasm/;./libjpeg/simd/i386/</IncludePaths>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">WIN32</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">WIN32</PreprocessorDefinitions>
+    </NASM>
+    <NASM Include="libjpeg\simd\i386\jcgray-avx2.asm">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <FileType>Document</FileType>
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">./;./libjpeg/simd/nasm/;./libjpeg/simd/i386/</IncludePaths>
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">./;./libjpeg/simd/nasm/;./libjpeg/simd/i386/</IncludePaths>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">WIN32</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">WIN32</PreprocessorDefinitions>
+    </NASM>
+    <NASM Include="libjpeg\simd\i386\jcgray-mmx.asm">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <FileType>Document</FileType>
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">./;./libjpeg/simd/nasm/;./libjpeg/simd/i386/</IncludePaths>
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">./;./libjpeg/simd/nasm/;./libjpeg/simd/i386/</IncludePaths>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">WIN32</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">WIN32</PreprocessorDefinitions>
+    </NASM>
+    <NASM Include="libjpeg\simd\i386\jcgray-sse2.asm">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <FileType>Document</FileType>
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">./;./libjpeg/simd/nasm/;./libjpeg/simd/i386/</IncludePaths>
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">./;./libjpeg/simd/nasm/;./libjpeg/simd/i386/</IncludePaths>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">WIN32</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">WIN32</PreprocessorDefinitions>
+    </NASM>
+    <NASM Include="libjpeg\simd\i386\jchuff-sse2.asm">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <FileType>Document</FileType>
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">./;./libjpeg/simd/nasm/;./libjpeg/simd/i386/</IncludePaths>
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">./;./libjpeg/simd/nasm/;./libjpeg/simd/i386/</IncludePaths>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">WIN32</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">WIN32</PreprocessorDefinitions>
+    </NASM>
+    <NASM Include="libjpeg\simd\i386\jcphuff-sse2.asm">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <FileType>Document</FileType>
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">./;./libjpeg/simd/nasm/;./libjpeg/simd/i386/</IncludePaths>
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">./;./libjpeg/simd/nasm/;./libjpeg/simd/i386/</IncludePaths>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">WIN32</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">WIN32</PreprocessorDefinitions>
+    </NASM>
+    <NASM Include="libjpeg\simd\i386\jcsample-avx2.asm">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <FileType>Document</FileType>
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">./;./libjpeg/simd/nasm/;./libjpeg/simd/i386/</IncludePaths>
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">./;./libjpeg/simd/nasm/;./libjpeg/simd/i386/</IncludePaths>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">WIN32</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">WIN32</PreprocessorDefinitions>
+    </NASM>
+    <NASM Include="libjpeg\simd\i386\jcsample-mmx.asm">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <FileType>Document</FileType>
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">./;./libjpeg/simd/nasm/;./libjpeg/simd/i386/</IncludePaths>
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">./;./libjpeg/simd/nasm/;./libjpeg/simd/i386/</IncludePaths>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">WIN32</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">WIN32</PreprocessorDefinitions>
+    </NASM>
+    <NASM Include="libjpeg\simd\i386\jcsample-sse2.asm">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <FileType>Document</FileType>
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">./;./libjpeg/simd/nasm/;./libjpeg/simd/i386/</IncludePaths>
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">./;./libjpeg/simd/nasm/;./libjpeg/simd/i386/</IncludePaths>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">WIN32</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">WIN32</PreprocessorDefinitions>
+    </NASM>
+    <NASM Include="libjpeg\simd\i386\jdcolor-avx2.asm">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <FileType>Document</FileType>
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">./;./libjpeg/simd/nasm/;./libjpeg/simd/i386/</IncludePaths>
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">./;./libjpeg/simd/nasm/;./libjpeg/simd/i386/</IncludePaths>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">WIN32</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">WIN32</PreprocessorDefinitions>
+    </NASM>
+    <NASM Include="libjpeg\simd\i386\jdcolor-mmx.asm">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <FileType>Document</FileType>
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">./;./libjpeg/simd/nasm/;./libjpeg/simd/i386/</IncludePaths>
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">./;./libjpeg/simd/nasm/;./libjpeg/simd/i386/</IncludePaths>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">WIN32</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">WIN32</PreprocessorDefinitions>
+    </NASM>
+    <NASM Include="libjpeg\simd\i386\jdcolor-sse2.asm">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <FileType>Document</FileType>
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">./;./libjpeg/simd/nasm/;./libjpeg/simd/i386/</IncludePaths>
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">./;./libjpeg/simd/nasm/;./libjpeg/simd/i386/</IncludePaths>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">WIN32</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">WIN32</PreprocessorDefinitions>
+    </NASM>
+    <NASM Include="libjpeg\simd\i386\jdmerge-avx2.asm">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <FileType>Document</FileType>
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">./;./libjpeg/simd/nasm/;./libjpeg/simd/i386/</IncludePaths>
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">./;./libjpeg/simd/nasm/;./libjpeg/simd/i386/</IncludePaths>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">WIN32</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">WIN32</PreprocessorDefinitions>
+    </NASM>
+    <NASM Include="libjpeg\simd\i386\jdmerge-mmx.asm">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <FileType>Document</FileType>
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">./;./libjpeg/simd/nasm/;./libjpeg/simd/i386/</IncludePaths>
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">./;./libjpeg/simd/nasm/;./libjpeg/simd/i386/</IncludePaths>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">WIN32</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">WIN32</PreprocessorDefinitions>
+    </NASM>
+    <NASM Include="libjpeg\simd\i386\jdmerge-sse2.asm">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <FileType>Document</FileType>
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">./;./libjpeg/simd/nasm/;./libjpeg/simd/i386/</IncludePaths>
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">./;./libjpeg/simd/nasm/;./libjpeg/simd/i386/</IncludePaths>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">WIN32</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">WIN32</PreprocessorDefinitions>
+    </NASM>
+    <NASM Include="libjpeg\simd\i386\jdsample-avx2.asm">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <FileType>Document</FileType>
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">./;./libjpeg/simd/nasm/;./libjpeg/simd/i386/</IncludePaths>
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">./;./libjpeg/simd/nasm/;./libjpeg/simd/i386/</IncludePaths>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">WIN32</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">WIN32</PreprocessorDefinitions>
+    </NASM>
+    <NASM Include="libjpeg\simd\i386\jdsample-mmx.asm">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <FileType>Document</FileType>
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">./;./libjpeg/simd/nasm/;./libjpeg/simd/i386/</IncludePaths>
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">./;./libjpeg/simd/nasm/;./libjpeg/simd/i386/</IncludePaths>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">WIN32</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">WIN32</PreprocessorDefinitions>
+    </NASM>
+    <NASM Include="libjpeg\simd\i386\jdsample-sse2.asm">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <FileType>Document</FileType>
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">./;./libjpeg/simd/nasm/;./libjpeg/simd/i386/</IncludePaths>
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">./;./libjpeg/simd/nasm/;./libjpeg/simd/i386/</IncludePaths>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">WIN32</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">WIN32</PreprocessorDefinitions>
+    </NASM>
+    <NASM Include="libjpeg\simd\i386\jfdctflt-3dn.asm">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <FileType>Document</FileType>
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">./;./libjpeg/simd/nasm/;./libjpeg/simd/i386/</IncludePaths>
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">./;./libjpeg/simd/nasm/;./libjpeg/simd/i386/</IncludePaths>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">WIN32</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">WIN32</PreprocessorDefinitions>
+    </NASM>
+    <NASM Include="libjpeg\simd\i386\jfdctflt-sse.asm">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <FileType>Document</FileType>
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">./;./libjpeg/simd/nasm/;./libjpeg/simd/i386/</IncludePaths>
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">./;./libjpeg/simd/nasm/;./libjpeg/simd/i386/</IncludePaths>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">WIN32</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">WIN32</PreprocessorDefinitions>
+    </NASM>
+    <NASM Include="libjpeg\simd\i386\jfdctfst-mmx.asm">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <FileType>Document</FileType>
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">./;./libjpeg/simd/nasm/;./libjpeg/simd/i386/</IncludePaths>
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">./;./libjpeg/simd/nasm/;./libjpeg/simd/i386/</IncludePaths>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">WIN32</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">WIN32</PreprocessorDefinitions>
+    </NASM>
+    <NASM Include="libjpeg\simd\i386\jfdctfst-sse2.asm">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <FileType>Document</FileType>
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">./;./libjpeg/simd/nasm/;./libjpeg/simd/i386/</IncludePaths>
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">./;./libjpeg/simd/nasm/;./libjpeg/simd/i386/</IncludePaths>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">WIN32</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">WIN32</PreprocessorDefinitions>
+    </NASM>
+    <NASM Include="libjpeg\simd\i386\jfdctint-avx2.asm">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <FileType>Document</FileType>
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">./;./libjpeg/simd/nasm/;./libjpeg/simd/i386/</IncludePaths>
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">./;./libjpeg/simd/nasm/;./libjpeg/simd/i386/</IncludePaths>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">WIN32</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">WIN32</PreprocessorDefinitions>
+    </NASM>
+    <NASM Include="libjpeg\simd\i386\jfdctint-mmx.asm">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <FileType>Document</FileType>
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">./;./libjpeg/simd/nasm/;./libjpeg/simd/i386/</IncludePaths>
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">./;./libjpeg/simd/nasm/;./libjpeg/simd/i386/</IncludePaths>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">WIN32</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">WIN32</PreprocessorDefinitions>
+    </NASM>
+    <NASM Include="libjpeg\simd\i386\jfdctint-sse2.asm">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <FileType>Document</FileType>
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">./;./libjpeg/simd/nasm/;./libjpeg/simd/i386/</IncludePaths>
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">./;./libjpeg/simd/nasm/;./libjpeg/simd/i386/</IncludePaths>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">WIN32</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">WIN32</PreprocessorDefinitions>
+    </NASM>
+    <NASM Include="libjpeg\simd\i386\jidctflt-3dn.asm">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <FileType>Document</FileType>
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">./;./libjpeg/simd/nasm/;./libjpeg/simd/i386/</IncludePaths>
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">./;./libjpeg/simd/nasm/;./libjpeg/simd/i386/</IncludePaths>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">WIN32</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">WIN32</PreprocessorDefinitions>
+    </NASM>
+    <NASM Include="libjpeg\simd\i386\jidctflt-sse.asm">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <FileType>Document</FileType>
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">./;./libjpeg/simd/nasm/;./libjpeg/simd/i386/</IncludePaths>
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">./;./libjpeg/simd/nasm/;./libjpeg/simd/i386/</IncludePaths>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">WIN32</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">WIN32</PreprocessorDefinitions>
+    </NASM>
+    <NASM Include="libjpeg\simd\i386\jidctflt-sse2.asm">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <FileType>Document</FileType>
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">./;./libjpeg/simd/nasm/;./libjpeg/simd/i386/</IncludePaths>
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">./;./libjpeg/simd/nasm/;./libjpeg/simd/i386/</IncludePaths>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">WIN32</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">WIN32</PreprocessorDefinitions>
+    </NASM>
+    <NASM Include="libjpeg\simd\i386\jidctfst-mmx.asm">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <FileType>Document</FileType>
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">./;./libjpeg/simd/nasm/;./libjpeg/simd/i386/</IncludePaths>
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">./;./libjpeg/simd/nasm/;./libjpeg/simd/i386/</IncludePaths>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">WIN32</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">WIN32</PreprocessorDefinitions>
+    </NASM>
+    <NASM Include="libjpeg\simd\i386\jidctfst-sse2.asm">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <FileType>Document</FileType>
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">./;./libjpeg/simd/nasm/;./libjpeg/simd/i386/</IncludePaths>
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">./;./libjpeg/simd/nasm/;./libjpeg/simd/i386/</IncludePaths>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">WIN32</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">WIN32</PreprocessorDefinitions>
+    </NASM>
+    <NASM Include="libjpeg\simd\i386\jidctint-avx2.asm">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <FileType>Document</FileType>
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">./;./libjpeg/simd/nasm/;./libjpeg/simd/i386/</IncludePaths>
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">./;./libjpeg/simd/nasm/;./libjpeg/simd/i386/</IncludePaths>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">WIN32</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">WIN32</PreprocessorDefinitions>
+    </NASM>
+    <NASM Include="libjpeg\simd\i386\jidctint-mmx.asm">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <FileType>Document</FileType>
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">./;./libjpeg/simd/nasm/;./libjpeg/simd/i386/</IncludePaths>
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">./;./libjpeg/simd/nasm/;./libjpeg/simd/i386/</IncludePaths>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">WIN32</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">WIN32</PreprocessorDefinitions>
+    </NASM>
+    <NASM Include="libjpeg\simd\i386\jidctint-sse2.asm">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <FileType>Document</FileType>
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">./;./libjpeg/simd/nasm/;./libjpeg/simd/i386/</IncludePaths>
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">./;./libjpeg/simd/nasm/;./libjpeg/simd/i386/</IncludePaths>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">WIN32</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">WIN32</PreprocessorDefinitions>
+    </NASM>
+    <NASM Include="libjpeg\simd\i386\jidctred-mmx.asm">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <FileType>Document</FileType>
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">./;./libjpeg/simd/nasm/;./libjpeg/simd/i386/</IncludePaths>
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">./;./libjpeg/simd/nasm/;./libjpeg/simd/i386/</IncludePaths>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">WIN32</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">WIN32</PreprocessorDefinitions>
+    </NASM>
+    <NASM Include="libjpeg\simd\i386\jidctred-sse2.asm">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <FileType>Document</FileType>
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">./;./libjpeg/simd/nasm/;./libjpeg/simd/i386/</IncludePaths>
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">./;./libjpeg/simd/nasm/;./libjpeg/simd/i386/</IncludePaths>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">WIN32</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">WIN32</PreprocessorDefinitions>
+    </NASM>
+    <NASM Include="libjpeg\simd\i386\jquant-3dn.asm">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <FileType>Document</FileType>
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">./;./libjpeg/simd/nasm/;./libjpeg/simd/i386/</IncludePaths>
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">./;./libjpeg/simd/nasm/;./libjpeg/simd/i386/</IncludePaths>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">WIN32</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">WIN32</PreprocessorDefinitions>
+    </NASM>
+    <NASM Include="libjpeg\simd\i386\jquant-mmx.asm">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <FileType>Document</FileType>
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">./;./libjpeg/simd/nasm/;./libjpeg/simd/i386/</IncludePaths>
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">./;./libjpeg/simd/nasm/;./libjpeg/simd/i386/</IncludePaths>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">WIN32</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">WIN32</PreprocessorDefinitions>
+    </NASM>
+    <NASM Include="libjpeg\simd\i386\jquant-sse.asm">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <FileType>Document</FileType>
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">./;./libjpeg/simd/nasm/;./libjpeg/simd/i386/</IncludePaths>
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">./;./libjpeg/simd/nasm/;./libjpeg/simd/i386/</IncludePaths>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">WIN32</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">WIN32</PreprocessorDefinitions>
+    </NASM>
+    <NASM Include="libjpeg\simd\i386\jquantf-sse2.asm">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <FileType>Document</FileType>
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">./;./libjpeg/simd/nasm/;./libjpeg/simd/i386/</IncludePaths>
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">./;./libjpeg/simd/nasm/;./libjpeg/simd/i386/</IncludePaths>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">WIN32</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">WIN32</PreprocessorDefinitions>
+    </NASM>
+    <NASM Include="libjpeg\simd\i386\jquanti-avx2.asm">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <FileType>Document</FileType>
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">./;./libjpeg/simd/nasm/;./libjpeg/simd/i386/</IncludePaths>
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">./;./libjpeg/simd/nasm/;./libjpeg/simd/i386/</IncludePaths>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">WIN32</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">WIN32</PreprocessorDefinitions>
+    </NASM>
+    <NASM Include="libjpeg\simd\i386\jquanti-sse2.asm">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <FileType>Document</FileType>
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">./;./libjpeg/simd/nasm/;./libjpeg/simd/i386/</IncludePaths>
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">./;./libjpeg/simd/nasm/;./libjpeg/simd/i386/</IncludePaths>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">WIN32</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">WIN32</PreprocessorDefinitions>
+    </NASM>
+    <NASM Include="libjpeg\simd\i386\jsimdcpu.asm">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <FileType>Document</FileType>
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">./;./libjpeg/simd/nasm/;./libjpeg/simd/i386/</IncludePaths>
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">./;./libjpeg/simd/nasm/;./libjpeg/simd/i386/</IncludePaths>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">WIN32</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">WIN32</PreprocessorDefinitions>
+    </NASM>
+    <NASM Include="libjpeg\simd\x86_64\jccolor-avx2.asm">
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">./;./libjpeg/simd/nasm/;./libjpeg/simd/x86_64/</IncludePaths>
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Release|x64'">./;./libjpeg/simd/nasm/;./libjpeg/simd/x86_64/</IncludePaths>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">WIN64;__x86_64__</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">WIN64;__x86_64__</PreprocessorDefinitions>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <FileType>Document</FileType>
+    </NASM>
+    <NASM Include="libjpeg\simd\x86_64\jccolor-sse2.asm">
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">./;./libjpeg/simd/nasm/;./libjpeg/simd/x86_64/</IncludePaths>
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Release|x64'">./;./libjpeg/simd/nasm/;./libjpeg/simd/x86_64/</IncludePaths>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">WIN64;__x86_64__</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">WIN64;__x86_64__</PreprocessorDefinitions>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <FileType>Document</FileType>
+    </NASM>
+    <NASM Include="libjpeg\simd\x86_64\jcgray-avx2.asm">
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">./;./libjpeg/simd/nasm/;./libjpeg/simd/x86_64/</IncludePaths>
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Release|x64'">./;./libjpeg/simd/nasm/;./libjpeg/simd/x86_64/</IncludePaths>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">WIN64;__x86_64__</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">WIN64;__x86_64__</PreprocessorDefinitions>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <FileType>Document</FileType>
+    </NASM>
+    <NASM Include="libjpeg\simd\x86_64\jcgray-sse2.asm">
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">./;./libjpeg/simd/nasm/;./libjpeg/simd/x86_64/</IncludePaths>
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Release|x64'">./;./libjpeg/simd/nasm/;./libjpeg/simd/x86_64/</IncludePaths>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">WIN64;__x86_64__</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">WIN64;__x86_64__</PreprocessorDefinitions>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <FileType>Document</FileType>
+    </NASM>
+    <NASM Include="libjpeg\simd\x86_64\jchuff-sse2.asm">
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">./;./libjpeg/simd/nasm/;./libjpeg/simd/x86_64/</IncludePaths>
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Release|x64'">./;./libjpeg/simd/nasm/;./libjpeg/simd/x86_64/</IncludePaths>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">WIN64;__x86_64__</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">WIN64;__x86_64__</PreprocessorDefinitions>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <FileType>Document</FileType>
+    </NASM>
+    <NASM Include="libjpeg\simd\x86_64\jcphuff-sse2.asm">
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">./;./libjpeg/simd/nasm/;./libjpeg/simd/x86_64/</IncludePaths>
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Release|x64'">./;./libjpeg/simd/nasm/;./libjpeg/simd/x86_64/</IncludePaths>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">WIN64;__x86_64__</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">WIN64;__x86_64__</PreprocessorDefinitions>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <FileType>Document</FileType>
+    </NASM>
+    <NASM Include="libjpeg\simd\x86_64\jcsample-avx2.asm">
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">./;./libjpeg/simd/nasm/;./libjpeg/simd/x86_64/</IncludePaths>
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Release|x64'">./;./libjpeg/simd/nasm/;./libjpeg/simd/x86_64/</IncludePaths>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">WIN64;__x86_64__</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">WIN64;__x86_64__</PreprocessorDefinitions>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <FileType>Document</FileType>
+    </NASM>
+    <NASM Include="libjpeg\simd\x86_64\jcsample-sse2.asm">
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">./;./libjpeg/simd/nasm/;./libjpeg/simd/x86_64/</IncludePaths>
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Release|x64'">./;./libjpeg/simd/nasm/;./libjpeg/simd/x86_64/</IncludePaths>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">WIN64;__x86_64__</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">WIN64;__x86_64__</PreprocessorDefinitions>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <FileType>Document</FileType>
+    </NASM>
+    <NASM Include="libjpeg\simd\x86_64\jdcolor-avx2.asm">
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">./;./libjpeg/simd/nasm/;./libjpeg/simd/x86_64/</IncludePaths>
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Release|x64'">./;./libjpeg/simd/nasm/;./libjpeg/simd/x86_64/</IncludePaths>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">WIN64;__x86_64__</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">WIN64;__x86_64__</PreprocessorDefinitions>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <FileType>Document</FileType>
+    </NASM>
+    <NASM Include="libjpeg\simd\x86_64\jdcolor-sse2.asm">
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">./;./libjpeg/simd/nasm/;./libjpeg/simd/x86_64/</IncludePaths>
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Release|x64'">./;./libjpeg/simd/nasm/;./libjpeg/simd/x86_64/</IncludePaths>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">WIN64;__x86_64__</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">WIN64;__x86_64__</PreprocessorDefinitions>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <FileType>Document</FileType>
+    </NASM>
+    <NASM Include="libjpeg\simd\x86_64\jdmerge-avx2.asm">
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">./;./libjpeg/simd/nasm/;./libjpeg/simd/x86_64/</IncludePaths>
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Release|x64'">./;./libjpeg/simd/nasm/;./libjpeg/simd/x86_64/</IncludePaths>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">WIN64;__x86_64__</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">WIN64;__x86_64__</PreprocessorDefinitions>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <FileType>Document</FileType>
+    </NASM>
+    <NASM Include="libjpeg\simd\x86_64\jdmerge-sse2.asm">
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">./;./libjpeg/simd/nasm/;./libjpeg/simd/x86_64/</IncludePaths>
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Release|x64'">./;./libjpeg/simd/nasm/;./libjpeg/simd/x86_64/</IncludePaths>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">WIN64;__x86_64__</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">WIN64;__x86_64__</PreprocessorDefinitions>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <FileType>Document</FileType>
+    </NASM>
+    <NASM Include="libjpeg\simd\x86_64\jdsample-avx2.asm">
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">./;./libjpeg/simd/nasm/;./libjpeg/simd/x86_64/</IncludePaths>
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Release|x64'">./;./libjpeg/simd/nasm/;./libjpeg/simd/x86_64/</IncludePaths>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">WIN64;__x86_64__</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">WIN64;__x86_64__</PreprocessorDefinitions>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <FileType>Document</FileType>
+    </NASM>
+    <NASM Include="libjpeg\simd\x86_64\jdsample-sse2.asm">
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">./;./libjpeg/simd/nasm/;./libjpeg/simd/x86_64/</IncludePaths>
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Release|x64'">./;./libjpeg/simd/nasm/;./libjpeg/simd/x86_64/</IncludePaths>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">WIN64;__x86_64__</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">WIN64;__x86_64__</PreprocessorDefinitions>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <FileType>Document</FileType>
+    </NASM>
+    <NASM Include="libjpeg\simd\x86_64\jfdctflt-sse.asm">
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">./;./libjpeg/simd/nasm/;./libjpeg/simd/x86_64/</IncludePaths>
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Release|x64'">./;./libjpeg/simd/nasm/;./libjpeg/simd/x86_64/</IncludePaths>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">WIN64;__x86_64__</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">WIN64;__x86_64__</PreprocessorDefinitions>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <FileType>Document</FileType>
+    </NASM>
+    <NASM Include="libjpeg\simd\x86_64\jfdctfst-sse2.asm">
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">./;./libjpeg/simd/nasm/;./libjpeg/simd/x86_64/</IncludePaths>
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Release|x64'">./;./libjpeg/simd/nasm/;./libjpeg/simd/x86_64/</IncludePaths>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">WIN64;__x86_64__</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">WIN64;__x86_64__</PreprocessorDefinitions>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <FileType>Document</FileType>
+    </NASM>
+    <NASM Include="libjpeg\simd\x86_64\jfdctint-avx2.asm">
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">./;./libjpeg/simd/nasm/;./libjpeg/simd/x86_64/</IncludePaths>
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Release|x64'">./;./libjpeg/simd/nasm/;./libjpeg/simd/x86_64/</IncludePaths>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">WIN64;__x86_64__</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">WIN64;__x86_64__</PreprocessorDefinitions>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <FileType>Document</FileType>
+    </NASM>
+    <NASM Include="libjpeg\simd\x86_64\jfdctint-sse2.asm">
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">./;./libjpeg/simd/nasm/;./libjpeg/simd/x86_64/</IncludePaths>
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Release|x64'">./;./libjpeg/simd/nasm/;./libjpeg/simd/x86_64/</IncludePaths>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">WIN64;__x86_64__</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">WIN64;__x86_64__</PreprocessorDefinitions>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <FileType>Document</FileType>
+    </NASM>
+    <NASM Include="libjpeg\simd\x86_64\jidctflt-sse2.asm">
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">./;./libjpeg/simd/nasm/;./libjpeg/simd/x86_64/</IncludePaths>
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Release|x64'">./;./libjpeg/simd/nasm/;./libjpeg/simd/x86_64/</IncludePaths>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">WIN64;__x86_64__</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">WIN64;__x86_64__</PreprocessorDefinitions>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <FileType>Document</FileType>
+    </NASM>
+    <NASM Include="libjpeg\simd\x86_64\jidctfst-sse2.asm">
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">./;./libjpeg/simd/nasm/;./libjpeg/simd/x86_64/</IncludePaths>
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Release|x64'">./;./libjpeg/simd/nasm/;./libjpeg/simd/x86_64/</IncludePaths>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">WIN64;__x86_64__</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">WIN64;__x86_64__</PreprocessorDefinitions>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <FileType>Document</FileType>
+    </NASM>
+    <NASM Include="libjpeg\simd\x86_64\jidctint-avx2.asm">
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">./;./libjpeg/simd/nasm/;./libjpeg/simd/x86_64/</IncludePaths>
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Release|x64'">./;./libjpeg/simd/nasm/;./libjpeg/simd/x86_64/</IncludePaths>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">WIN64;__x86_64__</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">WIN64;__x86_64__</PreprocessorDefinitions>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <FileType>Document</FileType>
+    </NASM>
+    <NASM Include="libjpeg\simd\x86_64\jidctint-sse2.asm">
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">./;./libjpeg/simd/nasm/;./libjpeg/simd/x86_64/</IncludePaths>
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Release|x64'">./;./libjpeg/simd/nasm/;./libjpeg/simd/x86_64/</IncludePaths>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">WIN64;__x86_64__</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">WIN64;__x86_64__</PreprocessorDefinitions>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <FileType>Document</FileType>
+    </NASM>
+    <NASM Include="libjpeg\simd\x86_64\jidctred-sse2.asm">
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">./;./libjpeg/simd/nasm/;./libjpeg/simd/x86_64/</IncludePaths>
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Release|x64'">./;./libjpeg/simd/nasm/;./libjpeg/simd/x86_64/</IncludePaths>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">WIN64;__x86_64__</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">WIN64;__x86_64__</PreprocessorDefinitions>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <FileType>Document</FileType>
+    </NASM>
+    <NASM Include="libjpeg\simd\x86_64\jquantf-sse2.asm">
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">./;./libjpeg/simd/nasm/;./libjpeg/simd/x86_64/</IncludePaths>
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Release|x64'">./;./libjpeg/simd/nasm/;./libjpeg/simd/x86_64/</IncludePaths>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">WIN64;__x86_64__</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">WIN64;__x86_64__</PreprocessorDefinitions>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <FileType>Document</FileType>
+    </NASM>
+    <NASM Include="libjpeg\simd\x86_64\jquanti-avx2.asm">
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">./;./libjpeg/simd/nasm/;./libjpeg/simd/x86_64/</IncludePaths>
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Release|x64'">./;./libjpeg/simd/nasm/;./libjpeg/simd/x86_64/</IncludePaths>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">WIN64;__x86_64__</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">WIN64;__x86_64__</PreprocessorDefinitions>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <FileType>Document</FileType>
+    </NASM>
+    <NASM Include="libjpeg\simd\x86_64\jquanti-sse2.asm">
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">./;./libjpeg/simd/nasm/;./libjpeg/simd/x86_64/</IncludePaths>
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Release|x64'">./;./libjpeg/simd/nasm/;./libjpeg/simd/x86_64/</IncludePaths>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">WIN64;__x86_64__</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">WIN64;__x86_64__</PreprocessorDefinitions>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <FileType>Document</FileType>
+    </NASM>
+    <NASM Include="libjpeg\simd\x86_64\jsimdcpu.asm">
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">./;./libjpeg/simd/nasm/;./libjpeg/simd/x86_64/</IncludePaths>
+      <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Release|x64'">./;./libjpeg/simd/nasm/;./libjpeg/simd/x86_64/</IncludePaths>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">WIN64;__x86_64__</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">WIN64;__x86_64__</PreprocessorDefinitions>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <FileType>Document</FileType>
+    </NASM>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="WX_Image.rc" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A742FD09-8C0C-4356-95A6-B557CEFB91FC}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>WXPNG</RootNamespace>
+    <ProjectName>WX_Image</ProjectName>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+    <Import Project="$(SolutionDir)WXMedia_SDK\tools\nasm.props" />
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IntDir>$(SolutionDir).vs\ipch\$(Configuration)_$(Platform)\tmp_obj\$(ProjectName)\</IntDir>
+    <OutDir>$(SolutionDir)\WXMedia_SDK\$(Platform)\$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IntDir>$(SolutionDir).vs\ipch\$(Configuration)_$(Platform)\tmp_obj\$(ProjectName)\</IntDir>
+    <OutDir>$(SolutionDir)\WXMedia_SDK\$(Platform)\$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IntDir>$(SolutionDir).vs\ipch\$(Configuration)_$(Platform)\tmp_obj\$(ProjectName)\</IntDir>
+    <OutDir>$(SolutionDir)\WXMedia_SDK\$(Platform)\$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IntDir>$(SolutionDir).vs\ipch\$(Configuration)_$(Platform)\tmp_obj\$(ProjectName)\</IntDir>
+    <OutDir>$(SolutionDir)\WXMedia_SDK\$(Platform)\$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>CMS_DLL;CMS_DLL_BUILD;WXIMAGE_EXPORTS;_CRT_SECURE_NO_WARNINGS;PNG_BUILD_DLL;WIN32;_DEBUG;_WINDOWS;_USRDLL;WXPNG_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>./</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <AdditionalOptions>-wd 4996 %(AdditionalOptions)</AdditionalOptions>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>aomx86\$(Configuration)\</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>CMS_DLL;CMS_DLL_BUILD;WXIMAGE_EXPORTS;_CRT_SECURE_NO_WARNINGS;PNG_BUILD_DLL;_DEBUG;_WINDOWS;_USRDLL;WXPNG_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>./</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <AdditionalOptions>-wd 4996 %(AdditionalOptions)</AdditionalOptions>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>aomx64\$(Configuration)\</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>CMS_DLL;CMS_DLL_BUILD;WXIMAGE_EXPORTS;_CRT_SECURE_NO_WARNINGS;PNG_BUILD_DLL;WIN32;NDEBUG;_WINDOWS;_USRDLL;WXPNG_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>./</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <AdditionalOptions>-wd 4996 %(AdditionalOptions)</AdditionalOptions>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>aomx86\$(Configuration)\</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>CMS_DLL;CMS_DLL_BUILD;WXIMAGE_EXPORTS;_CRT_SECURE_NO_WARNINGS;PNG_BUILD_DLL;NDEBUG;_WINDOWS;_USRDLL;WXPNG_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>./</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+      <AdditionalOptions>-wd 4996 %(AdditionalOptions)</AdditionalOptions>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>aomx64\$(Configuration)\</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="$(SolutionDir)WXMedia_SDK\tools\nasm.targets" />
+  </ImportGroup>
+</Project>

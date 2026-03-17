@@ -1,0 +1,906 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\zlib">
+      <UniqueIdentifier>{4bb6c33d-569f-4302-bfc3-5ab5d1b8cdb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\libpng">
+      <UniqueIdentifier>{17799380-dcb8-48b8-9873-5b713f68342e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\pngquant">
+      <UniqueIdentifier>{ccb7183a-f1c8-4e19-bf6c-c78368e36b97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\libjpeg">
+      <UniqueIdentifier>{20e899be-9476-463f-b723-5ec35ec9c6f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\zlib\inc">
+      <UniqueIdentifier>{1521ccf7-f18e-4e71-b2af-16e43536d211}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\libpng\inc">
+      <UniqueIdentifier>{84d9c961-f34c-47c1-a162-534df0855e51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\libyuv">
+      <UniqueIdentifier>{6e656ede-516c-4728-a968-47ec4b46ef44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\libjpeg\simd">
+      <UniqueIdentifier>{c5bbcccb-4b8a-4be8-bdfa-a80194bafbca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\libjpeg\simd\x86_64">
+      <UniqueIdentifier>{1654db0a-8415-4b03-a11a-65ce8132b551}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\zlib\inc\new">
+      <UniqueIdentifier>{71927515-0be2-4259-9963-f499d7fa9bf4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="zlib\adler32.c">
+      <Filter>源文件\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\compress.c">
+      <Filter>源文件\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\crc32.c">
+      <Filter>源文件\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\deflate.c">
+      <Filter>源文件\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\infback.c">
+      <Filter>源文件\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\inffast.c">
+      <Filter>源文件\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\inflate.c">
+      <Filter>源文件\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\inftrees.c">
+      <Filter>源文件\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\trees.c">
+      <Filter>源文件\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\uncompr.c">
+      <Filter>源文件\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\zutil.c">
+      <Filter>源文件\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="libpng\png.c">
+      <Filter>源文件\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="libpng\pngerror.c">
+      <Filter>源文件\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="libpng\pngget.c">
+      <Filter>源文件\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="libpng\pngmem.c">
+      <Filter>源文件\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="libpng\pngpread.c">
+      <Filter>源文件\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="libpng\pngread.c">
+      <Filter>源文件\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="libpng\pngrio.c">
+      <Filter>源文件\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="libpng\pngrtran.c">
+      <Filter>源文件\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="libpng\pngrutil.c">
+      <Filter>源文件\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="libpng\pngtrans.c">
+      <Filter>源文件\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="libpng\pngwio.c">
+      <Filter>源文件\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="libpng\pngwrite.c">
+      <Filter>源文件\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="libpng\pngwtran.c">
+      <Filter>源文件\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="libpng\pngwutil.c">
+      <Filter>源文件\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="pngquant\blur.c">
+      <Filter>源文件\pngquant</Filter>
+    </ClCompile>
+    <ClCompile Include="pngquant\kmeans.c">
+      <Filter>源文件\pngquant</Filter>
+    </ClCompile>
+    <ClCompile Include="pngquant\libimagequant.c">
+      <Filter>源文件\pngquant</Filter>
+    </ClCompile>
+    <ClCompile Include="pngquant\mediancut.c">
+      <Filter>源文件\pngquant</Filter>
+    </ClCompile>
+    <ClCompile Include="pngquant\mempool.c">
+      <Filter>源文件\pngquant</Filter>
+    </ClCompile>
+    <ClCompile Include="pngquant\nearest.c">
+      <Filter>源文件\pngquant</Filter>
+    </ClCompile>
+    <ClCompile Include="pngquant\pam.c">
+      <Filter>源文件\pngquant</Filter>
+    </ClCompile>
+    <ClCompile Include="rwpng.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libpng\pngset.c">
+      <Filter>源文件\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="WXPNG.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="WXJPG.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libyuv\compare.cc">
+      <Filter>源文件\libyuv</Filter>
+    </ClCompile>
+    <ClCompile Include="libyuv\compare_common.cc">
+      <Filter>源文件\libyuv</Filter>
+    </ClCompile>
+    <ClCompile Include="libyuv\compare_gcc.cc">
+      <Filter>源文件\libyuv</Filter>
+    </ClCompile>
+    <ClCompile Include="libyuv\compare_neon.cc">
+      <Filter>源文件\libyuv</Filter>
+    </ClCompile>
+    <ClCompile Include="libyuv\compare_neon64.cc">
+      <Filter>源文件\libyuv</Filter>
+    </ClCompile>
+    <ClCompile Include="libyuv\compare_win.cc">
+      <Filter>源文件\libyuv</Filter>
+    </ClCompile>
+    <ClCompile Include="libyuv\convert.cc">
+      <Filter>源文件\libyuv</Filter>
+    </ClCompile>
+    <ClCompile Include="libyuv\convert_argb.cc">
+      <Filter>源文件\libyuv</Filter>
+    </ClCompile>
+    <ClCompile Include="libyuv\convert_from.cc">
+      <Filter>源文件\libyuv</Filter>
+    </ClCompile>
+    <ClCompile Include="libyuv\convert_from_argb.cc">
+      <Filter>源文件\libyuv</Filter>
+    </ClCompile>
+    <ClCompile Include="libyuv\convert_to_argb.cc">
+      <Filter>源文件\libyuv</Filter>
+    </ClCompile>
+    <ClCompile Include="libyuv\convert_to_i420.cc">
+      <Filter>源文件\libyuv</Filter>
+    </ClCompile>
+    <ClCompile Include="libyuv\cpu_id.cc">
+      <Filter>源文件\libyuv</Filter>
+    </ClCompile>
+    <ClCompile Include="libyuv\planar_functions.cc">
+      <Filter>源文件\libyuv</Filter>
+    </ClCompile>
+    <ClCompile Include="libyuv\rotate.cc">
+      <Filter>源文件\libyuv</Filter>
+    </ClCompile>
+    <ClCompile Include="libyuv\rotate_argb.cc">
+      <Filter>源文件\libyuv</Filter>
+    </ClCompile>
+    <ClCompile Include="libyuv\rotate_mips.cc">
+      <Filter>源文件\libyuv</Filter>
+    </ClCompile>
+    <ClCompile Include="libyuv\rotate_neon.cc">
+      <Filter>源文件\libyuv</Filter>
+    </ClCompile>
+    <ClCompile Include="libyuv\rotate_neon64.cc">
+      <Filter>源文件\libyuv</Filter>
+    </ClCompile>
+    <ClCompile Include="libyuv\row_any.cc">
+      <Filter>源文件\libyuv</Filter>
+    </ClCompile>
+    <ClCompile Include="libyuv\row_common.cc">
+      <Filter>源文件\libyuv</Filter>
+    </ClCompile>
+    <ClCompile Include="libyuv\row_gcc.cc">
+      <Filter>源文件\libyuv</Filter>
+    </ClCompile>
+    <ClCompile Include="libyuv\row_mips.cc">
+      <Filter>源文件\libyuv</Filter>
+    </ClCompile>
+    <ClCompile Include="libyuv\row_neon.cc">
+      <Filter>源文件\libyuv</Filter>
+    </ClCompile>
+    <ClCompile Include="libyuv\row_neon64.cc">
+      <Filter>源文件\libyuv</Filter>
+    </ClCompile>
+    <ClCompile Include="libyuv\row_win.cc">
+      <Filter>源文件\libyuv</Filter>
+    </ClCompile>
+    <ClCompile Include="libyuv\scale.cc">
+      <Filter>源文件\libyuv</Filter>
+    </ClCompile>
+    <ClCompile Include="libyuv\scale_any.cc">
+      <Filter>源文件\libyuv</Filter>
+    </ClCompile>
+    <ClCompile Include="libyuv\scale_argb.cc">
+      <Filter>源文件\libyuv</Filter>
+    </ClCompile>
+    <ClCompile Include="libyuv\scale_common.cc">
+      <Filter>源文件\libyuv</Filter>
+    </ClCompile>
+    <ClCompile Include="libyuv\scale_gcc.cc">
+      <Filter>源文件\libyuv</Filter>
+    </ClCompile>
+    <ClCompile Include="libyuv\scale_mips.cc">
+      <Filter>源文件\libyuv</Filter>
+    </ClCompile>
+    <ClCompile Include="libyuv\scale_neon.cc">
+      <Filter>源文件\libyuv</Filter>
+    </ClCompile>
+    <ClCompile Include="libyuv\scale_neon64.cc">
+      <Filter>源文件\libyuv</Filter>
+    </ClCompile>
+    <ClCompile Include="libyuv\scale_win.cc">
+      <Filter>源文件\libyuv</Filter>
+    </ClCompile>
+    <ClCompile Include="libyuv\video_common.cc">
+      <Filter>源文件\libyuv</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\cdjpeg.c">
+      <Filter>源文件\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jaricom.c">
+      <Filter>源文件\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jcapimin.c">
+      <Filter>源文件\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jcapistd.c">
+      <Filter>源文件\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jcarith.c">
+      <Filter>源文件\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jccoefct.c">
+      <Filter>源文件\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jccolor.c">
+      <Filter>源文件\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jcdctmgr.c">
+      <Filter>源文件\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jchuff.c">
+      <Filter>源文件\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jcicc.c">
+      <Filter>源文件\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jcinit.c">
+      <Filter>源文件\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jcmainct.c">
+      <Filter>源文件\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jcmarker.c">
+      <Filter>源文件\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jcmaster.c">
+      <Filter>源文件\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jcomapi.c">
+      <Filter>源文件\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jcparam.c">
+      <Filter>源文件\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jcphuff.c">
+      <Filter>源文件\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jcprepct.c">
+      <Filter>源文件\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jcsample.c">
+      <Filter>源文件\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jcstest.c">
+      <Filter>源文件\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jctrans.c">
+      <Filter>源文件\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jdapimin.c">
+      <Filter>源文件\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jdapistd.c">
+      <Filter>源文件\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jdarith.c">
+      <Filter>源文件\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jdatadst.c">
+      <Filter>源文件\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jdatadst-tj.c">
+      <Filter>源文件\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jdatasrc.c">
+      <Filter>源文件\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jdatasrc-tj.c">
+      <Filter>源文件\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jdcoefct.c">
+      <Filter>源文件\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jdcolor.c">
+      <Filter>源文件\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jddctmgr.c">
+      <Filter>源文件\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jdhuff.c">
+      <Filter>源文件\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jdicc.c">
+      <Filter>源文件\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jdinput.c">
+      <Filter>源文件\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jdmainct.c">
+      <Filter>源文件\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jdmarker.c">
+      <Filter>源文件\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jdmaster.c">
+      <Filter>源文件\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jdmerge.c">
+      <Filter>源文件\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jdphuff.c">
+      <Filter>源文件\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jdpostct.c">
+      <Filter>源文件\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jdsample.c">
+      <Filter>源文件\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jdtrans.c">
+      <Filter>源文件\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jerror.c">
+      <Filter>源文件\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jfdctflt.c">
+      <Filter>源文件\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jfdctfst.c">
+      <Filter>源文件\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jfdctint.c">
+      <Filter>源文件\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jidctflt.c">
+      <Filter>源文件\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jidctfst.c">
+      <Filter>源文件\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jidctint.c">
+      <Filter>源文件\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jidctred.c">
+      <Filter>源文件\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jmemmgr.c">
+      <Filter>源文件\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jmemnobs.c">
+      <Filter>源文件\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jquant1.c">
+      <Filter>源文件\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jquant2.c">
+      <Filter>源文件\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jutils.c">
+      <Filter>源文件\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\rdbmp.c">
+      <Filter>源文件\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\rdcolmap.c">
+      <Filter>源文件\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\rdgif.c">
+      <Filter>源文件\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\rdppm.c">
+      <Filter>源文件\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\rdswitch.c">
+      <Filter>源文件\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\rdtarga.c">
+      <Filter>源文件\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\tjutil.c">
+      <Filter>源文件\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\transupp.c">
+      <Filter>源文件\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\turbojpeg.c">
+      <Filter>源文件\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\wrbmp.c">
+      <Filter>源文件\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\wrgif.c">
+      <Filter>源文件\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\wrppm.c">
+      <Filter>源文件\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\wrtarga.c">
+      <Filter>源文件\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\simd\x86_64\jsimd.c">
+      <Filter>源文件\libjpeg\simd\x86_64</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\crc_folding.c">
+      <Filter>源文件\zlib\inc\new</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\deflate_medium.c">
+      <Filter>源文件\zlib\inc\new</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\deflate_quick.c">
+      <Filter>源文件\zlib\inc\new</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\match.c">
+      <Filter>源文件\zlib\inc\new</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\slide_sse.c">
+      <Filter>源文件\zlib\inc\new</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\x86.c">
+      <Filter>源文件\zlib\inc\new</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pngquant\blur.h">
+      <Filter>源文件\pngquant</Filter>
+    </ClInclude>
+    <ClInclude Include="pngquant\kmeans.h">
+      <Filter>源文件\pngquant</Filter>
+    </ClInclude>
+    <ClInclude Include="pngquant\libimagequant.h">
+      <Filter>源文件\pngquant</Filter>
+    </ClInclude>
+    <ClInclude Include="pngquant\mediancut.h">
+      <Filter>源文件\pngquant</Filter>
+    </ClInclude>
+    <ClInclude Include="pngquant\mempool.h">
+      <Filter>源文件\pngquant</Filter>
+    </ClInclude>
+    <ClInclude Include="pngquant\nearest.h">
+      <Filter>源文件\pngquant</Filter>
+    </ClInclude>
+    <ClInclude Include="pngquant\pam.h">
+      <Filter>源文件\pngquant</Filter>
+    </ClInclude>
+    <ClInclude Include="rwpng.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\crc32.h">
+      <Filter>源文件\zlib\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\deflate.h">
+      <Filter>源文件\zlib\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\gzguts.h">
+      <Filter>源文件\zlib\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\inffast.h">
+      <Filter>源文件\zlib\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\inffixed.h">
+      <Filter>源文件\zlib\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\inflate.h">
+      <Filter>源文件\zlib\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\inftrees.h">
+      <Filter>源文件\zlib\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\trees.h">
+      <Filter>源文件\zlib\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\zconf.h">
+      <Filter>源文件\zlib\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\zlib.h">
+      <Filter>源文件\zlib\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\zutil.h">
+      <Filter>源文件\zlib\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="libpng\png.h">
+      <Filter>源文件\libpng\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="libpng\pngconf.h">
+      <Filter>源文件\libpng\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="libpng\pngdebug.h">
+      <Filter>源文件\libpng\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="libpng\pnginfo.h">
+      <Filter>源文件\libpng\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="libpng\pnglibconf.h">
+      <Filter>源文件\libpng\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="libpng\pngpriv.h">
+      <Filter>源文件\libpng\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="libpng\pngstruct.h">
+      <Filter>源文件\libpng\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="WXImage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libyuv\basic_types.h">
+      <Filter>源文件\libyuv</Filter>
+    </ClInclude>
+    <ClInclude Include="libyuv\compare.h">
+      <Filter>源文件\libyuv</Filter>
+    </ClInclude>
+    <ClInclude Include="libyuv\convert.h">
+      <Filter>源文件\libyuv</Filter>
+    </ClInclude>
+    <ClInclude Include="libyuv\convert_argb.h">
+      <Filter>源文件\libyuv</Filter>
+    </ClInclude>
+    <ClInclude Include="libyuv\convert_from.h">
+      <Filter>源文件\libyuv</Filter>
+    </ClInclude>
+    <ClInclude Include="libyuv\convert_from_argb.h">
+      <Filter>源文件\libyuv</Filter>
+    </ClInclude>
+    <ClInclude Include="libyuv\cpu_id.h">
+      <Filter>源文件\libyuv</Filter>
+    </ClInclude>
+    <ClInclude Include="libyuv\planar_functions.h">
+      <Filter>源文件\libyuv</Filter>
+    </ClInclude>
+    <ClInclude Include="libyuv\rotate.h">
+      <Filter>源文件\libyuv</Filter>
+    </ClInclude>
+    <ClInclude Include="libyuv\rotate_argb.h">
+      <Filter>源文件\libyuv</Filter>
+    </ClInclude>
+    <ClInclude Include="libyuv\row.h">
+      <Filter>源文件\libyuv</Filter>
+    </ClInclude>
+    <ClInclude Include="libyuv\scale.h">
+      <Filter>源文件\libyuv</Filter>
+    </ClInclude>
+    <ClInclude Include="libyuv\scale_argb.h">
+      <Filter>源文件\libyuv</Filter>
+    </ClInclude>
+    <ClInclude Include="libyuv\scale_row.h">
+      <Filter>源文件\libyuv</Filter>
+    </ClInclude>
+    <ClInclude Include="libyuv\version.h">
+      <Filter>源文件\libyuv</Filter>
+    </ClInclude>
+    <ClInclude Include="libyuv\video_common.h">
+      <Filter>源文件\libyuv</Filter>
+    </ClInclude>
+    <ClInclude Include="libyuv.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libjpeg\cderror.h">
+      <Filter>源文件\libjpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="libjpeg\cdjpeg.h">
+      <Filter>源文件\libjpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="libjpeg\cmyk.h">
+      <Filter>源文件\libjpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="libjpeg\jchuff.h">
+      <Filter>源文件\libjpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="libjpeg\jconfig.h">
+      <Filter>源文件\libjpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="libjpeg\jconfigint.h">
+      <Filter>源文件\libjpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="libjpeg\jdcoefct.h">
+      <Filter>源文件\libjpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="libjpeg\jdct.h">
+      <Filter>源文件\libjpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="libjpeg\jdhuff.h">
+      <Filter>源文件\libjpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="libjpeg\jdmainct.h">
+      <Filter>源文件\libjpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="libjpeg\jdmaster.h">
+      <Filter>源文件\libjpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="libjpeg\jdmerge.h">
+      <Filter>源文件\libjpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="libjpeg\jdsample.h">
+      <Filter>源文件\libjpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="libjpeg\jerror.h">
+      <Filter>源文件\libjpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="libjpeg\jinclude.h">
+      <Filter>源文件\libjpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="libjpeg\jmemsys.h">
+      <Filter>源文件\libjpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="libjpeg\jmorecfg.h">
+      <Filter>源文件\libjpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="libjpeg\jpeg_nbits_table.h">
+      <Filter>源文件\libjpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="libjpeg\jpegcomp.h">
+      <Filter>源文件\libjpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="libjpeg\jpegint.h">
+      <Filter>源文件\libjpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="libjpeg\jpeglib.h">
+      <Filter>源文件\libjpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="libjpeg\jsimd.h">
+      <Filter>源文件\libjpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="libjpeg\jsimddct.h">
+      <Filter>源文件\libjpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="libjpeg\jversion.h">
+      <Filter>源文件\libjpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="libjpeg\tjutil.h">
+      <Filter>源文件\libjpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="libjpeg\transupp.h">
+      <Filter>源文件\libjpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="libjpeg\turbojpeg.h">
+      <Filter>源文件\libjpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="libjpeg\simd\jsimd.h">
+      <Filter>源文件\libjpeg\simd</Filter>
+    </ClInclude>
+    <ClInclude Include="libjpeg\jccolext.c.h">
+      <Filter>源文件\libjpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="libjpeg\jdcol565.c.h">
+      <Filter>源文件\libjpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="libjpeg\jdcolext.c.h">
+      <Filter>源文件\libjpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="libjpeg\jdmrg565.c.h">
+      <Filter>源文件\libjpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="libjpeg\jdmrgext.c.h">
+      <Filter>源文件\libjpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="libjpeg\jstdhuff.c.h">
+      <Filter>源文件\libjpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\rte_memcpy.h">
+      <Filter>源文件\zlib\inc\new</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\x86.h">
+      <Filter>源文件\zlib\inc\new</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="libjpeg\simd\x86_64\jsimdcpu.asm">
+      <Filter>源文件\libjpeg\simd\x86_64</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <NASM Include="libjpeg\simd\x86_64\jccolext-avx2.asm">
+      <Filter>源文件</Filter>
+    </NASM>
+    <NASM Include="libjpeg\simd\x86_64\jccolext-sse2.asm">
+      <Filter>源文件</Filter>
+    </NASM>
+    <NASM Include="libjpeg\simd\x86_64\jccolor-avx2.asm">
+      <Filter>源文件</Filter>
+    </NASM>
+    <NASM Include="libjpeg\simd\x86_64\jccolor-sse2.asm">
+      <Filter>源文件</Filter>
+    </NASM>
+    <NASM Include="libjpeg\simd\x86_64\jcgray-avx2.asm">
+      <Filter>源文件</Filter>
+    </NASM>
+    <NASM Include="libjpeg\simd\x86_64\jcgray-sse2.asm">
+      <Filter>源文件</Filter>
+    </NASM>
+    <NASM Include="libjpeg\simd\x86_64\jcgryext-avx2.asm">
+      <Filter>源文件</Filter>
+    </NASM>
+    <NASM Include="libjpeg\simd\x86_64\jcgryext-sse2.asm">
+      <Filter>源文件</Filter>
+    </NASM>
+    <NASM Include="libjpeg\simd\x86_64\jchuff-sse2.asm">
+      <Filter>源文件</Filter>
+    </NASM>
+    <NASM Include="libjpeg\simd\x86_64\jcphuff-sse2.asm">
+      <Filter>源文件</Filter>
+    </NASM>
+    <NASM Include="libjpeg\simd\x86_64\jcsample-avx2.asm">
+      <Filter>源文件</Filter>
+    </NASM>
+    <NASM Include="libjpeg\simd\x86_64\jcsample-sse2.asm">
+      <Filter>源文件</Filter>
+    </NASM>
+    <NASM Include="libjpeg\simd\x86_64\jdcolext-avx2.asm">
+      <Filter>源文件</Filter>
+    </NASM>
+    <NASM Include="libjpeg\simd\x86_64\jdcolext-sse2.asm">
+      <Filter>源文件</Filter>
+    </NASM>
+    <NASM Include="libjpeg\simd\x86_64\jdcolor-avx2.asm">
+      <Filter>源文件</Filter>
+    </NASM>
+    <NASM Include="libjpeg\simd\x86_64\jdcolor-sse2.asm">
+      <Filter>源文件</Filter>
+    </NASM>
+    <NASM Include="libjpeg\simd\x86_64\jdmerge-avx2.asm">
+      <Filter>源文件</Filter>
+    </NASM>
+    <NASM Include="libjpeg\simd\x86_64\jdmerge-sse2.asm">
+      <Filter>源文件</Filter>
+    </NASM>
+    <NASM Include="libjpeg\simd\x86_64\jdmrgext-avx2.asm">
+      <Filter>源文件</Filter>
+    </NASM>
+    <NASM Include="libjpeg\simd\x86_64\jdmrgext-sse2.asm">
+      <Filter>源文件</Filter>
+    </NASM>
+    <NASM Include="libjpeg\simd\x86_64\jdsample-avx2.asm">
+      <Filter>源文件</Filter>
+    </NASM>
+    <NASM Include="libjpeg\simd\x86_64\jdsample-sse2.asm">
+      <Filter>源文件</Filter>
+    </NASM>
+    <NASM Include="libjpeg\simd\x86_64\jfdctflt-sse.asm">
+      <Filter>源文件</Filter>
+    </NASM>
+    <NASM Include="libjpeg\simd\x86_64\jidctred-sse2.asm">
+      <Filter>源文件</Filter>
+    </NASM>
+    <NASM Include="libjpeg\simd\x86_64\jquantf-sse2.asm">
+      <Filter>源文件</Filter>
+    </NASM>
+    <NASM Include="libjpeg\simd\x86_64\jquanti-avx2.asm">
+      <Filter>源文件</Filter>
+    </NASM>
+    <NASM Include="libjpeg\simd\x86_64\jquanti-sse2.asm">
+      <Filter>源文件</Filter>
+    </NASM>
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="libjpeg\simd\x86_64\jccolor-avx2.asm.obj">
+      <Filter>源文件\libjpeg\simd\x86_64</Filter>
+    </Object>
+    <Object Include="libjpeg\simd\x86_64\jccolor-sse2.asm.obj">
+      <Filter>源文件\libjpeg\simd\x86_64</Filter>
+    </Object>
+    <Object Include="libjpeg\simd\x86_64\jcgray-avx2.asm.obj">
+      <Filter>源文件\libjpeg\simd\x86_64</Filter>
+    </Object>
+    <Object Include="libjpeg\simd\x86_64\jcgray-sse2.asm.obj">
+      <Filter>源文件\libjpeg\simd\x86_64</Filter>
+    </Object>
+    <Object Include="libjpeg\simd\x86_64\jchuff-sse2.asm.obj">
+      <Filter>源文件\libjpeg\simd\x86_64</Filter>
+    </Object>
+    <Object Include="libjpeg\simd\x86_64\jcphuff-sse2.asm.obj">
+      <Filter>源文件\libjpeg\simd\x86_64</Filter>
+    </Object>
+    <Object Include="libjpeg\simd\x86_64\jcsample-avx2.asm.obj">
+      <Filter>源文件\libjpeg\simd\x86_64</Filter>
+    </Object>
+    <Object Include="libjpeg\simd\x86_64\jcsample-sse2.asm.obj">
+      <Filter>源文件\libjpeg\simd\x86_64</Filter>
+    </Object>
+    <Object Include="libjpeg\simd\x86_64\jdcolor-avx2.asm.obj">
+      <Filter>源文件\libjpeg\simd\x86_64</Filter>
+    </Object>
+    <Object Include="libjpeg\simd\x86_64\jdcolor-sse2.asm.obj">
+      <Filter>源文件\libjpeg\simd\x86_64</Filter>
+    </Object>
+    <Object Include="libjpeg\simd\x86_64\jdmerge-avx2.asm.obj">
+      <Filter>源文件\libjpeg\simd\x86_64</Filter>
+    </Object>
+    <Object Include="libjpeg\simd\x86_64\jdmerge-sse2.asm.obj">
+      <Filter>源文件\libjpeg\simd\x86_64</Filter>
+    </Object>
+    <Object Include="libjpeg\simd\x86_64\jdsample-avx2.asm.obj">
+      <Filter>源文件\libjpeg\simd\x86_64</Filter>
+    </Object>
+    <Object Include="libjpeg\simd\x86_64\jdsample-sse2.asm.obj">
+      <Filter>源文件\libjpeg\simd\x86_64</Filter>
+    </Object>
+    <Object Include="libjpeg\simd\x86_64\jfdctflt-sse.asm.obj">
+      <Filter>源文件\libjpeg\simd\x86_64</Filter>
+    </Object>
+    <Object Include="libjpeg\simd\x86_64\jfdctfst-sse2.asm.obj">
+      <Filter>源文件\libjpeg\simd\x86_64</Filter>
+    </Object>
+    <Object Include="libjpeg\simd\x86_64\jfdctint-avx2.asm.obj">
+      <Filter>源文件\libjpeg\simd\x86_64</Filter>
+    </Object>
+    <Object Include="libjpeg\simd\x86_64\jfdctint-sse2.asm.obj">
+      <Filter>源文件\libjpeg\simd\x86_64</Filter>
+    </Object>
+    <Object Include="libjpeg\simd\x86_64\jidctflt-sse2.asm.obj">
+      <Filter>源文件\libjpeg\simd\x86_64</Filter>
+    </Object>
+    <Object Include="libjpeg\simd\x86_64\jidctfst-sse2.asm.obj">
+      <Filter>源文件\libjpeg\simd\x86_64</Filter>
+    </Object>
+    <Object Include="libjpeg\simd\x86_64\jidctint-avx2.asm.obj">
+      <Filter>源文件\libjpeg\simd\x86_64</Filter>
+    </Object>
+    <Object Include="libjpeg\simd\x86_64\jidctint-sse2.asm.obj">
+      <Filter>源文件\libjpeg\simd\x86_64</Filter>
+    </Object>
+    <Object Include="libjpeg\simd\x86_64\jidctred-sse2.asm.obj">
+      <Filter>源文件\libjpeg\simd\x86_64</Filter>
+    </Object>
+    <Object Include="libjpeg\simd\x86_64\jquantf-sse2.asm.obj">
+      <Filter>源文件\libjpeg\simd\x86_64</Filter>
+    </Object>
+    <Object Include="libjpeg\simd\x86_64\jquanti-avx2.asm.obj">
+      <Filter>源文件\libjpeg\simd\x86_64</Filter>
+    </Object>
+    <Object Include="libjpeg\simd\x86_64\jquanti-sse2.asm.obj">
+      <Filter>源文件\libjpeg\simd\x86_64</Filter>
+    </Object>
+    <Object Include="libjpeg\simd\x86_64\jsimdcpu.asm.obj">
+      <Filter>源文件\libjpeg\simd\x86_64</Filter>
+    </Object>
+  </ItemGroup>
+</Project>

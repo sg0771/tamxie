@@ -1,0 +1,4454 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="libjpeg">
+      <UniqueIdentifier>{4cd178b5-03b9-4a30-9fd9-23092a064c63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libpng">
+      <UniqueIdentifier>{745ffaca-a313-4952-a956-3ba177904e64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="zlib">
+      <UniqueIdentifier>{6a8b13b4-91d3-486d-9f29-8bfe3bcb448e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pngquant">
+      <UniqueIdentifier>{0147ab69-3145-41cc-bee4-becbfe405f64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libyuv">
+      <UniqueIdentifier>{5ec7feda-cefd-492f-affd-c7fad2f6439c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libyuv\inc">
+      <UniqueIdentifier>{ed002012-0b65-4009-be29-17fc8b0f2435}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WXImage">
+      <UniqueIdentifier>{73ed6074-e4db-4529-a416-275c3fe48dfc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FreeImage">
+      <UniqueIdentifier>{91a52279-ecc3-492b-b66e-a713946d91f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FreeImage\Inc">
+      <UniqueIdentifier>{69ce0a14-d93b-4f58-96fc-0c6ab89c8f1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libwebp">
+      <UniqueIdentifier>{2e965df8-bc65-46f7-bc73-fc32e666f183}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libtiff4">
+      <UniqueIdentifier>{b3bbc086-2b27-473e-946a-724ff459fb9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OpenEXR">
+      <UniqueIdentifier>{658ef83d-26a7-4cb6-88d5-f32b668dc854}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OpenEXR\inc">
+      <UniqueIdentifier>{4082cb1f-4eed-429e-90a1-81a4f7362c70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LibRawLite">
+      <UniqueIdentifier>{5984c947-1acf-4558-aadc-143e026d845b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LibRawLite\inc">
+      <UniqueIdentifier>{736ec741-a67f-43f4-ac96-8d412ffda2db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LibOpenJPEG">
+      <UniqueIdentifier>{e8affe3b-44ff-484d-ba79-7ebb8a851441}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LibOpenJPEG\inc">
+      <UniqueIdentifier>{95e47d94-75e7-492b-ac5d-4de92366d574}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LibJXR">
+      <UniqueIdentifier>{2dde6ecf-77db-437f-bdb1-6a5707d15532}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LibJXR\inc">
+      <UniqueIdentifier>{e9827014-4f9a-4fce-a05f-283e7abd9f7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="jni">
+      <UniqueIdentifier>{8e9bcdb7-3e3c-4785-8927-d67e3b171f3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libjpeg\inc">
+      <UniqueIdentifier>{cf71d311-6da5-4c16-9bbc-2fa73378ef4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libjpeg\src">
+      <UniqueIdentifier>{5168eb48-465a-40ab-950a-6f34230fcb4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libjpeg\src\simd">
+      <UniqueIdentifier>{c4293c9a-e961-4925-a8cf-7aaf3f09223d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libjpeg\src\simd\arm">
+      <UniqueIdentifier>{2b5a2fc3-4abc-40b8-8e4e-fd259bfb1044}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libjpeg\src\simd\arm\inc">
+      <UniqueIdentifier>{5f82a643-9016-43aa-a5a4-4a2b9dc3c5eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libjpeg\src\simd\arm\aarch32">
+      <UniqueIdentifier>{7290a2b8-284b-47fe-80b7-b9e2aabb92c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libjpeg\src\simd\arm\aarch64">
+      <UniqueIdentifier>{1ed95d3e-070b-4b76-8968-da57fe218972}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libjpeg\src\simd\i386">
+      <UniqueIdentifier>{48a502fb-fa98-4a09-be3f-c04dc2af5756}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libjpeg\src\simd\i386\inc">
+      <UniqueIdentifier>{ab08ec78-29d4-4e8d-ab5a-1f08e475d53c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libjpeg\src\simd\x86_64">
+      <UniqueIdentifier>{b2cf16cc-a561-4826-b646-9e50e905606e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libjpeg\src\simd\x86_64\inc">
+      <UniqueIdentifier>{b03f6e11-bb39-470f-b5d8-cbdcdfdf976f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libjpeg\src\simd\nasm">
+      <UniqueIdentifier>{eb3c2606-0f4a-4c60-aae4-ff82d3aeac63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libjpeg\src\simd\i386\asm">
+      <UniqueIdentifier>{5770e150-030a-47ee-8ba3-d6be1014ab9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libjpeg\src\simd\x86_64\asm">
+      <UniqueIdentifier>{bde0ddcc-98c1-4410-a757-34d47382865b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mozjpeg">
+      <UniqueIdentifier>{71613a1b-3dbf-4f31-9609-0b866ca7681a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mozjpeg\inc">
+      <UniqueIdentifier>{eba07039-9583-4b20-838f-421897447885}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="res">
+      <UniqueIdentifier>{4032b594-a152-4a82-9db5-694e23f525f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libde265">
+      <UniqueIdentifier>{d0a17d7c-3682-4b0a-8bef-aa7b98ab6f50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libheif">
+      <UniqueIdentifier>{cd3e4aba-95e8-465e-bb63-38d2b6918b3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libaom">
+      <UniqueIdentifier>{3ee25fe0-0b20-43ef-8a2a-a606d830b4f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libaom\config">
+      <UniqueIdentifier>{0862033f-ce26-4855-97e9-1fbf0dcd66b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libaom\aom">
+      <UniqueIdentifier>{2be284a4-0175-4e03-86c7-b595ab62c24d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libaom\aom\interlnal">
+      <UniqueIdentifier>{4af6658f-5e18-401f-8357-ca6a6dea0107}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libaom\aom_util">
+      <UniqueIdentifier>{6511658d-084b-4149-9bc3-f68e036eec4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libaom\aom_mem">
+      <UniqueIdentifier>{b74619e8-3dea-4c3d-878e-2227f5a5e66f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libaom\aom_dsp">
+      <UniqueIdentifier>{74ad9f52-744d-424b-8ecf-403686c6b3cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libaom\aom_ports">
+      <UniqueIdentifier>{f1f2f7ea-dd8f-435b-8fc2-dcc3b0559e5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libaom\av1">
+      <UniqueIdentifier>{55b2e62a-6e49-4e8d-bb0e-94f94a063df5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libaom\av1\decoder">
+      <UniqueIdentifier>{74decb49-278c-43a8-85c2-ea5344adfddf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libaom\av1\common">
+      <UniqueIdentifier>{8bd7bb9e-d6a0-4d02-8e75-e72cf15da24e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libaom\common">
+      <UniqueIdentifier>{6d5a4930-ea50-4d42-b2d9-4944e423d61f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libaom\aom_scale">
+      <UniqueIdentifier>{8a79a89f-87e9-4809-90aa-495b4ead8511}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libaom\aom\src">
+      <UniqueIdentifier>{2ac788bf-470f-446f-8ef9-2f2b91f41b65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libheif\inc">
+      <UniqueIdentifier>{9a45e5c9-9ce7-471e-bff3-2afe1c95fe66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lcms2">
+      <UniqueIdentifier>{b9e1e517-e3ca-4793-a9b1-777676b51ccc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FreeImage\Plugin">
+      <UniqueIdentifier>{8bf6b5a8-ecdf-44c6-b9c6-b512090da98e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FreeImage\Conversion">
+      <UniqueIdentifier>{532065a2-8ed8-4eda-aa3c-f9c9c0a1ba74}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="libyuv\compare.h">
+      <Filter>libyuv\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="libyuv\basic_types.h">
+      <Filter>libyuv\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="libyuv\convert.h">
+      <Filter>libyuv\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="libyuv\convert_argb.h">
+      <Filter>libyuv\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="libyuv\convert_from.h">
+      <Filter>libyuv\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="libyuv\convert_from_argb.h">
+      <Filter>libyuv\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="libyuv\cpu_id.h">
+      <Filter>libyuv\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="libyuv\planar_functions.h">
+      <Filter>libyuv\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="libyuv\rotate.h">
+      <Filter>libyuv\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="libyuv\rotate_argb.h">
+      <Filter>libyuv\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="libyuv\row.h">
+      <Filter>libyuv\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="libyuv\video_common.h">
+      <Filter>libyuv\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="libyuv\version.h">
+      <Filter>libyuv\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="libyuv\scale_row.h">
+      <Filter>libyuv\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="libyuv\scale_argb.h">
+      <Filter>libyuv\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="libyuv\scale.h">
+      <Filter>libyuv\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="pngquant\libimagequant.h">
+      <Filter>pngquant</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\zlib.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="WXImage.h">
+      <Filter>WXImage</Filter>
+    </ClInclude>
+    <ClInclude Include="libyuv.h">
+      <Filter>libyuv</Filter>
+    </ClInclude>
+    <ClInclude Include="libwebp\alphai_dec.h">
+      <Filter>libwebp</Filter>
+    </ClInclude>
+    <ClInclude Include="libwebp\animi.h">
+      <Filter>libwebp</Filter>
+    </ClInclude>
+    <ClInclude Include="libwebp\backward_references_enc.h">
+      <Filter>libwebp</Filter>
+    </ClInclude>
+    <ClInclude Include="libwebp\bit_reader_inl_utils.h">
+      <Filter>libwebp</Filter>
+    </ClInclude>
+    <ClInclude Include="libwebp\bit_reader_utils.h">
+      <Filter>libwebp</Filter>
+    </ClInclude>
+    <ClInclude Include="libwebp\bit_writer_utils.h">
+      <Filter>libwebp</Filter>
+    </ClInclude>
+    <ClInclude Include="libwebp\color_cache_utils.h">
+      <Filter>libwebp</Filter>
+    </ClInclude>
+    <ClInclude Include="libwebp\common_dec.h">
+      <Filter>libwebp</Filter>
+    </ClInclude>
+    <ClInclude Include="libwebp\common_sse2.h">
+      <Filter>libwebp</Filter>
+    </ClInclude>
+    <ClInclude Include="libwebp\common_sse41.h">
+      <Filter>libwebp</Filter>
+    </ClInclude>
+    <ClInclude Include="libwebp\cost_enc.h">
+      <Filter>libwebp</Filter>
+    </ClInclude>
+    <ClInclude Include="libwebp\decode.h">
+      <Filter>libwebp</Filter>
+    </ClInclude>
+    <ClInclude Include="libwebp\demux.h">
+      <Filter>libwebp</Filter>
+    </ClInclude>
+    <ClInclude Include="libwebp\dsp.h">
+      <Filter>libwebp</Filter>
+    </ClInclude>
+    <ClInclude Include="libwebp\encode.h">
+      <Filter>libwebp</Filter>
+    </ClInclude>
+    <ClInclude Include="libwebp\endian_inl_utils.h">
+      <Filter>libwebp</Filter>
+    </ClInclude>
+    <ClInclude Include="libwebp\filters_utils.h">
+      <Filter>libwebp</Filter>
+    </ClInclude>
+    <ClInclude Include="libwebp\format_constants.h">
+      <Filter>libwebp</Filter>
+    </ClInclude>
+    <ClInclude Include="libwebp\histogram_enc.h">
+      <Filter>libwebp</Filter>
+    </ClInclude>
+    <ClInclude Include="libwebp\huffman_encode_utils.h">
+      <Filter>libwebp</Filter>
+    </ClInclude>
+    <ClInclude Include="libwebp\huffman_utils.h">
+      <Filter>libwebp</Filter>
+    </ClInclude>
+    <ClInclude Include="libwebp\lossless.h">
+      <Filter>libwebp</Filter>
+    </ClInclude>
+    <ClInclude Include="libwebp\lossless_common.h">
+      <Filter>libwebp</Filter>
+    </ClInclude>
+    <ClInclude Include="libwebp\mips_macro.h">
+      <Filter>libwebp</Filter>
+    </ClInclude>
+    <ClInclude Include="libwebp\msa_macro.h">
+      <Filter>libwebp</Filter>
+    </ClInclude>
+    <ClInclude Include="libwebp\mux.h">
+      <Filter>libwebp</Filter>
+    </ClInclude>
+    <ClInclude Include="libwebp\mux_types.h">
+      <Filter>libwebp</Filter>
+    </ClInclude>
+    <ClInclude Include="libwebp\muxi.h">
+      <Filter>libwebp</Filter>
+    </ClInclude>
+    <ClInclude Include="libwebp\neon.h">
+      <Filter>libwebp</Filter>
+    </ClInclude>
+    <ClInclude Include="libwebp\quant.h">
+      <Filter>libwebp</Filter>
+    </ClInclude>
+    <ClInclude Include="libwebp\quant_levels_dec_utils.h">
+      <Filter>libwebp</Filter>
+    </ClInclude>
+    <ClInclude Include="libwebp\quant_levels_utils.h">
+      <Filter>libwebp</Filter>
+    </ClInclude>
+    <ClInclude Include="libwebp\random_utils.h">
+      <Filter>libwebp</Filter>
+    </ClInclude>
+    <ClInclude Include="libwebp\rescaler_utils.h">
+      <Filter>libwebp</Filter>
+    </ClInclude>
+    <ClInclude Include="libwebp\thread_utils.h">
+      <Filter>libwebp</Filter>
+    </ClInclude>
+    <ClInclude Include="libwebp\types.h">
+      <Filter>libwebp</Filter>
+    </ClInclude>
+    <ClInclude Include="libwebp\utils.h">
+      <Filter>libwebp</Filter>
+    </ClInclude>
+    <ClInclude Include="libwebp\vp8_dec.h">
+      <Filter>libwebp</Filter>
+    </ClInclude>
+    <ClInclude Include="libwebp\vp8i_dec.h">
+      <Filter>libwebp</Filter>
+    </ClInclude>
+    <ClInclude Include="libwebp\vp8i_enc.h">
+      <Filter>libwebp</Filter>
+    </ClInclude>
+    <ClInclude Include="libwebp\vp8li_dec.h">
+      <Filter>libwebp</Filter>
+    </ClInclude>
+    <ClInclude Include="libwebp\vp8li_enc.h">
+      <Filter>libwebp</Filter>
+    </ClInclude>
+    <ClInclude Include="libwebp\webpi_dec.h">
+      <Filter>libwebp</Filter>
+    </ClInclude>
+    <ClInclude Include="libwebp\yuv.h">
+      <Filter>libwebp</Filter>
+    </ClInclude>
+    <ClInclude Include="LibTIFF4\t4.h">
+      <Filter>libtiff4</Filter>
+    </ClInclude>
+    <ClInclude Include="LibTIFF4\tif_config.h">
+      <Filter>libtiff4</Filter>
+    </ClInclude>
+    <ClInclude Include="LibTIFF4\tif_config.vc.h">
+      <Filter>libtiff4</Filter>
+    </ClInclude>
+    <ClInclude Include="LibTIFF4\tif_config.wince.h">
+      <Filter>libtiff4</Filter>
+    </ClInclude>
+    <ClInclude Include="LibTIFF4\tif_dir.h">
+      <Filter>libtiff4</Filter>
+    </ClInclude>
+    <ClInclude Include="LibTIFF4\tif_fax3.h">
+      <Filter>libtiff4</Filter>
+    </ClInclude>
+    <ClInclude Include="LibTIFF4\tif_predict.h">
+      <Filter>libtiff4</Filter>
+    </ClInclude>
+    <ClInclude Include="LibTIFF4\tiff.h">
+      <Filter>libtiff4</Filter>
+    </ClInclude>
+    <ClInclude Include="LibTIFF4\tiffconf.h">
+      <Filter>libtiff4</Filter>
+    </ClInclude>
+    <ClInclude Include="LibTIFF4\tiffconf.vc.h">
+      <Filter>libtiff4</Filter>
+    </ClInclude>
+    <ClInclude Include="LibTIFF4\tiffconf.wince.h">
+      <Filter>libtiff4</Filter>
+    </ClInclude>
+    <ClInclude Include="LibTIFF4\tiffio.h">
+      <Filter>libtiff4</Filter>
+    </ClInclude>
+    <ClInclude Include="LibTIFF4\tiffio.hxx">
+      <Filter>libtiff4</Filter>
+    </ClInclude>
+    <ClInclude Include="LibTIFF4\tiffiop.h">
+      <Filter>libtiff4</Filter>
+    </ClInclude>
+    <ClInclude Include="LibTIFF4\tiffvers.h">
+      <Filter>libtiff4</Filter>
+    </ClInclude>
+    <ClInclude Include="LibTIFF4\uvcode.h">
+      <Filter>libtiff4</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\b44ExpLogTable.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\dwaLookups.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\eLut.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\half.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\halfExport.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\halfFunction.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\halfLimits.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\Iex.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\IexBaseExc.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\IexErrnoExc.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\IexExport.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\IexForward.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\IexMacros.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\IexMathExc.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\IexMathFloatExc.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\IexMathFpu.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\IexMathIeeeExc.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\IexNamespace.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\IexThrowErrnoExc.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\IlmBaseConfig.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\IlmThread.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\IlmThreadExport.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\IlmThreadForward.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\IlmThreadMutex.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\IlmThreadNamespace.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\IlmThreadPool.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\IlmThreadSemaphore.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImathBox.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImathBoxAlgo.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImathColor.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImathColorAlgo.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImathEuler.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImathExc.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImathExport.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImathForward.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImathFrame.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImathFrustum.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImathFrustumTest.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImathFun.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImathGL.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImathGLU.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImathHalfLimits.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImathInt64.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImathInterval.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImathLimits.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImathLine.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImathLineAlgo.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImathMath.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImathMatrix.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImathMatrixAlgo.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImathNamespace.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImathPlane.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImathPlatform.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImathQuat.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImathRandom.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImathRoots.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImathShear.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImathSphere.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImathVec.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImathVecAlgo.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImfAcesFile.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImfArray.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImfAttribute.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImfAutoArray.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImfB44Compressor.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImfBoxAttribute.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImfChannelList.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImfChannelListAttribute.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImfCheckedArithmetic.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImfChromaticities.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImfChromaticitiesAttribute.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImfCompositeDeepScanLine.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImfCompression.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImfCompressionAttribute.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImfCompressor.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImfConvert.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImfCRgbaFile.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImfDeepCompositing.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImfDeepFrameBuffer.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImfDeepImageState.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImfDeepImageStateAttribute.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImfDeepScanLineInputFile.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImfDeepScanLineInputPart.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImfDeepScanLineOutputFile.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImfDeepScanLineOutputPart.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImfDeepTiledInputFile.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImfDeepTiledInputPart.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImfDeepTiledOutputFile.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImfDeepTiledOutputPart.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImfDoubleAttribute.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImfDwaCompressor.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImfDwaCompressorSimd.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImfEnvmap.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImfEnvmapAttribute.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImfExport.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImfFastHuf.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImfFloatAttribute.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImfFloatVectorAttribute.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImfForward.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImfFrameBuffer.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImfFramesPerSecond.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImfGenericInputFile.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImfGenericOutputFile.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImfHeader.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImfHuf.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImfInputFile.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImfInputPart.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImfInputPartData.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImfInputStreamMutex.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImfInt64.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImfIntAttribute.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImfIO.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImfKeyCode.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImfKeyCodeAttribute.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImfLineOrder.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImfLineOrderAttribute.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImfLut.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImfMatrixAttribute.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImfMisc.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImfMultiPartInputFile.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImfMultiPartOutputFile.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImfMultiView.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImfName.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImfNamespace.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImfOpaqueAttribute.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImfOptimizedPixelReading.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImfOutputFile.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImfOutputPart.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImfOutputPartData.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImfOutputStreamMutex.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImfPartHelper.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImfPartType.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImfPixelType.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImfPizCompressor.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImfPreviewImage.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImfPreviewImageAttribute.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImfPxr24Compressor.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImfRational.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImfRationalAttribute.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImfRgba.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImfRgbaFile.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImfRgbaYca.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImfRle.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImfRleCompressor.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImfScanLineInputFile.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImfSimd.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImfStandardAttributes.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImfStdIO.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImfStringAttribute.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImfStringVectorAttribute.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImfSystemSpecific.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImfTestFile.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImfThreading.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImfTileDescription.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImfTileDescriptionAttribute.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImfTiledInputFile.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImfTiledInputPart.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImfTiledMisc.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImfTiledOutputFile.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImfTiledOutputPart.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImfTiledRgbaFile.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImfTileOffsets.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImfTimeCode.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImfTimeCodeAttribute.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImfVecAttribute.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImfVersion.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImfWav.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImfXdr.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImfZip.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\ImfZipCompressor.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\OpenEXRConfig.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenEXR\toFloat.h">
+      <Filter>OpenEXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="LibRawLite\defines.h">
+      <Filter>LibRawLite\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="LibRawLite\libraw.h">
+      <Filter>LibRawLite\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="LibRawLite\libraw_alloc.h">
+      <Filter>LibRawLite\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="LibRawLite\libraw_const.h">
+      <Filter>LibRawLite\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="LibRawLite\libraw_datastream.h">
+      <Filter>LibRawLite\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="LibRawLite\libraw_internal.h">
+      <Filter>LibRawLite\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="LibRawLite\libraw_internal_funcs.h">
+      <Filter>LibRawLite\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="LibRawLite\libraw_types.h">
+      <Filter>LibRawLite\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="LibRawLite\libraw_version.h">
+      <Filter>LibRawLite\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="LibRawLite\var_defines.h">
+      <Filter>LibRawLite\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="LibOpenJPEG\tgt.h">
+      <Filter>LibOpenJPEG\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="LibOpenJPEG\tcd.h">
+      <Filter>LibOpenJPEG\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="LibOpenJPEG\t2.h">
+      <Filter>LibOpenJPEG\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="LibOpenJPEG\t1_luts.h">
+      <Filter>LibOpenJPEG\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="LibOpenJPEG\t1.h">
+      <Filter>LibOpenJPEG\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="LibOpenJPEG\raw.h">
+      <Filter>LibOpenJPEG\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="LibOpenJPEG\pi.h">
+      <Filter>LibOpenJPEG\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="LibOpenJPEG\opj_stdint.h">
+      <Filter>LibOpenJPEG\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="LibOpenJPEG\opj_malloc.h">
+      <Filter>LibOpenJPEG\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="LibOpenJPEG\opj_inttypes.h">
+      <Filter>LibOpenJPEG\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="LibOpenJPEG\opj_intmath.h">
+      <Filter>LibOpenJPEG\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="LibOpenJPEG\opj_includes.h">
+      <Filter>LibOpenJPEG\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="LibOpenJPEG\opj_config_private.h">
+      <Filter>LibOpenJPEG\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="LibOpenJPEG\opj_config.h">
+      <Filter>LibOpenJPEG\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="LibOpenJPEG\opj_codec.h">
+      <Filter>LibOpenJPEG\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="LibOpenJPEG\opj_clock.h">
+      <Filter>LibOpenJPEG\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="LibOpenJPEG\openjpeg.h">
+      <Filter>LibOpenJPEG\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="LibOpenJPEG\mqc.h">
+      <Filter>LibOpenJPEG\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="LibOpenJPEG\mct.h">
+      <Filter>LibOpenJPEG\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="LibOpenJPEG\jp2.h">
+      <Filter>LibOpenJPEG\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="LibOpenJPEG\j2k.h">
+      <Filter>LibOpenJPEG\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="LibOpenJPEG\invert.h">
+      <Filter>LibOpenJPEG\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="LibOpenJPEG\indexbox_manager.h">
+      <Filter>LibOpenJPEG\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="LibOpenJPEG\image.h">
+      <Filter>LibOpenJPEG\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="LibOpenJPEG\function_list.h">
+      <Filter>LibOpenJPEG\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="LibOpenJPEG\event.h">
+      <Filter>LibOpenJPEG\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="LibOpenJPEG\dwt.h">
+      <Filter>LibOpenJPEG\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="LibOpenJPEG\cio.h">
+      <Filter>LibOpenJPEG\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="LibOpenJPEG\cidx_manager.h">
+      <Filter>LibOpenJPEG\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="LibOpenJPEG\bio.h">
+      <Filter>LibOpenJPEG\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="LibJXR\xplatform_image.h">
+      <Filter>LibJXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="LibJXR\x86.h">
+      <Filter>LibJXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="LibJXR\wmspecstrings_undef.h">
+      <Filter>LibJXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="LibJXR\wmspecstrings_strict.h">
+      <Filter>LibJXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="LibJXR\wmspecstrings_adt.h">
+      <Filter>LibJXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="LibJXR\wmspecstring.h">
+      <Filter>LibJXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="LibJXR\wmsal.h">
+      <Filter>LibJXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="LibJXR\windowsmediaphoto.h">
+      <Filter>LibJXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="LibJXR\strTransform.h">
+      <Filter>LibJXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="LibJXR\strcodec.h">
+      <Filter>LibJXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="LibJXR\perfTimer.h">
+      <Filter>LibJXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="LibJXR\JXRMeta.h">
+      <Filter>LibJXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="LibJXR\JXRGlue.h">
+      <Filter>LibJXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="LibJXR\guiddef.h">
+      <Filter>LibJXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="LibJXR\encode.h">
+      <Filter>LibJXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="LibJXR\decode.h">
+      <Filter>LibJXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="LibJXR\common.h">
+      <Filter>LibJXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="LibJXR\ansi.h">
+      <Filter>LibJXR\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="LibRawLite\aahd_demosaic.h">
+      <Filter>LibRawLite\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="LibRawLite\dcb_demosaicing.h">
+      <Filter>LibRawLite\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="LibRawLite\dht_demosaic.h">
+      <Filter>LibRawLite\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="LibRawLite\libraw_fuji_compressed.h">
+      <Filter>LibRawLite\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="LibRawLite\libraw_x3f.h">
+      <Filter>LibRawLite\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="libpng\libpng.h">
+      <Filter>libpng</Filter>
+    </ClInclude>
+    <ClInclude Include="libjpeg\cderror.h">
+      <Filter>libjpeg\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="libjpeg\cdjpeg.h">
+      <Filter>libjpeg\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="libjpeg\cmyk.h">
+      <Filter>libjpeg\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="libjpeg\jchuff.h">
+      <Filter>libjpeg\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="libjpeg\jdcoefct.h">
+      <Filter>libjpeg\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="libjpeg\jdct.h">
+      <Filter>libjpeg\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="libjpeg\jdhuff.h">
+      <Filter>libjpeg\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="libjpeg\jdmainct.h">
+      <Filter>libjpeg\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="libjpeg\jdmaster.h">
+      <Filter>libjpeg\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="libjpeg\jdmerge.h">
+      <Filter>libjpeg\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="libjpeg\jdsample.h">
+      <Filter>libjpeg\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="libjpeg\jerror.h">
+      <Filter>libjpeg\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="libjpeg\jinclude.h">
+      <Filter>libjpeg\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="libjpeg\jmemsys.h">
+      <Filter>libjpeg\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="libjpeg\jmorecfg.h">
+      <Filter>libjpeg\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="libjpeg\jpeg_nbits_table.h">
+      <Filter>libjpeg\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="libjpeg\jpegcomp.h">
+      <Filter>libjpeg\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="libjpeg\jpegint.h">
+      <Filter>libjpeg\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="libjpeg\jpeglib.h">
+      <Filter>libjpeg\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="libjpeg\jsimd.h">
+      <Filter>libjpeg\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="libjpeg\jsimddct.h">
+      <Filter>libjpeg\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="libjpeg\jversion.h">
+      <Filter>libjpeg\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="libjpeg\transupp.h">
+      <Filter>libjpeg\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="libjpeg\simd\jsimd.h">
+      <Filter>libjpeg\src\simd</Filter>
+    </ClInclude>
+    <ClInclude Include="libjpeg\jstdhuff.c.h">
+      <Filter>libjpeg\src</Filter>
+    </ClInclude>
+    <ClInclude Include="libjpeg\jconfigint.h">
+      <Filter>libjpeg\src</Filter>
+    </ClInclude>
+    <ClInclude Include="libjpeg\jconfig.h">
+      <Filter>libjpeg\src</Filter>
+    </ClInclude>
+    <ClInclude Include="libjpeg\simd\arm\align.h">
+      <Filter>libjpeg\src\simd\arm\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="libjpeg\simd\arm\jchuff.h">
+      <Filter>libjpeg\src\simd\arm\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="libjpeg\simd\arm\jcgryext-neon.c.h">
+      <Filter>libjpeg\src\simd\arm\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="libjpeg\simd\arm\jdcolext-neon.c.h">
+      <Filter>libjpeg\src\simd\arm\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="libjpeg\simd\arm\jdmrgext-neon.c.h">
+      <Filter>libjpeg\src\simd\arm\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="libjpeg\simd\arm\aarch32\jccolext-neon.c.h">
+      <Filter>libjpeg\src\simd\arm\aarch32</Filter>
+    </ClInclude>
+    <ClInclude Include="libjpeg\simd\arm\aarch64\jccolext-neon.c.h">
+      <Filter>libjpeg\src\simd\arm\aarch64</Filter>
+    </ClInclude>
+    <ClInclude Include="libjpeg\jdmrg565.c.h">
+      <Filter>libjpeg\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="libjpeg\jdmrgext.c.h">
+      <Filter>libjpeg\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="libjpeg\jdcolext.c.h">
+      <Filter>libjpeg\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="libjpeg\jdcol565.c.h">
+      <Filter>libjpeg\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="libjpeg\jccolext.c.h">
+      <Filter>libjpeg\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="WXImageBase.h">
+      <Filter>WXImage</Filter>
+    </ClInclude>
+    <ClInclude Include="mozjpeg\moz_cdjpeg.h">
+      <Filter>mozjpeg\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="mozjpeg\moz_cderror.h">
+      <Filter>mozjpeg\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="mozjpeg\moz_cmyk.h">
+      <Filter>mozjpeg\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="mozjpeg\moz_jchuff.h">
+      <Filter>mozjpeg\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="mozjpeg\moz_jcmaster.h">
+      <Filter>mozjpeg\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="mozjpeg\moz_jinclude.h">
+      <Filter>mozjpeg\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="mozjpeg\moz_jerror.h">
+      <Filter>mozjpeg\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="mozjpeg\moz_jdsample.h">
+      <Filter>mozjpeg\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="mozjpeg\moz_jdmerge.h">
+      <Filter>mozjpeg\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="mozjpeg\moz_jdmaster.h">
+      <Filter>mozjpeg\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="mozjpeg\moz_jdmainct.h">
+      <Filter>mozjpeg\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="mozjpeg\moz_jdhuff.h">
+      <Filter>mozjpeg\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="mozjpeg\moz_jdcoefct.h">
+      <Filter>mozjpeg\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="mozjpeg\moz_transupp.h">
+      <Filter>mozjpeg\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="mozjpeg\moz_jsimd.h">
+      <Filter>mozjpeg\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="mozjpeg\moz_jdct.h">
+      <Filter>mozjpeg\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="mozjpeg\moz_jpeglib.h">
+      <Filter>mozjpeg\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="mozjpeg\moz_jpegint.h">
+      <Filter>mozjpeg\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="mozjpeg\moz_jpeg_nbits_table.h">
+      <Filter>mozjpeg\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="mozjpeg\moz_jpegcomp.h">
+      <Filter>mozjpeg\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="mozjpeg\moz_jmorecfg.h">
+      <Filter>mozjpeg\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="mozjpeg\moz_jmemsys.h">
+      <Filter>mozjpeg\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="mozjpeg\moz_jsimddct.h">
+      <Filter>mozjpeg\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>res</Filter>
+    </ClInclude>
+    <ClInclude Include="mozjpeg\moz_jversion.h">
+      <Filter>mozjpeg\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="mozjpeg\moz_jccolext.c.h">
+      <Filter>mozjpeg\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="mozjpeg\moz_jconfig.h">
+      <Filter>mozjpeg\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="mozjpeg\moz_jconfigint.h">
+      <Filter>mozjpeg\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="mozjpeg\moz_jdcol565.c.h">
+      <Filter>mozjpeg\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="mozjpeg\moz_jdcolext.c.h">
+      <Filter>mozjpeg\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="mozjpeg\moz_jdmrg565.c.h">
+      <Filter>mozjpeg\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="mozjpeg\moz_jdmrgext.c.h">
+      <Filter>mozjpeg\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="mozjpeg\moz_jstdhuff.c.h">
+      <Filter>mozjpeg\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="libde265\acceleration.h">
+      <Filter>libde265</Filter>
+    </ClInclude>
+    <ClInclude Include="libde265\alloc_pool.h">
+      <Filter>libde265</Filter>
+    </ClInclude>
+    <ClInclude Include="libde265\bitstream.h">
+      <Filter>libde265</Filter>
+    </ClInclude>
+    <ClInclude Include="libde265\cabac.h">
+      <Filter>libde265</Filter>
+    </ClInclude>
+    <ClInclude Include="libde265\configparam.h">
+      <Filter>libde265</Filter>
+    </ClInclude>
+    <ClInclude Include="libde265\contextmodel.h">
+      <Filter>libde265</Filter>
+    </ClInclude>
+    <ClInclude Include="libde265\de265.h">
+      <Filter>libde265</Filter>
+    </ClInclude>
+    <ClInclude Include="libde265\de265-config.h">
+      <Filter>libde265</Filter>
+    </ClInclude>
+    <ClInclude Include="libde265\de265-version.h">
+      <Filter>libde265</Filter>
+    </ClInclude>
+    <ClInclude Include="libde265\deblock.h">
+      <Filter>libde265</Filter>
+    </ClInclude>
+    <ClInclude Include="libde265\decctx.h">
+      <Filter>libde265</Filter>
+    </ClInclude>
+    <ClInclude Include="libde265\dpb.h">
+      <Filter>libde265</Filter>
+    </ClInclude>
+    <ClInclude Include="libde265\en265.h">
+      <Filter>libde265</Filter>
+    </ClInclude>
+    <ClInclude Include="libde265\fallback.h">
+      <Filter>libde265</Filter>
+    </ClInclude>
+    <ClInclude Include="libde265\fallback-dct.h">
+      <Filter>libde265</Filter>
+    </ClInclude>
+    <ClInclude Include="libde265\fallback-motion.h">
+      <Filter>libde265</Filter>
+    </ClInclude>
+    <ClInclude Include="libde265\image.h">
+      <Filter>libde265</Filter>
+    </ClInclude>
+    <ClInclude Include="libde265\image-io.h">
+      <Filter>libde265</Filter>
+    </ClInclude>
+    <ClInclude Include="libde265\intrapred.h">
+      <Filter>libde265</Filter>
+    </ClInclude>
+    <ClInclude Include="libde265\md5.h">
+      <Filter>libde265</Filter>
+    </ClInclude>
+    <ClInclude Include="libde265\motion.h">
+      <Filter>libde265</Filter>
+    </ClInclude>
+    <ClInclude Include="libde265\nal.h">
+      <Filter>libde265</Filter>
+    </ClInclude>
+    <ClInclude Include="libde265\nal-parser.h">
+      <Filter>libde265</Filter>
+    </ClInclude>
+    <ClInclude Include="libde265\pps.h">
+      <Filter>libde265</Filter>
+    </ClInclude>
+    <ClInclude Include="libde265\quality.h">
+      <Filter>libde265</Filter>
+    </ClInclude>
+    <ClInclude Include="libde265\refpic.h">
+      <Filter>libde265</Filter>
+    </ClInclude>
+    <ClInclude Include="libde265\sao.h">
+      <Filter>libde265</Filter>
+    </ClInclude>
+    <ClInclude Include="libde265\scan.h">
+      <Filter>libde265</Filter>
+    </ClInclude>
+    <ClInclude Include="libde265\sei.h">
+      <Filter>libde265</Filter>
+    </ClInclude>
+    <ClInclude Include="libde265\slice.h">
+      <Filter>libde265</Filter>
+    </ClInclude>
+    <ClInclude Include="libde265\sps.h">
+      <Filter>libde265</Filter>
+    </ClInclude>
+    <ClInclude Include="libde265\threads.h">
+      <Filter>libde265</Filter>
+    </ClInclude>
+    <ClInclude Include="libde265\transform.h">
+      <Filter>libde265</Filter>
+    </ClInclude>
+    <ClInclude Include="libde265\util.h">
+      <Filter>libde265</Filter>
+    </ClInclude>
+    <ClInclude Include="libde265\visualize.h">
+      <Filter>libde265</Filter>
+    </ClInclude>
+    <ClInclude Include="libde265\vps.h">
+      <Filter>libde265</Filter>
+    </ClInclude>
+    <ClInclude Include="libde265\vui.h">
+      <Filter>libde265</Filter>
+    </ClInclude>
+    <ClInclude Include="libde265\win32cond.h">
+      <Filter>libde265</Filter>
+    </ClInclude>
+    <ClInclude Include="aom\aom.h">
+      <Filter>libaom\aom</Filter>
+    </ClInclude>
+    <ClInclude Include="aom\aom_codec.h">
+      <Filter>libaom\aom</Filter>
+    </ClInclude>
+    <ClInclude Include="aom\aom_decoder.h">
+      <Filter>libaom\aom</Filter>
+    </ClInclude>
+    <ClInclude Include="aom\aom_encoder.h">
+      <Filter>libaom\aom</Filter>
+    </ClInclude>
+    <ClInclude Include="aom\aom_external_partition.h">
+      <Filter>libaom\aom</Filter>
+    </ClInclude>
+    <ClInclude Include="aom\aom_frame_buffer.h">
+      <Filter>libaom\aom</Filter>
+    </ClInclude>
+    <ClInclude Include="aom\aom_image.h">
+      <Filter>libaom\aom</Filter>
+    </ClInclude>
+    <ClInclude Include="aom\aom_integer.h">
+      <Filter>libaom\aom</Filter>
+    </ClInclude>
+    <ClInclude Include="aom\aom_cx.h">
+      <Filter>libaom\aom</Filter>
+    </ClInclude>
+    <ClInclude Include="aom\aom_dx.h">
+      <Filter>libaom\aom</Filter>
+    </ClInclude>
+    <ClInclude Include="aom\aom_codec_internal.h">
+      <Filter>libaom\aom\interlnal</Filter>
+    </ClInclude>
+    <ClInclude Include="aom\aom_image_internal.h">
+      <Filter>libaom\aom\interlnal</Filter>
+    </ClInclude>
+    <ClInclude Include="aom\aom_thread.h">
+      <Filter>libaom\aom_util</Filter>
+    </ClInclude>
+    <ClInclude Include="aom\aom_debug_util.h">
+      <Filter>libaom\aom_util</Filter>
+    </ClInclude>
+    <ClInclude Include="aom\aom_endian_inl.h">
+      <Filter>libaom\aom_util</Filter>
+    </ClInclude>
+    <ClInclude Include="aom\aom_mem.h">
+      <Filter>libaom\aom_mem</Filter>
+    </ClInclude>
+    <ClInclude Include="aom\aom_mem_intrnl.h">
+      <Filter>libaom\aom_mem</Filter>
+    </ClInclude>
+    <ClInclude Include="aom\aom_dsp_common.h">
+      <Filter>libaom\aom_dsp</Filter>
+    </ClInclude>
+    <ClInclude Include="aom\aom_dsp_filter.h">
+      <Filter>libaom\aom_dsp</Filter>
+    </ClInclude>
+    <ClInclude Include="aom\aom_dsp_simd.h">
+      <Filter>libaom\aom_dsp</Filter>
+    </ClInclude>
+    <ClInclude Include="aom\aom_dsp_simd_inline.h">
+      <Filter>libaom\aom_dsp</Filter>
+    </ClInclude>
+    <ClInclude Include="aom\aom_dsp_binary_codes_reader.h">
+      <Filter>libaom\aom_dsp</Filter>
+    </ClInclude>
+    <ClInclude Include="aom\aom_dsp_binary_codes_writer.h">
+      <Filter>libaom\aom_dsp</Filter>
+    </ClInclude>
+    <ClInclude Include="aom\aom_dsp_bitreader.h">
+      <Filter>libaom\aom_dsp</Filter>
+    </ClInclude>
+    <ClInclude Include="aom\aom_dsp_bitreader_buffer.h">
+      <Filter>libaom\aom_dsp</Filter>
+    </ClInclude>
+    <ClInclude Include="aom\aom_dsp_bitwriter.h">
+      <Filter>libaom\aom_dsp</Filter>
+    </ClInclude>
+    <ClInclude Include="aom\aom_dsp_bitwriter_buffer.h">
+      <Filter>libaom\aom_dsp</Filter>
+    </ClInclude>
+    <ClInclude Include="aom\aom_dsp_blend.h">
+      <Filter>libaom\aom_dsp</Filter>
+    </ClInclude>
+    <ClInclude Include="aom\aom_dsp_butteraugli.h">
+      <Filter>libaom\aom_dsp</Filter>
+    </ClInclude>
+    <ClInclude Include="aom\aom_dsp_entcode.h">
+      <Filter>libaom\aom_dsp</Filter>
+    </ClInclude>
+    <ClInclude Include="aom\aom_dsp_entdec.h">
+      <Filter>libaom\aom_dsp</Filter>
+    </ClInclude>
+    <ClInclude Include="aom\aom_dsp_entenc.h">
+      <Filter>libaom\aom_dsp</Filter>
+    </ClInclude>
+    <ClInclude Include="aom\aom_dsp_fft_common.h">
+      <Filter>libaom\aom_dsp</Filter>
+    </ClInclude>
+    <ClInclude Include="aom\aom_dsp_grain_params.h">
+      <Filter>libaom\aom_dsp</Filter>
+    </ClInclude>
+    <ClInclude Include="aom\aom_dsp_grain_table.h">
+      <Filter>libaom\aom_dsp</Filter>
+    </ClInclude>
+    <ClInclude Include="aom\aom_dsp_intrapred_common.h">
+      <Filter>libaom\aom_dsp</Filter>
+    </ClInclude>
+    <ClInclude Include="aom\aom_dsp_mathutils.h">
+      <Filter>libaom\aom_dsp</Filter>
+    </ClInclude>
+    <ClInclude Include="aom\aom_dsp_noise_model.h">
+      <Filter>libaom\aom_dsp</Filter>
+    </ClInclude>
+    <ClInclude Include="aom\aom_dsp_noise_util.h">
+      <Filter>libaom\aom_dsp</Filter>
+    </ClInclude>
+    <ClInclude Include="aom\aom_dsp_odintrin.h">
+      <Filter>libaom\aom_dsp</Filter>
+    </ClInclude>
+    <ClInclude Include="aom\aom_dsp_prob.h">
+      <Filter>libaom\aom_dsp</Filter>
+    </ClInclude>
+    <ClInclude Include="aom\aom_dsp_psnr.h">
+      <Filter>libaom\aom_dsp</Filter>
+    </ClInclude>
+    <ClInclude Include="aom\aom_dsp_quantize.h">
+      <Filter>libaom\aom_dsp</Filter>
+    </ClInclude>
+    <ClInclude Include="aom\aom_dsp_recenter.h">
+      <Filter>libaom\aom_dsp</Filter>
+    </ClInclude>
+    <ClInclude Include="aom\aom_dsp_rect.h">
+      <Filter>libaom\aom_dsp</Filter>
+    </ClInclude>
+    <ClInclude Include="aom\aom_dsp_ssim.h">
+      <Filter>libaom\aom_dsp</Filter>
+    </ClInclude>
+    <ClInclude Include="aom\aom_dsp_txfm_common.h">
+      <Filter>libaom\aom_dsp</Filter>
+    </ClInclude>
+    <ClInclude Include="aom\aom_dsp_variance.h">
+      <Filter>libaom\aom_dsp</Filter>
+    </ClInclude>
+    <ClInclude Include="aom\aom_dsp_vmaf.h">
+      <Filter>libaom\aom_dsp</Filter>
+    </ClInclude>
+    <ClInclude Include="aom\aom_once.h">
+      <Filter>libaom\aom_ports</Filter>
+    </ClInclude>
+    <ClInclude Include="aom\aom_timer.h">
+      <Filter>libaom\aom_ports</Filter>
+    </ClInclude>
+    <ClInclude Include="aom\aom_arm.h">
+      <Filter>libaom\aom_ports</Filter>
+    </ClInclude>
+    <ClInclude Include="aom\aom_bitops.h">
+      <Filter>libaom\aom_ports</Filter>
+    </ClInclude>
+    <ClInclude Include="aom\aom_emmintrin_compataom_.h">
+      <Filter>libaom\aom_ports</Filter>
+    </ClInclude>
+    <ClInclude Include="aom\mem.h">
+      <Filter>libaom\aom_ports</Filter>
+    </ClInclude>
+    <ClInclude Include="aom\aom_mem_ops.h">
+      <Filter>libaom\aom_ports</Filter>
+    </ClInclude>
+    <ClInclude Include="aom\aom_mem_ops_aligned.h">
+      <Filter>libaom\aom_ports</Filter>
+    </ClInclude>
+    <ClInclude Include="aom\aom_msvc.h">
+      <Filter>libaom\aom_ports</Filter>
+    </ClInclude>
+    <ClInclude Include="aom\aom_ppc.h">
+      <Filter>libaom\aom_ports</Filter>
+    </ClInclude>
+    <ClInclude Include="aom\aom_sanitizer.h">
+      <Filter>libaom\aom_ports</Filter>
+    </ClInclude>
+    <ClInclude Include="aom\aom_x86.h">
+      <Filter>libaom\aom_ports</Filter>
+    </ClInclude>
+    <ClInclude Include="aom\aom_args_helper.h">
+      <Filter>libaom\common</Filter>
+    </ClInclude>
+    <ClInclude Include="aom\av1_arg_defs.h">
+      <Filter>libaom\av1</Filter>
+    </ClInclude>
+    <ClInclude Include="aom\av1_cx_iface.h">
+      <Filter>libaom\av1</Filter>
+    </ClInclude>
+    <ClInclude Include="aom\av1_iface_common.h">
+      <Filter>libaom\av1</Filter>
+    </ClInclude>
+    <ClInclude Include="aom\av1_accounting.h">
+      <Filter>libaom\av1\decoder</Filter>
+    </ClInclude>
+    <ClInclude Include="aom\av1_decodeframe.h">
+      <Filter>libaom\av1\decoder</Filter>
+    </ClInclude>
+    <ClInclude Include="aom\av1_decodemv.h">
+      <Filter>libaom\av1\decoder</Filter>
+    </ClInclude>
+    <ClInclude Include="aom\av1_decoder.h">
+      <Filter>libaom\av1\decoder</Filter>
+    </ClInclude>
+    <ClInclude Include="aom\av1_decodetxb.h">
+      <Filter>libaom\av1\decoder</Filter>
+    </ClInclude>
+    <ClInclude Include="aom\av1_detokenize.h">
+      <Filter>libaom\av1\decoder</Filter>
+    </ClInclude>
+    <ClInclude Include="aom\av1_dthread.h">
+      <Filter>libaom\av1\decoder</Filter>
+    </ClInclude>
+    <ClInclude Include="aom\av1_grain_synthesis.h">
+      <Filter>libaom\av1\decoder</Filter>
+    </ClInclude>
+    <ClInclude Include="aom\av1_inspection.h">
+      <Filter>libaom\av1\decoder</Filter>
+    </ClInclude>
+    <ClInclude Include="aom\av1_obu.h">
+      <Filter>libaom\av1\decoder</Filter>
+    </ClInclude>
+    <ClInclude Include="aom\av1_alloccommon.h">
+      <Filter>libaom\av1\common</Filter>
+    </ClInclude>
+    <ClInclude Include="aom\av1_common_int.h">
+      <Filter>libaom\av1\common</Filter>
+    </ClInclude>
+    <ClInclude Include="aom\av1_inv_txfm1d.h">
+      <Filter>libaom\av1\common</Filter>
+    </ClInclude>
+    <ClInclude Include="aom\av1_inv_txfm1d_cfg.h">
+      <Filter>libaom\av1\common</Filter>
+    </ClInclude>
+    <ClInclude Include="aom\av1_loopfilter.h">
+      <Filter>libaom\av1\common</Filter>
+    </ClInclude>
+    <ClInclude Include="aom\av1_txfm.h">
+      <Filter>libaom\av1\common</Filter>
+    </ClInclude>
+    <ClInclude Include="aom\av1_blockd.h">
+      <Filter>libaom\av1\common</Filter>
+    </ClInclude>
+    <ClInclude Include="aom\av1_cdef.h">
+      <Filter>libaom\av1\common</Filter>
+    </ClInclude>
+    <ClInclude Include="aom\av1_cdef_block.h">
+      <Filter>libaom\av1\common</Filter>
+    </ClInclude>
+    <ClInclude Include="aom\av1_cdef_block_simd.h">
+      <Filter>libaom\av1\common</Filter>
+    </ClInclude>
+    <ClInclude Include="aom\av1_cfl.h">
+      <Filter>libaom\av1\common</Filter>
+    </ClInclude>
+    <ClInclude Include="aom\av1_common.h">
+      <Filter>libaom\av1\common</Filter>
+    </ClInclude>
+    <ClInclude Include="aom\av1_common_data.h">
+      <Filter>libaom\av1\common</Filter>
+    </ClInclude>
+    <ClInclude Include="aom\av1_convolve.h">
+      <Filter>libaom\av1\common</Filter>
+    </ClInclude>
+    <ClInclude Include="aom\av1_entropy.h">
+      <Filter>libaom\av1\common</Filter>
+    </ClInclude>
+    <ClInclude Include="aom\av1_entropymode.h">
+      <Filter>libaom\av1\common</Filter>
+    </ClInclude>
+    <ClInclude Include="aom\av1_entropymv.h">
+      <Filter>libaom\av1\common</Filter>
+    </ClInclude>
+    <ClInclude Include="aom\av1_enums.h">
+      <Filter>libaom\av1\common</Filter>
+    </ClInclude>
+    <ClInclude Include="aom\av1_filter.h">
+      <Filter>libaom\av1\common</Filter>
+    </ClInclude>
+    <ClInclude Include="aom\av1_frame_buffers.h">
+      <Filter>libaom\av1\common</Filter>
+    </ClInclude>
+    <ClInclude Include="aom\av1_idct.h">
+      <Filter>libaom\av1\common</Filter>
+    </ClInclude>
+    <ClInclude Include="aom\av1_mv.h">
+      <Filter>libaom\av1\common</Filter>
+    </ClInclude>
+    <ClInclude Include="aom\av1_mvref_common.h">
+      <Filter>libaom\av1\common</Filter>
+    </ClInclude>
+    <ClInclude Include="aom\av1_obmc.h">
+      <Filter>libaom\av1\common</Filter>
+    </ClInclude>
+    <ClInclude Include="aom\av1_obu_util.h">
+      <Filter>libaom\av1\common</Filter>
+    </ClInclude>
+    <ClInclude Include="aom\av1_pred_common.h">
+      <Filter>libaom\av1\common</Filter>
+    </ClInclude>
+    <ClInclude Include="aom\av1_quant_common.h">
+      <Filter>libaom\av1\common</Filter>
+    </ClInclude>
+    <ClInclude Include="aom\av1_reconinter.h">
+      <Filter>libaom\av1\common</Filter>
+    </ClInclude>
+    <ClInclude Include="aom\av1_reconintra.h">
+      <Filter>libaom\av1\common</Filter>
+    </ClInclude>
+    <ClInclude Include="aom\av1_resize.h">
+      <Filter>libaom\av1\common</Filter>
+    </ClInclude>
+    <ClInclude Include="aom\av1_restoration.h">
+      <Filter>libaom\av1\common</Filter>
+    </ClInclude>
+    <ClInclude Include="aom\av1_scale.h">
+      <Filter>libaom\av1\common</Filter>
+    </ClInclude>
+    <ClInclude Include="aom\av1_scan.h">
+      <Filter>libaom\av1\common</Filter>
+    </ClInclude>
+    <ClInclude Include="aom\av1_seg_common.h">
+      <Filter>libaom\av1\common</Filter>
+    </ClInclude>
+    <ClInclude Include="aom\av1_thread_common.h">
+      <Filter>libaom\av1\common</Filter>
+    </ClInclude>
+    <ClInclude Include="aom\av1_tile_common.h">
+      <Filter>libaom\av1\common</Filter>
+    </ClInclude>
+    <ClInclude Include="aom\av1_timing.h">
+      <Filter>libaom\av1\common</Filter>
+    </ClInclude>
+    <ClInclude Include="aom\av1_token_cdfs.h">
+      <Filter>libaom\av1\common</Filter>
+    </ClInclude>
+    <ClInclude Include="aom\av1_txb_common.h">
+      <Filter>libaom\av1\common</Filter>
+    </ClInclude>
+    <ClInclude Include="aom\av1_warped_motion.h">
+      <Filter>libaom\av1\common</Filter>
+    </ClInclude>
+    <ClInclude Include="aom\aom_scale.h">
+      <Filter>libaom\aom_scale</Filter>
+    </ClInclude>
+    <ClInclude Include="aom\aom_yv12config.h">
+      <Filter>libaom\aom_scale</Filter>
+    </ClInclude>
+    <ClInclude Include="aom\aom_av1_rtcd.h">
+      <Filter>libaom\aom</Filter>
+    </ClInclude>
+    <ClInclude Include="aom\aom_config.h">
+      <Filter>libaom\aom</Filter>
+    </ClInclude>
+    <ClInclude Include="aom\aom_dsp_rtcd.h">
+      <Filter>libaom\aom</Filter>
+    </ClInclude>
+    <ClInclude Include="aom\aom_scale_rtcd.h">
+      <Filter>libaom\aom</Filter>
+    </ClInclude>
+    <ClInclude Include="aom\aom_version.h">
+      <Filter>libaom\aom</Filter>
+    </ClInclude>
+    <ClInclude Include="libheif\heif_avif.h">
+      <Filter>libheif\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="libheif\heif_bitstream.h">
+      <Filter>libheif\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="libheif\heif_box.h">
+      <Filter>libheif\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="libheif\heif_common_utils.h">
+      <Filter>libheif\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="libheif\heif_error.h">
+      <Filter>libheif\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="libheif\exif.h">
+      <Filter>libheif\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="libheif\heif.h">
+      <Filter>libheif\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="libheif\heif_api_structs.h">
+      <Filter>libheif\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="libheif\heif_cxx.h">
+      <Filter>libheif\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="libheif\heif_context.h">
+      <Filter>libheif\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="libheif\heif_colorconversion.h">
+      <Filter>libheif\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="libheif\heif_decoder_aom.h">
+      <Filter>libheif\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="libheif\heif_decoder_libde265.h">
+      <Filter>libheif\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="libheif\heif_emscripten.h">
+      <Filter>libheif\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="libheif\heif_file.h">
+      <Filter>libheif\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="libheif\heif_hevc.h">
+      <Filter>libheif\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="libheif\heif_image.h">
+      <Filter>libheif\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="libheif\heif_init.h">
+      <Filter>libheif\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="libheif\heif_limits.h">
+      <Filter>libheif\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="libheif\heif_plugin.h">
+      <Filter>libheif\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="libheif\heif_plugin_registry.h">
+      <Filter>libheif\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="libheif\heif_version.h">
+      <Filter>libheif\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="libheif\heif_logging.h">
+      <Filter>libheif\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="libheif\heif_metadata_compression.h">
+      <Filter>libheif\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="libheif\heif_nclx.h">
+      <Filter>libheif\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="libheif\heif_plugins_unix.h">
+      <Filter>libheif</Filter>
+    </ClInclude>
+    <ClInclude Include="libheif\heif_plugins_windows.h">
+      <Filter>libheif</Filter>
+    </ClInclude>
+    <ClInclude Include="lcsm2\lcms2.h">
+      <Filter>lcms2</Filter>
+    </ClInclude>
+    <ClInclude Include="lcsm2\lcms2_internal.h">
+      <Filter>lcms2</Filter>
+    </ClInclude>
+    <ClInclude Include="lcsm2\lcms2_plugin.h">
+      <Filter>lcms2</Filter>
+    </ClInclude>
+    <ClInclude Include="FreeImage\CacheFile.h">
+      <Filter>FreeImage\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="FreeImage\Filters.h">
+      <Filter>FreeImage\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="FreeImage\FIRational.h">
+      <Filter>FreeImage\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="FreeImage\FreeImage.h">
+      <Filter>FreeImage\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="FreeImage\FreeImageIO.h">
+      <Filter>FreeImage\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="FreeImage\FreeImageTag.h">
+      <Filter>FreeImage\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="FreeImage\J2KHelper.h">
+      <Filter>FreeImage\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="FreeImage\MapIntrospector.h">
+      <Filter>FreeImage\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="FreeImage\Plugin.h">
+      <Filter>FreeImage\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="FreeImage\Quantizers.h">
+      <Filter>FreeImage\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="FreeImage\PSDParser.h">
+      <Filter>FreeImage\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="FreeImage\Resize.h">
+      <Filter>FreeImage\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="FreeImage\Utilities.h">
+      <Filter>FreeImage\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="FreeImage\ToneMapping.h">
+      <Filter>FreeImage\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="aom\aom_dsp_flow_estimation.h">
+      <Filter>libaom\aom_dsp</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="libyuv\compare.cc">
+      <Filter>libyuv</Filter>
+    </ClCompile>
+    <ClCompile Include="libyuv\compare_common.cc">
+      <Filter>libyuv</Filter>
+    </ClCompile>
+    <ClCompile Include="libyuv\compare_gcc.cc">
+      <Filter>libyuv</Filter>
+    </ClCompile>
+    <ClCompile Include="libyuv\compare_neon.cc">
+      <Filter>libyuv</Filter>
+    </ClCompile>
+    <ClCompile Include="libyuv\compare_neon64.cc">
+      <Filter>libyuv</Filter>
+    </ClCompile>
+    <ClCompile Include="libyuv\compare_win.cc">
+      <Filter>libyuv</Filter>
+    </ClCompile>
+    <ClCompile Include="libyuv\convert.cc">
+      <Filter>libyuv</Filter>
+    </ClCompile>
+    <ClCompile Include="libyuv\convert_argb.cc">
+      <Filter>libyuv</Filter>
+    </ClCompile>
+    <ClCompile Include="libyuv\convert_from.cc">
+      <Filter>libyuv</Filter>
+    </ClCompile>
+    <ClCompile Include="libyuv\convert_from_argb.cc">
+      <Filter>libyuv</Filter>
+    </ClCompile>
+    <ClCompile Include="libyuv\convert_to_argb.cc">
+      <Filter>libyuv</Filter>
+    </ClCompile>
+    <ClCompile Include="libyuv\convert_to_i420.cc">
+      <Filter>libyuv</Filter>
+    </ClCompile>
+    <ClCompile Include="libyuv\cpu_id.cc">
+      <Filter>libyuv</Filter>
+    </ClCompile>
+    <ClCompile Include="libyuv\planar_functions.cc">
+      <Filter>libyuv</Filter>
+    </ClCompile>
+    <ClCompile Include="libyuv\rotate.cc">
+      <Filter>libyuv</Filter>
+    </ClCompile>
+    <ClCompile Include="libyuv\rotate_argb.cc">
+      <Filter>libyuv</Filter>
+    </ClCompile>
+    <ClCompile Include="libyuv\rotate_neon.cc">
+      <Filter>libyuv</Filter>
+    </ClCompile>
+    <ClCompile Include="libyuv\rotate_neon64.cc">
+      <Filter>libyuv</Filter>
+    </ClCompile>
+    <ClCompile Include="libyuv\row_any.cc">
+      <Filter>libyuv</Filter>
+    </ClCompile>
+    <ClCompile Include="libyuv\row_common.cc">
+      <Filter>libyuv</Filter>
+    </ClCompile>
+    <ClCompile Include="libyuv\row_gcc.cc">
+      <Filter>libyuv</Filter>
+    </ClCompile>
+    <ClCompile Include="libyuv\row_neon.cc">
+      <Filter>libyuv</Filter>
+    </ClCompile>
+    <ClCompile Include="libyuv\row_neon64.cc">
+      <Filter>libyuv</Filter>
+    </ClCompile>
+    <ClCompile Include="libyuv\row_win.cc">
+      <Filter>libyuv</Filter>
+    </ClCompile>
+    <ClCompile Include="libyuv\scale.cc">
+      <Filter>libyuv</Filter>
+    </ClCompile>
+    <ClCompile Include="libyuv\scale_any.cc">
+      <Filter>libyuv</Filter>
+    </ClCompile>
+    <ClCompile Include="libyuv\scale_argb.cc">
+      <Filter>libyuv</Filter>
+    </ClCompile>
+    <ClCompile Include="libyuv\scale_common.cc">
+      <Filter>libyuv</Filter>
+    </ClCompile>
+    <ClCompile Include="libyuv\scale_gcc.cc">
+      <Filter>libyuv</Filter>
+    </ClCompile>
+    <ClCompile Include="libyuv\scale_neon.cc">
+      <Filter>libyuv</Filter>
+    </ClCompile>
+    <ClCompile Include="libyuv\scale_neon64.cc">
+      <Filter>libyuv</Filter>
+    </ClCompile>
+    <ClCompile Include="libyuv\scale_win.cc">
+      <Filter>libyuv</Filter>
+    </ClCompile>
+    <ClCompile Include="libyuv\video_common.cc">
+      <Filter>libyuv</Filter>
+    </ClCompile>
+    <ClCompile Include="libpng\libpng.c">
+      <Filter>libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\zlib.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="FreeImage\BitmapAccess.cpp">
+      <Filter>FreeImage</Filter>
+    </ClCompile>
+    <ClCompile Include="FreeImage\CacheFile.cpp">
+      <Filter>FreeImage</Filter>
+    </ClCompile>
+    <ClCompile Include="FreeImage\ColorLookup.cpp">
+      <Filter>FreeImage</Filter>
+    </ClCompile>
+    <ClCompile Include="FreeImage\FreeImage.cpp">
+      <Filter>FreeImage</Filter>
+    </ClCompile>
+    <ClCompile Include="FreeImage\FreeImageC.c">
+      <Filter>FreeImage</Filter>
+    </ClCompile>
+    <ClCompile Include="FreeImage\FreeImageIO.cpp">
+      <Filter>FreeImage</Filter>
+    </ClCompile>
+    <ClCompile Include="FreeImage\GetType.cpp">
+      <Filter>FreeImage</Filter>
+    </ClCompile>
+    <ClCompile Include="FreeImage\Halftoning.cpp">
+      <Filter>FreeImage</Filter>
+    </ClCompile>
+    <ClCompile Include="FreeImage\J2KHelper.cpp">
+      <Filter>FreeImage</Filter>
+    </ClCompile>
+    <ClCompile Include="FreeImage\LFPQuantizer.cpp">
+      <Filter>FreeImage</Filter>
+    </ClCompile>
+    <ClCompile Include="FreeImage\MemoryIO.cpp">
+      <Filter>FreeImage</Filter>
+    </ClCompile>
+    <ClCompile Include="FreeImage\MNGHelper.cpp">
+      <Filter>FreeImage</Filter>
+    </ClCompile>
+    <ClCompile Include="FreeImage\MultiPage.cpp">
+      <Filter>FreeImage</Filter>
+    </ClCompile>
+    <ClCompile Include="FreeImage\NNQuantizer.cpp">
+      <Filter>FreeImage</Filter>
+    </ClCompile>
+    <ClCompile Include="FreeImage\PixelAccess.cpp">
+      <Filter>FreeImage</Filter>
+    </ClCompile>
+    <ClCompile Include="FreeImage\PSDParser.cpp">
+      <Filter>FreeImage</Filter>
+    </ClCompile>
+    <ClCompile Include="FreeImage\TIFFLogLuv.cpp">
+      <Filter>FreeImage</Filter>
+    </ClCompile>
+    <ClCompile Include="FreeImage\tmoColorConvert.cpp">
+      <Filter>FreeImage</Filter>
+    </ClCompile>
+    <ClCompile Include="FreeImage\tmoDrago03.cpp">
+      <Filter>FreeImage</Filter>
+    </ClCompile>
+    <ClCompile Include="FreeImage\tmoFattal02.cpp">
+      <Filter>FreeImage</Filter>
+    </ClCompile>
+    <ClCompile Include="FreeImage\tmoReinhard05.cpp">
+      <Filter>FreeImage</Filter>
+    </ClCompile>
+    <ClCompile Include="FreeImage\ToneMapping.cpp">
+      <Filter>FreeImage</Filter>
+    </ClCompile>
+    <ClCompile Include="FreeImage\WuQuantizer.cpp">
+      <Filter>FreeImage</Filter>
+    </ClCompile>
+    <ClCompile Include="FreeImage\ZLibInterface.cpp">
+      <Filter>FreeImage</Filter>
+    </ClCompile>
+    <ClCompile Include="libwebp\alpha_dec.c">
+      <Filter>libwebp</Filter>
+    </ClCompile>
+    <ClCompile Include="libwebp\alpha_enc.c">
+      <Filter>libwebp</Filter>
+    </ClCompile>
+    <ClCompile Include="libwebp\alpha_processing.c">
+      <Filter>libwebp</Filter>
+    </ClCompile>
+    <ClCompile Include="libwebp\alpha_processing_mips_dsp_r2.c">
+      <Filter>libwebp</Filter>
+    </ClCompile>
+    <ClCompile Include="libwebp\alpha_processing_neon.c">
+      <Filter>libwebp</Filter>
+    </ClCompile>
+    <ClCompile Include="libwebp\alpha_processing_sse2.c">
+      <Filter>libwebp</Filter>
+    </ClCompile>
+    <ClCompile Include="libwebp\alpha_processing_sse41.c">
+      <Filter>libwebp</Filter>
+    </ClCompile>
+    <ClCompile Include="libwebp\analysis_enc.c">
+      <Filter>libwebp</Filter>
+    </ClCompile>
+    <ClCompile Include="libwebp\anim_decode.c">
+      <Filter>libwebp</Filter>
+    </ClCompile>
+    <ClCompile Include="libwebp\anim_encode.c">
+      <Filter>libwebp</Filter>
+    </ClCompile>
+    <ClCompile Include="libwebp\backward_references_cost_enc.c">
+      <Filter>libwebp</Filter>
+    </ClCompile>
+    <ClCompile Include="libwebp\backward_references_enc.c">
+      <Filter>libwebp</Filter>
+    </ClCompile>
+    <ClCompile Include="libwebp\bit_reader_utils.c">
+      <Filter>libwebp</Filter>
+    </ClCompile>
+    <ClCompile Include="libwebp\bit_writer_utils.c">
+      <Filter>libwebp</Filter>
+    </ClCompile>
+    <ClCompile Include="libwebp\buffer_dec.c">
+      <Filter>libwebp</Filter>
+    </ClCompile>
+    <ClCompile Include="libwebp\color_cache_utils.c">
+      <Filter>libwebp</Filter>
+    </ClCompile>
+    <ClCompile Include="libwebp\config_enc.c">
+      <Filter>libwebp</Filter>
+    </ClCompile>
+    <ClCompile Include="libwebp\cost.c">
+      <Filter>libwebp</Filter>
+    </ClCompile>
+    <ClCompile Include="libwebp\cost_enc.c">
+      <Filter>libwebp</Filter>
+    </ClCompile>
+    <ClCompile Include="libwebp\cost_mips_dsp_r2.c">
+      <Filter>libwebp</Filter>
+    </ClCompile>
+    <ClCompile Include="libwebp\cost_mips32.c">
+      <Filter>libwebp</Filter>
+    </ClCompile>
+    <ClCompile Include="libwebp\cost_neon.c">
+      <Filter>libwebp</Filter>
+    </ClCompile>
+    <ClCompile Include="libwebp\cost_sse2.c">
+      <Filter>libwebp</Filter>
+    </ClCompile>
+    <ClCompile Include="libwebp\cpu.c">
+      <Filter>libwebp</Filter>
+    </ClCompile>
+    <ClCompile Include="libwebp\dec.c">
+      <Filter>libwebp</Filter>
+    </ClCompile>
+    <ClCompile Include="libwebp\dec_clip_tables.c">
+      <Filter>libwebp</Filter>
+    </ClCompile>
+    <ClCompile Include="libwebp\dec_mips_dsp_r2.c">
+      <Filter>libwebp</Filter>
+    </ClCompile>
+    <ClCompile Include="libwebp\dec_mips32.c">
+      <Filter>libwebp</Filter>
+    </ClCompile>
+    <ClCompile Include="libwebp\dec_msa.c">
+      <Filter>libwebp</Filter>
+    </ClCompile>
+    <ClCompile Include="libwebp\dec_neon.c">
+      <Filter>libwebp</Filter>
+    </ClCompile>
+    <ClCompile Include="libwebp\dec_sse2.c">
+      <Filter>libwebp</Filter>
+    </ClCompile>
+    <ClCompile Include="libwebp\dec_sse41.c">
+      <Filter>libwebp</Filter>
+    </ClCompile>
+    <ClCompile Include="libwebp\demux.c">
+      <Filter>libwebp</Filter>
+    </ClCompile>
+    <ClCompile Include="libwebp\enc.c">
+      <Filter>libwebp</Filter>
+    </ClCompile>
+    <ClCompile Include="libwebp\enc_mips_dsp_r2.c">
+      <Filter>libwebp</Filter>
+    </ClCompile>
+    <ClCompile Include="libwebp\enc_mips32.c">
+      <Filter>libwebp</Filter>
+    </ClCompile>
+    <ClCompile Include="libwebp\enc_msa.c">
+      <Filter>libwebp</Filter>
+    </ClCompile>
+    <ClCompile Include="libwebp\enc_neon.c">
+      <Filter>libwebp</Filter>
+    </ClCompile>
+    <ClCompile Include="libwebp\enc_sse2.c">
+      <Filter>libwebp</Filter>
+    </ClCompile>
+    <ClCompile Include="libwebp\enc_sse41.c">
+      <Filter>libwebp</Filter>
+    </ClCompile>
+    <ClCompile Include="libwebp\filter_enc.c">
+      <Filter>libwebp</Filter>
+    </ClCompile>
+    <ClCompile Include="libwebp\filters.c">
+      <Filter>libwebp</Filter>
+    </ClCompile>
+    <ClCompile Include="libwebp\filters_mips_dsp_r2.c">
+      <Filter>libwebp</Filter>
+    </ClCompile>
+    <ClCompile Include="libwebp\filters_msa.c">
+      <Filter>libwebp</Filter>
+    </ClCompile>
+    <ClCompile Include="libwebp\filters_neon.c">
+      <Filter>libwebp</Filter>
+    </ClCompile>
+    <ClCompile Include="libwebp\filters_sse2.c">
+      <Filter>libwebp</Filter>
+    </ClCompile>
+    <ClCompile Include="libwebp\filters_utils.c">
+      <Filter>libwebp</Filter>
+    </ClCompile>
+    <ClCompile Include="libwebp\frame_dec.c">
+      <Filter>libwebp</Filter>
+    </ClCompile>
+    <ClCompile Include="libwebp\frame_enc.c">
+      <Filter>libwebp</Filter>
+    </ClCompile>
+    <ClCompile Include="libwebp\histogram_enc.c">
+      <Filter>libwebp</Filter>
+    </ClCompile>
+    <ClCompile Include="libwebp\huffman_encode_utils.c">
+      <Filter>libwebp</Filter>
+    </ClCompile>
+    <ClCompile Include="libwebp\huffman_utils.c">
+      <Filter>libwebp</Filter>
+    </ClCompile>
+    <ClCompile Include="libwebp\idec_dec.c">
+      <Filter>libwebp</Filter>
+    </ClCompile>
+    <ClCompile Include="libwebp\io_dec.c">
+      <Filter>libwebp</Filter>
+    </ClCompile>
+    <ClCompile Include="libwebp\iterator_enc.c">
+      <Filter>libwebp</Filter>
+    </ClCompile>
+    <ClCompile Include="libwebp\lossless.c">
+      <Filter>libwebp</Filter>
+    </ClCompile>
+    <ClCompile Include="libwebp\lossless_enc.c">
+      <Filter>libwebp</Filter>
+    </ClCompile>
+    <ClCompile Include="libwebp\lossless_enc_mips_dsp_r2.c">
+      <Filter>libwebp</Filter>
+    </ClCompile>
+    <ClCompile Include="libwebp\lossless_enc_mips32.c">
+      <Filter>libwebp</Filter>
+    </ClCompile>
+    <ClCompile Include="libwebp\lossless_enc_msa.c">
+      <Filter>libwebp</Filter>
+    </ClCompile>
+    <ClCompile Include="libwebp\lossless_enc_neon.c">
+      <Filter>libwebp</Filter>
+    </ClCompile>
+    <ClCompile Include="libwebp\lossless_enc_sse2.c">
+      <Filter>libwebp</Filter>
+    </ClCompile>
+    <ClCompile Include="libwebp\lossless_enc_sse41.c">
+      <Filter>libwebp</Filter>
+    </ClCompile>
+    <ClCompile Include="libwebp\lossless_mips_dsp_r2.c">
+      <Filter>libwebp</Filter>
+    </ClCompile>
+    <ClCompile Include="libwebp\lossless_msa.c">
+      <Filter>libwebp</Filter>
+    </ClCompile>
+    <ClCompile Include="libwebp\lossless_neon.c">
+      <Filter>libwebp</Filter>
+    </ClCompile>
+    <ClCompile Include="libwebp\lossless_sse2.c">
+      <Filter>libwebp</Filter>
+    </ClCompile>
+    <ClCompile Include="libwebp\lossless_sse41.c">
+      <Filter>libwebp</Filter>
+    </ClCompile>
+    <ClCompile Include="libwebp\muxedit.c">
+      <Filter>libwebp</Filter>
+    </ClCompile>
+    <ClCompile Include="libwebp\muxinternal.c">
+      <Filter>libwebp</Filter>
+    </ClCompile>
+    <ClCompile Include="libwebp\muxread.c">
+      <Filter>libwebp</Filter>
+    </ClCompile>
+    <ClCompile Include="libwebp\near_lossless_enc.c">
+      <Filter>libwebp</Filter>
+    </ClCompile>
+    <ClCompile Include="libwebp\picture_csp_enc.c">
+      <Filter>libwebp</Filter>
+    </ClCompile>
+    <ClCompile Include="libwebp\picture_enc.c">
+      <Filter>libwebp</Filter>
+    </ClCompile>
+    <ClCompile Include="libwebp\picture_psnr_enc.c">
+      <Filter>libwebp</Filter>
+    </ClCompile>
+    <ClCompile Include="libwebp\picture_rescale_enc.c">
+      <Filter>libwebp</Filter>
+    </ClCompile>
+    <ClCompile Include="libwebp\picture_tools_enc.c">
+      <Filter>libwebp</Filter>
+    </ClCompile>
+    <ClCompile Include="libwebp\predictor_enc.c">
+      <Filter>libwebp</Filter>
+    </ClCompile>
+    <ClCompile Include="libwebp\quant_dec.c">
+      <Filter>libwebp</Filter>
+    </ClCompile>
+    <ClCompile Include="libwebp\quant_enc.c">
+      <Filter>libwebp</Filter>
+    </ClCompile>
+    <ClCompile Include="libwebp\quant_levels_dec_utils.c">
+      <Filter>libwebp</Filter>
+    </ClCompile>
+    <ClCompile Include="libwebp\quant_levels_utils.c">
+      <Filter>libwebp</Filter>
+    </ClCompile>
+    <ClCompile Include="libwebp\random_utils.c">
+      <Filter>libwebp</Filter>
+    </ClCompile>
+    <ClCompile Include="libwebp\rescaler.c">
+      <Filter>libwebp</Filter>
+    </ClCompile>
+    <ClCompile Include="libwebp\rescaler_mips_dsp_r2.c">
+      <Filter>libwebp</Filter>
+    </ClCompile>
+    <ClCompile Include="libwebp\rescaler_mips32.c">
+      <Filter>libwebp</Filter>
+    </ClCompile>
+    <ClCompile Include="libwebp\rescaler_msa.c">
+      <Filter>libwebp</Filter>
+    </ClCompile>
+    <ClCompile Include="libwebp\rescaler_neon.c">
+      <Filter>libwebp</Filter>
+    </ClCompile>
+    <ClCompile Include="libwebp\rescaler_sse2.c">
+      <Filter>libwebp</Filter>
+    </ClCompile>
+    <ClCompile Include="libwebp\rescaler_utils.c">
+      <Filter>libwebp</Filter>
+    </ClCompile>
+    <ClCompile Include="libwebp\ssim.c">
+      <Filter>libwebp</Filter>
+    </ClCompile>
+    <ClCompile Include="libwebp\ssim_sse2.c">
+      <Filter>libwebp</Filter>
+    </ClCompile>
+    <ClCompile Include="libwebp\syntax_enc.c">
+      <Filter>libwebp</Filter>
+    </ClCompile>
+    <ClCompile Include="libwebp\thread_utils.c">
+      <Filter>libwebp</Filter>
+    </ClCompile>
+    <ClCompile Include="libwebp\token_enc.c">
+      <Filter>libwebp</Filter>
+    </ClCompile>
+    <ClCompile Include="libwebp\tree_dec.c">
+      <Filter>libwebp</Filter>
+    </ClCompile>
+    <ClCompile Include="libwebp\tree_enc.c">
+      <Filter>libwebp</Filter>
+    </ClCompile>
+    <ClCompile Include="libwebp\upsampling.c">
+      <Filter>libwebp</Filter>
+    </ClCompile>
+    <ClCompile Include="libwebp\upsampling_mips_dsp_r2.c">
+      <Filter>libwebp</Filter>
+    </ClCompile>
+    <ClCompile Include="libwebp\upsampling_msa.c">
+      <Filter>libwebp</Filter>
+    </ClCompile>
+    <ClCompile Include="libwebp\upsampling_neon.c">
+      <Filter>libwebp</Filter>
+    </ClCompile>
+    <ClCompile Include="libwebp\upsampling_sse2.c">
+      <Filter>libwebp</Filter>
+    </ClCompile>
+    <ClCompile Include="libwebp\upsampling_sse41.c">
+      <Filter>libwebp</Filter>
+    </ClCompile>
+    <ClCompile Include="libwebp\utils.c">
+      <Filter>libwebp</Filter>
+    </ClCompile>
+    <ClCompile Include="libwebp\vp8_dec.c">
+      <Filter>libwebp</Filter>
+    </ClCompile>
+    <ClCompile Include="libwebp\vp8l_dec.c">
+      <Filter>libwebp</Filter>
+    </ClCompile>
+    <ClCompile Include="libwebp\vp8l_enc.c">
+      <Filter>libwebp</Filter>
+    </ClCompile>
+    <ClCompile Include="libwebp\webp_dec.c">
+      <Filter>libwebp</Filter>
+    </ClCompile>
+    <ClCompile Include="libwebp\webp_enc.c">
+      <Filter>libwebp</Filter>
+    </ClCompile>
+    <ClCompile Include="libwebp\yuv.c">
+      <Filter>libwebp</Filter>
+    </ClCompile>
+    <ClCompile Include="libwebp\yuv_mips_dsp_r2.c">
+      <Filter>libwebp</Filter>
+    </ClCompile>
+    <ClCompile Include="libwebp\yuv_mips32.c">
+      <Filter>libwebp</Filter>
+    </ClCompile>
+    <ClCompile Include="libwebp\yuv_neon.c">
+      <Filter>libwebp</Filter>
+    </ClCompile>
+    <ClCompile Include="libwebp\yuv_sse2.c">
+      <Filter>libwebp</Filter>
+    </ClCompile>
+    <ClCompile Include="libwebp\yuv_sse41.c">
+      <Filter>libwebp</Filter>
+    </ClCompile>
+    <ClCompile Include="LibTIFF4\tif_aux.c">
+      <Filter>libtiff4</Filter>
+    </ClCompile>
+    <ClCompile Include="LibTIFF4\tif_close.c">
+      <Filter>libtiff4</Filter>
+    </ClCompile>
+    <ClCompile Include="LibTIFF4\tif_codec.c">
+      <Filter>libtiff4</Filter>
+    </ClCompile>
+    <ClCompile Include="LibTIFF4\tif_color.c">
+      <Filter>libtiff4</Filter>
+    </ClCompile>
+    <ClCompile Include="LibTIFF4\tif_compress.c">
+      <Filter>libtiff4</Filter>
+    </ClCompile>
+    <ClCompile Include="LibTIFF4\tif_dir.c">
+      <Filter>libtiff4</Filter>
+    </ClCompile>
+    <ClCompile Include="LibTIFF4\tif_dirinfo.c">
+      <Filter>libtiff4</Filter>
+    </ClCompile>
+    <ClCompile Include="LibTIFF4\tif_dirread.c">
+      <Filter>libtiff4</Filter>
+    </ClCompile>
+    <ClCompile Include="LibTIFF4\tif_dirwrite.c">
+      <Filter>libtiff4</Filter>
+    </ClCompile>
+    <ClCompile Include="LibTIFF4\tif_dumpmode.c">
+      <Filter>libtiff4</Filter>
+    </ClCompile>
+    <ClCompile Include="LibTIFF4\tif_error.c">
+      <Filter>libtiff4</Filter>
+    </ClCompile>
+    <ClCompile Include="LibTIFF4\tif_extension.c">
+      <Filter>libtiff4</Filter>
+    </ClCompile>
+    <ClCompile Include="LibTIFF4\tif_fax3.c">
+      <Filter>libtiff4</Filter>
+    </ClCompile>
+    <ClCompile Include="LibTIFF4\tif_fax3sm.c">
+      <Filter>libtiff4</Filter>
+    </ClCompile>
+    <ClCompile Include="LibTIFF4\tif_flush.c">
+      <Filter>libtiff4</Filter>
+    </ClCompile>
+    <ClCompile Include="LibTIFF4\tif_getimage.c">
+      <Filter>libtiff4</Filter>
+    </ClCompile>
+    <ClCompile Include="LibTIFF4\tif_jbig.c">
+      <Filter>libtiff4</Filter>
+    </ClCompile>
+    <ClCompile Include="LibTIFF4\tif_jpeg.c">
+      <Filter>libtiff4</Filter>
+    </ClCompile>
+    <ClCompile Include="LibTIFF4\tif_jpeg_12.c">
+      <Filter>libtiff4</Filter>
+    </ClCompile>
+    <ClCompile Include="LibTIFF4\tif_luv.c">
+      <Filter>libtiff4</Filter>
+    </ClCompile>
+    <ClCompile Include="LibTIFF4\tif_lzma.c">
+      <Filter>libtiff4</Filter>
+    </ClCompile>
+    <ClCompile Include="LibTIFF4\tif_lzw.c">
+      <Filter>libtiff4</Filter>
+    </ClCompile>
+    <ClCompile Include="LibTIFF4\tif_next.c">
+      <Filter>libtiff4</Filter>
+    </ClCompile>
+    <ClCompile Include="LibTIFF4\tif_ojpeg.c">
+      <Filter>libtiff4</Filter>
+    </ClCompile>
+    <ClCompile Include="LibTIFF4\tif_open.c">
+      <Filter>libtiff4</Filter>
+    </ClCompile>
+    <ClCompile Include="LibTIFF4\tif_packbits.c">
+      <Filter>libtiff4</Filter>
+    </ClCompile>
+    <ClCompile Include="LibTIFF4\tif_pixarlog.c">
+      <Filter>libtiff4</Filter>
+    </ClCompile>
+    <ClCompile Include="LibTIFF4\tif_predict.c">
+      <Filter>libtiff4</Filter>
+    </ClCompile>
+    <ClCompile Include="LibTIFF4\tif_print.c">
+      <Filter>libtiff4</Filter>
+    </ClCompile>
+    <ClCompile Include="LibTIFF4\tif_read.c">
+      <Filter>libtiff4</Filter>
+    </ClCompile>
+    <ClCompile Include="LibTIFF4\tif_stream.cxx">
+      <Filter>libtiff4</Filter>
+    </ClCompile>
+    <ClCompile Include="LibTIFF4\tif_strip.c">
+      <Filter>libtiff4</Filter>
+    </ClCompile>
+    <ClCompile Include="LibTIFF4\tif_swab.c">
+      <Filter>libtiff4</Filter>
+    </ClCompile>
+    <ClCompile Include="LibTIFF4\tif_thunder.c">
+      <Filter>libtiff4</Filter>
+    </ClCompile>
+    <ClCompile Include="LibTIFF4\tif_tile.c">
+      <Filter>libtiff4</Filter>
+    </ClCompile>
+    <ClCompile Include="LibTIFF4\tif_version.c">
+      <Filter>libtiff4</Filter>
+    </ClCompile>
+    <ClCompile Include="LibTIFF4\tif_warning.c">
+      <Filter>libtiff4</Filter>
+    </ClCompile>
+    <ClCompile Include="LibTIFF4\tif_write.c">
+      <Filter>libtiff4</Filter>
+    </ClCompile>
+    <ClCompile Include="LibTIFF4\tif_zip.c">
+      <Filter>libtiff4</Filter>
+    </ClCompile>
+    <ClCompile Include="LibTIFF4\tif_zstd.c">
+      <Filter>libtiff4</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenEXR\half.cpp">
+      <Filter>OpenEXR</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenEXR\IexBaseExc.cpp">
+      <Filter>OpenEXR</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenEXR\IexMathFloatExc.cpp">
+      <Filter>OpenEXR</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenEXR\IexMathFpu.cpp">
+      <Filter>OpenEXR</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenEXR\IexThrowErrnoExc.cpp">
+      <Filter>OpenEXR</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenEXR\IlmThreadMutexPosix.cpp">
+      <Filter>OpenEXR</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenEXR\IlmThreadMutexWin32.cpp">
+      <Filter>OpenEXR</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenEXR\IlmThreadPool.cpp">
+      <Filter>OpenEXR</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenEXR\IlmThreadPosix.cpp">
+      <Filter>OpenEXR</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenEXR\IlmThreadSemaphorePosix.cpp">
+      <Filter>OpenEXR</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenEXR\IlmThreadSemaphorePosixCompat.cpp">
+      <Filter>OpenEXR</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenEXR\IlmThreadSemaphoreWin32.cpp">
+      <Filter>OpenEXR</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenEXR\IlmThreadWin32.cpp">
+      <Filter>OpenEXR</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenEXR\ImathBox.cpp">
+      <Filter>OpenEXR</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenEXR\ImathColorAlgo.cpp">
+      <Filter>OpenEXR</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenEXR\ImathFun.cpp">
+      <Filter>OpenEXR</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenEXR\ImathMatrixAlgo.cpp">
+      <Filter>OpenEXR</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenEXR\ImathRandom.cpp">
+      <Filter>OpenEXR</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenEXR\ImathShear.cpp">
+      <Filter>OpenEXR</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenEXR\ImathVec.cpp">
+      <Filter>OpenEXR</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenEXR\ImfAcesFile.cpp">
+      <Filter>OpenEXR</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenEXR\ImfAttribute.cpp">
+      <Filter>OpenEXR</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenEXR\ImfB44Compressor.cpp">
+      <Filter>OpenEXR</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenEXR\ImfBoxAttribute.cpp">
+      <Filter>OpenEXR</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenEXR\ImfChannelList.cpp">
+      <Filter>OpenEXR</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenEXR\ImfChannelListAttribute.cpp">
+      <Filter>OpenEXR</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenEXR\ImfChromaticities.cpp">
+      <Filter>OpenEXR</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenEXR\ImfChromaticitiesAttribute.cpp">
+      <Filter>OpenEXR</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenEXR\ImfCompositeDeepScanLine.cpp">
+      <Filter>OpenEXR</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenEXR\ImfCompressionAttribute.cpp">
+      <Filter>OpenEXR</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenEXR\ImfCompressor.cpp">
+      <Filter>OpenEXR</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenEXR\ImfConvert.cpp">
+      <Filter>OpenEXR</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenEXR\ImfCRgbaFile.cpp">
+      <Filter>OpenEXR</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenEXR\ImfDeepCompositing.cpp">
+      <Filter>OpenEXR</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenEXR\ImfDeepFrameBuffer.cpp">
+      <Filter>OpenEXR</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenEXR\ImfDeepImageStateAttribute.cpp">
+      <Filter>OpenEXR</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenEXR\ImfDeepScanLineInputFile.cpp">
+      <Filter>OpenEXR</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenEXR\ImfDeepScanLineInputPart.cpp">
+      <Filter>OpenEXR</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenEXR\ImfDeepScanLineOutputFile.cpp">
+      <Filter>OpenEXR</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenEXR\ImfDeepScanLineOutputPart.cpp">
+      <Filter>OpenEXR</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenEXR\ImfDeepTiledInputFile.cpp">
+      <Filter>OpenEXR</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenEXR\ImfDeepTiledInputPart.cpp">
+      <Filter>OpenEXR</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenEXR\ImfDeepTiledOutputFile.cpp">
+      <Filter>OpenEXR</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenEXR\ImfDeepTiledOutputPart.cpp">
+      <Filter>OpenEXR</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenEXR\ImfDoubleAttribute.cpp">
+      <Filter>OpenEXR</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenEXR\ImfDwaCompressor.cpp">
+      <Filter>OpenEXR</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenEXR\ImfEnvmap.cpp">
+      <Filter>OpenEXR</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenEXR\ImfEnvmapAttribute.cpp">
+      <Filter>OpenEXR</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenEXR\ImfFastHuf.cpp">
+      <Filter>OpenEXR</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenEXR\ImfFloatAttribute.cpp">
+      <Filter>OpenEXR</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenEXR\ImfFloatVectorAttribute.cpp">
+      <Filter>OpenEXR</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenEXR\ImfFrameBuffer.cpp">
+      <Filter>OpenEXR</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenEXR\ImfFramesPerSecond.cpp">
+      <Filter>OpenEXR</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenEXR\ImfGenericInputFile.cpp">
+      <Filter>OpenEXR</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenEXR\ImfGenericOutputFile.cpp">
+      <Filter>OpenEXR</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenEXR\ImfHeader.cpp">
+      <Filter>OpenEXR</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenEXR\ImfHuf.cpp">
+      <Filter>OpenEXR</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenEXR\ImfInputFile.cpp">
+      <Filter>OpenEXR</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenEXR\ImfInputPart.cpp">
+      <Filter>OpenEXR</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenEXR\ImfInputPartData.cpp">
+      <Filter>OpenEXR</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenEXR\ImfIntAttribute.cpp">
+      <Filter>OpenEXR</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenEXR\ImfIO.cpp">
+      <Filter>OpenEXR</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenEXR\ImfKeyCode.cpp">
+      <Filter>OpenEXR</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenEXR\ImfKeyCodeAttribute.cpp">
+      <Filter>OpenEXR</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenEXR\ImfLineOrderAttribute.cpp">
+      <Filter>OpenEXR</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenEXR\ImfLut.cpp">
+      <Filter>OpenEXR</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenEXR\ImfMatrixAttribute.cpp">
+      <Filter>OpenEXR</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenEXR\ImfMisc.cpp">
+      <Filter>OpenEXR</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenEXR\ImfMultiPartInputFile.cpp">
+      <Filter>OpenEXR</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenEXR\ImfMultiPartOutputFile.cpp">
+      <Filter>OpenEXR</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenEXR\ImfMultiView.cpp">
+      <Filter>OpenEXR</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenEXR\ImfOpaqueAttribute.cpp">
+      <Filter>OpenEXR</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenEXR\ImfOutputFile.cpp">
+      <Filter>OpenEXR</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenEXR\ImfOutputPart.cpp">
+      <Filter>OpenEXR</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenEXR\ImfOutputPartData.cpp">
+      <Filter>OpenEXR</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenEXR\ImfPartType.cpp">
+      <Filter>OpenEXR</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenEXR\ImfPizCompressor.cpp">
+      <Filter>OpenEXR</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenEXR\ImfPreviewImage.cpp">
+      <Filter>OpenEXR</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenEXR\ImfPreviewImageAttribute.cpp">
+      <Filter>OpenEXR</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenEXR\ImfPxr24Compressor.cpp">
+      <Filter>OpenEXR</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenEXR\ImfRational.cpp">
+      <Filter>OpenEXR</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenEXR\ImfRationalAttribute.cpp">
+      <Filter>OpenEXR</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenEXR\ImfRgbaFile.cpp">
+      <Filter>OpenEXR</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenEXR\ImfRgbaYca.cpp">
+      <Filter>OpenEXR</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenEXR\ImfRle.cpp">
+      <Filter>OpenEXR</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenEXR\ImfRleCompressor.cpp">
+      <Filter>OpenEXR</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenEXR\ImfScanLineInputFile.cpp">
+      <Filter>OpenEXR</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenEXR\ImfStandardAttributes.cpp">
+      <Filter>OpenEXR</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenEXR\ImfStdIO.cpp">
+      <Filter>OpenEXR</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenEXR\ImfStringAttribute.cpp">
+      <Filter>OpenEXR</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenEXR\ImfStringVectorAttribute.cpp">
+      <Filter>OpenEXR</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenEXR\ImfSystemSpecific.cpp">
+      <Filter>OpenEXR</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenEXR\ImfTestFile.cpp">
+      <Filter>OpenEXR</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenEXR\ImfThreading.cpp">
+      <Filter>OpenEXR</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenEXR\ImfTileDescriptionAttribute.cpp">
+      <Filter>OpenEXR</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenEXR\ImfTiledInputFile.cpp">
+      <Filter>OpenEXR</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenEXR\ImfTiledInputPart.cpp">
+      <Filter>OpenEXR</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenEXR\ImfTiledMisc.cpp">
+      <Filter>OpenEXR</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenEXR\ImfTiledOutputFile.cpp">
+      <Filter>OpenEXR</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenEXR\ImfTiledOutputPart.cpp">
+      <Filter>OpenEXR</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenEXR\ImfTiledRgbaFile.cpp">
+      <Filter>OpenEXR</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenEXR\ImfTileOffsets.cpp">
+      <Filter>OpenEXR</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenEXR\ImfTimeCode.cpp">
+      <Filter>OpenEXR</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenEXR\ImfTimeCodeAttribute.cpp">
+      <Filter>OpenEXR</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenEXR\ImfVecAttribute.cpp">
+      <Filter>OpenEXR</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenEXR\ImfVersion.cpp">
+      <Filter>OpenEXR</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenEXR\ImfWav.cpp">
+      <Filter>OpenEXR</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenEXR\ImfZip.cpp">
+      <Filter>OpenEXR</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenEXR\ImfZipCompressor.cpp">
+      <Filter>OpenEXR</Filter>
+    </ClCompile>
+    <ClCompile Include="LibRawLite\dcraw_common.cpp">
+      <Filter>LibRawLite</Filter>
+    </ClCompile>
+    <ClCompile Include="LibRawLite\dcraw_fileio.cpp">
+      <Filter>LibRawLite</Filter>
+    </ClCompile>
+    <ClCompile Include="LibRawLite\demosaic_packs.cpp">
+      <Filter>LibRawLite</Filter>
+    </ClCompile>
+    <ClCompile Include="LibRawLite\libraw_c_api.cpp">
+      <Filter>LibRawLite</Filter>
+    </ClCompile>
+    <ClCompile Include="LibRawLite\libraw_cxx.cpp">
+      <Filter>LibRawLite</Filter>
+    </ClCompile>
+    <ClCompile Include="LibRawLite\libraw_datastream.cpp">
+      <Filter>LibRawLite</Filter>
+    </ClCompile>
+    <ClCompile Include="LibOpenJPEG\tpix_manager.c">
+      <Filter>LibOpenJPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="LibOpenJPEG\thix_manager.c">
+      <Filter>LibOpenJPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="LibOpenJPEG\tgt.c">
+      <Filter>LibOpenJPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="LibOpenJPEG\tcd.c">
+      <Filter>LibOpenJPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="LibOpenJPEG\t2.c">
+      <Filter>LibOpenJPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="LibOpenJPEG\t1.c">
+      <Filter>LibOpenJPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="LibOpenJPEG\raw.c">
+      <Filter>LibOpenJPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="LibOpenJPEG\ppix_manager.c">
+      <Filter>LibOpenJPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="LibOpenJPEG\pi.c">
+      <Filter>LibOpenJPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="LibOpenJPEG\phix_manager.c">
+      <Filter>LibOpenJPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="LibOpenJPEG\opj_clock.c">
+      <Filter>LibOpenJPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="LibOpenJPEG\openjpeg.c">
+      <Filter>LibOpenJPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="LibOpenJPEG\mqc.c">
+      <Filter>LibOpenJPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="LibOpenJPEG\mct.c">
+      <Filter>LibOpenJPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="LibOpenJPEG\jp2.c">
+      <Filter>LibOpenJPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="LibOpenJPEG\j2k.c">
+      <Filter>LibOpenJPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="LibOpenJPEG\invert.c">
+      <Filter>LibOpenJPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="LibOpenJPEG\image.c">
+      <Filter>LibOpenJPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="LibOpenJPEG\function_list.c">
+      <Filter>LibOpenJPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="LibOpenJPEG\event.c">
+      <Filter>LibOpenJPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="LibOpenJPEG\dwt.c">
+      <Filter>LibOpenJPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="LibOpenJPEG\cio.c">
+      <Filter>LibOpenJPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="LibOpenJPEG\cidx_manager.c">
+      <Filter>LibOpenJPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="LibOpenJPEG\bio.c">
+      <Filter>LibOpenJPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="LibJXR\strTransform.c">
+      <Filter>LibJXR</Filter>
+    </ClCompile>
+    <ClCompile Include="LibJXR\strPredQuantEnc.c">
+      <Filter>LibJXR</Filter>
+    </ClCompile>
+    <ClCompile Include="LibJXR\strPredQuantDec.c">
+      <Filter>LibJXR</Filter>
+    </ClCompile>
+    <ClCompile Include="LibJXR\strPredQuant.c">
+      <Filter>LibJXR</Filter>
+    </ClCompile>
+    <ClCompile Include="LibJXR\strInvTransform.c">
+      <Filter>LibJXR</Filter>
+    </ClCompile>
+    <ClCompile Include="LibJXR\strFwdTransform.c">
+      <Filter>LibJXR</Filter>
+    </ClCompile>
+    <ClCompile Include="LibJXR\strenc_x86.c">
+      <Filter>LibJXR</Filter>
+    </ClCompile>
+    <ClCompile Include="LibJXR\strenc.c">
+      <Filter>LibJXR</Filter>
+    </ClCompile>
+    <ClCompile Include="LibJXR\strdec_x86.c">
+      <Filter>LibJXR</Filter>
+    </ClCompile>
+    <ClCompile Include="LibJXR\strdec.c">
+      <Filter>LibJXR</Filter>
+    </ClCompile>
+    <ClCompile Include="LibJXR\strcodec.c">
+      <Filter>LibJXR</Filter>
+    </ClCompile>
+    <ClCompile Include="LibJXR\segenc.c">
+      <Filter>LibJXR</Filter>
+    </ClCompile>
+    <ClCompile Include="LibJXR\segdec.c">
+      <Filter>LibJXR</Filter>
+    </ClCompile>
+    <ClCompile Include="LibJXR\postprocess.c">
+      <Filter>LibJXR</Filter>
+    </ClCompile>
+    <ClCompile Include="LibJXR\perfTimerANSI.c">
+      <Filter>LibJXR</Filter>
+    </ClCompile>
+    <ClCompile Include="LibJXR\JXRTranscode.c">
+      <Filter>LibJXR</Filter>
+    </ClCompile>
+    <ClCompile Include="LibJXR\JXRMeta.c">
+      <Filter>LibJXR</Filter>
+    </ClCompile>
+    <ClCompile Include="LibJXR\JXRGluePFC.c">
+      <Filter>LibJXR</Filter>
+    </ClCompile>
+    <ClCompile Include="LibJXR\JXRGlueJxr.c">
+      <Filter>LibJXR</Filter>
+    </ClCompile>
+    <ClCompile Include="LibJXR\JXRGlue.c">
+      <Filter>LibJXR</Filter>
+    </ClCompile>
+    <ClCompile Include="LibJXR\adapthuff.c">
+      <Filter>LibJXR</Filter>
+    </ClCompile>
+    <ClCompile Include="LibJXR\JXRimage.c">
+      <Filter>LibJXR</Filter>
+    </ClCompile>
+    <ClCompile Include="LibJXR\JXRdecode.c">
+      <Filter>LibJXR</Filter>
+    </ClCompile>
+    <ClCompile Include="LibJXR\JXRencode.c">
+      <Filter>LibJXR</Filter>
+    </ClCompile>
+    <ClCompile Include="FreeImage\Background.cpp">
+      <Filter>FreeImage</Filter>
+    </ClCompile>
+    <ClCompile Include="FreeImage\BSplineRotate.cpp">
+      <Filter>FreeImage</Filter>
+    </ClCompile>
+    <ClCompile Include="FreeImage\Channels.cpp">
+      <Filter>FreeImage</Filter>
+    </ClCompile>
+    <ClCompile Include="FreeImage\ClassicRotate.cpp">
+      <Filter>FreeImage</Filter>
+    </ClCompile>
+    <ClCompile Include="FreeImage\Colors.cpp">
+      <Filter>FreeImage</Filter>
+    </ClCompile>
+    <ClCompile Include="FreeImage\CopyPaste.cpp">
+      <Filter>FreeImage</Filter>
+    </ClCompile>
+    <ClCompile Include="FreeImage\Display.cpp">
+      <Filter>FreeImage</Filter>
+    </ClCompile>
+    <ClCompile Include="FreeImage\Exif.cpp">
+      <Filter>FreeImage</Filter>
+    </ClCompile>
+    <ClCompile Include="FreeImage\FIRational.cpp">
+      <Filter>FreeImage</Filter>
+    </ClCompile>
+    <ClCompile Include="FreeImage\Flip.cpp">
+      <Filter>FreeImage</Filter>
+    </ClCompile>
+    <ClCompile Include="FreeImage\FreeImageTag.cpp">
+      <Filter>FreeImage</Filter>
+    </ClCompile>
+    <ClCompile Include="FreeImage\IPTC.cpp">
+      <Filter>FreeImage</Filter>
+    </ClCompile>
+    <ClCompile Include="FreeImage\JPEGTransform.cpp">
+      <Filter>FreeImage</Filter>
+    </ClCompile>
+    <ClCompile Include="FreeImage\MultigridPoissonSolver.cpp">
+      <Filter>FreeImage</Filter>
+    </ClCompile>
+    <ClCompile Include="FreeImage\Rescale.cpp">
+      <Filter>FreeImage</Filter>
+    </ClCompile>
+    <ClCompile Include="FreeImage\Resize.cpp">
+      <Filter>FreeImage</Filter>
+    </ClCompile>
+    <ClCompile Include="FreeImage\TagConversion.cpp">
+      <Filter>FreeImage</Filter>
+    </ClCompile>
+    <ClCompile Include="FreeImage\TagLib.cpp">
+      <Filter>FreeImage</Filter>
+    </ClCompile>
+    <ClCompile Include="FreeImage\XTIFF.cpp">
+      <Filter>FreeImage</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jutils.cpp">
+      <Filter>libjpeg\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jquant2.c">
+      <Filter>libjpeg\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jquant1.c">
+      <Filter>libjpeg\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jmemnobs.c">
+      <Filter>libjpeg\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jmemmgr.c">
+      <Filter>libjpeg\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jidctred.c">
+      <Filter>libjpeg\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jidctint.c">
+      <Filter>libjpeg\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jidctfst.c">
+      <Filter>libjpeg\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jidctflt.c">
+      <Filter>libjpeg\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jfdctint.c">
+      <Filter>libjpeg\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jfdctfst.c">
+      <Filter>libjpeg\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jfdctflt.c">
+      <Filter>libjpeg\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jerror.c">
+      <Filter>libjpeg\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jdtrans.c">
+      <Filter>libjpeg\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jdsample.c">
+      <Filter>libjpeg\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jdpostct.c">
+      <Filter>libjpeg\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jdphuff.c">
+      <Filter>libjpeg\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jdmerge.c">
+      <Filter>libjpeg\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jdmaster.c">
+      <Filter>libjpeg\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jdmarker.c">
+      <Filter>libjpeg\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jdmainct.c">
+      <Filter>libjpeg\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jdinput.c">
+      <Filter>libjpeg\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jdicc.c">
+      <Filter>libjpeg\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jdhuff.c">
+      <Filter>libjpeg\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jddctmgr.c">
+      <Filter>libjpeg\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jdcolor.c">
+      <Filter>libjpeg\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jdcoefct.c">
+      <Filter>libjpeg\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jdatasrc.c">
+      <Filter>libjpeg\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jdatadst.c">
+      <Filter>libjpeg\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jdarith.c">
+      <Filter>libjpeg\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jdapistd.c">
+      <Filter>libjpeg\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jdapimin.c">
+      <Filter>libjpeg\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jctrans.c">
+      <Filter>libjpeg\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jcsample.c">
+      <Filter>libjpeg\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jcprepct.c">
+      <Filter>libjpeg\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jcphuff.c">
+      <Filter>libjpeg\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jcparam.c">
+      <Filter>libjpeg\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jcomapi.c">
+      <Filter>libjpeg\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jcmaster.c">
+      <Filter>libjpeg\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jcmarker.c">
+      <Filter>libjpeg\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jcmainct.c">
+      <Filter>libjpeg\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jcinit.c">
+      <Filter>libjpeg\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jcicc.c">
+      <Filter>libjpeg\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jchuff.c">
+      <Filter>libjpeg\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jcdctmgr.c">
+      <Filter>libjpeg\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jccolor.c">
+      <Filter>libjpeg\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jccoefct.c">
+      <Filter>libjpeg\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jcarith.c">
+      <Filter>libjpeg\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jcapistd.c">
+      <Filter>libjpeg\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jcapimin.c">
+      <Filter>libjpeg\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jaricom.c">
+      <Filter>libjpeg\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\simd\arm\jccolor-neon.c">
+      <Filter>libjpeg\src\simd\arm</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\simd\arm\jcgray-neon.c">
+      <Filter>libjpeg\src\simd\arm</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\simd\arm\jcphuff-neon.c">
+      <Filter>libjpeg\src\simd\arm</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\simd\arm\jcsample-neon.c">
+      <Filter>libjpeg\src\simd\arm</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\simd\arm\jdcolor-neon.c">
+      <Filter>libjpeg\src\simd\arm</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\simd\arm\jdmerge-neon.c">
+      <Filter>libjpeg\src\simd\arm</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\simd\arm\jdsample-neon.c">
+      <Filter>libjpeg\src\simd\arm</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\simd\arm\jfdctfst-neon.c">
+      <Filter>libjpeg\src\simd\arm</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\simd\arm\jfdctint-neon.c">
+      <Filter>libjpeg\src\simd\arm</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\simd\arm\jidctfst-neon.c">
+      <Filter>libjpeg\src\simd\arm</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\simd\arm\jidctint-neon.c">
+      <Filter>libjpeg\src\simd\arm</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\simd\arm\jidctred-neon.c">
+      <Filter>libjpeg\src\simd\arm</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\simd\arm\jquanti-neon.c">
+      <Filter>libjpeg\src\simd\arm</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\simd\arm\aarch32\jchuff-neon.aarch32.c">
+      <Filter>libjpeg\src\simd\arm\aarch32</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\simd\arm\aarch32\jsimd.aarch32.c">
+      <Filter>libjpeg\src\simd\arm\aarch32</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\simd\arm\aarch64\jchuff-neon.aarch64.c">
+      <Filter>libjpeg\src\simd\arm\aarch64</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\simd\arm\aarch64\jsimd.aarch64.c">
+      <Filter>libjpeg\src\simd\arm\aarch64</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\simd\x86_64\jsimd_x86_64.c">
+      <Filter>libjpeg\src\simd\x86_64</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\simd\i386\jsimd_i386.c">
+      <Filter>libjpeg\src\simd\i386</Filter>
+    </ClCompile>
+    <ClCompile Include="WXJPG.cpp">
+      <Filter>WXImage</Filter>
+    </ClCompile>
+    <ClCompile Include="WXPNG.cpp">
+      <Filter>WXImage</Filter>
+    </ClCompile>
+    <ClCompile Include="pngquant\libimagequant.c">
+      <Filter>pngquant</Filter>
+    </ClCompile>
+    <ClCompile Include="CompressSize.cpp">
+      <Filter>WXImage</Filter>
+    </ClCompile>
+    <ClCompile Include="CompressQuality.cpp">
+      <Filter>WXImage</Filter>
+    </ClCompile>
+    <ClCompile Include="CompressPNG8.cpp">
+      <Filter>WXImage</Filter>
+    </ClCompile>
+    <ClCompile Include="mozjpeg\moz_jaricom.cpp">
+      <Filter>mozjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="mozjpeg\moz_jcapimin.cpp">
+      <Filter>mozjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="mozjpeg\moz_jcapistd.cpp">
+      <Filter>mozjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="mozjpeg\moz_jcarith.cpp">
+      <Filter>mozjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="mozjpeg\moz_jccoefct.cpp">
+      <Filter>mozjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="mozjpeg\moz_jccolor.cpp">
+      <Filter>mozjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="mozjpeg\moz_jcdctmgr.cpp">
+      <Filter>mozjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="mozjpeg\moz_jcext.cpp">
+      <Filter>mozjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="mozjpeg\moz_jchuff.cpp">
+      <Filter>mozjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="mozjpeg\moz_jcicc.cpp">
+      <Filter>mozjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="mozjpeg\moz_jcinit.cpp">
+      <Filter>mozjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="mozjpeg\moz_jcmainct.cpp">
+      <Filter>mozjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="mozjpeg\moz_jcmarker.cpp">
+      <Filter>mozjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="mozjpeg\moz_jcmaster.cpp">
+      <Filter>mozjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="mozjpeg\moz_jcomapi.cpp">
+      <Filter>mozjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="mozjpeg\moz_jcparam.cpp">
+      <Filter>mozjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="mozjpeg\moz_jcphuff.cpp">
+      <Filter>mozjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="mozjpeg\moz_jcprepct.cpp">
+      <Filter>mozjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="mozjpeg\moz_jcsample.cpp">
+      <Filter>mozjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="mozjpeg\moz_jctrans.cpp">
+      <Filter>mozjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="mozjpeg\moz_jdapimin.cpp">
+      <Filter>mozjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="mozjpeg\moz_jdapistd.cpp">
+      <Filter>mozjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="mozjpeg\moz_jdarith.cpp">
+      <Filter>mozjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="mozjpeg\moz_jdatadst.cpp">
+      <Filter>mozjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="mozjpeg\moz_jdatasrc.cpp">
+      <Filter>mozjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="mozjpeg\moz_jdcoefct.cpp">
+      <Filter>mozjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="mozjpeg\moz_jdcolor.cpp">
+      <Filter>mozjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="mozjpeg\moz_jddctmgr.cpp">
+      <Filter>mozjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="mozjpeg\moz_jdhuff.cpp">
+      <Filter>mozjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="mozjpeg\moz_jdicc.cpp">
+      <Filter>mozjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="mozjpeg\moz_jdinput.cpp">
+      <Filter>mozjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="mozjpeg\moz_jdmainct.cpp">
+      <Filter>mozjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="mozjpeg\moz_jdmarker.cpp">
+      <Filter>mozjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="mozjpeg\moz_jdmaster.cpp">
+      <Filter>mozjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="mozjpeg\moz_jdmerge.cpp">
+      <Filter>mozjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="mozjpeg\moz_jdphuff.cpp">
+      <Filter>mozjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="mozjpeg\moz_jdpostct.cpp">
+      <Filter>mozjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="mozjpeg\moz_jdsample.cpp">
+      <Filter>mozjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="mozjpeg\moz_jdtrans.cpp">
+      <Filter>mozjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="mozjpeg\moz_jerror.cpp">
+      <Filter>mozjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="mozjpeg\moz_jfdctflt.cpp">
+      <Filter>mozjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="mozjpeg\moz_jfdctfst.cpp">
+      <Filter>mozjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="mozjpeg\moz_jfdctint.cpp">
+      <Filter>mozjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="mozjpeg\moz_jidctflt.cpp">
+      <Filter>mozjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="mozjpeg\moz_jidctfst.cpp">
+      <Filter>mozjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="mozjpeg\moz_jidctint.cpp">
+      <Filter>mozjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="mozjpeg\moz_jidctred.cpp">
+      <Filter>mozjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="mozjpeg\moz_jmemmgr.cpp">
+      <Filter>mozjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="mozjpeg\moz_jmemnobs.cpp">
+      <Filter>mozjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="mozjpeg\moz_jquant1.cpp">
+      <Filter>mozjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="mozjpeg\moz_jquant2.cpp">
+      <Filter>mozjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="mozjpeg\moz_jutils.cpp">
+      <Filter>mozjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="FreeImage\mozjpeg_save.cpp">
+      <Filter>FreeImage</Filter>
+    </ClCompile>
+    <ClCompile Include="libde265\de265.cc">
+      <Filter>libde265</Filter>
+    </ClCompile>
+    <ClCompile Include="libde265\de265-alloc_pool.cc">
+      <Filter>libde265</Filter>
+    </ClCompile>
+    <ClCompile Include="libde265\de265-bitstream.cc">
+      <Filter>libde265</Filter>
+    </ClCompile>
+    <ClCompile Include="libde265\de265-cabac.cc">
+      <Filter>libde265</Filter>
+    </ClCompile>
+    <ClCompile Include="libde265\de265-configparam.cc">
+      <Filter>libde265</Filter>
+    </ClCompile>
+    <ClCompile Include="libde265\de265-contextmodel.cc">
+      <Filter>libde265</Filter>
+    </ClCompile>
+    <ClCompile Include="libde265\de265-deblock.cc">
+      <Filter>libde265</Filter>
+    </ClCompile>
+    <ClCompile Include="libde265\de265-decctx.cc">
+      <Filter>libde265</Filter>
+    </ClCompile>
+    <ClCompile Include="libde265\de265-dpb.cc">
+      <Filter>libde265</Filter>
+    </ClCompile>
+    <ClCompile Include="libde265\de265-fallback.cc">
+      <Filter>libde265</Filter>
+    </ClCompile>
+    <ClCompile Include="libde265\de265-fallback-dct.cc">
+      <Filter>libde265</Filter>
+    </ClCompile>
+    <ClCompile Include="libde265\de265-fallback-motion.cc">
+      <Filter>libde265</Filter>
+    </ClCompile>
+    <ClCompile Include="libde265\de265-image.cc">
+      <Filter>libde265</Filter>
+    </ClCompile>
+    <ClCompile Include="libde265\de265-image-io.cc">
+      <Filter>libde265</Filter>
+    </ClCompile>
+    <ClCompile Include="libde265\de265-intrapred.cc">
+      <Filter>libde265</Filter>
+    </ClCompile>
+    <ClCompile Include="libde265\de265-md5.cc">
+      <Filter>libde265</Filter>
+    </ClCompile>
+    <ClCompile Include="libde265\de265-motion.cc">
+      <Filter>libde265</Filter>
+    </ClCompile>
+    <ClCompile Include="libde265\de265-nal.cc">
+      <Filter>libde265</Filter>
+    </ClCompile>
+    <ClCompile Include="libde265\de265-nal-parser.cc">
+      <Filter>libde265</Filter>
+    </ClCompile>
+    <ClCompile Include="libde265\de265-pps.cc">
+      <Filter>libde265</Filter>
+    </ClCompile>
+    <ClCompile Include="libde265\de265-quality.cc">
+      <Filter>libde265</Filter>
+    </ClCompile>
+    <ClCompile Include="libde265\de265-refpic.cc">
+      <Filter>libde265</Filter>
+    </ClCompile>
+    <ClCompile Include="libde265\de265-sao.cc">
+      <Filter>libde265</Filter>
+    </ClCompile>
+    <ClCompile Include="libde265\de265-scan.cc">
+      <Filter>libde265</Filter>
+    </ClCompile>
+    <ClCompile Include="libde265\de265-sei.cc">
+      <Filter>libde265</Filter>
+    </ClCompile>
+    <ClCompile Include="libde265\de265-slice.cc">
+      <Filter>libde265</Filter>
+    </ClCompile>
+    <ClCompile Include="libde265\de265-sps.cc">
+      <Filter>libde265</Filter>
+    </ClCompile>
+    <ClCompile Include="libde265\de265-threads.cc">
+      <Filter>libde265</Filter>
+    </ClCompile>
+    <ClCompile Include="libde265\de265-transform.cc">
+      <Filter>libde265</Filter>
+    </ClCompile>
+    <ClCompile Include="libde265\de265-util.cc">
+      <Filter>libde265</Filter>
+    </ClCompile>
+    <ClCompile Include="libde265\de265-visualize.cc">
+      <Filter>libde265</Filter>
+    </ClCompile>
+    <ClCompile Include="libde265\de265-vps.cc">
+      <Filter>libde265</Filter>
+    </ClCompile>
+    <ClCompile Include="libde265\de265-vui.cc">
+      <Filter>libde265</Filter>
+    </ClCompile>
+    <ClCompile Include="libde265\de265-win32cond.c">
+      <Filter>libde265</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\rdcolmap.c">
+      <Filter>libjpeg\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\rdswitch.c">
+      <Filter>libjpeg\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\transupp.c">
+      <Filter>libjpeg\src</Filter>
+    </ClCompile>
+    <ClCompile Include="GetJpegQuality.cpp">
+      <Filter>WXImage</Filter>
+    </ClCompile>
+    <ClCompile Include="aom\aom_thread.c">
+      <Filter>libaom\aom_util</Filter>
+    </ClCompile>
+    <ClCompile Include="aom\aom_debug_util.c">
+      <Filter>libaom\aom_util</Filter>
+    </ClCompile>
+    <ClCompile Include="aom\aom_mem.c">
+      <Filter>libaom\aom_mem</Filter>
+    </ClCompile>
+    <ClCompile Include="aom\av1_arg_defs.c">
+      <Filter>libaom\av1</Filter>
+    </ClCompile>
+    <ClCompile Include="aom\av1_dx_iface.c">
+      <Filter>libaom\av1</Filter>
+    </ClCompile>
+    <ClCompile Include="aom\av1_accounting.c">
+      <Filter>libaom\av1\decoder</Filter>
+    </ClCompile>
+    <ClCompile Include="aom\av1_decodeframe.c">
+      <Filter>libaom\av1\decoder</Filter>
+    </ClCompile>
+    <ClCompile Include="aom\av1_decodemv.c">
+      <Filter>libaom\av1\decoder</Filter>
+    </ClCompile>
+    <ClCompile Include="aom\av1_decoder.c">
+      <Filter>libaom\av1\decoder</Filter>
+    </ClCompile>
+    <ClCompile Include="aom\av1_decodetxb.c">
+      <Filter>libaom\av1\decoder</Filter>
+    </ClCompile>
+    <ClCompile Include="aom\av1_detokenize.c">
+      <Filter>libaom\av1\decoder</Filter>
+    </ClCompile>
+    <ClCompile Include="aom\av1_grain_synthesis.c">
+      <Filter>libaom\av1\decoder</Filter>
+    </ClCompile>
+    <ClCompile Include="aom\av1_obu.c">
+      <Filter>libaom\av1\decoder</Filter>
+    </ClCompile>
+    <ClCompile Include="aom\av1_alloccommon.c">
+      <Filter>libaom\av1\common</Filter>
+    </ClCompile>
+    <ClCompile Include="aom\av1_inv_txfm1d.c">
+      <Filter>libaom\av1\common</Filter>
+    </ClCompile>
+    <ClCompile Include="aom\av1_inv_txfm2d.c">
+      <Filter>libaom\av1\common</Filter>
+    </ClCompile>
+    <ClCompile Include="aom\av1_loopfilter.c">
+      <Filter>libaom\av1\common</Filter>
+    </ClCompile>
+    <ClCompile Include="aom\av1_rtcd.c">
+      <Filter>libaom\av1\common</Filter>
+    </ClCompile>
+    <ClCompile Include="aom\av1_txfm.c">
+      <Filter>libaom\av1\common</Filter>
+    </ClCompile>
+    <ClCompile Include="aom\av1_blockd.c">
+      <Filter>libaom\av1\common</Filter>
+    </ClCompile>
+    <ClCompile Include="aom\av1_cdef.c">
+      <Filter>libaom\av1\common</Filter>
+    </ClCompile>
+    <ClCompile Include="aom\av1_cdef_block.c">
+      <Filter>libaom\av1\common</Filter>
+    </ClCompile>
+    <ClCompile Include="aom\av1_cfl.c">
+      <Filter>libaom\av1\common</Filter>
+    </ClCompile>
+    <ClCompile Include="aom\av1_common_data.c">
+      <Filter>libaom\av1\common</Filter>
+    </ClCompile>
+    <ClCompile Include="aom\av1_convolve.c">
+      <Filter>libaom\av1\common</Filter>
+    </ClCompile>
+    <ClCompile Include="aom\av1_debugmodes.c">
+      <Filter>libaom\av1\common</Filter>
+    </ClCompile>
+    <ClCompile Include="aom\av1_entropy.c">
+      <Filter>libaom\av1\common</Filter>
+    </ClCompile>
+    <ClCompile Include="aom\av1_entropymode.c">
+      <Filter>libaom\av1\common</Filter>
+    </ClCompile>
+    <ClCompile Include="aom\av1_entropymv.c">
+      <Filter>libaom\av1\common</Filter>
+    </ClCompile>
+    <ClCompile Include="aom\av1_frame_buffers.c">
+      <Filter>libaom\av1\common</Filter>
+    </ClCompile>
+    <ClCompile Include="aom\av1_idct.c">
+      <Filter>libaom\av1\common</Filter>
+    </ClCompile>
+    <ClCompile Include="aom\av1_mvref_common.c">
+      <Filter>libaom\av1\common</Filter>
+    </ClCompile>
+    <ClCompile Include="aom\av1_obu_util.c">
+      <Filter>libaom\av1\common</Filter>
+    </ClCompile>
+    <ClCompile Include="aom\av1_pred_common.c">
+      <Filter>libaom\av1\common</Filter>
+    </ClCompile>
+    <ClCompile Include="aom\av1_quant_common.c">
+      <Filter>libaom\av1\common</Filter>
+    </ClCompile>
+    <ClCompile Include="aom\av1_reconinter.c">
+      <Filter>libaom\av1\common</Filter>
+    </ClCompile>
+    <ClCompile Include="aom\av1_reconintra.c">
+      <Filter>libaom\av1\common</Filter>
+    </ClCompile>
+    <ClCompile Include="aom\av1_aom_resize.c">
+      <Filter>libaom\av1\common</Filter>
+    </ClCompile>
+    <ClCompile Include="aom\av1_restoration.c">
+      <Filter>libaom\av1\common</Filter>
+    </ClCompile>
+    <ClCompile Include="aom\av1_scale.c">
+      <Filter>libaom\av1\common</Filter>
+    </ClCompile>
+    <ClCompile Include="aom\av1_scan.c">
+      <Filter>libaom\av1\common</Filter>
+    </ClCompile>
+    <ClCompile Include="aom\av1_seg_common.c">
+      <Filter>libaom\av1\common</Filter>
+    </ClCompile>
+    <ClCompile Include="aom\av1_thread_common.c">
+      <Filter>libaom\av1\common</Filter>
+    </ClCompile>
+    <ClCompile Include="aom\av1_tile_common.c">
+      <Filter>libaom\av1\common</Filter>
+    </ClCompile>
+    <ClCompile Include="aom\av1_timing.c">
+      <Filter>libaom\av1\common</Filter>
+    </ClCompile>
+    <ClCompile Include="aom\av1_txb_common.c">
+      <Filter>libaom\av1\common</Filter>
+    </ClCompile>
+    <ClCompile Include="aom\av1_warped_motion.c">
+      <Filter>libaom\av1\common</Filter>
+    </ClCompile>
+    <ClCompile Include="aom\aom_scale.c">
+      <Filter>libaom\aom_scale</Filter>
+    </ClCompile>
+    <ClCompile Include="aom\aom_gen_scalers.c">
+      <Filter>libaom\aom_scale</Filter>
+    </ClCompile>
+    <ClCompile Include="aom\aom_yv12config.c">
+      <Filter>libaom\aom_scale</Filter>
+    </ClCompile>
+    <ClCompile Include="aom\aom_yv12extend.c">
+      <Filter>libaom\aom_scale</Filter>
+    </ClCompile>
+    <ClCompile Include="aom\aom_dsp_binary_codes_reader.c">
+      <Filter>libaom\aom_dsp</Filter>
+    </ClCompile>
+    <ClCompile Include="aom\aom_dsp_bitreader.c">
+      <Filter>libaom\aom_dsp</Filter>
+    </ClCompile>
+    <ClCompile Include="aom\aom_dsp_entdec.c">
+      <Filter>libaom\aom_dsp</Filter>
+    </ClCompile>
+    <ClCompile Include="aom\aom_dsp_convolve.c">
+      <Filter>libaom\aom_dsp</Filter>
+    </ClCompile>
+    <ClCompile Include="aom\aom_dsp_bitreader_buffer.c">
+      <Filter>libaom\aom_dsp</Filter>
+    </ClCompile>
+    <ClCompile Include="aom\aom_dsp_bitwriter_buffer.c">
+      <Filter>libaom\aom_dsp</Filter>
+    </ClCompile>
+    <ClCompile Include="aom\aom_dsp_blend_a64_hmask.c">
+      <Filter>libaom\aom_dsp</Filter>
+    </ClCompile>
+    <ClCompile Include="aom\aom_dsp_blend_a64_mask.c">
+      <Filter>libaom\aom_dsp</Filter>
+    </ClCompile>
+    <ClCompile Include="aom\aom_dsp_blend_a64_vmask.c">
+      <Filter>libaom\aom_dsp</Filter>
+    </ClCompile>
+    <ClCompile Include="aom\aom_dsp_entcode.c">
+      <Filter>libaom\aom_dsp</Filter>
+    </ClCompile>
+    <ClCompile Include="aom\aom_dsp_fft.c">
+      <Filter>libaom\aom_dsp</Filter>
+    </ClCompile>
+    <ClCompile Include="aom\aom_dsp_intrapred.c">
+      <Filter>libaom\aom_dsp</Filter>
+    </ClCompile>
+    <ClCompile Include="aom\aom_dsp_loopfilter.c">
+      <Filter>libaom\aom_dsp</Filter>
+    </ClCompile>
+    <ClCompile Include="aom\aom_dsp_odintrin.c">
+      <Filter>libaom\aom_dsp</Filter>
+    </ClCompile>
+    <ClCompile Include="aom\aom_dsp_subtract.c">
+      <Filter>libaom\aom_dsp</Filter>
+    </ClCompile>
+    <ClCompile Include="aom\aom_codec.c">
+      <Filter>libaom\aom\src</Filter>
+    </ClCompile>
+    <ClCompile Include="aom\aom_decoder.c">
+      <Filter>libaom\aom\src</Filter>
+    </ClCompile>
+    <ClCompile Include="aom\aom_image.c">
+      <Filter>libaom\aom\src</Filter>
+    </ClCompile>
+    <ClCompile Include="aom\aom_integer.c">
+      <Filter>libaom\aom\src</Filter>
+    </ClCompile>
+    <ClCompile Include="aom\aom_dsp_rtcd.c">
+      <Filter>libaom\aom_dsp</Filter>
+    </ClCompile>
+    <ClCompile Include="aom\aom_scale_rtcd.c">
+      <Filter>libaom\aom_scale</Filter>
+    </ClCompile>
+    <ClCompile Include="libheif\heif_colorconversion.cc">
+      <Filter>libheif</Filter>
+    </ClCompile>
+    <ClCompile Include="libheif\heif_context.cc">
+      <Filter>libheif</Filter>
+    </ClCompile>
+    <ClCompile Include="libheif\heif_decoder_aom.cc">
+      <Filter>libheif</Filter>
+    </ClCompile>
+    <ClCompile Include="libheif\heif_decoder_libde265.cc">
+      <Filter>libheif</Filter>
+    </ClCompile>
+    <ClCompile Include="libheif\heif_file.cc">
+      <Filter>libheif</Filter>
+    </ClCompile>
+    <ClCompile Include="libheif\heif_hevc.cc">
+      <Filter>libheif</Filter>
+    </ClCompile>
+    <ClCompile Include="libheif\heif_image.cc">
+      <Filter>libheif</Filter>
+    </ClCompile>
+    <ClCompile Include="libheif\heif_init.cc">
+      <Filter>libheif</Filter>
+    </ClCompile>
+    <ClCompile Include="libheif\heif_plugin_registry.cc">
+      <Filter>libheif</Filter>
+    </ClCompile>
+    <ClCompile Include="libheif\heif_bitstream.cc">
+      <Filter>libheif</Filter>
+    </ClCompile>
+    <ClCompile Include="libheif\heif_box.cc">
+      <Filter>libheif</Filter>
+    </ClCompile>
+    <ClCompile Include="libheif\heif_common_utils.cc">
+      <Filter>libheif</Filter>
+    </ClCompile>
+    <ClCompile Include="libheif\heif_error.cc">
+      <Filter>libheif</Filter>
+    </ClCompile>
+    <ClCompile Include="libheif\heif_exif.cc">
+      <Filter>libheif</Filter>
+    </ClCompile>
+    <ClCompile Include="libheif\heif.cc">
+      <Filter>libheif</Filter>
+    </ClCompile>
+    <ClCompile Include="libheif\heif_avif.cc">
+      <Filter>libheif</Filter>
+    </ClCompile>
+    <ClCompile Include="libheif\heif_metadata_compression.cc">
+      <Filter>libheif</Filter>
+    </ClCompile>
+    <ClCompile Include="libheif\heif_nclx.cc">
+      <Filter>libheif</Filter>
+    </ClCompile>
+    <ClCompile Include="lcsm2\lcms2_cmsalpha.c">
+      <Filter>lcms2</Filter>
+    </ClCompile>
+    <ClCompile Include="lcsm2\lcms2_cmscam02.c">
+      <Filter>lcms2</Filter>
+    </ClCompile>
+    <ClCompile Include="lcsm2\lcms2_cmscgats.c">
+      <Filter>lcms2</Filter>
+    </ClCompile>
+    <ClCompile Include="lcsm2\lcms2_cmscnvrt.c">
+      <Filter>lcms2</Filter>
+    </ClCompile>
+    <ClCompile Include="lcsm2\lcms2_cmserr.c">
+      <Filter>lcms2</Filter>
+    </ClCompile>
+    <ClCompile Include="lcsm2\lcms2_cmsgamma.c">
+      <Filter>lcms2</Filter>
+    </ClCompile>
+    <ClCompile Include="lcsm2\lcms2_cmsgmt.c">
+      <Filter>lcms2</Filter>
+    </ClCompile>
+    <ClCompile Include="lcsm2\lcms2_cmshalf.c">
+      <Filter>lcms2</Filter>
+    </ClCompile>
+    <ClCompile Include="lcsm2\lcms2_cmsintrp.c">
+      <Filter>lcms2</Filter>
+    </ClCompile>
+    <ClCompile Include="lcsm2\lcms2_cmsio0.c">
+      <Filter>lcms2</Filter>
+    </ClCompile>
+    <ClCompile Include="lcsm2\lcms2_cmsio1.c">
+      <Filter>lcms2</Filter>
+    </ClCompile>
+    <ClCompile Include="lcsm2\lcms2_cmslut.c">
+      <Filter>lcms2</Filter>
+    </ClCompile>
+    <ClCompile Include="lcsm2\lcms2_cmsmd5.c">
+      <Filter>lcms2</Filter>
+    </ClCompile>
+    <ClCompile Include="lcsm2\lcms2_cmsmtrx.c">
+      <Filter>lcms2</Filter>
+    </ClCompile>
+    <ClCompile Include="lcsm2\lcms2_cmsnamed.c">
+      <Filter>lcms2</Filter>
+    </ClCompile>
+    <ClCompile Include="lcsm2\lcms2_cmsopt.c">
+      <Filter>lcms2</Filter>
+    </ClCompile>
+    <ClCompile Include="lcsm2\lcms2_cmspack.c">
+      <Filter>lcms2</Filter>
+    </ClCompile>
+    <ClCompile Include="lcsm2\lcms2_cmspcs.c">
+      <Filter>lcms2</Filter>
+    </ClCompile>
+    <ClCompile Include="lcsm2\lcms2_cmsplugin.c">
+      <Filter>lcms2</Filter>
+    </ClCompile>
+    <ClCompile Include="lcsm2\lcms2_cmsps2.c">
+      <Filter>lcms2</Filter>
+    </ClCompile>
+    <ClCompile Include="lcsm2\lcms2_cmssamp.c">
+      <Filter>lcms2</Filter>
+    </ClCompile>
+    <ClCompile Include="lcsm2\lcms2_cmssm.c">
+      <Filter>lcms2</Filter>
+    </ClCompile>
+    <ClCompile Include="lcsm2\lcms2_cmstypes.c">
+      <Filter>lcms2</Filter>
+    </ClCompile>
+    <ClCompile Include="lcsm2\lcms2_cmsvirt.c">
+      <Filter>lcms2</Filter>
+    </ClCompile>
+    <ClCompile Include="lcsm2\lcms2_cmswtpnt.c">
+      <Filter>lcms2</Filter>
+    </ClCompile>
+    <ClCompile Include="lcsm2\lcms2_cmsxform.c">
+      <Filter>lcms2</Filter>
+    </ClCompile>
+    <ClCompile Include="FreeImage\Plugin.cpp">
+      <Filter>FreeImage\Plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="FreeImage\PluginBMP.cpp">
+      <Filter>FreeImage\Plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="FreeImage\PluginCUT.cpp">
+      <Filter>FreeImage\Plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="FreeImage\PluginDDS.cpp">
+      <Filter>FreeImage\Plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="FreeImage\PluginEXR.cpp">
+      <Filter>FreeImage\Plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="FreeImage\PluginG3.cpp">
+      <Filter>FreeImage\Plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="FreeImage\PluginGIF.cpp">
+      <Filter>FreeImage\Plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="FreeImage\PluginHDR.cpp">
+      <Filter>FreeImage\Plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="FreeImage\PluginHEIC.cpp">
+      <Filter>FreeImage\Plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="FreeImage\PluginICO.cpp">
+      <Filter>FreeImage\Plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="FreeImage\PluginIFF.cpp">
+      <Filter>FreeImage\Plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="FreeImage\PluginJ2K.cpp">
+      <Filter>FreeImage\Plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="FreeImage\PluginJNG.cpp">
+      <Filter>FreeImage\Plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="FreeImage\PluginJP2.cpp">
+      <Filter>FreeImage\Plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="FreeImage\PluginJPEG.cpp">
+      <Filter>FreeImage\Plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="FreeImage\PluginJXR.cpp">
+      <Filter>FreeImage\Plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="FreeImage\PluginKOALA.cpp">
+      <Filter>FreeImage\Plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="FreeImage\PluginMNG.cpp">
+      <Filter>FreeImage\Plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="FreeImage\PluginPCD.cpp">
+      <Filter>FreeImage\Plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="FreeImage\PluginPCX.cpp">
+      <Filter>FreeImage\Plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="FreeImage\PluginPFM.cpp">
+      <Filter>FreeImage\Plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="FreeImage\PluginPICT.cpp">
+      <Filter>FreeImage\Plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="FreeImage\PluginPNG.cpp">
+      <Filter>FreeImage\Plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="FreeImage\PluginPNM.cpp">
+      <Filter>FreeImage\Plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="FreeImage\PluginPSD.cpp">
+      <Filter>FreeImage\Plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="FreeImage\PluginRAS.cpp">
+      <Filter>FreeImage\Plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="FreeImage\PluginRAW.cpp">
+      <Filter>FreeImage\Plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="FreeImage\PluginSGI.cpp">
+      <Filter>FreeImage\Plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="FreeImage\PluginTARGA.cpp">
+      <Filter>FreeImage\Plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="FreeImage\PluginTIFF.cpp">
+      <Filter>FreeImage\Plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="FreeImage\PluginWBMP.cpp">
+      <Filter>FreeImage\Plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="FreeImage\PluginWebP.cpp">
+      <Filter>FreeImage\Plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="FreeImage\PluginXBM.cpp">
+      <Filter>FreeImage\Plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="FreeImage\PluginXPM.cpp">
+      <Filter>FreeImage\Plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="FreeImage\ConversionUINT16.cpp">
+      <Filter>FreeImage\Conversion</Filter>
+    </ClCompile>
+    <ClCompile Include="FreeImage\Conversion.cpp">
+      <Filter>FreeImage\Conversion</Filter>
+    </ClCompile>
+    <ClCompile Include="FreeImage\Conversion4.cpp">
+      <Filter>FreeImage\Conversion</Filter>
+    </ClCompile>
+    <ClCompile Include="FreeImage\Conversion8.cpp">
+      <Filter>FreeImage\Conversion</Filter>
+    </ClCompile>
+    <ClCompile Include="FreeImage\Conversion16_555.cpp">
+      <Filter>FreeImage\Conversion</Filter>
+    </ClCompile>
+    <ClCompile Include="FreeImage\Conversion16_565.cpp">
+      <Filter>FreeImage\Conversion</Filter>
+    </ClCompile>
+    <ClCompile Include="FreeImage\Conversion24.cpp">
+      <Filter>FreeImage\Conversion</Filter>
+    </ClCompile>
+    <ClCompile Include="FreeImage\Conversion32.cpp">
+      <Filter>FreeImage\Conversion</Filter>
+    </ClCompile>
+    <ClCompile Include="FreeImage\ConversionFloat.cpp">
+      <Filter>FreeImage\Conversion</Filter>
+    </ClCompile>
+    <ClCompile Include="FreeImage\ConversionRGB16.cpp">
+      <Filter>FreeImage\Conversion</Filter>
+    </ClCompile>
+    <ClCompile Include="FreeImage\ConversionRGBA16.cpp">
+      <Filter>FreeImage\Conversion</Filter>
+    </ClCompile>
+    <ClCompile Include="FreeImage\ConversionRGBAF.cpp">
+      <Filter>FreeImage\Conversion</Filter>
+    </ClCompile>
+    <ClCompile Include="FreeImage\ConversionRGBF.cpp">
+      <Filter>FreeImage\Conversion</Filter>
+    </ClCompile>
+    <ClCompile Include="FreeImage\ConversionType.cpp">
+      <Filter>FreeImage\Conversion</Filter>
+    </ClCompile>
+    <ClCompile Include="test.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Makefile-intel" />
+    <None Include="jni\Android.mk">
+      <Filter>jni</Filter>
+    </None>
+    <None Include="jni\Application.mk">
+      <Filter>jni</Filter>
+    </None>
+    <None Include="libjpeg\simd\nasm\jcolsamp.inc">
+      <Filter>libjpeg\src\simd\nasm</Filter>
+    </None>
+    <None Include="libjpeg\simd\nasm\jdct.inc">
+      <Filter>libjpeg\src\simd\nasm</Filter>
+    </None>
+    <None Include="libjpeg\simd\nasm\jsimdcfg.inc">
+      <Filter>libjpeg\src\simd\nasm</Filter>
+    </None>
+    <None Include="libjpeg\simd\nasm\jsimdext.inc">
+      <Filter>libjpeg\src\simd\nasm</Filter>
+    </None>
+    <None Include="libjpeg\simd\x86_64\jcgryext-avx2.inc">
+      <Filter>libjpeg\src\simd\x86_64\inc</Filter>
+    </None>
+    <None Include="libjpeg\simd\x86_64\jcgryext-sse2.inc">
+      <Filter>libjpeg\src\simd\x86_64\inc</Filter>
+    </None>
+    <None Include="libjpeg\simd\x86_64\jccolext-sse2.inc">
+      <Filter>libjpeg\src\simd\x86_64\inc</Filter>
+    </None>
+    <None Include="libjpeg\simd\x86_64\jccolext-avx2.inc">
+      <Filter>libjpeg\src\simd\x86_64\inc</Filter>
+    </None>
+    <None Include="libjpeg\simd\x86_64\jdcolext-sse2.inc">
+      <Filter>libjpeg\src\simd\x86_64\inc</Filter>
+    </None>
+    <None Include="libjpeg\simd\x86_64\jdcolext-avx2.inc">
+      <Filter>libjpeg\src\simd\x86_64\inc</Filter>
+    </None>
+    <None Include="libjpeg\simd\x86_64\jdmrgext-avx2.inc">
+      <Filter>libjpeg\src\simd\x86_64\inc</Filter>
+    </None>
+    <None Include="libjpeg\simd\x86_64\jdmrgext-sse2.inc">
+      <Filter>libjpeg\src\simd\x86_64\inc</Filter>
+    </None>
+    <None Include="libjpeg\simd\i386\jccolext-avx2.inc">
+      <Filter>libjpeg\src\simd\i386\inc</Filter>
+    </None>
+    <None Include="libjpeg\simd\i386\jccolext-mmx.inc">
+      <Filter>libjpeg\src\simd\i386\inc</Filter>
+    </None>
+    <None Include="libjpeg\simd\i386\jcgryext-avx2.inc">
+      <Filter>libjpeg\src\simd\i386\inc</Filter>
+    </None>
+    <None Include="libjpeg\simd\i386\jcgryext-mmx.inc">
+      <Filter>libjpeg\src\simd\i386\inc</Filter>
+    </None>
+    <None Include="libjpeg\simd\i386\jdcolext-avx2.inc">
+      <Filter>libjpeg\src\simd\i386\inc</Filter>
+    </None>
+    <None Include="libjpeg\simd\i386\jdcolext-mmx.inc">
+      <Filter>libjpeg\src\simd\i386\inc</Filter>
+    </None>
+    <None Include="libjpeg\simd\i386\jdcolext-sse2.inc">
+      <Filter>libjpeg\src\simd\i386\inc</Filter>
+    </None>
+    <None Include="libjpeg\simd\i386\jdmrgext-avx2.inc">
+      <Filter>libjpeg\src\simd\i386\inc</Filter>
+    </None>
+    <None Include="libjpeg\simd\i386\jdmrgext-mmx.inc">
+      <Filter>libjpeg\src\simd\i386\inc</Filter>
+    </None>
+    <None Include="libjpeg\simd\i386\jdmrgext-sse2.inc">
+      <Filter>libjpeg\src\simd\i386\inc</Filter>
+    </None>
+    <None Include="libjpeg\simd\i386\jccolext-sse2.inc">
+      <Filter>libjpeg\src\simd\i386\inc</Filter>
+    </None>
+    <None Include="libjpeg\simd\i386\jcgryext-sse2.inc">
+      <Filter>libjpeg\src\simd\i386\inc</Filter>
+    </None>
+    <None Include="aom\av1_reconinter_template.inc">
+      <Filter>libaom\av1\common</Filter>
+    </None>
+    <None Include="test_avif.py" />
+    <None Include="test_heic.py" />
+    <None Include="test_quality.py" />
+    <None Include="test_icc_cmyk.py" />
+    <None Include="test_icc_jpg.py" />
+    <None Include="Makefile-arm64" />
+  </ItemGroup>
+  <ItemGroup>
+    <NASM Include="libjpeg\simd\i386\jccolor-avx2.asm">
+      <Filter>libjpeg\src\simd\i386\asm</Filter>
+    </NASM>
+    <NASM Include="libjpeg\simd\i386\jccolor-mmx.asm">
+      <Filter>libjpeg\src\simd\i386\asm</Filter>
+    </NASM>
+    <NASM Include="libjpeg\simd\i386\jccolor-sse2.asm">
+      <Filter>libjpeg\src\simd\i386\asm</Filter>
+    </NASM>
+    <NASM Include="libjpeg\simd\i386\jcgray-avx2.asm">
+      <Filter>libjpeg\src\simd\i386\asm</Filter>
+    </NASM>
+    <NASM Include="libjpeg\simd\i386\jcgray-mmx.asm">
+      <Filter>libjpeg\src\simd\i386\asm</Filter>
+    </NASM>
+    <NASM Include="libjpeg\simd\i386\jcgray-sse2.asm">
+      <Filter>libjpeg\src\simd\i386\asm</Filter>
+    </NASM>
+    <NASM Include="libjpeg\simd\i386\jchuff-sse2.asm">
+      <Filter>libjpeg\src\simd\i386\asm</Filter>
+    </NASM>
+    <NASM Include="libjpeg\simd\i386\jcphuff-sse2.asm">
+      <Filter>libjpeg\src\simd\i386\asm</Filter>
+    </NASM>
+    <NASM Include="libjpeg\simd\i386\jcsample-avx2.asm">
+      <Filter>libjpeg\src\simd\i386\asm</Filter>
+    </NASM>
+    <NASM Include="libjpeg\simd\i386\jcsample-mmx.asm">
+      <Filter>libjpeg\src\simd\i386\asm</Filter>
+    </NASM>
+    <NASM Include="libjpeg\simd\i386\jcsample-sse2.asm">
+      <Filter>libjpeg\src\simd\i386\asm</Filter>
+    </NASM>
+    <NASM Include="libjpeg\simd\i386\jdcolor-avx2.asm">
+      <Filter>libjpeg\src\simd\i386\asm</Filter>
+    </NASM>
+    <NASM Include="libjpeg\simd\i386\jdcolor-mmx.asm">
+      <Filter>libjpeg\src\simd\i386\asm</Filter>
+    </NASM>
+    <NASM Include="libjpeg\simd\i386\jdcolor-sse2.asm">
+      <Filter>libjpeg\src\simd\i386\asm</Filter>
+    </NASM>
+    <NASM Include="libjpeg\simd\i386\jdmerge-avx2.asm">
+      <Filter>libjpeg\src\simd\i386\asm</Filter>
+    </NASM>
+    <NASM Include="libjpeg\simd\i386\jdmerge-mmx.asm">
+      <Filter>libjpeg\src\simd\i386\asm</Filter>
+    </NASM>
+    <NASM Include="libjpeg\simd\i386\jdmerge-sse2.asm">
+      <Filter>libjpeg\src\simd\i386\asm</Filter>
+    </NASM>
+    <NASM Include="libjpeg\simd\i386\jdsample-avx2.asm">
+      <Filter>libjpeg\src\simd\i386\asm</Filter>
+    </NASM>
+    <NASM Include="libjpeg\simd\i386\jdsample-mmx.asm">
+      <Filter>libjpeg\src\simd\i386\asm</Filter>
+    </NASM>
+    <NASM Include="libjpeg\simd\i386\jdsample-sse2.asm">
+      <Filter>libjpeg\src\simd\i386\asm</Filter>
+    </NASM>
+    <NASM Include="libjpeg\simd\i386\jfdctflt-3dn.asm">
+      <Filter>libjpeg\src\simd\i386\asm</Filter>
+    </NASM>
+    <NASM Include="libjpeg\simd\i386\jfdctflt-sse.asm">
+      <Filter>libjpeg\src\simd\i386\asm</Filter>
+    </NASM>
+    <NASM Include="libjpeg\simd\i386\jfdctfst-mmx.asm">
+      <Filter>libjpeg\src\simd\i386\asm</Filter>
+    </NASM>
+    <NASM Include="libjpeg\simd\i386\jfdctfst-sse2.asm">
+      <Filter>libjpeg\src\simd\i386\asm</Filter>
+    </NASM>
+    <NASM Include="libjpeg\simd\i386\jfdctint-avx2.asm">
+      <Filter>libjpeg\src\simd\i386\asm</Filter>
+    </NASM>
+    <NASM Include="libjpeg\simd\i386\jfdctint-mmx.asm">
+      <Filter>libjpeg\src\simd\i386\asm</Filter>
+    </NASM>
+    <NASM Include="libjpeg\simd\i386\jfdctint-sse2.asm">
+      <Filter>libjpeg\src\simd\i386\asm</Filter>
+    </NASM>
+    <NASM Include="libjpeg\simd\i386\jidctflt-3dn.asm">
+      <Filter>libjpeg\src\simd\i386\asm</Filter>
+    </NASM>
+    <NASM Include="libjpeg\simd\i386\jidctflt-sse.asm">
+      <Filter>libjpeg\src\simd\i386\asm</Filter>
+    </NASM>
+    <NASM Include="libjpeg\simd\i386\jidctflt-sse2.asm">
+      <Filter>libjpeg\src\simd\i386\asm</Filter>
+    </NASM>
+    <NASM Include="libjpeg\simd\i386\jidctfst-mmx.asm">
+      <Filter>libjpeg\src\simd\i386\asm</Filter>
+    </NASM>
+    <NASM Include="libjpeg\simd\i386\jidctfst-sse2.asm">
+      <Filter>libjpeg\src\simd\i386\asm</Filter>
+    </NASM>
+    <NASM Include="libjpeg\simd\i386\jidctint-avx2.asm">
+      <Filter>libjpeg\src\simd\i386\asm</Filter>
+    </NASM>
+    <NASM Include="libjpeg\simd\i386\jidctint-mmx.asm">
+      <Filter>libjpeg\src\simd\i386\asm</Filter>
+    </NASM>
+    <NASM Include="libjpeg\simd\i386\jidctint-sse2.asm">
+      <Filter>libjpeg\src\simd\i386\asm</Filter>
+    </NASM>
+    <NASM Include="libjpeg\simd\i386\jidctred-mmx.asm">
+      <Filter>libjpeg\src\simd\i386\asm</Filter>
+    </NASM>
+    <NASM Include="libjpeg\simd\i386\jidctred-sse2.asm">
+      <Filter>libjpeg\src\simd\i386\asm</Filter>
+    </NASM>
+    <NASM Include="libjpeg\simd\i386\jquant-3dn.asm">
+      <Filter>libjpeg\src\simd\i386\asm</Filter>
+    </NASM>
+    <NASM Include="libjpeg\simd\i386\jquantf-sse2.asm">
+      <Filter>libjpeg\src\simd\i386\asm</Filter>
+    </NASM>
+    <NASM Include="libjpeg\simd\i386\jquanti-avx2.asm">
+      <Filter>libjpeg\src\simd\i386\asm</Filter>
+    </NASM>
+    <NASM Include="libjpeg\simd\i386\jquanti-sse2.asm">
+      <Filter>libjpeg\src\simd\i386\asm</Filter>
+    </NASM>
+    <NASM Include="libjpeg\simd\i386\jquant-mmx.asm">
+      <Filter>libjpeg\src\simd\i386\asm</Filter>
+    </NASM>
+    <NASM Include="libjpeg\simd\i386\jquant-sse.asm">
+      <Filter>libjpeg\src\simd\i386\asm</Filter>
+    </NASM>
+    <NASM Include="libjpeg\simd\i386\jsimdcpu.asm">
+      <Filter>libjpeg\src\simd\i386\asm</Filter>
+    </NASM>
+    <NASM Include="libjpeg\simd\x86_64\jccolor-avx2.asm">
+      <Filter>libjpeg\src\simd\x86_64\asm</Filter>
+    </NASM>
+    <NASM Include="libjpeg\simd\x86_64\jccolor-sse2.asm">
+      <Filter>libjpeg\src\simd\x86_64\asm</Filter>
+    </NASM>
+    <NASM Include="libjpeg\simd\x86_64\jcgray-avx2.asm">
+      <Filter>libjpeg\src\simd\x86_64\asm</Filter>
+    </NASM>
+    <NASM Include="libjpeg\simd\x86_64\jcgray-sse2.asm">
+      <Filter>libjpeg\src\simd\x86_64\asm</Filter>
+    </NASM>
+    <NASM Include="libjpeg\simd\x86_64\jchuff-sse2.asm">
+      <Filter>libjpeg\src\simd\x86_64\asm</Filter>
+    </NASM>
+    <NASM Include="libjpeg\simd\x86_64\jcphuff-sse2.asm">
+      <Filter>libjpeg\src\simd\x86_64\asm</Filter>
+    </NASM>
+    <NASM Include="libjpeg\simd\x86_64\jcsample-avx2.asm">
+      <Filter>libjpeg\src\simd\x86_64\asm</Filter>
+    </NASM>
+    <NASM Include="libjpeg\simd\x86_64\jcsample-sse2.asm">
+      <Filter>libjpeg\src\simd\x86_64\asm</Filter>
+    </NASM>
+    <NASM Include="libjpeg\simd\x86_64\jdcolor-avx2.asm">
+      <Filter>libjpeg\src\simd\x86_64\asm</Filter>
+    </NASM>
+    <NASM Include="libjpeg\simd\x86_64\jdcolor-sse2.asm">
+      <Filter>libjpeg\src\simd\x86_64\asm</Filter>
+    </NASM>
+    <NASM Include="libjpeg\simd\x86_64\jdmerge-avx2.asm">
+      <Filter>libjpeg\src\simd\x86_64\asm</Filter>
+    </NASM>
+    <NASM Include="libjpeg\simd\x86_64\jdmerge-sse2.asm">
+      <Filter>libjpeg\src\simd\x86_64\asm</Filter>
+    </NASM>
+    <NASM Include="libjpeg\simd\x86_64\jdsample-avx2.asm">
+      <Filter>libjpeg\src\simd\x86_64\asm</Filter>
+    </NASM>
+    <NASM Include="libjpeg\simd\x86_64\jdsample-sse2.asm">
+      <Filter>libjpeg\src\simd\x86_64\asm</Filter>
+    </NASM>
+    <NASM Include="libjpeg\simd\x86_64\jfdctflt-sse.asm">
+      <Filter>libjpeg\src\simd\x86_64\asm</Filter>
+    </NASM>
+    <NASM Include="libjpeg\simd\x86_64\jfdctfst-sse2.asm">
+      <Filter>libjpeg\src\simd\x86_64\asm</Filter>
+    </NASM>
+    <NASM Include="libjpeg\simd\x86_64\jfdctint-avx2.asm">
+      <Filter>libjpeg\src\simd\x86_64\asm</Filter>
+    </NASM>
+    <NASM Include="libjpeg\simd\x86_64\jfdctint-sse2.asm">
+      <Filter>libjpeg\src\simd\x86_64\asm</Filter>
+    </NASM>
+    <NASM Include="libjpeg\simd\x86_64\jidctflt-sse2.asm">
+      <Filter>libjpeg\src\simd\x86_64\asm</Filter>
+    </NASM>
+    <NASM Include="libjpeg\simd\x86_64\jidctfst-sse2.asm">
+      <Filter>libjpeg\src\simd\x86_64\asm</Filter>
+    </NASM>
+    <NASM Include="libjpeg\simd\x86_64\jidctint-avx2.asm">
+      <Filter>libjpeg\src\simd\x86_64\asm</Filter>
+    </NASM>
+    <NASM Include="libjpeg\simd\x86_64\jidctint-sse2.asm">
+      <Filter>libjpeg\src\simd\x86_64\asm</Filter>
+    </NASM>
+    <NASM Include="libjpeg\simd\x86_64\jidctred-sse2.asm">
+      <Filter>libjpeg\src\simd\x86_64\asm</Filter>
+    </NASM>
+    <NASM Include="libjpeg\simd\x86_64\jquantf-sse2.asm">
+      <Filter>libjpeg\src\simd\x86_64\asm</Filter>
+    </NASM>
+    <NASM Include="libjpeg\simd\x86_64\jquanti-avx2.asm">
+      <Filter>libjpeg\src\simd\x86_64\asm</Filter>
+    </NASM>
+    <NASM Include="libjpeg\simd\x86_64\jquanti-sse2.asm">
+      <Filter>libjpeg\src\simd\x86_64\asm</Filter>
+    </NASM>
+    <NASM Include="libjpeg\simd\x86_64\jsimdcpu.asm">
+      <Filter>libjpeg\src\simd\x86_64\asm</Filter>
+    </NASM>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="WX_Image.rc">
+      <Filter>res</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
