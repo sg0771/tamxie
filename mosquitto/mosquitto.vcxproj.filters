@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="libs">
+      <UniqueIdentifier>{df22b6a8-50d9-4d53-aa3c-0bec9f4d810c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\libmosquitto\dummypthread.h">
+      <Filter>libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libmosquitto\memory_mosq.h">
+      <Filter>libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libmosquitto\mosquitto_internal.h">
+      <Filter>libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libmosquitto\mosquitto-config.h">
+      <Filter>libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libmosquitto\mqtt3_protocol.h">
+      <Filter>libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libmosquitto\send_mosq.h">
+      <Filter>libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libmosquitto\time_mosq.h">
+      <Filter>libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libmosquitto\tls_mosq.h">
+      <Filter>libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libmosquitto\util_mosq.h">
+      <Filter>libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libmosquitto\will_mosq.h">
+      <Filter>libs</Filter>
+    </ClInclude>
+    <ClInclude Include="lib_load.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mosquitto_broker.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mosquitto_plugin.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="persist.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="uthash.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libmosquitto\net_mosq.h">
+      <Filter>libs</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\libmosquitto\memory_mosq.c">
+      <Filter>libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libmosquitto\send_client_mosq.c">
+      <Filter>libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libmosquitto\send_mosq.c">
+      <Filter>libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libmosquitto\srv_mosq.c">
+      <Filter>libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libmosquitto\time_mosq.c">
+      <Filter>libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libmosquitto\tls_mosq.c">
+      <Filter>libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libmosquitto\util_mosq.c">
+      <Filter>libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libmosquitto\will_mosq.c">
+      <Filter>libs</Filter>
+    </ClCompile>
+    <ClCompile Include="bridge.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="conf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="context.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="database.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="logging.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="loop.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mosquitto_passwd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mosquitto_srv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="net.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="persist.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="read_handle_.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="read_handle_client_.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="read_handle_server.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="security.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="security_default.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="send_server.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="service.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="subs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sys_tree.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="websockets.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libmosquitto\net_mosq.c">
+      <Filter>libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libmosquitto\read_handle_shared.c">
+      <Filter>libs</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

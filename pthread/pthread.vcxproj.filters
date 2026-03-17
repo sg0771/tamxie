@@ -1,0 +1,512 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="attr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="autostatic.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="barrier.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cancel.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cleanup.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="condvar.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="create.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dll.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="errno.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="exit.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="fork.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="global.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="misc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mutex.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nonportable.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="private.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pthread.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pthread_attr_destroy.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pthread_attr_getdetachstate.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pthread_attr_getinheritsched.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pthread_attr_getschedparam.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pthread_attr_getschedpolicy.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pthread_attr_getscope.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pthread_attr_getstackaddr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pthread_attr_getstacksize.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pthread_attr_init.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pthread_attr_setdetachstate.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pthread_attr_setinheritsched.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pthread_attr_setschedparam.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pthread_attr_setschedpolicy.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pthread_attr_setscope.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pthread_attr_setstackaddr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pthread_attr_setstacksize.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pthread_barrier_destroy.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pthread_barrier_init.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pthread_barrier_wait.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pthread_barrierattr_destroy.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pthread_barrierattr_getpshared.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pthread_barrierattr_init.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pthread_barrierattr_setpshared.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pthread_cancel.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pthread_cond_destroy.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pthread_cond_init.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pthread_cond_signal.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pthread_cond_wait.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pthread_condattr_destroy.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pthread_condattr_getpshared.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pthread_condattr_init.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pthread_condattr_setpshared.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pthread_delay_np.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pthread_detach.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pthread_equal.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pthread_exit.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pthread_getconcurrency.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pthread_getschedparam.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pthread_getspecific.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pthread_getunique_np.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pthread_getw32threadhandle_np.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pthread_join.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pthread_key_create.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pthread_key_delete.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pthread_kill.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pthread_mutex_consistent.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pthread_mutex_destroy.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pthread_mutex_init.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pthread_mutex_lock.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pthread_mutex_timedlock.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pthread_mutex_trylock.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pthread_mutex_unlock.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pthread_mutexattr_destroy.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pthread_mutexattr_getkind_np.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pthread_mutexattr_getpshared.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pthread_mutexattr_getrobust.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pthread_mutexattr_gettype.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pthread_mutexattr_init.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pthread_mutexattr_setkind_np.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pthread_mutexattr_setpshared.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pthread_mutexattr_setrobust.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pthread_mutexattr_settype.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pthread_num_processors_np.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pthread_once.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pthread_rwlock_destroy.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pthread_rwlock_init.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pthread_rwlock_rdlock.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pthread_rwlock_timedrdlock.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pthread_rwlock_timedwrlock.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pthread_rwlock_tryrdlock.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pthread_rwlock_trywrlock.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pthread_rwlock_unlock.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pthread_rwlock_wrlock.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pthread_rwlockattr_destroy.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pthread_rwlockattr_getpshared.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pthread_rwlockattr_init.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pthread_rwlockattr_setpshared.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pthread_self.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pthread_setcancelstate.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pthread_setcanceltype.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pthread_setconcurrency.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pthread_setschedparam.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pthread_setspecific.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pthread_spin_destroy.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pthread_spin_init.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pthread_spin_lock.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pthread_spin_trylock.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pthread_spin_unlock.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pthread_testcancel.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pthread_timechange_handler_np.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pthread_win32_attach_detach_np.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ptw32_calloc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ptw32_callUserDestroyRoutines.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ptw32_cond_check_need_init.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ptw32_getprocessors.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ptw32_is_attr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ptw32_MCS_lock.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ptw32_mutex_check_need_init.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ptw32_new.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ptw32_OLL_lock.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ptw32_processInitialize.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ptw32_processTerminate.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ptw32_relmillisecs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ptw32_reuse.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ptw32_rwlock_cancelwrwait.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ptw32_rwlock_check_need_init.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ptw32_semwait.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ptw32_spinlock_check_need_init.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ptw32_threadDestroy.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ptw32_threadStart.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ptw32_throw.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ptw32_timespec.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ptw32_tkAssocCreate.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ptw32_tkAssocDestroy.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="rwlock.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sched.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sched_get_priority_max.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sched_get_priority_min.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sched_getscheduler.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sched_setscheduler.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sched_yield.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sem_close.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sem_destroy.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sem_getvalue.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sem_init.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sem_open.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sem_post.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sem_post_multiple.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sem_timedwait.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sem_trywait.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sem_unlink.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sem_wait.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="semaphore.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="signal.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="spin.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sync.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tsd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="w32_CancelableWait.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="config.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="context.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="implement.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="need_errno.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="pthread.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sched.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="semaphore.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="version.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

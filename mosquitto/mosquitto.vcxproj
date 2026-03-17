@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{3DC44457-7B4D-4765-91C1-F9A7F6BB7688}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>mosquitto</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;CMAKE;VERSION="1.4.14";TIMESTAMP="2017/07/13 17:40:09.27";_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;WITH_TLS;WITH_TLS_PSK;WITH_EC;WITH_SOCKS;WITH_BRIDGE;WITH_MEMORY_TRACKING;WITH_PERSISTENCE;WITH_SYS_TREE;WITH_BROKER</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>../libmosquitto;./;../c-ares;../pthread;C:\OpenSSL-Win32\include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)$(Configuration)\</AdditionalLibraryDirectories>
+      <AdditionalDependencies>C:\OpenSSL-Win32\lib\VC\libeay32MDd.lib;C:\OpenSSL-Win32\lib\VC\ssleay32MDd.lib;pthread.lib;zlib.lib;c-ares.lib;libwebsockets.lib;ws2_32.lib;winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;CMAKE;VERSION="1.4.14";TIMESTAMP="2017/07/13 17:40:09.27";_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;WITH_TLS;WITH_TLS_PSK;WITH_EC;WITH_SOCKS;WITH_BRIDGE;WITH_MEMORY_TRACKING;WITH_PERSISTENCE;WITH_SYS_TREE;WITH_BROKER</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>../libmosquitto;./;../c-ares;../pthread;C:\OpenSSL-Win32\include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)$(Configuration)\</AdditionalLibraryDirectories>
+      <AdditionalDependencies>C:\OpenSSL-Win32\lib\VC\libeay32MDd.lib;C:\OpenSSL-Win32\lib\VC\ssleay32MDd.lib;pthread.lib;zlib.lib;c-ares.lib;libwebsockets.lib;ws2_32.lib;winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\libmosquitto\dummypthread.h" />
+    <ClInclude Include="..\libmosquitto\memory_mosq.h" />
+    <ClInclude Include="..\libmosquitto\mosquitto-config.h" />
+    <ClInclude Include="..\libmosquitto\mosquitto_internal.h" />
+    <ClInclude Include="..\libmosquitto\mqtt3_protocol.h" />
+    <ClInclude Include="..\libmosquitto\net_mosq.h" />
+    <ClInclude Include="..\libmosquitto\send_mosq.h" />
+    <ClInclude Include="..\libmosquitto\time_mosq.h" />
+    <ClInclude Include="..\libmosquitto\tls_mosq.h" />
+    <ClInclude Include="..\libmosquitto\util_mosq.h" />
+    <ClInclude Include="..\libmosquitto\will_mosq.h" />
+    <ClInclude Include="lib_load.h" />
+    <ClInclude Include="mosquitto_broker.h" />
+    <ClInclude Include="mosquitto_plugin.h" />
+    <ClInclude Include="persist.h" />
+    <ClInclude Include="uthash.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\libmosquitto\memory_mosq.c" />
+    <ClCompile Include="..\libmosquitto\net_mosq.c" />
+    <ClCompile Include="..\libmosquitto\read_handle_shared.c" />
+    <ClCompile Include="..\libmosquitto\send_client_mosq.c" />
+    <ClCompile Include="..\libmosquitto\send_mosq.c" />
+    <ClCompile Include="..\libmosquitto\srv_mosq.c" />
+    <ClCompile Include="..\libmosquitto\time_mosq.c" />
+    <ClCompile Include="..\libmosquitto\tls_mosq.c" />
+    <ClCompile Include="..\libmosquitto\util_mosq.c" />
+    <ClCompile Include="..\libmosquitto\will_mosq.c" />
+    <ClCompile Include="bridge.c" />
+    <ClCompile Include="conf.c" />
+    <ClCompile Include="context.c" />
+    <ClCompile Include="database.c" />
+    <ClCompile Include="logging.c" />
+    <ClCompile Include="loop.c" />
+    <ClCompile Include="mosquitto_passwd.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="mosquitto_srv.c" />
+    <ClCompile Include="net.c" />
+    <ClCompile Include="persist.c" />
+    <ClCompile Include="read_handle_.c" />
+    <ClCompile Include="read_handle_client_.c" />
+    <ClCompile Include="read_handle_server.c" />
+    <ClCompile Include="security.c" />
+    <ClCompile Include="security_default.c" />
+    <ClCompile Include="send_server.c" />
+    <ClCompile Include="service.c" />
+    <ClCompile Include="subs.c" />
+    <ClCompile Include="sys_tree.c" />
+    <ClCompile Include="websockets.c" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

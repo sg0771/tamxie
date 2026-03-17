@@ -1,0 +1,252 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="acountry.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="adig.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ahost.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ares__close_sockets.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ares__get_hostent.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ares__read_line.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ares__timeval.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ares_cancel.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ares_create_query.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ares_data.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ares_destroy.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ares_expand_name.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ares_expand_string.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ares_fds.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ares_free_hostent.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ares_free_string.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ares_getenv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ares_gethostbyaddr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ares_gethostbyname.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ares_getnameinfo.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ares_getopt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ares_getsock.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ares_init.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ares_library_init.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ares_llist.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ares_mkquery.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ares_nowarn.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ares_options.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ares_parse_a_reply.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ares_parse_aaaa_reply.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ares_parse_mx_reply.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ares_parse_naptr_reply.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ares_parse_ns_reply.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ares_parse_ptr_reply.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ares_parse_soa_reply.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ares_parse_srv_reply.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ares_parse_txt_reply.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ares_platform.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ares_process.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ares_query.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ares_search.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ares_send.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ares_strcasecmp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ares_strdup.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ares_strerror.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ares_timeout.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ares_version.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ares_writev.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bitncmp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="inet_net_pton.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="inet_ntop.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="windows_port.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ares.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ares_build.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ares_data.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ares_dns.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ares_getenv.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ares_getopt.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ares_inet_net_pton.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ares_iphlpapi.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ares_ipv6.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ares_library_init.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ares_llist.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ares_nowarn.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ares_platform.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ares_private.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ares_rules.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ares_setup.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ares_strcasecmp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ares_strdup.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ares_version.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ares_writev.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bitncmp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="config-dos.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="config-win32.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="nameser.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="setup_once.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

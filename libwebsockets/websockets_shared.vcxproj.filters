@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Headers Private">
+      <UniqueIdentifier>{3187EDE2-4136-3A96-89EA-62774D606BED}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers Public">
+      <UniqueIdentifier>{D86853F8-D0E9-3A2D-BFE1-5375C76C023A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources">
+      <UniqueIdentifier>{BD45910E-7D15-36F3-9E57-8944CEC2409D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="win">
+      <UniqueIdentifier>{c457641d-ff31-45e4-ab04-8ba4ba17c972}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\libwebsockets.h">
+      <Filter>Headers Public</Filter>
+    </ClInclude>
+    <ClInclude Include="include\lws_config.h">
+      <Filter>Headers Public</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\extension-permessage-deflate.h">
+      <Filter>Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\getifaddrs.h">
+      <Filter>Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\huftable.h">
+      <Filter>Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\lejp.h">
+      <Filter>Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\lextable.h">
+      <Filter>Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\lextable-strings.h">
+      <Filter>Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\libwebsockets.h">
+      <Filter>Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\private-libwebsockets.h">
+      <Filter>Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\romfs.h">
+      <Filter>Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="win32port\win32helpers\getopt.h">
+      <Filter>win</Filter>
+    </ClInclude>
+    <ClInclude Include="win32port\win32helpers\gettimeofday.h">
+      <Filter>win</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="lib\alloc.c">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\base64-decode.c">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\client.c">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\client-handshake.c">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\client-parser.c">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\context.c">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\daemonize.c">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\extension.c">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\extension-permessage-deflate.c">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\fops-zip.c">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\getifaddrs.c">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\handshake.c">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\header.c">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\hpack.c">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\http2.c">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\lejp.c">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\lejp-conf.c">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\libev.c">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\libevent.c">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\libuv.c">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\libwebsockets.c">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\lws-plat-esp32.c">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\lws-plat-esp8266.c">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\lws-plat-optee.c">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\lws-plat-unix.c">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\lws-plat-win.c">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\minihuf.c">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\minilex.c">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\output.c">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\parsers.c">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\pollfd.c">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\ranges.c">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\rewrite.c">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\romfs.c">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\server.c">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\server-handshake.c">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\service.c">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\sha-1.c">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\smtp.c">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\ssl.c">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\ssl-client.c">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\ssl-http2.c">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\ssl-server.c">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="win32port\win32helpers\getopt.c">
+      <Filter>win</Filter>
+    </ClCompile>
+    <ClCompile Include="win32port\win32helpers\getopt_long.c">
+      <Filter>win</Filter>
+    </ClCompile>
+    <ClCompile Include="win32port\win32helpers\gettimeofday.c">
+      <Filter>win</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
