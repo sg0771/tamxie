@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="de265-alloc_pool.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="de265-bitstream.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="de265-cabac.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="de265-configparam.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="de265-contextmodel.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="de265.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="de265-deblock.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="de265-decctx.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="de265-dpb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="de265-fallback-dct.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="de265-fallback-motion.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="de265-fallback.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="de265-image-io.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="de265-image.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="de265-intrapred.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="de265-md5.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="de265-motion.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="de265-nal-parser.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="de265-nal.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="de265-pps.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="de265-quality.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="de265-refpic.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="de265-sao.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="de265-scan.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="de265-sei.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="de265-slice.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="de265-sps.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="de265-threads.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="de265-transform.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="de265-util.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="de265-visualize.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="de265-vps.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="de265-vui.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="de265-winasm_sse-dct.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="de265-winasm_sse-motion.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="de265-winasm_sse.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="de265-win32cond.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="acceleration.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="alloc_pool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="bitstream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cabac.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="configparam.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="contextmodel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="de265-config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="de265-version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="de265.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="deblock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="decctx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dpb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="en265.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="fallback-dct.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="fallback-motion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="fallback.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="image-io.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="intrapred.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="md5.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="motion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="nal-parser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="nal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pps.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quality.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="refpic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sao.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="scan.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sei.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="slice.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sps.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="threads.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="transform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="util.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="visualize.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vps.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vui.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="winasm_sse-dct.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="winasm_sse-motion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="winasm_sse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="win32cond.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
