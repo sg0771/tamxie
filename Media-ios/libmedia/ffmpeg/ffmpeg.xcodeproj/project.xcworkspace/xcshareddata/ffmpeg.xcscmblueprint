@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "6f42eca4-74e3-c849-861a-a0020d69696c++6743",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "6f42eca4-74e3-c849-861a-a0020d69696c++6743" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "6f42eca4-74e3-c849-861a-a0020d69696c++6743" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "4B92AA43-7711-45CC-9ACD-91E37A4ADDE2",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "6f42eca4-74e3-c849-861a-a0020d69696c++6743" : "ios\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "ffmpeg",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "modules\/ffmpeg\/ffmpeg.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/10.2.210.250\/svn\/v2Phone",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6f42eca4-74e3-c849-861a-a0020d69696c++6743"
+    }
+  ]
+}

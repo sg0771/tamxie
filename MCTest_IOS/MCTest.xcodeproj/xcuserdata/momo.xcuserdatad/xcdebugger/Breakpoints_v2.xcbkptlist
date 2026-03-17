@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "4F2B53FE-085B-4AB8-B90C-23E17C1DD913"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8E17C4F5-C270-4C38-87DE-09BC9E762C92"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MediaConvert/MediaConvert/MediaConvert.mm"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "9389"
+            endingLineNumber = "9389"
+            landmarkName = "~MediaConvert()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C501FBBE-45ED-457B-9B2B-F6B67C39B914"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MCTest/ViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "71"
+            endingLineNumber = "71"
+            landmarkName = "-onMC0:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7B658BF2-A079-43EB-9E84-B1BE943F3EC9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MCTest/ViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "73"
+            endingLineNumber = "73"
+            landmarkName = "-onMC0:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D07C477F-1977-4E4C-B7E1-94FFA09CFAEB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MCTest/ViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
+            landmarkName = "-onMC0:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D52C467A-FF18-44D5-A857-08A0007700CF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MediaConvert/MediaConvert/MediaConvert.mm"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "9222"
+            endingLineNumber = "9222"
+            landmarkName = "ParserFast(strFileName)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D52C467A-FF18-44D5-A857-08A0007700CF - 42d0d274e5fd96e9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MediaConvert::ParserFast(char const*)"
+                  moduleName = "MediaConvert"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/momo/Desktop/MCTest/MediaConvert/MediaConvert/MediaConvert.mm"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "9222"
+                  endingLineNumber = "9222"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  uuid = "D52C467A-FF18-44D5-A857-08A0007700CF - 42d0d274e5fd96e9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MediaConvert::ParserFast(char const*)"
+                  moduleName = "MediaConvert"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/momo/Desktop/MCTest/MediaConvert/MediaConvert/MediaConvert.mm"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "9222"
+                  endingLineNumber = "9222"
+                  offsetFromSymbolStart = "40">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "93F987D3-C331-45BA-B6F0-E581570DBA65"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MediaConvert/MediaConvert/MediaConvert.mm"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "9396"
+            endingLineNumber = "9396"
+            landmarkName = "ParserFile(strInput)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "93F987D3-C331-45BA-B6F0-E581570DBA65 - 1c4133dd4073497b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MediaConvert::Parser(char const*)"
+                  moduleName = "MediaConvert"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/momo/Desktop/MCTest/MediaConvert/MediaConvert/MediaConvert.mm"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "9396"
+                  endingLineNumber = "9396"
+                  offsetFromSymbolStart = "84">
+               </Location>
+               <Location
+                  uuid = "93F987D3-C331-45BA-B6F0-E581570DBA65 - 51490fc39ebf5e4a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MediaConvert::ParserFile(char const*)"
+                  moduleName = "MediaConvert"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/momo/Desktop/MCTest/MediaConvert/MediaConvert/MediaConvert.mm"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "9397"
+                  endingLineNumber = "9397"
+                  offsetFromSymbolStart = "84">
+               </Location>
+               <Location
+                  uuid = "93F987D3-C331-45BA-B6F0-E581570DBA65 - 51490fc39ebf5195"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MediaConvert::ParserFile(char const*)"
+                  moduleName = "MediaConvert"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/momo/Desktop/MCTest/MediaConvert/MediaConvert/MediaConvert.mm"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "9396"
+                  endingLineNumber = "9396"
+                  offsetFromSymbolStart = "96">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D7CED559-622A-4327-A59C-561EA2C23AB6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MediaConvert/MediaConvert/MediaConvert.mm"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "9902"
+            endingLineNumber = "9902"
+            landmarkName = "MediaConvertCreate(strInput)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "74485244-0095-4E78-BF51-F4AE7AC6CB4D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MediaConvert/MediaConvert/MediaConvert.mm"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "9252"
+            endingLineNumber = "9252"
+            landmarkName = "ParserFast(strFileName)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "74485244-0095-4E78-BF51-F4AE7AC6CB4D - 42d0d274e5fd92d7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MediaConvert::ParserFast(char const*)"
+                  moduleName = "MediaConvert"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/momo/Desktop/MCTest/MediaConvert/MediaConvert/MediaConvert.mm"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "9252"
+                  endingLineNumber = "9252"
+                  offsetFromSymbolStart = "292">
+               </Location>
+               <Location
+                  uuid = "74485244-0095-4E78-BF51-F4AE7AC6CB4D - 42d0d274e5fd92d7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MediaConvert::ParserFast(char const*)"
+                  moduleName = "MediaConvert"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/momo/Desktop/MCTest/MediaConvert/MediaConvert/MediaConvert.mm"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "9252"
+                  endingLineNumber = "9252"
+                  offsetFromSymbolStart = "728">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7CC519B4-4500-4B09-96DD-AD096AEC8967"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MediaConvert/MediaConvert/MediaConvert.mm"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "9212"
+            endingLineNumber = "9212"
+            landmarkName = "getRotateAngle(avStream)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "7CC519B4-4500-4B09-96DD-AD096AEC8967 - 7831123e2654c99a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MediaConvert::getRotateAngle(AVStream*)"
+                  moduleName = "MediaConvert"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/momo/Desktop/MCTest/MediaConvert/MediaConvert/MediaConvert.mm"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "9212"
+                  endingLineNumber = "9212"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  uuid = "7CC519B4-4500-4B09-96DD-AD096AEC8967 - 7831123e2654c99a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MediaConvert::getRotateAngle(AVStream*)"
+                  moduleName = "MediaConvert"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/momo/Desktop/MCTest/MediaConvert/MediaConvert/MediaConvert.mm"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "9212"
+                  endingLineNumber = "9212"
+                  offsetFromSymbolStart = "64">
+               </Location>
+               <Location
+                  uuid = "7CC519B4-4500-4B09-96DD-AD096AEC8967 - 7831123e2654c99a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MediaConvert::getRotateAngle(AVStream*)"
+                  moduleName = "MediaConvert"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/momo/Desktop/MCTest/MediaConvert/MediaConvert/MediaConvert.mm"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "9212"
+                  endingLineNumber = "9212"
+                  offsetFromSymbolStart = "48">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E01F5FED-8FD3-4529-9C45-17262676345F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MediaConvert/MediaConvert/MediaConvert.mm"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "9211"
+            endingLineNumber = "9211"
+            landmarkName = "getRotateAngle(avStream)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E01F5FED-8FD3-4529-9C45-17262676345F - 7831123e2654c9bb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MediaConvert::getRotateAngle(AVStream*)"
+                  moduleName = "MediaConvert"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/momo/Desktop/MCTest/MediaConvert/MediaConvert/MediaConvert.mm"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "9211"
+                  endingLineNumber = "9211"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  uuid = "E01F5FED-8FD3-4529-9C45-17262676345F - 7831123e2654c9bb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MediaConvert::getRotateAngle(AVStream*)"
+                  moduleName = "MediaConvert"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/momo/Desktop/MCTest/MediaConvert/MediaConvert/MediaConvert.mm"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "9211"
+                  endingLineNumber = "9211"
+                  offsetFromSymbolStart = "36">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "03186248-D261-4E3C-AC83-CE101860F187"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MediaConvert/MediaConvert/MediaConvert.mm"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "9218"
+            endingLineNumber = "9218"
+            landmarkName = "getRotateAngle(avStream)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "03186248-D261-4E3C-AC83-CE101860F187 - 7831123e2654c950"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MediaConvert::getRotateAngle(AVStream*)"
+                  moduleName = "MediaConvert"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/momo/Desktop/MCTest/MediaConvert/MediaConvert/MediaConvert.mm"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "9218"
+                  endingLineNumber = "9218"
+                  offsetFromSymbolStart = "104">
+               </Location>
+               <Location
+                  uuid = "03186248-D261-4E3C-AC83-CE101860F187 - 7831123e2654c950"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MediaConvert::getRotateAngle(AVStream*)"
+                  moduleName = "MediaConvert"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/momo/Desktop/MCTest/MediaConvert/MediaConvert/MediaConvert.mm"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "9218"
+                  endingLineNumber = "9218"
+                  offsetFromSymbolStart = "140">
+               </Location>
+               <Location
+                  uuid = "03186248-D261-4E3C-AC83-CE101860F187 - 7831123e2654c950"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MediaConvert::getRotateAngle(AVStream*)"
+                  moduleName = "MediaConvert"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/momo/Desktop/MCTest/MediaConvert/MediaConvert/MediaConvert.mm"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "9218"
+                  endingLineNumber = "9218"
+                  offsetFromSymbolStart = "108">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "680E140F-6071-486B-904D-662D7C5A6CDD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MediaConvert/MediaConvert/MediaConvert.mm"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "9250"
+            endingLineNumber = "9250"
+            landmarkName = "ParserFast(strFileName)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "680E140F-6071-486B-904D-662D7C5A6CDD - 42d0d274e5fd9295"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MediaConvert::ParserFast(char const*)"
+                  moduleName = "MediaConvert"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/momo/Desktop/MCTest/MediaConvert/MediaConvert/MediaConvert.mm"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "9250"
+                  endingLineNumber = "9250"
+                  offsetFromSymbolStart = "268">
+               </Location>
+               <Location
+                  uuid = "680E140F-6071-486B-904D-662D7C5A6CDD - 42d0d274e5fd9295"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MediaConvert::ParserFast(char const*)"
+                  moduleName = "MediaConvert"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/momo/Desktop/MCTest/MediaConvert/MediaConvert/MediaConvert.mm"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "9250"
+                  endingLineNumber = "9250"
+                  offsetFromSymbolStart = "672">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2D3B423C-C172-43DC-B1D4-C731A891B90E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MediaConvert/MediaConvert/MediaConvert.mm"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "9245"
+            endingLineNumber = "9245"
+            landmarkName = "ParserFast(strFileName)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2D3B423C-C172-43DC-B1D4-C731A891B90E - 42d0d274e5fd93f0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MediaConvert::ParserFast(char const*)"
+                  moduleName = "MediaConvert"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/momo/Desktop/MCTest/MediaConvert/MediaConvert/MediaConvert.mm"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "9245"
+                  endingLineNumber = "9245"
+                  offsetFromSymbolStart = "220">
+               </Location>
+               <Location
+                  uuid = "2D3B423C-C172-43DC-B1D4-C731A891B90E - 42d0d274e5fd93f0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MediaConvert::ParserFast(char const*)"
+                  moduleName = "MediaConvert"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/momo/Desktop/MCTest/MediaConvert/MediaConvert/MediaConvert.mm"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "9245"
+                  endingLineNumber = "9245"
+                  offsetFromSymbolStart = "464">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6C29F256-7223-411D-BE4F-147DDB9CDA9E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MediaConvert/MediaConvert/MediaConvert.mm"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "9241"
+            endingLineNumber = "9241"
+            landmarkName = "ParserFast(strFileName)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6C29F256-7223-411D-BE4F-147DDB9CDA9E - 42d0d274e5fd947c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MediaConvert::ParserFast(char const*)"
+                  moduleName = "MediaConvert"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/momo/Desktop/MCTest/MediaConvert/MediaConvert/MediaConvert.mm"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "9241"
+                  endingLineNumber = "9241"
+                  offsetFromSymbolStart = "200">
+               </Location>
+               <Location
+                  uuid = "6C29F256-7223-411D-BE4F-147DDB9CDA9E - 42d0d274e5fd947c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MediaConvert::ParserFast(char const*)"
+                  moduleName = "MediaConvert"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/momo/Desktop/MCTest/MediaConvert/MediaConvert/MediaConvert.mm"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "9241"
+                  endingLineNumber = "9241"
+                  offsetFromSymbolStart = "356">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7D00A967-728E-4745-B082-F2E18214077D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MediaConvert/MediaConvert/MediaConvert.mm"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "9223"
+            endingLineNumber = "9223"
+            landmarkName = "ParserFast(strFileName)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "726A7C7D-28F0-4479-AC14-036D79CE7F40"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MediaConvert/MediaConvert/MediaConvert.mm"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "9258"
+            endingLineNumber = "9258"
+            landmarkName = "ParserFast(strFileName)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

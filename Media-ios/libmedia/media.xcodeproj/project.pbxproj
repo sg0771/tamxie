@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9014A6281EF758CD00C31EB3 /* wh_utils_c.c in Sources */ = {isa = PBXBuildFile; fileRef = 9014A6271EF758CD00C31EB3 /* wh_utils_c.c */; };
+		9016F5EE1EF371E6000FE608 /* MSAUSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 9016F5E81EF371E6000FE608 /* MSAUSession.m */; };
+		9016F5EF1EF371E6000FE608 /* wh_utils_objc.m in Sources */ = {isa = PBXBuildFile; fileRef = 9016F5E91EF371E6000FE608 /* wh_utils_objc.m */; };
+		9016F5F11EF371E6000FE608 /* MSAUSession.h in Headers */ = {isa = PBXBuildFile; fileRef = 9016F5EB1EF371E6000FE608 /* MSAUSession.h */; };
+		9016F5F21EF371E6000FE608 /* wh_utils_c.h in Headers */ = {isa = PBXBuildFile; fileRef = 9016F5EC1EF371E6000FE608 /* wh_utils_c.h */; };
+		9016F5F31EF371E6000FE608 /* wh_utils_objc.h in Headers */ = {isa = PBXBuildFile; fileRef = 9016F5ED1EF371E6000FE608 /* wh_utils_objc.h */; };
+		9016F5FD1EF37267000FE608 /* MSH264Decoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 9016F5F41EF37267000FE608 /* MSH264Decoder.m */; };
+		9016F5FE1EF37267000FE608 /* MSH264Encoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 9016F5F51EF37267000FE608 /* MSH264Encoder.m */; };
+		9016F5FF1EF37267000FE608 /* MSVideoCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = 9016F5F61EF37267000FE608 /* MSVideoCapture.m */; };
+		9016F6011EF37267000FE608 /* MSH264Decoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 9016F5F81EF37267000FE608 /* MSH264Decoder.h */; };
+		9016F6021EF37267000FE608 /* MSH264Encoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 9016F5F91EF37267000FE608 /* MSH264Encoder.h */; };
+		9016F6031EF37267000FE608 /* MSVideoCapture.h in Headers */ = {isa = PBXBuildFile; fileRef = 9016F5FA1EF37267000FE608 /* MSVideoCapture.h */; };
+		9016F60D1EF37B36000FE608 /* MSOpusEncoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 9016F60B1EF37B36000FE608 /* MSOpusEncoder.h */; };
+		9016F60E1EF37B36000FE608 /* MSOpusEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 9016F60C1EF37B36000FE608 /* MSOpusEncoder.m */; };
+		9016F6111EF37B45000FE608 /* MSOpusDecoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 9016F60F1EF37B45000FE608 /* MSOpusDecoder.h */; };
+		9016F6121EF37B45000FE608 /* MSOpusDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 9016F6101EF37B45000FE608 /* MSOpusDecoder.m */; };
+		9017013B1EF4CA1700172B1C /* MSVideoDraw.m in Sources */ = {isa = PBXBuildFile; fileRef = 901701391EF4CA1700172B1C /* MSVideoDraw.m */; };
+		9017013C1EF4CA1700172B1C /* MSVideoDraw.h in Headers */ = {isa = PBXBuildFile; fileRef = 9017013A1EF4CA1700172B1C /* MSVideoDraw.h */; };
+		907459CC1E9A597400BAF99E /* libffmpeg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A45AF6F61E973699008829B2 /* libffmpeg.a */; };
+		A473485D1E976E890004D62E /* libx264.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A45AF6F01E97368D008829B2 /* libx264.a */; };
+		A4F062F41E94911100604C54 /* libopus.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A4F062F11E94908C00604C54 /* libopus.a */; };
+		A4F6BA7B1E95D1CC0076FDBA /* libyuv.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A4F6BA781E95D1B10076FDBA /* libyuv.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		907459CA1E9A596F00BAF99E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A45AF6F11E973698008829B2 /* ffmpeg.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 239915D61D8E4BBB00BA5562;
+			remoteInfo = ffmpeg;
+		};
+		A45AF6EF1E97368D008829B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A45AF6EB1E97368D008829B2 /* x264.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 237D1BFD1BB26FA3009CEC2D;
+			remoteInfo = x264;
+		};
+		A45AF6F51E973699008829B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A45AF6F11E973698008829B2 /* ffmpeg.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 239915D71D8E4BBB00BA5562;
+			remoteInfo = ffmpeg;
+		};
+		A473485B1E976E830004D62E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A45AF6EB1E97368D008829B2 /* x264.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 237D1BFC1BB26FA3009CEC2D;
+			remoteInfo = x264;
+		};
+		A4F062F01E94908C00604C54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4F062EC1E94908C00604C54 /* opus.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A48DC09F1E5D450E0060004D;
+			remoteInfo = opus;
+		};
+		A4F062F21E94910C00604C54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4F062EC1E94908C00604C54 /* opus.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = A48DC09E1E5D450D0060004D;
+			remoteInfo = opus;
+		};
+		A4F6BA771E95D1B10076FDBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4F6BA731E95D1B10076FDBA /* yuv.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2394AD5E1B7B3B96009AC758;
+			remoteInfo = yuv;
+		};
+		A4F6BA791E95D1C50076FDBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4F6BA731E95D1B10076FDBA /* yuv.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 2394AD5D1B7B3B96009AC758;
+			remoteInfo = yuv;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9014A6271EF758CD00C31EB3 /* wh_utils_c.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; lineEnding = 0; path = wh_utils_c.c; sourceTree = "<group>"; };
+		9016F5E81EF371E6000FE608 /* MSAUSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSAUSession.m; sourceTree = "<group>"; };
+		9016F5E91EF371E6000FE608 /* wh_utils_objc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wh_utils_objc.m; sourceTree = "<group>"; };
+		9016F5EB1EF371E6000FE608 /* MSAUSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSAUSession.h; sourceTree = "<group>"; };
+		9016F5EC1EF371E6000FE608 /* wh_utils_c.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = wh_utils_c.h; sourceTree = "<group>"; };
+		9016F5ED1EF371E6000FE608 /* wh_utils_objc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wh_utils_objc.h; sourceTree = "<group>"; };
+		9016F5F41EF37267000FE608 /* MSH264Decoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSH264Decoder.m; sourceTree = "<group>"; };
+		9016F5F51EF37267000FE608 /* MSH264Encoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSH264Encoder.m; sourceTree = "<group>"; };
+		9016F5F61EF37267000FE608 /* MSVideoCapture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSVideoCapture.m; sourceTree = "<group>"; };
+		9016F5F81EF37267000FE608 /* MSH264Decoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSH264Decoder.h; sourceTree = "<group>"; };
+		9016F5F91EF37267000FE608 /* MSH264Encoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSH264Encoder.h; sourceTree = "<group>"; };
+		9016F5FA1EF37267000FE608 /* MSVideoCapture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSVideoCapture.h; sourceTree = "<group>"; };
+		9016F60B1EF37B36000FE608 /* MSOpusEncoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSOpusEncoder.h; sourceTree = "<group>"; };
+		9016F60C1EF37B36000FE608 /* MSOpusEncoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSOpusEncoder.m; sourceTree = "<group>"; };
+		9016F60F1EF37B45000FE608 /* MSOpusDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSOpusDecoder.h; sourceTree = "<group>"; };
+		9016F6101EF37B45000FE608 /* MSOpusDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSOpusDecoder.m; sourceTree = "<group>"; };
+		901701391EF4CA1700172B1C /* MSVideoDraw.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSVideoDraw.m; sourceTree = "<group>"; };
+		9017013A1EF4CA1700172B1C /* MSVideoDraw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSVideoDraw.h; sourceTree = "<group>"; };
+		A45AF6EB1E97368D008829B2 /* x264.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = x264.xcodeproj; path = x264/x264.xcodeproj; sourceTree = "<group>"; };
+		A45AF6F11E973698008829B2 /* ffmpeg.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ffmpeg.xcodeproj; path = ffmpeg/ffmpeg.xcodeproj; sourceTree = "<group>"; };
+		A4F062541E9488F000604C54 /* libmedia.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libmedia.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4F062EC1E94908C00604C54 /* opus.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = opus.xcodeproj; path = opus/opus.xcodeproj; sourceTree = "<group>"; };
+		A4F6BA731E95D1B10076FDBA /* yuv.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = yuv.xcodeproj; path = yuv/yuv.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4F062511E9488F000604C54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				907459CC1E9A597400BAF99E /* libffmpeg.a in Frameworks */,
+				A473485D1E976E890004D62E /* libx264.a in Frameworks */,
+				A4F6BA7B1E95D1CC0076FDBA /* libyuv.a in Frameworks */,
+				A4F062F41E94911100604C54 /* libopus.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A45AF6EC1E97368D008829B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A45AF6F01E97368D008829B2 /* libx264.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A45AF6F21E973698008829B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A45AF6F61E973699008829B2 /* libffmpeg.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4F0624B1E9488EF00604C54 = {
+			isa = PBXGroup;
+			children = (
+				901701391EF4CA1700172B1C /* MSVideoDraw.m */,
+				9017013A1EF4CA1700172B1C /* MSVideoDraw.h */,
+				9016F5EB1EF371E6000FE608 /* MSAUSession.h */,
+				9016F5E81EF371E6000FE608 /* MSAUSession.m */,
+				9016F60F1EF37B45000FE608 /* MSOpusDecoder.h */,
+				9016F6101EF37B45000FE608 /* MSOpusDecoder.m */,
+				9016F60B1EF37B36000FE608 /* MSOpusEncoder.h */,
+				9016F60C1EF37B36000FE608 /* MSOpusEncoder.m */,
+				9016F5F91EF37267000FE608 /* MSH264Encoder.h */,
+				9016F5F41EF37267000FE608 /* MSH264Decoder.m */,
+				9016F5F81EF37267000FE608 /* MSH264Decoder.h */,
+				9016F5F51EF37267000FE608 /* MSH264Encoder.m */,
+				9016F5FA1EF37267000FE608 /* MSVideoCapture.h */,
+				9016F5F61EF37267000FE608 /* MSVideoCapture.m */,
+				9016F5EC1EF371E6000FE608 /* wh_utils_c.h */,
+				9014A6271EF758CD00C31EB3 /* wh_utils_c.c */,
+				9016F5ED1EF371E6000FE608 /* wh_utils_objc.h */,
+				9016F5E91EF371E6000FE608 /* wh_utils_objc.m */,
+				A45AF6F11E973698008829B2 /* ffmpeg.xcodeproj */,
+				A45AF6EB1E97368D008829B2 /* x264.xcodeproj */,
+				A4F6BA731E95D1B10076FDBA /* yuv.xcodeproj */,
+				A4F062EC1E94908C00604C54 /* opus.xcodeproj */,
+				A4F062551E9488F000604C54 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A4F062551E9488F000604C54 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4F062541E9488F000604C54 /* libmedia.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4F062ED1E94908C00604C54 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4F062F11E94908C00604C54 /* libopus.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4F6BA741E95D1B10076FDBA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4F6BA781E95D1B10076FDBA /* libyuv.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A4F062521E9488F000604C54 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9017013C1EF4CA1700172B1C /* MSVideoDraw.h in Headers */,
+				9016F60D1EF37B36000FE608 /* MSOpusEncoder.h in Headers */,
+				9016F5F31EF371E6000FE608 /* wh_utils_objc.h in Headers */,
+				9016F6031EF37267000FE608 /* MSVideoCapture.h in Headers */,
+				9016F5F11EF371E6000FE608 /* MSAUSession.h in Headers */,
+				9016F6111EF37B45000FE608 /* MSOpusDecoder.h in Headers */,
+				9016F5F21EF371E6000FE608 /* wh_utils_c.h in Headers */,
+				9016F6021EF37267000FE608 /* MSH264Encoder.h in Headers */,
+				9016F6011EF37267000FE608 /* MSH264Decoder.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A4F062531E9488F000604C54 /* media */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4F0625D1E9488F100604C54 /* Build configuration list for PBXNativeTarget "media" */;
+			buildPhases = (
+				A4F062501E9488F000604C54 /* Sources */,
+				A4F062511E9488F000604C54 /* Frameworks */,
+				A4F062521E9488F000604C54 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				907459CB1E9A596F00BAF99E /* PBXTargetDependency */,
+				A473485C1E976E830004D62E /* PBXTargetDependency */,
+				A4F6BA7A1E95D1C50076FDBA /* PBXTargetDependency */,
+				A4F062F31E94910C00604C54 /* PBXTargetDependency */,
+			);
+			name = media;
+			productName = libmedia;
+			productReference = A4F062541E9488F000604C54 /* libmedia.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4F0624C1E9488F000604C54 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = TenXie;
+				TargetAttributes = {
+					A4F062531E9488F000604C54 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A4F0624F1E9488F000604C54 /* Build configuration list for PBXProject "media" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A4F0624B1E9488EF00604C54;
+			productRefGroup = A4F062551E9488F000604C54 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = A45AF6F21E973698008829B2 /* Products */;
+					ProjectRef = A45AF6F11E973698008829B2 /* ffmpeg.xcodeproj */;
+				},
+				{
+					ProductGroup = A4F062ED1E94908C00604C54 /* Products */;
+					ProjectRef = A4F062EC1E94908C00604C54 /* opus.xcodeproj */;
+				},
+				{
+					ProductGroup = A45AF6EC1E97368D008829B2 /* Products */;
+					ProjectRef = A45AF6EB1E97368D008829B2 /* x264.xcodeproj */;
+				},
+				{
+					ProductGroup = A4F6BA741E95D1B10076FDBA /* Products */;
+					ProjectRef = A4F6BA731E95D1B10076FDBA /* yuv.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				A4F062531E9488F000604C54 /* media */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		A45AF6F01E97368D008829B2 /* libx264.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libx264.a;
+			remoteRef = A45AF6EF1E97368D008829B2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A45AF6F61E973699008829B2 /* libffmpeg.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libffmpeg.a;
+			remoteRef = A45AF6F51E973699008829B2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A4F062F11E94908C00604C54 /* libopus.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libopus.a;
+			remoteRef = A4F062F01E94908C00604C54 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A4F6BA781E95D1B10076FDBA /* libyuv.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libyuv.a;
+			remoteRef = A4F6BA771E95D1B10076FDBA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4F062501E9488F000604C54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9014A6281EF758CD00C31EB3 /* wh_utils_c.c in Sources */,
+				9016F5FD1EF37267000FE608 /* MSH264Decoder.m in Sources */,
+				9016F6121EF37B45000FE608 /* MSOpusDecoder.m in Sources */,
+				9016F60E1EF37B36000FE608 /* MSOpusEncoder.m in Sources */,
+				9016F5EF1EF371E6000FE608 /* wh_utils_objc.m in Sources */,
+				9016F5FF1EF37267000FE608 /* MSVideoCapture.m in Sources */,
+				9016F5EE1EF371E6000FE608 /* MSAUSession.m in Sources */,
+				9017013B1EF4CA1700172B1C /* MSVideoDraw.m in Sources */,
+				9016F5FE1EF37267000FE608 /* MSH264Encoder.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		907459CB1E9A596F00BAF99E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ffmpeg;
+			targetProxy = 907459CA1E9A596F00BAF99E /* PBXContainerItemProxy */;
+		};
+		A473485C1E976E830004D62E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = x264;
+			targetProxy = A473485B1E976E830004D62E /* PBXContainerItemProxy */;
+		};
+		A4F062F31E94910C00604C54 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = opus;
+			targetProxy = A4F062F21E94910C00604C54 /* PBXContainerItemProxy */;
+		};
+		A4F6BA7A1E95D1C50076FDBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = yuv;
+			targetProxy = A4F6BA791E95D1C50076FDBA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A4F0625B1E9488F100604C54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv7,
+					armv7s,
+					arm64,
+				);
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				VALID_ARCHS = "armv7 armv7s arm64";
+			};
+			name = Debug;
+		};
+		A4F0625C1E9488F100604C54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv7,
+					armv7s,
+					arm64,
+				);
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALID_ARCHS = "armv7 armv7s arm64";
+			};
+			name = Release;
+		};
+		A4F0625E1E9488F100604C54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				HEADER_SEARCH_PATHS = (
+					./include,
+					./opus/include,
+					./yuv/include,
+					./ffmpeg,
+					./x264,
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (
+					"-DHAVE_CONFIG_H",
+					"-DTARGET_OS_IPHONE=1",
+					"-DV2_PHONE_SUPPORT=1",
+					"-DIPV6_PKTINFO=50",
+					"-DVIDEO_ENABLED=1",
+					"-DMS2_FILTERS=1",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A4F0625F1E9488F100604C54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				HEADER_SEARCH_PATHS = (
+					./include,
+					./opus/include,
+					./yuv/include,
+					./ffmpeg,
+					./x264,
+				);
+				OTHER_CFLAGS = (
+					"-DHAVE_CONFIG_H",
+					"-DTARGET_OS_IPHONE=1",
+					"-DV2_PHONE_SUPPORT=1",
+					"-DIPV6_PKTINFO=50",
+					"-DVIDEO_ENABLED=1",
+					"-DMS2_FILTERS=1",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4F0624F1E9488F000604C54 /* Build configuration list for PBXProject "media" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4F0625B1E9488F100604C54 /* Debug */,
+				A4F0625C1E9488F100604C54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4F0625D1E9488F100604C54 /* Build configuration list for PBXNativeTarget "media" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4F0625E1E9488F100604C54 /* Debug */,
+				A4F0625F1E9488F100604C54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A4F0624C1E9488F000604C54 /* Project object */;
+}

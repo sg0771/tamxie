@@ -1,0 +1,359 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA72AFAA21B0E0DD00C44D13 /* liblibffmpeg.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FA72AE8021B0D8F500C44D13 /* liblibffmpeg.dylib */; };
+		FAF3E16F21AF708C007DFE1E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF3E16E21AF708C007DFE1E /* AppDelegate.m */; };
+		FAF3E17221AF708C007DFE1E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF3E17121AF708C007DFE1E /* main.m */; };
+		FAF3E17521AF708C007DFE1E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF3E17421AF708C007DFE1E /* ViewController.m */; };
+		FAF3E17821AF708C007DFE1E /* Document.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF3E17721AF708C007DFE1E /* Document.m */; };
+		FAF3E17A21AF708C007DFE1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAF3E17921AF708C007DFE1E /* Assets.xcassets */; };
+		FAF3E17D21AF708C007DFE1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAF3E17B21AF708C007DFE1E /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA72AE7F21B0D8F500C44D13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA72AE7B21B0D8F500C44D13 /* libffmpeg.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FA72AE6F21B0D75A00C44D13;
+			remoteInfo = libffmpeg;
+		};
+		FA72AFA821B0E0D900C44D13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA72AE7B21B0D8F500C44D13 /* libffmpeg.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = FA72AE6E21B0D75A00C44D13;
+			remoteInfo = libffmpeg;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA72AE7B21B0D8F500C44D13 /* libffmpeg.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = libffmpeg.xcodeproj; path = libffmpeg/libffmpeg.xcodeproj; sourceTree = "<group>"; };
+		FAF3E16A21AF708C007DFE1E /* Media.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Media.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAF3E16D21AF708C007DFE1E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FAF3E16E21AF708C007DFE1E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FAF3E17121AF708C007DFE1E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FAF3E17321AF708C007DFE1E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FAF3E17421AF708C007DFE1E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FAF3E17621AF708C007DFE1E /* Document.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Document.h; sourceTree = "<group>"; };
+		FAF3E17721AF708C007DFE1E /* Document.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Document.m; sourceTree = "<group>"; };
+		FAF3E17921AF708C007DFE1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAF3E17C21AF708C007DFE1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAF3E17E21AF708C007DFE1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAF3E16721AF708C007DFE1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA72AFAA21B0E0DD00C44D13 /* liblibffmpeg.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA72AE7C21B0D8F500C44D13 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA72AE8021B0D8F500C44D13 /* liblibffmpeg.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAF3E16121AF708C007DFE1E = {
+			isa = PBXGroup;
+			children = (
+				FA72AE7B21B0D8F500C44D13 /* libffmpeg.xcodeproj */,
+				FAF3E16C21AF708C007DFE1E /* Media */,
+				FAF3E16B21AF708C007DFE1E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAF3E16B21AF708C007DFE1E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAF3E16A21AF708C007DFE1E /* Media.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAF3E16C21AF708C007DFE1E /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				FAF3E16D21AF708C007DFE1E /* AppDelegate.h */,
+				FAF3E16E21AF708C007DFE1E /* AppDelegate.m */,
+				FAF3E17321AF708C007DFE1E /* ViewController.h */,
+				FAF3E17421AF708C007DFE1E /* ViewController.m */,
+				FAF3E17621AF708C007DFE1E /* Document.h */,
+				FAF3E17721AF708C007DFE1E /* Document.m */,
+				FAF3E17921AF708C007DFE1E /* Assets.xcassets */,
+				FAF3E17B21AF708C007DFE1E /* Main.storyboard */,
+				FAF3E17E21AF708C007DFE1E /* Info.plist */,
+				FAF3E17021AF708C007DFE1E /* Supporting Files */,
+			);
+			path = Media;
+			sourceTree = "<group>";
+		};
+		FAF3E17021AF708C007DFE1E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAF3E17121AF708C007DFE1E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAF3E16921AF708C007DFE1E /* Media */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAF3E18121AF708C007DFE1E /* Build configuration list for PBXNativeTarget "Media" */;
+			buildPhases = (
+				FAF3E16621AF708C007DFE1E /* Sources */,
+				FAF3E16721AF708C007DFE1E /* Frameworks */,
+				FAF3E16821AF708C007DFE1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA72AFA921B0E0D900C44D13 /* PBXTargetDependency */,
+			);
+			name = Media;
+			productName = Media;
+			productReference = FAF3E16A21AF708C007DFE1E /* Media.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAF3E16221AF708C007DFE1E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Tam;
+				TargetAttributes = {
+					FAF3E16921AF708C007DFE1E = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = FAF3E16521AF708C007DFE1E /* Build configuration list for PBXProject "Media" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAF3E16121AF708C007DFE1E;
+			productRefGroup = FAF3E16B21AF708C007DFE1E /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = FA72AE7C21B0D8F500C44D13 /* Products */;
+					ProjectRef = FA72AE7B21B0D8F500C44D13 /* libffmpeg.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				FAF3E16921AF708C007DFE1E /* Media */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		FA72AE8021B0D8F500C44D13 /* liblibffmpeg.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = liblibffmpeg.dylib;
+			remoteRef = FA72AE7F21B0D8F500C44D13 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAF3E16821AF708C007DFE1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF3E17A21AF708C007DFE1E /* Assets.xcassets in Resources */,
+				FAF3E17D21AF708C007DFE1E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAF3E16621AF708C007DFE1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF3E17821AF708C007DFE1E /* Document.m in Sources */,
+				FAF3E17521AF708C007DFE1E /* ViewController.m in Sources */,
+				FAF3E17221AF708C007DFE1E /* main.m in Sources */,
+				FAF3E16F21AF708C007DFE1E /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA72AFA921B0E0D900C44D13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = libffmpeg;
+			targetProxy = FA72AFA821B0E0D900C44D13 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAF3E17B21AF708C007DFE1E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAF3E17C21AF708C007DFE1E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAF3E17F21AF708C007DFE1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FAF3E18021AF708C007DFE1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FAF3E18221AF708C007DFE1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Media/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = ApowerSoft.Media;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FAF3E18321AF708C007DFE1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Media/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = ApowerSoft.Media;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAF3E16521AF708C007DFE1E /* Build configuration list for PBXProject "Media" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAF3E17F21AF708C007DFE1E /* Debug */,
+				FAF3E18021AF708C007DFE1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAF3E18121AF708C007DFE1E /* Build configuration list for PBXNativeTarget "Media" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAF3E18221AF708C007DFE1E /* Debug */,
+				FAF3E18321AF708C007DFE1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAF3E16221AF708C007DFE1E /* Project object */;
+}
