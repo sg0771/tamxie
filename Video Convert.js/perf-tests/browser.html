@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<head>
+</head>
+
+<pre></pre>
+
+<script>
+//http://www.briangrinstead.com/blog/load-web-workers-without-a-javascript-file
+// makeWorker is a little wrapper for generating web workers from strings
+function makeWorker(script) {
+    var URL = window.URL || window.webkitURL;
+    var Blob = window.Blob;
+    var Worker = window.Worker;
+
+    if (!URL || !Blob || !Worker || !script) {
+        return null;
+    }
+
+    var blob = new Blob([script]);
+    var worker = new Worker(URL.createObjectURL(blob));
+    return worker;
+}
+</script>
+
+<script type="text/worker" id="main-worker">
+
+importScripts('localhost:8000/ffmpeg.js');
+
+self.addEventListener('message', function(e) {
+  run("big_buck_bunny.webm", e.data, "vf showinfo,scale=w=-1:h=-1 -strict experimental -v verbose output.gif");
+});
+
+function run(filename, data, args) {
+    var mod = {
+      print: function (text) {
+        console.log(text);
+        document.querySelector("pre").textContent += "\n" + text;
+      },
+      printErr: function (text) {
+        document.querySelector("pre").textContent += "\n" + text;
+      },
+      'arguments': args,
+      'fileData': data,
+      'fileName': filename
+    };
+
+    var result = ffmpeg_run(mod);
+    var buffers = [];
+    if (result && result.object && result.object.contents) {
+      for (var i in result.object.contents) {
+        if (result.object.contents.hasOwnProperty(i)) {
+          buffers.push(new Uint8Array(result.object.contents[i].contents).buffer);
+        }
+      }
+    }
+    return buffers;
+}
+
+</script>
+
+<script>
+  window.URL = window.URL || window.webkitURL;
+  var worker =  new Worker("worker.js");
+  var pre = document.querySelector("pre");
+  var start;
+  var init;
+  worker.onmessage = function(e) {
+
+    if (e.data.type === "stdout") {
+      pre.textContent += e.data.data + "\n";
+    }
+    if (e.data.type === "start") {
+      start = Date.now();
+      pre.textContent += "Starting!  Took: " + (start - init) + "ms to initialize\n\n";
+
+    }
+    if (e.data.type === "end") {
+      var finished = Date.now();
+
+      pre.textContent += "\n\nFinished!  Took: " + (finished - start) + "ms";
+    }
+  }
+  function processSampleVideo() {
+    var oReq = new XMLHttpRequest();
+    oReq.open("GET", "big_buck_bunny.webm", true);
+    oReq.responseType = "arraybuffer";
+
+    oReq.onload = function (oEvent) {
+      var arrayBuffer = oReq.response;
+      if (arrayBuffer) {
+        var byteArray = new Uint8Array(arrayBuffer);
+        init = Date.now();
+        worker.postMessage(byteArray);
+      }
+    };
+
+    oReq.send(null);
+  }
+
+  processSampleVideo();
+</script>
