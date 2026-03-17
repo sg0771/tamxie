@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:OSX_Test/OSX_Test.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:openh264/codec/build/iOS/enc/welsenc/welsenc.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:openh264/codec/build/iOS/dec/welsdec/welsdec.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:openh264/codec/build/iOS/processing/processing.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:openh264/codec/build/iOS/openh264/openh264.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:openh264/codec/build/iOS/common/common.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:webp/webp.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:SDL2/Xcode/SDL/SDL.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:MediaConvert/MediaConvert.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:libvpx/libvpx.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:libopus/libopus.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:libffmpeg/libffmpeg.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:lame/lame.xcodeproj">
+   </FileRef>
+</Workspace>

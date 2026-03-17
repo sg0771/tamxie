@@ -1,0 +1,91 @@
+libMpegTPEnc/src/tpenc_adif.lo: libMpegTPEnc/src/tpenc_adif.cpp \
+ libMpegTPEnc/src/tpenc_adif.h libSYS/include/machine_type.h \
+ C:/msys64/mingw32/i686-w64-mingw32/include/assert.h \
+ C:/msys64/mingw32/i686-w64-mingw32/include/crtdefs.h \
+ C:/msys64/mingw32/i686-w64-mingw32/include/_mingw.h \
+ C:/msys64/mingw32/i686-w64-mingw32/include/_mingw_mac.h \
+ C:/msys64/mingw32/i686-w64-mingw32/include/_mingw_secapi.h \
+ C:/msys64/mingw32/i686-w64-mingw32/include/vadefs.h \
+ C:/msys64/mingw32/i686-w64-mingw32/include/sdks/_mingw_directx.h \
+ C:/msys64/mingw32/i686-w64-mingw32/include/sdks/_mingw_ddk.h \
+ C:/msys64/mingw32/include/c++/7.2.0/stdlib.h \
+ C:/msys64/mingw32/include/c++/7.2.0/cstdlib \
+ C:/msys64/mingw32/include/c++/7.2.0/i686-w64-mingw32/bits/c++config.h \
+ C:/msys64/mingw32/include/c++/7.2.0/i686-w64-mingw32/bits/os_defines.h \
+ C:/msys64/mingw32/include/c++/7.2.0/i686-w64-mingw32/bits/cpu_defines.h \
+ C:/msys64/mingw32/i686-w64-mingw32/include/stdlib.h \
+ C:/msys64/mingw32/lib/gcc/i686-w64-mingw32/7.2.0/include-fixed/limits.h \
+ C:/msys64/mingw32/lib/gcc/i686-w64-mingw32/7.2.0/include-fixed/syslimits.h \
+ C:/msys64/mingw32/i686-w64-mingw32/include/limits.h \
+ C:/msys64/mingw32/i686-w64-mingw32/include/sec_api/stdlib_s.h \
+ C:/msys64/mingw32/i686-w64-mingw32/include/malloc.h \
+ C:/msys64/mingw32/include/c++/7.2.0/bits/std_abs.h \
+ libFDK/include/FDK_bitstream.h libFDK/include/FDK_bitbuffer.h \
+ libSYS/include/genericStds.h libSYS/include/machine_type.h \
+ libMpegTPDec/include/tp_data.h libSYS/include/FDK_audio.h \
+ libSYS/include/genericStds.h libMpegTPEnc/include/tpenc_lib.h \
+ libMpegTPEnc/include/tp_data.h libMpegTPEnc/src/tpenc_asc.h
+
+libMpegTPEnc/src/tpenc_adif.h:
+
+libSYS/include/machine_type.h:
+
+C:/msys64/mingw32/i686-w64-mingw32/include/assert.h:
+
+C:/msys64/mingw32/i686-w64-mingw32/include/crtdefs.h:
+
+C:/msys64/mingw32/i686-w64-mingw32/include/_mingw.h:
+
+C:/msys64/mingw32/i686-w64-mingw32/include/_mingw_mac.h:
+
+C:/msys64/mingw32/i686-w64-mingw32/include/_mingw_secapi.h:
+
+C:/msys64/mingw32/i686-w64-mingw32/include/vadefs.h:
+
+C:/msys64/mingw32/i686-w64-mingw32/include/sdks/_mingw_directx.h:
+
+C:/msys64/mingw32/i686-w64-mingw32/include/sdks/_mingw_ddk.h:
+
+C:/msys64/mingw32/include/c++/7.2.0/stdlib.h:
+
+C:/msys64/mingw32/include/c++/7.2.0/cstdlib:
+
+C:/msys64/mingw32/include/c++/7.2.0/i686-w64-mingw32/bits/c++config.h:
+
+C:/msys64/mingw32/include/c++/7.2.0/i686-w64-mingw32/bits/os_defines.h:
+
+C:/msys64/mingw32/include/c++/7.2.0/i686-w64-mingw32/bits/cpu_defines.h:
+
+C:/msys64/mingw32/i686-w64-mingw32/include/stdlib.h:
+
+C:/msys64/mingw32/lib/gcc/i686-w64-mingw32/7.2.0/include-fixed/limits.h:
+
+C:/msys64/mingw32/lib/gcc/i686-w64-mingw32/7.2.0/include-fixed/syslimits.h:
+
+C:/msys64/mingw32/i686-w64-mingw32/include/limits.h:
+
+C:/msys64/mingw32/i686-w64-mingw32/include/sec_api/stdlib_s.h:
+
+C:/msys64/mingw32/i686-w64-mingw32/include/malloc.h:
+
+C:/msys64/mingw32/include/c++/7.2.0/bits/std_abs.h:
+
+libFDK/include/FDK_bitstream.h:
+
+libFDK/include/FDK_bitbuffer.h:
+
+libSYS/include/genericStds.h:
+
+libSYS/include/machine_type.h:
+
+libMpegTPDec/include/tp_data.h:
+
+libSYS/include/FDK_audio.h:
+
+libSYS/include/genericStds.h:
+
+libMpegTPEnc/include/tpenc_lib.h:
+
+libMpegTPEnc/include/tp_data.h:
+
+libMpegTPEnc/src/tpenc_asc.h:
