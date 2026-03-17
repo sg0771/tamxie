@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34024.191
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ScreenGrab", "WXMedia\WXMedia.vcxproj", "{78A902FB-57C0-4030-A98E-2F145A41243C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4C24BBBE-44CE-4BB0-BF84-9E5AC92AF06A} = {4C24BBBE-44CE-4BB0-BF84-9E5AC92AF06A}
+		{76131EC2-6B44-4609-A017-0AA94A98179D} = {76131EC2-6B44-4609-A017-0AA94A98179D}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{B6BE1B4B-D27B-4305-B48E-52DDEA46830C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "x264_common", "x264\common\x264_common.vcxproj", "{4C24BBBE-44CE-4BB0-BF84-9E5AC92AF06A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "x264_encoder", "x264\encoder\x264_encoder.vcxproj", "{76131EC2-6B44-4609-A017-0AA94A98179D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "codec", "codec", "{DFF281DB-D0E1-485C-9085-E4952F785CC8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MiniRec", "MiniRec\ScreenGrab.vcxproj", "{FB3362C0-C0A2-4BED-B74B-07EF950C4002}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{78A902FB-57C0-4030-A98E-2F145A41243C}.Debug|x86.ActiveCfg = Debug|Win32
+		{78A902FB-57C0-4030-A98E-2F145A41243C}.Debug|x86.Build.0 = Debug|Win32
+		{78A902FB-57C0-4030-A98E-2F145A41243C}.Release|x86.ActiveCfg = Release|Win32
+		{78A902FB-57C0-4030-A98E-2F145A41243C}.Release|x86.Build.0 = Release|Win32
+		{4C24BBBE-44CE-4BB0-BF84-9E5AC92AF06A}.Debug|x86.ActiveCfg = Debug|Win32
+		{4C24BBBE-44CE-4BB0-BF84-9E5AC92AF06A}.Debug|x86.Build.0 = Debug|Win32
+		{4C24BBBE-44CE-4BB0-BF84-9E5AC92AF06A}.Release|x86.ActiveCfg = Release|Win32
+		{4C24BBBE-44CE-4BB0-BF84-9E5AC92AF06A}.Release|x86.Build.0 = Release|Win32
+		{76131EC2-6B44-4609-A017-0AA94A98179D}.Debug|x86.ActiveCfg = Debug|Win32
+		{76131EC2-6B44-4609-A017-0AA94A98179D}.Debug|x86.Build.0 = Debug|Win32
+		{76131EC2-6B44-4609-A017-0AA94A98179D}.Release|x86.ActiveCfg = Release|Win32
+		{76131EC2-6B44-4609-A017-0AA94A98179D}.Release|x86.Build.0 = Release|Win32
+		{FB3362C0-C0A2-4BED-B74B-07EF950C4002}.Debug|x86.ActiveCfg = Debug|Win32
+		{FB3362C0-C0A2-4BED-B74B-07EF950C4002}.Debug|x86.Build.0 = Debug|Win32
+		{FB3362C0-C0A2-4BED-B74B-07EF950C4002}.Release|x86.ActiveCfg = Release|Win32
+		{FB3362C0-C0A2-4BED-B74B-07EF950C4002}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{78A902FB-57C0-4030-A98E-2F145A41243C} = {B6BE1B4B-D27B-4305-B48E-52DDEA46830C}
+		{4C24BBBE-44CE-4BB0-BF84-9E5AC92AF06A} = {DFF281DB-D0E1-485C-9085-E4952F785CC8}
+		{76131EC2-6B44-4609-A017-0AA94A98179D} = {DFF281DB-D0E1-485C-9085-E4952F785CC8}
+		{DFF281DB-D0E1-485C-9085-E4952F785CC8} = {B6BE1B4B-D27B-4305-B48E-52DDEA46830C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EAD82B88-9902-4089-ACD9-D80BC99848B0}
+	EndGlobalSection
+EndGlobal
