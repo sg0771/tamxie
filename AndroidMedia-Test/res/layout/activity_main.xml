@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget0"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+<Button
+	android:id="@+id/btn1"
+	android:layout_width="60dp"
+	android:layout_height="35dp"
+	android:text="Run"
+	android:layout_x="0dp"
+	android:layout_y="0dp" />
+
+<Spinner
+    android:id="@+id/box1"
+    android:layout_width="500dp"
+    android:layout_height="40dp"
+    android:layout_x="70dp"
+    android:layout_y="0dp"
+    android:entries="@array/FuncArray" />
+
+<TextView
+	android:id="@+id/TVa"
+	android:layout_width="60dp"
+	android:layout_height="25dp"
+	android:text="输入文件"
+	android:layout_x="0dp"
+	android:layout_y="40dp" />
+
+<TextView
+    android:id="@+id/TVb"
+    android:layout_width="60dp"
+    android:layout_height="match_parent"
+    android:layout_x="0dp"
+    android:layout_y="70dp"
+    android:text="输出文件" />
+
+<EditText
+	android:id="@+id/ET1"
+	android:layout_width="500dp"
+	android:layout_height="35dp"
+	android:text="16k.wav"
+	android:textSize="18sp"
+	android:layout_x="65dp"
+	android:layout_y="35dp" />
+<EditText
+	android:id="@+id/ET2"
+	android:layout_width="500dp"
+	android:layout_height="35dp"
+	android:text="1280xx720p.264"
+	android:textSize="18sp"
+	android:layout_x="65dp"
+	android:layout_y="70dp" />
+
+<TextView
+    android:id="@+id/TVLOG"
+    android:layout_width="560dp"
+    android:layout_height="30dp"
+    android:layout_x="0dp"
+    android:layout_y="120dp"
+    android:text="Log Msg" />
+
+<SurfaceView
+    android:id="@+id/surfaceView1"
+    android:layout_width="160dp"
+    android:layout_height="120dp"
+    android:layout_x="30dp"
+    android:layout_y="160dp" />
+
+<SurfaceView
+    android:id="@+id/surfaceView2"
+    android:layout_width="160dp"
+    android:layout_height="120dp"
+    android:layout_x="200dp"
+    android:layout_y="160dp" />
+
+<SurfaceView
+    android:id="@+id/surfaceView3"
+    android:layout_width="160dp"
+    android:layout_height="120dp"
+    android:layout_x="370dp"
+    android:layout_y="160dp" />
+
+<SurfaceView
+    android:id="@+id/surfaceView4"
+    android:layout_width="160dp"
+    android:layout_height="120dp"
+    android:layout_x="540dp"
+    android:layout_y="160dp" />
+
+
+<SurfaceView
+    android:id="@+id/surfaceView5"
+    android:layout_width="160dp"
+    android:layout_height="120dp"
+    android:layout_x="30dp"
+    android:layout_y="300dp" />
+
+<SurfaceView
+    android:id="@+id/surfaceView6"
+    android:layout_width="160dp"
+    android:layout_height="120dp"
+    android:layout_x="200dp"
+    android:layout_y="300dp" />
+
+<SurfaceView
+    android:id="@+id/surfaceView7"
+    android:layout_width="160dp"
+    android:layout_height="120dp"
+    android:layout_x="370dp"
+    android:layout_y="300dp" />
+
+<SurfaceView
+    android:id="@+id/surfaceView8"
+    android:layout_width="160dp"
+    android:layout_height="120dp"
+    android:layout_x="540dp"
+    android:layout_y="300dp" />
+
+</AbsoluteLayout>

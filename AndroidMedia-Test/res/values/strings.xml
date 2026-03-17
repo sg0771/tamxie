@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <string name="app_name">Android Media</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+	
+<string-array name="FuncArray">  
+	        
+		<item>视频采集＋MediaCodec硬编码 启动</item>
+		<item>视频采集＋MediaCodec硬编码 关闭</item>
+		<item>GetEncoderInfo</item>	 
+		<item>多路解码测试</item>					   
+		<item>Android摄像头采集启动</item> 
+		<item>Android摄像头采集关闭</item> 
+		<item>H264硬编码Start</item> 
+		<item>H264硬编码Stop</item> 
+		<item>OpusTest测试</item>    
+	</string-array>  
+ 
+</resources>
