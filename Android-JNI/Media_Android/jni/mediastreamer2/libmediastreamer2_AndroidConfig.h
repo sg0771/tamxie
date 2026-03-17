@@ -1,0 +1,33 @@
+
+#define C_ALLOCA 1
+#define HAVE_DLFCN_H 1
+#define HAVE_INTTYPES_H 1
+#define HAVE_LIBAVCODEC_AVCODEC_H 1
+#define HAVE_LIBSWSCALE_SWSCALE_H 1
+#define HAVE_MEMORY_H 1
+#define HAVE_SOUNDCARD_H 1
+#define HAVE_SPEEX_NOISE 1
+#define HAVE_STDINT_H 1
+#define HAVE_STDLIB_H 1
+#define HAVE_STRINGS_H 1
+#define HAVE_STRING_H 1
+#define HAVE_SYS_STAT_H 1
+#define HAVE_SYS_TYPES_H 1
+#define HAVE_UNISTD_H 1
+#define MEDIASTREAMER_MAJOR_VERSION 2
+#define MEDIASTREAMER_MICRO_VERSION 2
+#define MEDIASTREAMER_MINOR_VERSION 2
+#define MEDIASTREAMER_VERSION "2.2.2"
+#define PACKAGE "mediastreamer"
+#define PACKAGE_BUGREPORT ""
+#define PACKAGE_DATA_DIR "/system/share"
+#define PACKAGE_NAME "mediastreamer"
+#define PACKAGE_PLUGINS_DIR "/system/lib"
+#define PACKAGE_PLUGINS_PREFIX "libms"
+#define PACKAGE_STRING "mediastreamer 2.2.2"
+#define PACKAGE_TARNAME "mediastreamer"
+#define PACKAGE_VERSION "2.2.2"
+#define STACK_DIRECTION 0
+#define STDC_HEADERS 1
+#define TIME_WITH_SYS_TIME 1
+#define VERSION "2.2.2"
