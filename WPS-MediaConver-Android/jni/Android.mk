@@ -1,0 +1,11 @@
+include $(ffmpeg-root-dir)/lame/Android.mk
+include $(ffmpeg-root-dir)/openh264/openh264_common.mk
+include $(ffmpeg-root-dir)/openh264/openh264_decoder.mk
+include $(ffmpeg-root-dir)/openh264/openh264_encoder.mk
+include $(ffmpeg-root-dir)/openh264/openh264_processing.mk
+include $(ffmpeg-root-dir)/webp/Android.mk
+include $(ffmpeg-root-dir)/libvpx/Android.mk
+include $(ffmpeg-root-dir)/libopus/Android.mk
+include $(ffmpeg-root-dir)/libyuv/Android.mk
+include $(ffmpeg-root-dir)/libffmpeg/libffmpeg.mk
+include $(ffmpeg-root-dir)/MediaConvert/Android.mk
